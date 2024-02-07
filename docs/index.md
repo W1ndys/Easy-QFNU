@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "曲阜师范大学选课指北"
+  text: "一个非盈利公益项目 "
   tagline: My great project tagline
   actions:
     - theme: brand
