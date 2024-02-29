@@ -1,4 +1,2 @@
-# netlify.toml
 [build]
-  command = "mkdocs build"
-  publish = "site"
+  command = "bash ./netlify_build.sh"

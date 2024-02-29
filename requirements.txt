@@ -1,5 +1,0 @@
-# requirements.txt
-mkdocs
-mkdocs-material
-pymdown-extensions
-mkdocs-encryptcontent-plugin
