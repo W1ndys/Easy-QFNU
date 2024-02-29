@@ -1,4 +1,3 @@
-# requirements.txt
 mkdocs
 mkdocs-material
 pymdown-extensions
