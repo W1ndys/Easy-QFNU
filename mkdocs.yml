@@ -1,0 +1,70 @@
+# 项目信息
+# =============================================================================================================================
+#站点名称
+site_name: 曲阜师范大学选课指本文档站
+
+#站点URL
+site_url: https://xkzb.qfnu.w1ndys.top/
+
+#仓库地址
+repo_url: https://github.com/W1ndys/xkzb.qfnu.w1ndys.top/
+
+#仓库名称
+repo_name: GitHub
+
+#站点描述
+site_description: 开源、互助、友好、共享、共建的非盈利公益选课指北项目
+
+#作者姓名
+site_author: W1ndys
+
+# 版权声明
+copyright: Copyright &copy; 2023 W1ndys
+
+# =============================================================================================================================
+
+# 目录
+# =============================================================================================================================
+nav:
+  - 首页: index.md
+  - 测试页面: test.md
+  - 用户协议: about/agreement.md
+  - 捐助: about/reward.md
+  - 关于我们: about/about.md
+
+# =============================================================================================================================
+
+theme:
+  name: material
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - encryptcontent:
+      title_prefix: "" #标题前的锁定提示
+      summary: "这个项目已被加密" #加密后的标题显示
+      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" #加密后的文章显示
+      placeholder: "请输入密码" #加密后的密码提示
+      decryption_failure_message: "密码错误" #解密失败后的提示
+
