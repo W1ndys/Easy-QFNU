@@ -1,2 +1,2 @@
 [build]
-  command = "bash ./netlify_build.sh"
+  command = "bash ./build.sh"
