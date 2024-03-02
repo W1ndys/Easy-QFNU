@@ -48,7 +48,7 @@
 
 ---
 
-<span style="color:#FF0000;">好了，现在你已经了解什么是 CTF 了，点击右侧列表，找到【flag 拿来吧你】，获取 flag 吧</span>
+<span style="color:#FF0000;"> 好了，现在你已经了解什么是 CTF 了，点击左侧列表，找到【flag 拿来吧你】，获取 flag 吧 </span>
 
 ---
 
