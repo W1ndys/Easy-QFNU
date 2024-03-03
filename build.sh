@@ -7,6 +7,7 @@ pip install mkdocs
 pip install mkdocs-material
 pip install pymdown-extensions
 pip install mkdocs-encryptcontent-plugin   # 您需要的插件
+pip install jieba
 
 # Run MkDocs build
 mkdocs build
