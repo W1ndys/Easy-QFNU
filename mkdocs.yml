@@ -64,7 +64,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      lang: zh
+      separator: '[\s\u200b\-]'
   - encryptcontent:
       title_prefix: "" #标题前的锁定提示
       summary: "这个项目已被加密" #加密后的标题显示
