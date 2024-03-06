@@ -26,12 +26,13 @@ copyright: Copyright &copy; 2023 W1ndys
 # 目录
 # =============================================================================================================================
 nav:
-  - 首页: index.md
-  - 测试页面: test.md
-  - flag拿来吧你: flag/flag.md
-  - 用户协议: about/agreement.md
-  - 捐助: about/reward.md
-  - 关于我们: about/about.md
+  -测试首页: 
+   - 首页: index.md
+   - 测试页面: test.md
+   - flag拿来吧你: flag/flag.md
+   - 用户协议: about/agreement.md
+   - 捐助: about/reward.md
+   - 关于我们: about/about.md
 
 # =============================================================================================================================
 
