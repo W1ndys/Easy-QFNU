@@ -60,7 +60,7 @@
 
 有不少人知道，W1ndys 师傅在 2023 年 8 月做了一个选课指北网站，随着时间的推移，网站的服务人数越来越多，W1ndys 师傅发现地址太长了，肯定都记不住，所以 W1ndys 师傅打算迁移站点，设置一个好记的独立域名
 
-于是有了这个域名：[https://xkzb.qfnu.w1ndys.top](https://xkzb.qfnu.w1ndys.top)，虽然你现在看到的也许并不是，但最终会迁移过来
+于是有了这个域名：[https://xkzb.qfnu.w1ndys.top](https://xkzb.qfnu.w1ndys.top)
 
 但是这个域名的页面内容还在设计中，你现在看到的是一个开发中页面
 
