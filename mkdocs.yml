@@ -1,24 +1,24 @@
 # 项目信息
 # =============================================================================================================================
-#站点名称
+# 站点名称
 site_name: 曲阜师范大学选课指北文档站
 
-#站点URL
+# 站点URL
 site_url: https://xkzb.qfnu.w1ndys.top/
 
-#仓库地址
+# 仓库地址
 repo_url: https://github.com/W1ndys/xkzb.qfnu.w1ndys.top/
 
-#仓库名称
-repo_name: W1ndys/xkzb.qfnu.w1ndys.top
+# 仓库名称
+repo_name: W1ndys/xkzb_qfnu
 
-#编辑地址
+# 编辑地址
 edit_uri: edit/main/docs/
 
-#站点描述
+# 站点描述
 site_description: 开源、互助、友好、共享、共建的非盈利公益选课指北项目
 
-#作者姓名
+# 作者姓名
 site_author: W1ndys
 
 # 版权声明
@@ -40,23 +40,56 @@ nav:
 
 # =============================================================================================================================
 
+# 主题配置
 theme:
   language: zh
   name: material
-  custom_dir: overrides 
+  custom_dir: overrides
+
+  # 调色板配置
+  palette:
+    - scheme: default
+      primary: white
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换夜间模式
+
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换亮色模式
+
+  # 字体配置
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+
+  # 功能配置
   features:
-    - navigation.tabs #导航选项卡
-    - header.autohide #标题自动隐藏
-    - announce.dismiss #公告标为已读
-    - navigation.footer #页脚上下页
-    - content.code.copy #代码复制
-    - content.action.edit #编辑此页面
-    - content.action.view #查看源代码
+    - navigation.tabs # 导航选项卡
+    - header.autohide # 标题自动隐藏
+    - announce.dismiss # 公告标为已读
+    - navigation.footer # 页脚上下页
+    - content.code.copy # 代码复制
+    - content.action.edit # 编辑此页面
+    - content.action.view # 查看源代码
+
+  # 图标设置
   icon:
-    edit: material/pencil  #编辑图标
-    view: material/eye #查看图标
-    repo: fontawesome/brands/github #存储库图标
-    logo: material/school #站点logo
+    # 页面编辑和查看图标
+    edit: material/pencil
+    view: material/eye
+    repo: fontawesome/brands/github # 存储库图标
+    logo: material/tools # 站点logo
+
+    # 页面底部上下页图标
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+
+    # 提示图标
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -70,6 +103,8 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+
+# Markdown扩展配置
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -80,23 +115,31 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+# 插件配置
 plugins:
   - search:
       separator: '[\s\u200b\-]'
   - encryptcontent:
-      title_prefix: "" #标题前的锁定提示
-      summary: "这个项目已被加密" #加密后的标题显示
-      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" #加密后的文章显示
-      placeholder: "请输入密码" #加密后的密码提示
-      decryption_failure_message: "密码错误" #解密失败后的提示
+      title_prefix: "" # 标题前的锁定提示
+      summary: "这个项目已被加密" # 加密后的标题显示
+      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" # 加密后的文章显示
+      placeholder: "请输入密码" # 加密后的密码提示
+      decryption_failure_message: "密码错误" # 解密失败后的提示
 
+# 额外配置
 extra:
-  homepage: https://xkzb.qfnu.w1ndys.top/ #左上角跳转主页
+  homepage: https://xkzb.qfnu.w1ndys.top/ # 左上角跳转主页
+  consent:
+    title: Cookie同意
+    description: >
+      我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
+      <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
+
 
 # 附加的CSS文件
 extra_css:
   - stylesheets/extra.css
 
-#附加的js文件
+# 附加的JS文件
 extra_javascript:
   - javascripts/extra.js
