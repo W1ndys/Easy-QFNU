@@ -27,19 +27,25 @@ copyright: Copyright &copy; 2023 W1ndys
 # =============================================================================================================================
 nav:
   - 测试首页:
-    - 首页: index.md
-    - 测试页面: test.md
-    - flag拿来吧你: flag/flag.md
-    - 用户协议: about/agreement.md
-    - 捐助: about/reward.md
-    - 关于我们: about/about.md
+      - 首页: index.md
+      - 测试页面: test.md
+      - flag拿来吧你: flag/flag.md
+      - 用户协议: about/agreement.md
+      - 捐助: about/reward.md
+      - 关于我们: about/about.md
+  - 测试首页2: about/about.md
 
 # =============================================================================================================================
 
 theme:
   language: zh
   name: material
+  features:
+    - navigation.tabs #导航选项卡
+    - header.autohide #标题自动隐藏
+    - announce.dismiss #公告标为已读
   icon:
+    logo: material/school
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -72,3 +78,6 @@ plugins:
       encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" #加密后的文章显示
       placeholder: "请输入密码" #加密后的密码提示
       decryption_failure_message: "密码错误" #解密失败后的提示
+
+extra:
+  homepage: https://xkzb.qfnu.w1ndys.top/
