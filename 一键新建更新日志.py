@@ -11,6 +11,7 @@ file_path = os.path.join("docs", "update", "posts", f"{current_date}.md")
 with open(file_path, "w", encoding="utf-8") as file:
     file.write(f"---\n")
     file.write(f"comments: true\n")
+    file.write(f"authors: [W1ndys]\n")
     file.write(f"date: {current_date}\n")
     file.write(f"---\n\n")
     file.write(f"# {current_date} 更新日志\n\n")
