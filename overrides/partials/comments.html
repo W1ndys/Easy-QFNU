@@ -13,7 +13,7 @@
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
+        data-lang="zh-CN" 
         crossorigin="anonymous"
         async>
 </script>
@@ -39,7 +39,7 @@
     ref.addEventListener("change", function() {
       var palette = __md_get("__palette")
       if (palette && typeof palette.color === "object") {
-        var theme = palette.color.scheme === "slate"
+        var theme = palette.color.scheme === "default"
           ? "transparent_dark"
           : "light"
 
