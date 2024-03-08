@@ -168,7 +168,7 @@ plugins:
 # 额外配置
 extra:
   generator: true
-  homepage: https://xkzb.qfnu.w1ndys.top/ # 左上角跳转主页
+  homepage: / # 左上角跳转主页
   consent:
     title: Cookie同意
     description: >

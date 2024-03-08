@@ -1,4 +1,5 @@
 ---
+comments: true
 password: 123
 summary: "W1ndys好坏，竟然给flag设置了密码"
 encryption_info_message: "密码是123"
