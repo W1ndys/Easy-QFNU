@@ -23,7 +23,7 @@ site_description: 开源、互助、友好、共享、共建的非盈利公益�
 site_author: W1ndys
 
 # 版权声明
-copyright: Copyright &copy; 2023 W1ndys
+copyright: Copyright &copy; 2023 - 2024 W1ndys
 
 # =============================================================================================================================
 
@@ -56,35 +56,35 @@ theme:
 
   # 功能配置
   features:
-    - header.autohide  # 标题自动隐藏
-    - announce.dismiss  # 公告标为已读
-    - navigation.footer  # 页脚上下页
-    - content.code.copy  # 代码复制
-    - content.action.edit  # 编辑此页面
-    - content.action.view  # 查看源代码
-    - navigation.instant  # 即时加载
-    - navigation.instant.progressF  # 进度指示器
-    - navigation.tracking  # 锚点追踪
-    - navigation.tabs  # 导航选项卡
+    - header.autohide # 标题自动隐藏
+    - announce.dismiss # 公告标为已读
+    - navigation.footer # 页脚上下页
+    - content.code.copy # 代码复制
+    - content.action.edit # 编辑此页面
+    - content.action.view # 查看源代码
+    - navigation.instant # 即时加载
+    - navigation.instant.progressF # 进度指示器
+    - navigation.tracking # 锚点追踪
+    - navigation.tabs # 导航选项卡
     #- navigation.tabs.sticky  # 固定导航标签
-    - navigation.sections  # 导航分组呈现
+    - navigation.sections # 导航分组呈现
     # - navigation.expand  # 左侧默认全部展开，与 navigation.prune 冲突
-    - navigation.prune  # 导航压缩，与 navigation.expand 冲突
+    - navigation.prune # 导航压缩，与 navigation.expand 冲突
     # - navigation.indexes  # 章节索引页，需要单独开一个index.md，与 toc.integrate 冲突
-    - toc.follow  # 锚点跟随
+    - toc.follow # 锚点跟随
     # - toc.integrate  # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
-    - navigation.top  # 返回顶部
-    - search.suggest  # 搜索建议
-    - search.highlight  # 搜索突出显示
-    - search.share  # 搜索分享
+    - navigation.top # 返回顶部
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索突出显示
+    - search.share # 搜索分享
 
   # 图标设置
   icon:
     # 页面编辑和查看图标
     edit: material/pencil
     view: material/eye
-    repo: fontawesome/brands/github  # 存储库图标
-    logo: material/tools  # 站点logo
+    repo: fontawesome/brands/github # 存储库图标
+    logo: material/tools # 站点logo
 
     # 页面底部上下页图标
     previous: fontawesome/solid/angle-left
@@ -150,11 +150,11 @@ plugins:
 
   # 加密插件
   - encryptcontent:
-      title_prefix: ""  # 标题前的锁定提示
-      summary: "这个项目已被加密"  # 加密后的标题显示
-      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全"  # 加密后的文章显示
-      placeholder: "请输入密码"  # 加密后的密码提示
-      decryption_failure_message: "密码错误"  # 解密失败后的提示
+      title_prefix: "" # 标题前的锁定提示
+      summary: "这个项目已被加密" # 加密后的标题显示
+      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" # 加密后的文章显示
+      placeholder: "请输入密码" # 加密后的密码提示
+      decryption_failure_message: "密码错误" # 解密失败后的提示
 
   # 博客配置
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
@@ -167,9 +167,23 @@ plugins:
 
 # 额外配置
 extra:
-  homepage: https://xkzb.qfnu.w1ndys.top/  # 左上角跳转主页
+  generator: true
+  homepage: https://xkzb.qfnu.w1ndys.top/ # 左上角跳转主页
   consent:
     title: Cookie同意
     description: >
       我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
       <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/W1ndys
+      name: 作者Github主页
+    - icon: fontawesome/brands/qq
+      link: https://blog.w1ndys.top/html/qq/
+      name: 作者QQ
+    - icon: material/email
+      link: mailto:w1ndys@outlook.com
+      name: 作者邮箱
+    - icon: fontawesome/solid/blog
+      link: https://blog.w1ndys.top/
+      name: 作者博客

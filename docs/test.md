@@ -1,5 +1,6 @@
 ---
 password: 123
+comments: true
 ---
 
 
