@@ -2,13 +2,3 @@
 /* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
 
 
-
-[data-md-color-scheme="light"] {
-    --md-primary-fg-color: #AF2014;
-}
-
-[data-md-color-scheme="dark"] {
-    --md-primary-fg-color: #14151A;
-    --md-default-fg-color: #B0A6AD;
-    --md-default-bg-color: #1E2129;
-}
