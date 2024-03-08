@@ -62,7 +62,7 @@ theme:
     - content.code.copy # 代码复制
     - content.action.edit # 编辑此页面
     - content.action.view # 查看源代码
-    - navigation.instant # 即时加载
+    # - navigation.instant # 即时加载
     - navigation.instant.progressF # 进度指示器
     - navigation.tracking # 锚点追踪
     - navigation.tabs # 导航选项卡
