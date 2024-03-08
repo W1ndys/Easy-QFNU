@@ -105,10 +105,8 @@ theme:
       example: octicons/beaker-16
       quote: octicons/quote-16
 
-# 额外配置
-extra:
-  disqus: 'open' # 评论系统
-  
+
+
 # 附加的CSS文件
 extra_css:
   - stylesheets/extra.css
