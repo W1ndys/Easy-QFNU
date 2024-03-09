@@ -321,7 +321,7 @@ plugins:
       enabled: true
       blog_toc: true
       blog_dir: update
-      post_date_format: YYYY-MM-DD
+      post_date_format: medium
       post_url_date_format: yyyy/MM
       post_url_format: "/{slug}"
       post_excerpt: optional
