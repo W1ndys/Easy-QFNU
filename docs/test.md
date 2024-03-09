@@ -64,7 +64,7 @@ import foo.bar
 ```
 
 ``` {.python linenums="1 2"}
-"""Some file."""
+    """Some file."""
 import foo.bar
 import boo.baz
 import foo.bar.baz
