@@ -154,23 +154,6 @@ extra:
       link: https://blog.w1ndys.top/
       name: 作者博客
 
-# 目录
-# =============================================================================================================================
-
-nav:
-  - 测试首页:
-      - 首页: index.md
-      - 测试页面: test.md
-      - flag拿来吧你: flag/flag.md
-      - 用户协议: about/agreement.md
-      - 捐助: about/reward.md
-      - 关于我们: about/about.md
-  - 测试首页2:
-      - 关于我们: about/about.md
-      - 导航测试: others/links.md
-  - 更新日志:
-      - update/index.md
-
 # =============================================================================================================================
 
 # Markdown扩展配置
@@ -279,20 +262,19 @@ markdown_extensions:
   # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#nested-fence-format
   - pymdownx.superfences:
       # 与高亮语冲突 https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
-      custom_fences: 
+      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  
-  # 选项卡
-  - pymdownx.tabbed:
+
+  - pymdownx.tabbed: # 选项卡
       alternate_style: true
       combine_header_slug: true # 添加一个tab锚点
       # 为tab增加一个大标题，生成一个指定的锚点链接，上面的进阶用法
-      slugify: !!python/object/apply:pymdownx.slugs.slugify # 允许自定义 slug 函数。对于某些语言，默认值可能不会产生良好且可读的标识符 - 考虑使用另一个 slug 函数
+      slugify:
+        !!python/object/apply:pymdownx.slugs.slugify # 允许自定义 slug 函数。对于某些语言，默认值可能不会产生良好且可读的标识符 - 考虑使用另一个 slug 函数
         kwds:
           case: lower
-
 
   # 任务列表
   - pymdownx.tasklist:
@@ -332,7 +314,23 @@ watch:
   - mkdocs.yml
   - overrides/partials
 
+# 目录
+# =============================================================================================================================
 
-  
+nav:
+  - 选课指北:
+      - 首页: index.md
+      - 测试页面: test.md
+      - 用户协议: about/agreement.md
+      - 捐助: about/reward.md
+      - 关于我们: about/about.md
+  - 选课指北2:
+      - 关于我们: about/about.md
+      - 导航测试: others/links.md
+  - 更新日志:
+      - update/index.md
+#
+# =============================================================================================================================
 # How to write?
 # https://squidfunk.github.io/mkdocs-material/reference/#/
+
