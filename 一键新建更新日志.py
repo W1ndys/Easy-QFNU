@@ -20,7 +20,7 @@ else:
         file.write(f"date: {current_datetime.strftime('%Y-%m-%d %H:%M:%S')}\n")
         file.write(f"---\n\n")
         file.write(f"# {formatted_datetime} 更新日志\n\n")
-        file.write(f"<!-- more -->")
+        file.write(f"\n\n<!-- more -->")
 
     # 打开文件
     os.system(f"start {file_path}")  # 适用于Windows系统
