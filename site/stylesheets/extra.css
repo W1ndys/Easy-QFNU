@@ -1,0 +1,8 @@
+/* Color Settings */
+/* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
+
+.md-banner {
+    background-color: #6d2424;
+    color: var(--md-footer-fg-color);
+    overflow: auto;
+}
