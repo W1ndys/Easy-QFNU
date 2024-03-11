@@ -8,7 +8,7 @@ comments: true
 
 ## **选课指北**
 
-<span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：https://blog.w1ndys.top/posts/216d9006</span>
+<span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：[https://blog.w1ndys.top/posts/216d9006](https://blog.w1ndys.top/posts/216d9006)</span>
 
 下面是关于选课指北的小背景
 
