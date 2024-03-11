@@ -29,3 +29,12 @@ git commit -m "$commit_message"
 git push
 
 echo "文件上传到Git仓库成功。"
+
+# 删除最初的site文件夹
+rm -rf "$site_dir"
+
+echo "最初的site文件夹已删除。"
+
+# 提示用户按Enter键退出
+echo "按Enter键退出..."
+read -r
