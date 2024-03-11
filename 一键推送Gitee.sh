@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# 构建site
+mkdocs build
 # 获取当前目录的路径
 current_dir=$(pwd)
 # 构建site目录的路径
