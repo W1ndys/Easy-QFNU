@@ -70,7 +70,7 @@ theme:
     - navigation.sections # 导航分组呈现
     #- navigation.expand     # 左侧默认全部展开，与 navigation.prune 冲突
     - navigation.prune # 导航压缩，与 navigation.expand 冲突
-    #- navigation.indexes    # 章节索引页，需要单独开一个index.md，与 toc.integrate 冲突
+    # - navigation.indexes    # 章节索引页，需要单独开一个index.md，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
     - toc.follow # 锚点跟随
     #- toc.integrate         # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
     - navigation.top # 返回顶部
