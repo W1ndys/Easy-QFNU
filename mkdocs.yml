@@ -78,13 +78,21 @@ theme:
     - search.highlight # 搜索突出显示
     - search.share # 搜索分享
 
+  # 站点logo
+  favicon: https://p.qlogo.cn/gh/497554955/497554955/640/
+
+  # 页面logo图标
+  # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
+  logo: https://p.qlogo.cn/gh/497554955/497554955/640/
+
   # 图标设置
   icon:
     # 页面编辑和查看图标
     edit: material/pencil
     view: material/eye
-    repo: fontawesome/brands/github # 存储库图标
-    logo: material/tools # 站点logo
+
+    # 存储库图标
+    repo: fontawesome/brands/github
 
     # 页面底部上下页图标
     previous: fontawesome/solid/angle-left
@@ -137,10 +145,6 @@ extra:
   analytics:
     provider: custom
     # property: 3Hj2ixLGox6ofKaH
-
-  # 测试用
-  W1ndys:
-    provider: W1ndys2
 
   # 社交账号
   social:
@@ -223,12 +227,18 @@ markdown_extensions:
 
   # 表情符号
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#emoji
-  # - pymdownx.emoji:
-  #     emoji_index: !!python/name:material.extensions.emoji.twemoji  # 定义使用哪组表情符号进行渲染
-  #     emoji_generator: !!python/name:material.extensions.emoji.to_svg #定义如何呈现已解析的表情符号或图标简码。请注意，图标只能与to_svg配置一起使用
-  #     options:
-  #       custom_icons:
-  #         - overrides/.icons
+  - pymdownx.emoji:
+      emoji_index:
+        !!python/name:material.extensions.emoji.twemoji # 定义使用哪组表情符号进行渲染
+
+
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg #定义如何呈现已解析的表情符号或图标简码。请注意，图标只能与to_svg配置一起使用
+
+
+      options:
+        custom_icons:
+          - overrides/.icons
 
   # 代码高亮
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
