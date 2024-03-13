@@ -11,3 +11,4 @@
 3. [https://n.xkzb.qfnu.w1ndys.top/](https://n.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
 4. [https://c.xkzb.qfnu.w1ndys.top/](https://c.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
 5. [https://v.xkzb.qfnu.w1ndys.top/](https://v.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
+6. [https://xkzb-qfnu-w1ndys-top.vercel.app/](https://xkzb-qfnu-w1ndys-top.vercel.app/)(境外高速站点)
