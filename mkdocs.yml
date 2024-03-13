@@ -79,6 +79,7 @@ theme:
     - search.share # 搜索分享
 
   # 站点logo
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
   favicon: https://p.qlogo.cn/gh/497554955/497554955/640/
 
   # 页面logo图标
