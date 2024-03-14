@@ -1,9 +1,11 @@
 ---
-
+title: "测试页面"
 comments: true
+description: "测试页面"
+icon: material/test-tube
+status: test
+template: test.html
 ---
-
-
 
 # 测试页面
 
@@ -19,13 +21,13 @@ that $f(a)=f(b)$.
 
 ## 粗体斜体测试
 
-**粗体**         _斜体_
+**粗体** _斜体_
 
 ## 标记测试
 
-==标记我== 
+==标记我==
 
-^^下划线^^ 
+^^下划线^^
 
 上标^上^
 
@@ -63,14 +65,14 @@ import foo.bar
 import foo.bar
 ```
 
-``` {.python linenums="1 2"}
+```{.python linenums="1 2"}
     """Some file."""
 import foo.bar
 import boo.baz
 import foo.bar.baz
 ```
 
-``` {linenums="1 1 2"}
+```{linenums="1 1 2"}
 """Some file."""
 import foo.bar
 import boo.baz
@@ -168,7 +170,7 @@ docs/嵌入测试.md
 
 ### 流程图
 
-``` mermaid
+```mermaid
 graph LR
   A[Start] --> B{Error?};
   B -->|Yes| C[Hmm...];
@@ -179,7 +181,7 @@ graph LR
 
 ### 序列图
 
-``` mermaid
+```mermaid
 sequenceDiagram
   autonumber
   Alice->>John: Hello John, how are you?
@@ -194,7 +196,7 @@ sequenceDiagram
 
 ### 状态图
 
-``` mermaid
+```mermaid
 stateDiagram-v2
   state fork_state <<fork>>
     [*] --> fork_state
@@ -210,7 +212,7 @@ stateDiagram-v2
 
 ### 类图
 
-``` mermaid
+```mermaid
 classDiagram
   Person <|-- Student
   Person <|-- Professor
@@ -235,13 +237,13 @@ classDiagram
     +int postalCode
     +String country
     -validate()
-    +outputAsLabel()  
+    +outputAsLabel()
   }
 ```
 
 ### 实体关系图
 
-``` mermaid
+```mermaid
 erDiagram
   CUSTOMER ||--o{ ORDER : places
   ORDER ||--|{ LINE-ITEM : contains
@@ -259,12 +261,12 @@ erDiagram
 ### 常见的
 
 === "Tab 1"
-    Markdown **content**.
+Markdown **content**.
 
     Multiple paragraphs.
 
 === "Tab 2"
-    More Markdown **content**.
+More Markdown **content**.
 
     - list item a
     - list item b
@@ -272,62 +274,96 @@ erDiagram
 ### 连续两个
 
 === "Tab 1"
-    Markdown **content**.
+Markdown **content**.
 
     Multiple paragraphs.
 
 === "Tab 2"
-    More Markdown **content**.
+More Markdown **content**.
 
     - list item a
     - list item b
 
 ===! "Tab A"
-    Different tab set.
+Different tab set.
 
 === "Tab B"
-    ```
-    More content.
-    ```
+`More content.`
 
 ### 指定指定默认选择
 
 === "Not Me"
-    Markdown **content**.
+Markdown **content**.
 
     Multiple paragraphs.
 
 ===+ "Select Me"
-    More Markdown **content**.
+More Markdown **content**.
 
     - list item a
     - list item b
 
 === "Not Me Either"
-    Another Tab
+Another Tab
 
-### 选项卡ID
+### 选项卡 ID
 
 ID
 
 === "tab"
-    content
+content
 
 ## 任务列表
 
 Task List
 
--   [X] item 1
-    *   [X] item A
-    *   [ ] item B
+- [x] item 1
+  - [x] item A
+  - [ ] item B
         more text
-        +   [x] item a
-        +   [ ] item b
-        +   [x] item c
-    *   [X] item C
--   [ ] item 2
--   [ ] item 3
+    - [x] item a
+    - [ ] item b
+    - [x] item c
+  - [x] item C
+- [ ] item 2
+- [ ] item 3
 
 ## 云上曲园
 
 云上曲园
+
+## 警告
+
+!!! note "笔记"
+
+    note: octicons/tag-16
+
+!!! abstract ""
+
+    abstract: octicons/checklist-16
+
+??? info "信息"
+
+    info: octicons/info-16
+
+???+ tip "提示"
+
+    tip: octicons/squirrel-16
+
+!!! success inline end "成功"
+
+    右对齐
+    success: octicons/check-16
+
+!!! question inline "问题"
+
+    左对齐
+    <!-- question: octicons/question-16 -->
+
+!!! warning "警告"
+
+    warning: octicons/alert-16
+
+!!! pied-piper "定制样式Pied Piper"
+
+    定制样式测试

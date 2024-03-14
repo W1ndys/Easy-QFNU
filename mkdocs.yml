@@ -73,11 +73,11 @@ theme:
     # - navigation.indexes    # 章节索引页，需要单独开一个index.md，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
     - toc.follow # 锚点跟随
     #- toc.integrate         # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
-    - navigation.top  # 返回顶部
-    - search.suggest  # 搜索建议
-    - search.highlight  # 搜索突出显示
-    - search.share  # 搜索分享
-    - content.tooltips  #改进的工具提示
+    - navigation.top # 返回顶部
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索突出显示
+    - search.share # 搜索分享
+    - content.tooltips #改进的工具提示
 
   # 站点logo
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
@@ -104,7 +104,9 @@ theme:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
 
-    # 提示图标
+    # 警告/提示图标
+    # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#admonition-icons
+    # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#custom-admonitions # 定制自定义图标
     admonition:
       note: octicons/tag-16
       abstract: octicons/checklist-16
@@ -118,6 +120,21 @@ theme:
       bug: octicons/bug-16
       example: octicons/beaker-16
       quote: octicons/quote-16
+
+      # 备用的图标 FontAwesome
+
+      # note: fontawesome/solid/note-sticky
+      # abstract: fontawesome/solid/book
+      # info: fontawesome/solid/circle-info
+      # tip: fontawesome/solid/bullhorn
+      # success: fontawesome/solid/check
+      # question: fontawesome/solid/circle-question
+      # warning: fontawesome/solid/triangle-exclamation
+      # failure: fontawesome/solid/bomb
+      # danger: fontawesome/solid/skull
+      # bug: fontawesome/solid/robot
+      # example: fontawesome/solid/flask
+      # quote: fontawesome/solid/quote-left
 
 # 附加的CSS文件
 extra_css:
@@ -138,8 +155,13 @@ extra_javascript:
 
 # 额外配置
 extra:
-  generator: true  # 是否显示官方仓库
-  homepage: / # 左上角跳转主页
+  # 是否显示官方仓库
+  generator: true
+
+  # 左上角跳转主页
+  homepage: /
+
+  # Cookie
   consent:
     title: Cookie同意
     description: >
@@ -148,9 +170,15 @@ extra:
     cookies:
       analytics: 51.la
       # custom: Custom cookie    # 自定义cookies接受项目
+
+  # 统计
   analytics:
     provider: custom
     # property: 3Hj2ixLGox6ofKaH
+
+  # 状态页
+  status:
+    new: Recently added
 
   # 社交账号
   social:
@@ -302,19 +330,6 @@ markdown_extensions:
 
 # 插件配置
 plugins:
-  # 站点搜索
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#/
-  - search:
-      separator: '[\s\u200b\-]'
-
-  # 加密插件
-  - encryptcontent:
-      title_prefix: "" # 标题前的锁定提示
-      summary: "这个项目已被加密" # 加密后的标题显示
-      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" # 加密后的文章显示
-      placeholder: "请输入密码" # 加密后的密码提示
-      decryption_failure_message: "密码错误" # 解密失败后的提示
-
   # 博客配置
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-a-blog/
   # https://squidfunk.github.io/mkdocs-material/plugins/blog/#/
@@ -327,11 +342,55 @@ plugins:
       post_url_format: "/{slug}"
       post_excerpt: optional
 
+  # 信息插件,用来调试的，便于提交bug
+  # https://squidfunk.github.io/mkdocs-material/plugins/info/#configuration
+  # - info:
+
+  # 离线插件
+  # https://squidfunk.github.io/mkdocs-material/plugins/offline/#built-in-offline-plugin
+  # - offline:
+  #     enabled: !ENV [OFFLINE, false]
+
+  # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
+  # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
+  # - privacy:
+  #     enabled: !ENV [CI, false]
+  #     concurrency: 1
+  #     cache: false
+  #     cache_dir: my/custom/dir
+
+  # 站点搜索
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#/
+  # 搜索插件
+  # https://squidfunk.github.io/mkdocs-material/plugins/search/#built-in-search-plugin
+  - search:
+      enabled: true
+      separator: '[\s\u200b\-]|[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;' # 正则表达式，汉语+特殊字符+案例变更+版本字符串+HTML
+      pipeline:
+        - stemmer # 词干提取器，将单词的前缀和后缀去除
+        - stopWordFilter # 去除常用停用词
+        - trimmer # 去除空白字符
+
+  # 加密插件
+  - encryptcontent:
+      title_prefix: "" # 加密后的标题前缀
+      summary: "这个项目已被加密" # 加密后的标题显示
+      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" # 加密后的文章显示
+      placeholder: "请输入密码" # 输入密码的提示
+      decryption_failure_message: "密码错误" # 密码错误的提示
+
+  # 标签插件
+  # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
+  - tags:
+      enabled: true
+      tags: true
+      tags_file: tags.md
+
 watch:
-  - includes
+  - includes # 目录
   - docs
-  - mkdocs.yml
-  - overrides/partials
+  - mkdocs.yml # 配置文件
+  - overrides/partials # 部分
 
 # 目录
 # =============================================================================================================================
