@@ -89,8 +89,9 @@ theme:
   # 图标设置
   icon:
     # logo
+    # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
     logo: material/tools
-    
+
     # 页面编辑和查看图标
     edit: material/pencil
     view: material/eye
@@ -338,6 +339,7 @@ nav:
   - 选课指北:
       - 首页: index.md
       - 测试页面: test.md
+      - 钉钉: others/dingtalk.md
       - 用户协议: about/agreement.md
       - 捐助: about/reward.md
       - 关于我们: about/about.md
