@@ -13,7 +13,7 @@ repo_url: https://github.com/W1ndys/xkzb.qfnu.w1ndys.top/
 # 仓库名称
 repo_name: W1ndys/xkzb_qfnu
 
-# 编辑地址
+# 仓库编辑地址
 edit_uri: edit/main/docs/
 
 # 站点描述
@@ -73,11 +73,11 @@ theme:
     # - navigation.indexes    # 章节索引页，需要单独开一个index.md，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
     - toc.follow # 锚点跟随
     #- toc.integrate         # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
-    - navigation.top # 返回顶部
-    - search.suggest # 搜索建议
-    - search.highlight # 搜索突出显示
-    - search.share # 搜索分享
-    - content.tooltips #改进的工具提示
+    - navigation.top  # 返回顶部
+    - search.suggest  # 搜索建议
+    - search.highlight  # 搜索突出显示
+    - search.share  # 搜索分享
+    - content.tooltips  #改进的工具提示
 
   # 站点logo
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
@@ -138,7 +138,7 @@ extra_javascript:
 
 # 额外配置
 extra:
-  generator: true
+  generator: true  # 是否显示官方仓库
   homepage: / # 左上角跳转主页
   consent:
     title: Cookie同意
