@@ -77,6 +77,7 @@ theme:
     - search.suggest # 搜索建议
     - search.highlight # 搜索突出显示
     - search.share # 搜索分享
+    - content.tooltips #改进的工具提示
 
   # 站点logo
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
