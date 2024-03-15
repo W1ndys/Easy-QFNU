@@ -5,6 +5,7 @@ description: "测试页面"
 icon: material/test-tube
 status: test
 template: test.html
+date: 2024-03-15 01:05:05
 ---
 
 # 测试页面
@@ -50,81 +51,6 @@ that $f(a)=f(b)$.
 - ==This was marked==
 - ^^This was inserted^^
 - ~~This was deleted~~
-
-## 代码高亮
-
-```python
-import foo.bar
-```
-
-```{.python linenums="1"}
-import foo.bar
-```
-
-```{.python linenums="2"}
-import foo.bar
-```
-
-```{.python linenums="1 2"}
-    """Some file."""
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```{linenums="1 1 2"}
-"""Some file."""
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```{.python hl_lines="1 3"}
-"""Some file."""
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```{.py3 hl_lines="1 3" linenums="2"}
-"""Some file."""
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```{.py3 hl_lines="1-2 5 7-8"}
-import foo
-import boo.baz
-import foo.bar.baz
-
-class Foo:
-   def __init__(self):
-       self.foo = None
-       self.bar = None
-       self.baz = None
-```
-
-```{.py3 title="My Cool Header"}
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```python
-import foo.bar
-import boo.baz
-import foo.bar.baz
-```
-
-```pycon
->>> 3 + 3
-6
-```
-
-## 内联代码块
-
-The `#!python range()` function is used to generate a sequence of numbers.
 
 ## 键盘按键
 
@@ -413,3 +339,190 @@ Task List
     {.annotate}
 
     1. 选项卡注释2 :man_raising_hand:
+
+#### HTML 包装任意元素
+
+可以用 div 把任何元素包裹起来，这样就可以添加任意的样式的注释（特例除外）
+
+<div class="annotate" markdown>
+
+> 后面有一个注释(1)
+
+</div>
+
+1. 我是一个注释 :man_raising_hand:
+
+## 按钮
+
+### 默认按钮
+
+[回到顶部](#){: .md-button }
+
+### 填充色按钮
+
+[回到顶部(填充色)](#){ .md-button .md-button--primary }
+
+### 带图标按钮
+
+[发送:fontawesome-solid-paper-plane:](<javascript:alert$.next("测试成功")>){ .md-button }
+
+## 代码块
+
+### 默认代码块
+
+```python
+print("hello world!")
+```
+
+### 添加标题代码块
+
+```py title="自定义标题"
+print("hello world!")
+```
+
+### 添加注释代码块
+
+```yaml
+theme:
+  features:
+    - content.code.annotate #这是一个注释(1)
+```
+
+1. 注释:man_raising_hand:
+
+### 添加注释代码块（剥离注释）
+
+```py
+print("hello world!") #这是一个注释(1)!
+```
+
+1. 剥离的注释:man_raising_hand:
+
+### 添加行号
+
+```py linenums="1"
+print("hello world!")
+```
+
+### 突出显示特定行
+
+#### 代码块行号
+
+```py hl_lines="2 3"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+#### 代码块行号(行号范围)
+
+```py hl_lines="3-5"
+def bubble_sort(items):
+    for i in range(len(items)):
+        for j in range(len(items) - 1 - i):
+            if items[j] > items[j + 1]:
+                items[j], items[j + 1] = items[j + 1], items[j]
+```
+
+### 突出显示内联代码块
+
+The `#!python range()` function is used to generate a sequence of numbers.
+
+### 嵌入外部文件
+
+```title="嵌入测试"
+--8<-- "docs/嵌入测试.md"
+```
+
+## 分组
+
+### 分组代码块
+
+=== "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
+### 其他内容分组
+
+=== "无序列表"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "有序列表"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
+
+### 嵌入内容
+
+!!! example
+=== "无序列表"
+
+        * Sed sagittis eleifend rutrum
+        * Donec vitae suscipit est
+        * Nulla tempor lobortis orci
+
+    === "有序列表"
+
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+
+## 数据表
+
+### 默认数据表
+
+| Method   | Description                          |
+| -------- | ------------------------------------ |
+| `GET`    | :material-check: Fetch resource      |
+| `PUT`    | :material-check-all: Update resource |
+| `DELETE` | :material-close: Delete resource     |
+
+### 列对齐数据表
+
+=== "Left"
+
+    | Method      | Description                          |
+    | :---------- | :----------------------------------- |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
+
+=== "Center"
+
+    | Method      | Description                          |
+    | :---------: | :----------------------------------: |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
+
+=== "Right"
+
+    | Method      | Description                          |
+    | ----------: | -----------------------------------: |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
