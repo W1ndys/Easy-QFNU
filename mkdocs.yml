@@ -140,6 +140,7 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - stylesheets/ip.css
 
 # 附加的JS文件
 extra_javascript:
@@ -150,6 +151,7 @@ extra_javascript:
   - javascripts/katex.js # katex
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js # katex
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js # katex
+  - javascripts/ip.js
 
   # - javascripts/51la.js  #body的js元素，检测不准，遂弃用此方案
 

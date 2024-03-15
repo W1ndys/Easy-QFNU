@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; /* 为了确保图片定位在 body 中 */
+}
+#image-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999; /* 确保图片在最上层 */
+}
