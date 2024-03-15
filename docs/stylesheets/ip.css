@@ -1,5 +1,3 @@
-/* style.css */
-
 /* 添加入场动画 */
 @keyframes slideIn {
     from {
@@ -11,8 +9,8 @@
 }
 
 /* 设置图片样式 */
-img {
-    width: 200px; /* 图片宽度 */
+.custom-image {
+    width: 280px; /* 图片宽度 */
     height: auto; /* 自适应高度 */
     position: fixed; /* 固定定位 */
     bottom: 0; /* 底部对齐 */
