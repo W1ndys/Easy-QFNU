@@ -20,7 +20,7 @@ if (!isMobileDevice()) {
     img.style.animationTimingFunction = "ease-in-out";
 
     // 设置图片大小
-    img.style.width = "350px"; // 设置图片宽度
+    img.style.width = "310px"; // 设置图片宽度
     img.style.height = "auto"; // 设置高度自动调整，保持宽高比
 
     // 将图像添加到 body 中
