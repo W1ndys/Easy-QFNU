@@ -336,34 +336,80 @@ Task List
 
 !!! note "笔记"
 
-    note: octicons/tag-16
+    默认样式
 
 !!! abstract ""
 
-    abstract: octicons/checklist-16
+    无标题样式
 
 ??? info "信息"
 
-    info: octicons/info-16
+    折叠样式
 
 ???+ tip "提示"
 
-    tip: octicons/squirrel-16
+    折叠默认打开样式
 
-!!! success inline end "成功"
+=== "右对齐"
 
-    右对齐
-    success: octicons/check-16
+    注意左右对齐，附属的文字一定要在对齐样式下方，才能实现左右对齐，否则会显示在框的上方
 
-!!! question inline "问题"
+    !!! success inline end "成功"
+        右对齐样式
+    这是一个右对齐样式
 
-    左对齐
-    <!-- question: octicons/question-16 -->
+=== "左对齐"
 
-!!! warning "警告"
+    注意左右对齐，附属的文字一定要在对齐样式下方，才能实现左右对齐，否则会显示在框的上方
 
-    warning: octicons/alert-16
+    !!! question inline "问题"
+        左对齐样式
+    这是一个左对齐样式
 
 !!! pied-piper "定制样式 Pied Piper"
 
     定制样式测试
+
+### 注释
+
+#### 默认注释
+
+这是一个注释 (1) 。
+{.annotate}
+
+1. 我是一个注释 :man_raising_hand:
+
+#### 嵌套注释
+
+嵌套注释(1)
+{.annotate}
+
+1.  我是一个嵌套注释(1) :man_raising_hand:
+    {.annotate}
+
+    1.  我是嵌套注释的子注释 :man_raising_hand:
+
+#### 警戒注释
+
+!!! note annotate "注释(1)"
+
+    我是一个注释(2)
+
+1. 我是一个注释 :man_raising_hand:
+2. 我是一个注释 :man_raising_hand:
+
+#### 选项卡注释
+
+=== "Tab 1"
+
+    选项卡注释1(1)
+    {.annotate}
+
+    1. 选项卡注释1 :man_raising_hand:
+
+=== "Tab 2"
+
+    选项卡注释2(1)
+    {.annotate}
+
+    1. 选项卡注释2 :man_raising_hand:
