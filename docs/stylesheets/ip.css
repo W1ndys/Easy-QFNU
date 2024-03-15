@@ -1,11 +1,24 @@
-body {
-    margin: 0;
-    padding: 0;
-    position: relative; /* 为了确保图片定位在 body 中 */
+/* style.css */
+
+/* 添加入场动画 */
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
-#image-container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+
+/* 设置图片样式 */
+img {
+    width: 200px; /* 图片宽度 */
+    height: auto; /* 自适应高度 */
+    position: fixed; /* 固定定位 */
+    bottom: 0; /* 底部对齐 */
+    right: 0; /* 右侧对齐 */
     z-index: 999; /* 确保图片在最上层 */
+    animation-name: slideIn; /* 应用入场动画 */
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }

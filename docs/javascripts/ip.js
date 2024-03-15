@@ -8,13 +8,21 @@ if (!isMobileDevice()) {
     // 创建图像元素
     var img = document.createElement("img");
     img.src = "https://tool.lu/netcard/"; // 设置图像的源
-    img.alt = "IP image"; // 图像的替代文本
+    img.alt = "Your Image"; // 图像的替代文本
 
-    // 创建一个容器 div 并将图像添加到其中
-    var container = document.createElement("div");
-    container.id = "image-container"; // 设置容器的 id
-    container.appendChild(img); // 将图像添加到容器中
+    // 设置图像样式
+    img.style.position = "fixed";
+    img.style.bottom = "0";
+    img.style.right = "0";
+    img.style.zIndex = "999"; // 确保图片在最上层
+    img.style.animationName = "slideIn"; // 应用入场动画
+    img.style.animationDuration = "1s";
+    img.style.animationTimingFunction = "ease-in-out";
 
-    // 将容器添加到 body 中
-    document.body.appendChild(container);
+    // 设置图片大小
+    img.style.width = "350px"; // 设置图片宽度
+    img.style.height = "auto"; // 设置高度自动调整，保持宽高比
+
+    // 将图像添加到 body 中
+    document.body.appendChild(img);
 }
