@@ -136,6 +136,10 @@ theme:
       # example: fontawesome/solid/flask
       # quote: fontawesome/solid/quote-left
 
+    # 注释图标
+    # https://squidfunk.github.io/mkdocs-material/reference/annotations/#annotation-icons
+    annotation: material/plus-circle-outline
+
 # 附加的CSS文件
 extra_css:
   - stylesheets/extra.css
