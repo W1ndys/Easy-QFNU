@@ -148,6 +148,8 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
   - stylesheets/ip.css
   - stylesheets/code.css
+  - stylesheets/icons-emojis.css
+  - stylesheets/tasklist.css
 
 # 附加的JS文件
 extra_javascript:
@@ -394,6 +396,36 @@ plugins:
       enabled: true
       tags: true
       tags_file: tags.md
+
+      # Glightbox插件
+  - glightbox:
+      # 启用触摸导航
+      touchNavigation: true
+      # 禁用循环播放
+      loop: false
+      # 图片效果为缩放
+      effect: zoom
+      # 幻灯片效果为滑动
+      slide_effect: slide
+      # 图片宽度为100%
+      width: 100%
+      # 图片高度自适应
+      height: auto
+      # 可缩放图片
+      zoomable: true
+      # 可拖拽图片
+      draggable: true
+      # 跳过指定类名的元素
+      skip_classes:
+        - custom-skip-class-name
+      # 禁用自动生成的图片标题
+      auto_caption: false
+      # 图片标题位置在底部
+      caption_position: bottom
+      # 背景颜色为白色
+      background: white
+      # 启用阴影效果
+      shadow: true
 
 watch:
   - includes # 目录

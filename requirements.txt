@@ -3,3 +3,4 @@ mkdocs-material
 pymdown-extensions
 mkdocs-encryptcontent-plugin
 jieba
+mkdocs-glightbox
