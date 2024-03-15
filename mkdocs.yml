@@ -60,6 +60,7 @@ theme:
     - announce.dismiss # 公告标为已读
     - navigation.footer # 页脚上下页
     - content.code.copy # 代码复制
+    - content.code.annotate # 代码注释
     - content.action.edit # 编辑此页面
     - content.action.view # 查看源代码
     #- navigation.instant    # 即时加载
@@ -78,6 +79,7 @@ theme:
     - search.highlight # 搜索突出显示
     - search.share # 搜索分享
     - content.tooltips #改进的工具提示
+    - content.tabs.link # 全部锚链接，启用后，整个文档站点中的所有内容选项卡都将被链接
 
   # 站点logo
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
@@ -145,6 +147,7 @@ extra_css:
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
   - stylesheets/ip.css
+  - stylesheets/code.css
 
 # 附加的JS文件
 extra_javascript:
@@ -156,8 +159,8 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js # katex
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js # katex
   - javascripts/ip.js
-
-  # - javascripts/51la.js  #body的js元素，检测不准，遂弃用此方案
+  - javascripts/tablesort.js # 数据表排序
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
 
 # 额外配置
 extra:
@@ -230,7 +233,7 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#markdown-in-html
   - md_in_html
 
-  # 表格 - tables
+  # 表格 - tables,数据表
   # https://squidfunk.github.io/mkdocs-material/reference/data-tables/#/usage
   - tables
 
@@ -284,11 +287,11 @@ markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
   - pymdownx.highlight:
       linenums: true # 行号开关
-      anchor_linenums: true # 为所有代码块添加行号锚点
-      use_pygments: true
+      anchor_linenums: true # 锚链接
+      use_pygments: true # true为使用pygments进行语法高亮,false为使用 JavaScript 语法突出显示
       pygments_lang_class: true # 添加 CSS 类来识别代码块的语言，这对于自定义注释标记的功能至关重要
       auto_title: true # 显示正在使用的语言的名称
-      linenums_style: pymdownx-inline
+      linenums_style: pymdownx-inline # table  # pymdownx-inline # 添加行号的方法,此处留空为无行号
       line_spans: __span # 优化，让每一行代码都包含在<span>中
 
   # 内联高亮代码块，构建在代码高亮之上
@@ -320,7 +323,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-  - pymdownx.tabbed: # 选项卡
+  - pymdownx.tabbed: # 选项卡   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#anchor-links
       alternate_style: true
       combine_header_slug: true # 添加一个tab锚点
       # 为tab增加一个大标题，生成一个指定的锚点链接，上面的进阶用法
