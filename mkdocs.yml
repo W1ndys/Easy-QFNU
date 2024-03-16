@@ -365,14 +365,6 @@ plugins:
   # - offline:
   #     enabled: !ENV [OFFLINE, false]
 
-  # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
-  # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
-  # - privacy:
-  #     enabled: !ENV [CI, false]
-  #     concurrency: 1
-  #     cache: false
-  #     cache_dir: my/custom/dir
-
   # 站点搜索
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#/
   # 搜索插件
@@ -400,8 +392,10 @@ plugins:
       tags: true
       tags_file: tags.md
 
-  # 下载资源，在Vercel报错了，先不开了
-  - privacy
+  # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
+  # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
+  # - privacy:
+  #     assets: false # 是否下载资源
 
   # Glightbox插件
   - glightbox:
