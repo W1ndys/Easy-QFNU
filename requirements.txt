@@ -4,3 +4,4 @@ pymdown-extensions
 mkdocs-encryptcontent-plugin
 jieba
 mkdocs-glightbox
+urllib3<2
