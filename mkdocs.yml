@@ -436,7 +436,7 @@ plugins:
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
   - git-committers:
-      repository: W1ndys/xkzb.qfnu.w1ndys.top/#/
+      repository: W1ndys/xkzb.qfnu.w1ndys.top/
       branch: main
 
 watch:
