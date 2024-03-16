@@ -440,7 +440,6 @@ plugins:
   - git-committers:
       repository: W1ndys/xkzb.qfnu.w1ndys.top
       branch: main
-      token: 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
 
   # # 作者插件，感觉不如上面那个好
   # - git-authors
