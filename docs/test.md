@@ -38,63 +38,51 @@ c/o
 
 1st 2nd etc.
 
-## 嵌入外部文件
-
---8<-- "docs/嵌入测试.md"
-
---8<--
-docs/嵌入测试.md
---8<--
-
 ## 选项卡
 
 ### 常见的
 
 === "Tab 1"
-Markdown **content**.
 
-    Multiple paragraphs.
+    Markdown **content**.
+
+        Multiple paragraphs.
 
 === "Tab 2"
-More Markdown **content**.
 
-    - list item a
-    - list item b
+    More Markdown **content**.
+
+        - list item a
+        - list item b
 
 ### 连续两个
 
-=== "Tab 1"
-Markdown **content**.
-
-    Multiple paragraphs.
-
-=== "Tab 2"
-More Markdown **content**.
-
-    - list item a
-    - list item b
-
 ===! "Tab A"
+
 Different tab set.
 
 === "Tab B"
+
 `More content.`
 
 ### 指定指定默认选择
 
 === "Not Me"
-Markdown **content**.
 
-    Multiple paragraphs.
+    Markdown **content**.
+
+        Multiple paragraphs.
 
 ===+ "Select Me"
-More Markdown **content**.
 
-    - list item a
-    - list item b
+    More Markdown **content**.
+
+        - list item a
+        - list item b
 
 === "Not Me Either"
-Another Tab
+
+    Another Tab
 
 ### 选项卡 ID
 
@@ -548,6 +536,8 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 注：此处格式化会把语法改错，---改成\*\*\*，缩进后退了一步，需要调整
 
+不建议使用该写法，除非迫不得已
+
 <div class="grid cards" markdown>
 
 - :material-clock-fast:{ .lg .middle } **Set up in 5 minutes**
@@ -773,8 +763,8 @@ that $f(a)=f(b)$.
 
 The HTMLL specification is maintained by the W3CC.
 
-*[HTMLL]: 缩写测试Hyper Text Markup Language
-*[W3CC]: 缩写测试World Wide Web Consortium
+_[HTMLL]: 缩写测试 Hyper Text Markup Language
+_[W3CC]: 缩写测试 World Wide Web Consortium
 
 ### 术语表
 
