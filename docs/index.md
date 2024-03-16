@@ -10,7 +10,7 @@ tags:
 # 曲阜师范大学选课指北文档站首页
 
 ## **选课指北**
-
+111
 <span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：[https://blog.w1ndys.top/posts/216d9006.html](https://blog.w1ndys.top/posts/216d9006.html)</span>
 
 下面是关于选课指北的小背景
