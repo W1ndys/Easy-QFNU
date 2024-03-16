@@ -431,6 +431,7 @@ plugins:
       # enabled: !ENV [CI, false] # 本地关闭
       enable_creation_date: true # 启用创建日期
       type: iso_datetime # date datetime  iso_date  iso_datetime  timeago
+      fallback_to_build_date: true
 
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
