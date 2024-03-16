@@ -401,10 +401,10 @@ plugins:
       tags_file: tags.md
 
   # 下载资源，在Vercel报错了，先不开了
-  # - privacy:
-  #     enabled: !ENV [CI, false]
-  #     concurrency: 1
-  #     # cache: false  # 是否缓存 通常不需要指定此设置，除非调试插件本身。可以通过以下方式禁用缓存：
+  - privacy:
+      enabled: !ENV [CI, false]
+      concurrency: 1
+      # cache: false  # 是否缓存 通常不需要指定此设置，除非调试插件本身。可以通过以下方式禁用缓存：
 
   # Glightbox插件
   - glightbox:
