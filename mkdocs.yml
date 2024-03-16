@@ -51,6 +51,9 @@ theme:
 
   # 字体配置
   font:
+    # false # 关闭谷歌字体
+    # text: Roboto
+    # code: Roboto Mono
     text: Noto Sans SC
     code: Fira Code
 
@@ -402,7 +405,6 @@ plugins:
   #     enabled: !ENV [CI, false]
   #     concurrency: 1
   #     # cache: false  # 是否缓存 通常不需要指定此设置，除非调试插件本身。可以通过以下方式禁用缓存：
-
 
   # Glightbox插件
   - glightbox:
