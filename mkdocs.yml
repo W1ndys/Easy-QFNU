@@ -397,7 +397,14 @@ plugins:
       tags: true
       tags_file: tags.md
 
-      # Glightbox插件
+  # 下载资源
+  - privacy:
+      enabled: !ENV [CI, false]
+      concurrency: 1
+      # cache: false  # 是否缓存 通常不需要指定此设置，除非调试插件本身。可以通过以下方式禁用缓存：
+      
+
+  # Glightbox插件
   - glightbox:
       # 启用触摸导航
       touchNavigation: true
