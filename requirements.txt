@@ -1,3 +1,4 @@
+--upgrade pip
 mkdocs
 mkdocs-material
 pymdown-extensions
