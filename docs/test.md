@@ -5,9 +5,6 @@ description: "测试页面"
 icon: material/test-tube
 status: test
 template: test.html
-date:
-  created: 2024-02-29
-  updated: 2024-03-17
 ---
 
 # 测试页面
