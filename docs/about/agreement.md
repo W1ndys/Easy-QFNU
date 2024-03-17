@@ -46,4 +46,4 @@ comments: true
 
 ---
 
-<font color='blue'> 作者 W1ndys 享有最终解释权 </font>
+<font color='blue'> 作者 W1ndys 享有最终解释权. </font>
