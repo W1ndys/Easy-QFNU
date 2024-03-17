@@ -430,7 +430,7 @@ plugins:
   - git-revision-date-localized:
       # enabled: !ENV [CI, false] # 本地关闭
       enable_creation_date: true # 启用创建日期
-      type: iso_datetime # date datetime  iso_date  iso_datetime  timeago
+      type: iso_date # date datetime  iso_date  iso_datetime  timeago
       fallback_to_build_date: true
 
   # 作者插件
