@@ -61,4 +61,4 @@ tags: [test1, test2]
 ---
 
 :material-update:{ title="修改日期" } 2024 年 3 月 18 日
-:material-created:{ title="创建日期" } 2024 年 2 月 18 日
+:material-create:{ title="创建日期" } 2024 年 2 月 18 日
