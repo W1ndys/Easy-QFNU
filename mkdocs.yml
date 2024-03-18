@@ -93,6 +93,7 @@ theme:
   # logo: https://p.qlogo.cn/gh/497554955/497554955/640/
 
   # 图标设置
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#customization
   icon:
     # logo
     # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
