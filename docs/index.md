@@ -1,14 +1,7 @@
 ---
 comments: true
-tags:
-  - test1
-  - test2
-date: 
-  created: 2024-01-31
-  updated: 2024-03-18
+tags: [test1, test2]
 ---
-
-
 
 # 曲阜师范大学选课指北文档站首页
 
@@ -64,3 +57,8 @@ date:
 - 数学科学学院速通指南
 
 我们欢迎你提供各种有效信息，期待你的加入
+
+---
+
+:material-update:{ title="创建日期" } 2024 年 2 月 18 日
+:material-calendar-search-outline:{ title="修改日期" } 2024 年 3 月 18 日
