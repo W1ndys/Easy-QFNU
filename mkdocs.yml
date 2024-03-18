@@ -153,6 +153,8 @@ extra_css:
   - stylesheets/code.css
   - stylesheets/icons-emojis.css
   - stylesheets/tasklist.css
+  - stylesheets/abmonition.css
+  - stylesheets/status.css
 
 # 附加的JS文件
 extra_javascript:
