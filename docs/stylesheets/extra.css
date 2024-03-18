@@ -80,3 +80,21 @@ https://simpleicons.org/#/
     -webkit-mask-image: var(--md-admonition-icon--pied-piper);
     mask-image: var(--md-admonition-icon--pied-piper);
 }
+
+
+
+/*这里是分割线的颜色*/
+
+[data-md-color-scheme=default] .md-typeset hr {
+    border-bottom: 0.05rem solid #000000;
+    /* 亮色模式下的边框颜色 */
+    display: flow-root;
+    margin: 1.5em 0;
+}
+
+[data-md-color-scheme=slate] .md-typeset hr {
+    border-bottom: 0.05rem solid #ffffff;
+    /* 暗色模式下的边框颜色 */
+    display: flow-root;
+    margin: 1.5em 0;
+}
