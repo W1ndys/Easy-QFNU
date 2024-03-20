@@ -1,4 +1,4 @@
 [build.command]
-    mkdocs build
+mkdocs build
 [build.publish]
-    site
+site
