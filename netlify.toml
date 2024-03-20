@@ -1,0 +1,6 @@
+[build.command]
+    mkdocs build
+[build.publish]
+    site
+[build.environment]
+  MKDOCS_GIT_COMMITTERS_APIKEY = "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"
