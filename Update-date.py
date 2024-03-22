@@ -3,7 +3,7 @@ import re
 import datetime
 
 # 存储不需要修改的文件相对路径列表
-exclude_files = ["update/tags.md", "update/index.md", "index.md"]
+exclude_files = ["tags.md", "update/index.md", "index.md"]
 
 
 def update_markdown_files(dir_path):
