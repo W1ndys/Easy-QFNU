@@ -197,6 +197,7 @@ extra:
     new: Recently added
 
   # 社交账号
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
   social:
     - icon: material/home
       link: https://w1ndys.top
