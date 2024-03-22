@@ -91,7 +91,7 @@ def update_markdown_files(dir_path):
                         # 没有日期数据，添加日期数据
                         lines.extend(
                             [
-                                f'\n---\n\n:material-clock-edit-outline:{{ title="修改日期" }} {modify_time}\n:material-clock-plus-outline:{{ title="创建日期" }} {create_time}\n'
+                                f'\n\n---\n\n:material-clock-edit-outline:{{ title="修改日期" }} {modify_time}\n:material-clock-plus-outline:{{ title="创建日期" }} {create_time}\n'
                             ]
                         )
                         f.seek(0)
