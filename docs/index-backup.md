@@ -61,6 +61,9 @@ icon: material/home
         ![云上曲园六群](./groups/6.png)
     </div> -->
 
+前四个群哪去了？
+答：我们前四个群是QQ群，但由于扩容成本高，让本就不富裕的开发雪上加霜，于是转为云上曲园，享受高容量群聊，方便的功能
+
 ---
 
 :material-clock-edit-outline:{ title="修改日期" } 2024-03-23
