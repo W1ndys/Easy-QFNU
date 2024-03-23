@@ -24,20 +24,26 @@ icon: material/home
 !!!note "关于作者"
 
     :octicons-home-16:作者主页：[https://w1ndys.top/](https://w1ndys.top/)
-    
+
     :fontawesome-solid-blog:作者博客：[https://blog.w1ndys.top/](https://blog.w1ndys.top/)
-    
-    :fontawesome-brands-qq:作者QQ：[2769731875](tencent://message/?uin=2769731875&Site=&Menu=yes)
-    
+
+    :fontawesome-brands-qq:作者QQ：[2769731875](https://qm.qq.com/q/dI2TLenz5S)
+
     :octicons-mail-24:作者邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com)
 
 ### 加入催更群
 
 我们已经加入“云上曲园”，你可以直接**点击群号**，跳转到“云上曲园”加群
 
-“选课指北速通指南催更⑤群”群的钉钉群号： [79680003880](https://qr.dingtalk.com/action/joingroup?code=v1,k1,xuviMhEDV0O9TEv5RvSMAFSMLZHNhm3RtazUI91Ujno=&_dt_no_comment=1&origin=11?)
+??? note "加入催更群钉钉 ⑤ 群"
 
-“选课指北速通指南催更⑥群”群的钉钉群号： [76975002069](https://www.dingtalk.com/download?action=joingroup&code=v1,k1,OlxC+G1u5Tcv+B4jhxPyXVSMLZHNhm3RgZSZjYUhDSE=&_dt_no_comment=1&origin=11?#/)
+    直接用**云上曲园**扫码即可
+    ![云上曲园五群](./groups/5.png)
+
+??? note "加入催更群微信 ⑥ 群"
+
+    直接用**云上曲园**扫码即可
+    ![云上曲园六群](./groups/6.png)
 
 ---
 
