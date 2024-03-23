@@ -35,17 +35,35 @@ icon: material/home
 
 我们已经加入“云上曲园”，你可以直接**点击群号**，跳转到“云上曲园”加群
 
+<style>
+.centered-warning {
+    text-align: center;
+}
+
+.centered-warning img {
+    display: block;
+    margin: 0 auto;
+}
+</style>
+
 ??? note "加入催更群钉钉 ⑤ 群"
 
-    直接用**云上曲园**扫码即可
-    ![云上曲园五群](./groups/5.png)
+    <div class="centered-warning">
+        直接用**云上曲园**扫码即可
+        ![云上曲园五群](./groups/5.png)
+    </div>
 
 ??? note "加入催更群微信 ⑥ 群"
 
-    直接用**云上曲园**扫码即可
-    ![云上曲园六群](./groups/6.png)
+    <div class="centered-warning">
+        直接用**云上曲园**扫码即可
+        ![云上曲园六群](./groups/6.png)
+    </div>
+
+
+
 
 ---
 
-:material-clock-edit-outline:{ title="修改日期" } 更新于 2024-03-23
-:material-clock-plus-outline:{ title="创建日期" } 创建于 2024-03-23
+:material-clock-edit-outline:{ title="修改日期" } 2024-03-23
+:material-clock-plus-outline:{ title="创建日期" } 2024-03-23
