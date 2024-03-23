@@ -359,7 +359,7 @@ The `#!python range()` function is used to generate a sequence of numbers.
     |    `PUT` | :material-check-all: Update resource |
     | `DELETE` | :material-close:     Delete resource |
 
-## 图表
+## mermaid 图
 
 ### 流程图
 
@@ -372,7 +372,7 @@ graph LR
   B ---->|No| E[Yay!];
 ```
 
-### 序列图
+### 时序图
 
 ```mermaid
 sequenceDiagram
@@ -447,7 +447,7 @@ erDiagram
   CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
-除了上面列出的图表类型之外，Mermaid.js 还提供对饼图、甘特图、用户旅程、git 图和需求图的支持，所有这些都未得到 Material for MkDocs 的正式支持。 这些图表应该仍然像 Mermaid.js 所宣传的那样工作，但我们不认为它们是一个好的选择，主要是因为它们在移动设备上工作得不好。
+除了上面列出的 mermaid 图类型之外，Mermaid.js 还提供对饼图、甘特图、用户旅程、git 图和需求图的支持，所有这些都未得到 Material for MkDocs 的正式支持。 这些 mermaid 图应该仍然像 Mermaid.js 所宣传的那样工作，但我们不认为它们是一个好的选择，主要是因为它们在移动设备上工作得不好。
 
 ## 脚注
 
