@@ -227,7 +227,7 @@ extra:
       name: Netlify提供部署服务
       link: https://www.netlify.com/
 
-    - icon: W1ndys/render
+    - icon: W1ndys/Render
       name: Render提供部署服务
       link: https://render.com/
 
