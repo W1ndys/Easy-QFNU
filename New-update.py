@@ -7,6 +7,7 @@ from datetime import datetime
 
 # 获取当前日期，并格式化为年月日的字符串
 current_date = datetime.now().strftime("%Y年%m月%d日")
+current_date_iso = datetime.now().strftime("%Y-%m-%d")
 
 # 构建文件路径，位于docs/update/posts目录下，文件名格式为"年月日.md"
 file_path = os.path.join("docs", "update", "posts", f"{current_date}.md")
@@ -26,7 +27,14 @@ else:
         # 写入更新日志的标题
         file.write(f"# {current_date} 更新日志\n\n")
         # 添加分隔符，用于内容扩展
-        file.write(f"\n\n<!-- more -->")
+        file.write(f"\n\n<!-- more -->\n\n\n\n---\n\n")
+        # 添加"修改日期"和"创建日期"的内容
+        file.write(
+            f":material-clock-edit-outline:{{ title='修改日期' }} 更新于 {current_date_iso}\n"
+        )
+        file.write(
+            f":material-clock-plus-outline:{{ title='创建日期' }} 创建于 {current_date_iso}"
+        )
 
     # 打开新创建的文件
     os.system(f"start {file_path}")  # 适用于Windows系统
