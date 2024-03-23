@@ -147,7 +147,7 @@ content
 
    1. 我是嵌套注释的子注释 :man_raising_hand:
 
-#### 警戒注释
+#### 提示框注释
 
 !!! note annotate "注释(1)"
 
