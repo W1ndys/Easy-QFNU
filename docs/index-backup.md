@@ -46,22 +46,20 @@ icon: material/home
 }
 </style>
 
-??? note "加入催更群钉钉 ⑤ 群"
+??? note "加入催更群云上曲园 ⑤ 群"
 
     <div class="centered-warning">
-        直接用**云上曲园**扫码即可
+        直接用**云上曲园**扫码即可，或者复制群号`79680003880`搜索
         ![云上曲园五群](./groups/5.png)
     </div>
 
-??? note "加入催更群微信 ⑥ 群"
+??? note "加入催更群云上曲园 ⑥ 群"
 
-    <div class="centered-warning">
-        直接用**云上曲园**扫码即可
+    该群未开放
+    <!-- <div class="centered-warning">
+        直接用**云上曲园**扫码即可,或者复制群号`76975002069`搜索
         ![云上曲园六群](./groups/6.png)
-    </div>
-
-
-
+    </div> -->
 
 ---
 
