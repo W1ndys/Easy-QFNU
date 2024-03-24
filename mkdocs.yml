@@ -154,7 +154,7 @@ extra_css:
   - stylesheets/code.css
   - stylesheets/icons-emojis.css
   - stylesheets/tasklist.css
-  - stylesheets/abmonition.css
+  - stylesheets/admonition.css
   - stylesheets/status.css
 
 # 附加的JS文件
@@ -234,6 +234,10 @@ extra:
     - icon: simple/cloudflare
       name: Cloudflare提供部署服务
       link: https://www.cloudflare.com/
+
+    - icon: W1ndys/51la
+      name: 51la提供统计服务
+      link: https://v6.51.la/report/daily?comId=409689
 
 # =============================================================================================================================
 
