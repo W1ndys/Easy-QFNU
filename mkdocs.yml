@@ -219,6 +219,10 @@ extra:
       link: https://blog.w1ndys.top/
       name: 作者博客
 
+    - icon: simple/materialformkdocs
+      name: Material for MkDocs提供搭建文档服务
+      link: https://squidfunk.github.io/mkdocs-material/
+
     - icon: simple/vercel
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
