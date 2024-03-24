@@ -179,13 +179,13 @@ extra:
   homepage: /
 
   # Cookie
-  consent:
-    title: Cookie同意
-    description: >
-      我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
-      <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
-    cookies:
-      analytics: 51.la
+  # consent:
+  #   title: Cookie同意
+  #   description: >
+  #     我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
+  #     <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
+  #   cookies:
+  #     analytics: 51.la
       # custom: Custom cookie    # 自定义cookies接受项目
 
   # 统计
