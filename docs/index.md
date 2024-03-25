@@ -7,7 +7,7 @@ tags: [test1, test2]
 
 ## **选课指北**
 
-<span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：[https://blog.w1ndys.top/posts/216d9006.html](https://blog.w1ndys.top/posts/216d9006.html)</span>
+<span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：</span>[https://blog.w1ndys.top/posts/216d9006.html](https://blog.w1ndys.top/posts/216d9006.html){:target="\_blank"}
 
 下面是关于选课指北的小背景
 
@@ -40,7 +40,7 @@ tags: [test1, test2]
 
 速通指南的宗旨是：尽可能提到你在学校可能遇到的各种问题，并给出相关解释或解决办法。
 
-传送门：[https://stzn.qfnu.w1ndys.top](https://stzn.qfnu.w1ndys.top)
+传送门：[https://stzn.qfnu.w1ndys.top](https://stzn.qfnu.w1ndys.top){:target="\_blank"}
 
 但是现在也是初步完善阶段，许许多多的内容等待完善。
 
