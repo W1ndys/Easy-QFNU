@@ -1,6 +1,6 @@
 ---
 comments: true
-tags: [test1, test2]
+tags: [首页, 首页集]
 ---
 
 # 曲阜师范大学选课指北文档站首页
