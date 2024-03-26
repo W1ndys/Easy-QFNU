@@ -1,6 +1,7 @@
 ---
 comments: true
 icon: material/home
+tags: [首页]
 ---
 
 # 曲阜师范大学选课指北
