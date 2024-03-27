@@ -476,7 +476,6 @@ plugins:
   - git-committers:
       repository: W1ndys/xkzb.qfnu.w1ndys.top
       branch: main
-      enabled: !ENV [CI, false]
 
   # # 作者插件，感觉不如上面那个好
   # - git-authors
