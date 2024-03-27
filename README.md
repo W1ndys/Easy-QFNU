@@ -14,7 +14,7 @@ Power by mkdocs-material
 
 2. [https://n.xkzb.qfnu.w1ndys.top/](https://n.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
 
-3. [https://n.xkzb.qfnu.w1ndys.top/](https://n.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
+3. [https://r.xkzb.qfnu.w1ndys.top/](https://r.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
 
 4. [https://c.xkzb.qfnu.w1ndys.top/](https://c.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像1次之）
 
