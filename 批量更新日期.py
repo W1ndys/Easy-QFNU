@@ -2,6 +2,14 @@ import os
 import re
 import datetime
 
+# ANSI颜色码
+COLOR_RED = '\033[91m'
+COLOR_GREEN = '\033[92m'
+COLOR_BLUE = '\033[94m'
+COLOR_END = '\033[0m'
+
+def print_color(text, color):
+    print(f"{color}{text}{COLOR_END}")
 
 def update_markdown_files(dir_path, exclude_paths):
     # 遍历docs目录下的所有文件
@@ -12,7 +20,7 @@ def update_markdown_files(dir_path, exclude_paths):
 
             # 判断文件路径是否在排除列表中
             if file_path in exclude_paths:
-                print(f"\n跳过文件：{file_path}")
+                print_color(f"\n跳过文件：{file_path}", COLOR_BLUE)
                 continue
 
             if file.endswith(".md"):
@@ -54,7 +62,7 @@ def update_markdown_files(dir_path, exclude_paths):
                                     lines[i].strip()
                                     == f':material-clock-edit-outline:{{ title="修改日期" }} {modify_time}'
                                 ):
-                                    print(f"\n{file_path} 日期已是最新\n")
+                                    print_color(f"\n{file_path} 日期已是最新\n", COLOR_GREEN)
                                     break
                                 else:
                                     lines[i] = (
@@ -62,8 +70,8 @@ def update_markdown_files(dir_path, exclude_paths):
                                     )
                                     f.seek(0)
                                     f.writelines(lines)
-                                    print(
-                                        f"\n{file_path} 日期已修改，修改后的日期为：{modify_time}\n"
+                                    print_color(
+                                        f"\n{file_path} 日期已修改，修改后的日期为：{modify_time}\n", COLOR_GREEN
                                     )
                                     break
                     elif has_update_date and not has_create_date:
@@ -78,8 +86,8 @@ def update_markdown_files(dir_path, exclude_paths):
                                 )
                                 f.seek(0)
                                 f.writelines(lines)
-                                print(
-                                    f"\n{file_path} 已覆盖原有修改日期数据，修改后的日期为：{modify_time}\n"
+                                print_color(
+                                    f"\n{file_path} 已覆盖原有修改日期数据，修改后的日期为：{modify_time}\n", COLOR_GREEN
                                 )
                                 break
                     else:
@@ -91,7 +99,7 @@ def update_markdown_files(dir_path, exclude_paths):
                         )
                         f.seek(0)
                         f.writelines(lines)
-                        print(f"\n{file_path} 无日期，已添加\n")
+                        print_color(f"\n{file_path} 无日期，已添加\n", COLOR_GREEN)
 
 
 if __name__ == "__main__":
