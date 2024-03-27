@@ -500,6 +500,7 @@ nav:
       - 捐助: about/reward.md
       - 关于我们: about/about.md
   - 快速开始: start/index.md
+      - 数据提交: start/Data-submission.md
   - 选课指北2:
       - 关于我们: about/about.md
       - 导航测试: others/links.md
