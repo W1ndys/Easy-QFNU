@@ -473,9 +473,9 @@ plugins:
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
   # 这个功能会让本地提示变得非常慢，本地调试时建议关闭，此处包含Github-API令牌，以后考虑会不会闭源处理
   # 嘻嘻，令牌已经加权限了，只有读权限
-  - git-committers:
-      repository: W1ndys/xkzb.qfnu.w1ndys.top
-      branch: main
+  # - git-committers:
+  #     repository: W1ndys/xkzb.qfnu.w1ndys.top
+  #     branch: main
 
   # # 作者插件，感觉不如上面那个好
   # - git-authors

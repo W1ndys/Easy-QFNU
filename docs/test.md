@@ -1,7 +1,7 @@
 ---
-title: "测试页面"
+title: 测试页面
 comments: true
-description: "测试页面"
+description: 测试页面
 icon: material/test-tube
 status: test
 template: test.html
@@ -92,6 +92,7 @@ content
 
 ## 提示框
 
+
 !!! note "笔记"
 
     默认样式
@@ -139,13 +140,13 @@ content
 
 #### 嵌套注释
 
-嵌套注释(1)
-{.annotate}
+嵌套注释 (1)
+{ .annotate }
 
-1. 我是一个嵌套注释(1) :man_raising_hand:
-   {.annotate}
+1.  我是一个嵌套注释 (1) :man_raising_hand:
+    { .annotate }
 
-   1. 我是嵌套注释的子注释 :man_raising_hand:
+    1.  我是嵌套注释的子注释 :man_raising_hand:
 
 #### 提示框注释
 

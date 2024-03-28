@@ -15,7 +15,7 @@ comments: true
 
 2024 年 2 月 19 日起，捐助名单独立列出
 
-![](./vxzfb_reward.png)
+![捐助](./vxzfb_reward.png)
 
 ---
 
