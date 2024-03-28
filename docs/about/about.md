@@ -5,17 +5,18 @@ comments: true
 <!-- 在有网格卡片的页面中，万万不可使用格式化 -->
 <div class="grid cards" markdown>
 
--   :material-home: 我的主页
+-   :material-home: [作者主页](https://w1ndys.top/){:target="\_blank"}
 
 	---
 
-     [https://w1ndys.top/](https://w1ndys.top/)
-
--   :fontawesome-solid-blog: 我的博客
+	![](www.w1ndys.top.png)
+    
+-   :fontawesome-solid-blog: [作者博客](https://blog.w1ndys.top/){:target="\_blank"}
 
 	---
-
-     [https://blog.w1ndys.top/](https://blog.w1ndys.top/)
+	
+   	![](blog.w1ndys.top.png)
+   	
 
 -   test
 
