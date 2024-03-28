@@ -92,7 +92,6 @@ content
 
 ## 提示框
 
-
 !!! note "笔记"
 
     默认样式
@@ -521,40 +520,19 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 <div class="grid cards" markdown>
 
-- :material-clock-fast:{ .lg .middle } **Set up in 5 minutes**
+-   内容1
 
-  ***
+-   内容2
 
-  Install [`mkdocs-material`](#) with [`pip`](#) and get up
-  and running in minutes
+-   这里的内容可以自定义HTML以及Markdown格式
 
-  [:octicons-arrow-right-24: Getting started](#)
+-   :material-check: **Check**
 
-- :fontawesome-brands-markdown:{ .lg .middle } **It's just Markdown**
+-   不要格式化，会排版错误
 
-  ***
-
-  Focus on your content and generate a responsive and searchable static site
-
-  [:octicons-arrow-right-24: Reference](#)
-
-- :material-format-font:{ .lg .middle } **Made to measure**
-
-  ***
-
-  Change the colors, fonts, language, icons, logo and more with a few lines
-
-  [:octicons-arrow-right-24: Customization](#)
-
-- :material-scale-balance:{ .lg .middle } **Open Source, MIT**
-
-  ***
-
-  Material for MkDocs is licensed under MIT and available on [GitHub]
-
-  [:octicons-arrow-right-24: License](#)
 
 </div>
+
 
 ### 块语法
 
@@ -753,5 +731,5 @@ The HTML specification is maintained by the W3C.
 
 ---
 
-:material-clock-edit-outline:{ title="修改日期" } 2024-03-23
+:material-clock-edit-outline:{ title="修改日期" } 2024-03-28
 :material-clock-plus-outline:{ title="创建日期" } 2024-02-29
