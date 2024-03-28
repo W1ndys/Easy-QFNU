@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/about/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/about/about.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/about/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/test.md"
+                "file": "docs/about/about.md"
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -162,13 +162,13 @@
   },
   "active": "8197a931ba7a98fe",
   "lastOpenFiles": [
+    "docs/test.md",
     "docs/about/about.md",
     "docs/about/agreement.md",
     "docs/about/vxzfb_reward.png",
     "docs/about/reward.md",
     "docs/groups/6.png",
     "docs/groups/5.png",
-    "docs/test.md",
     "格式化新建md.py",
     "未命名.canvas",
     "README.md",
