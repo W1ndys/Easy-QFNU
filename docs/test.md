@@ -208,7 +208,7 @@ print("hello world!")
 
 ### 添加标题代码块
 
-```py title="自定义标题"
+```Python title="自定义标题"
 print("hello world!")
 ```
 
