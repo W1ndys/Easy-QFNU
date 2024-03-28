@@ -1,3 +1,6 @@
+---
+comments: true
+---
 # Pull request
 
 > 推荐会pr的同学使用这种方法，方便快捷，有四端bot检查语法，自动化，安全性极高
