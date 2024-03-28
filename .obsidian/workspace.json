@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fcdf8f3941fc00c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/about/about.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/about/about.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/about/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/test.md"
+                "file": "docs/about/about.md"
               }
             }
           }
@@ -147,10 +160,10 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "b21081279fbdf7dd",
+  "active": "fcdf8f3941fc00c7",
   "lastOpenFiles": [
-    "includes/abbreviations.md",
     "docs/test.md",
+    "includes/abbreviations.md",
     "docs/about/about.md",
     "docs/about/agreement.md",
     "docs/about/vxzfb_reward.png",
