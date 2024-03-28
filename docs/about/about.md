@@ -2,6 +2,7 @@
 comments: true
 ---
 
+<!-- 在有网格卡片的页面中，万万不可使用格式化 -->
 <div class="grid cards" markdown>
 
 -   :material-home: 我的主页
