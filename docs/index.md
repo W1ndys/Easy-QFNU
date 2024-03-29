@@ -4,8 +4,8 @@ tags:
   - 首页
   - 首页集
 hide:
-  - source
-edit_url: ""
+  - view.source
+  - edit.page
 ---
 
 # 曲阜师范大学选课指北
