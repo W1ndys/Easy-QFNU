@@ -1,6 +1,9 @@
 ---
 icon: material/pen
 comments: true
+hide:
+    - view
+    - edit
 ---
 
 <div class="grid cards" markdown>
