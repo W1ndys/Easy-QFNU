@@ -18,6 +18,8 @@ def print_color(text, color):
 def update_markdown_files(dir_path, exclude_paths):
     # 遍历docs目录下的所有文件
     for root, dirs, files in os.walk(dir_path):
+        # 移除排除路径中的目录
+        dirs[:] = [d for d in dirs if os.path.join(root, d) not in exclude_paths]
         for file in files:
             # 获取文件的绝对路径
             file_path = os.path.join(root, file)
@@ -118,6 +120,9 @@ if __name__ == "__main__":
         os.path.join(docs_dir, "update", "index.md"),
         os.path.join(docs_dir, "tags.md"),
         os.path.join(docs_dir, "嵌入测试.md"),
+        # 添加要排除的目录
+        os.path.join(docs_dir, "example_directory"),
+        # os.path.join(docs_dir, "update"), # 排除更新日志的目录
     ]
     update_markdown_files(docs_dir, exclude_paths)
     input("按Ctrl+c退出程序...")
