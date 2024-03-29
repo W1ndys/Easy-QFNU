@@ -30,10 +30,10 @@ else:
         file.write(f"\n\n<!-- more -->\n\n\n\n---\n\n")
         # 添加"修改日期"和"创建日期"的内容
         file.write(
-            f":material-clock-edit-outline:{{ title='修改日期' }} 更新于 {current_date_iso}\n"
+            f":material-clock-edit-outline:{{ title='修改日期' }} {current_date_iso}\n"
         )
         file.write(
-            f":material-clock-plus-outline:{{ title='创建日期' }} 创建于 {current_date_iso}"
+            f":material-clock-plus-outline:{{ title='创建日期' }} {current_date_iso}"
         )
 
     # 打开新创建的文件
