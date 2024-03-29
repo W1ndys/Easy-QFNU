@@ -186,7 +186,7 @@ extra:
   #     <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
   #   cookies:
   #     analytics: 51.la
-      # custom: Custom cookie    # 自定义cookies接受项目
+  # custom: Custom cookie    # 自定义cookies接受项目
 
   # 统计
   analytics:
@@ -497,16 +497,14 @@ nav:
       - 首页[预备]: index-backup.md
       - 测试页面: test.md
       - 作者名单: authors.md
-      - 钉钉: others/dingtalk.md
       - 捐助: about/reward.md
       - 关于我们: about/about.md
   - 快速开始:
       - 快速开始: start/index.md
       - 数据提交: start/Data-submission.md
-  - 选课指北2:
-      - 关于我们: about/about.md
-      - 导航测试: others/links.md
   - 其他页面:
+      - 网站收藏: others/favorite-website.md
+      - 钉钉: others/dingtalk.md
       - Markdown-examples: others/markdown-examples.md
       - api-examples: others/api-examples.md
   - 更新日志:
