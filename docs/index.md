@@ -10,6 +10,7 @@ hide:
   - toc
   - edit
   - view
+template: hide_code.html
 ---
 
 # 曲阜师范大学选课指北
