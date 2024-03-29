@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/test.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/test.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -160,8 +160,9 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "056b9e50248352d1",
+  "active": "fcdf8f3941fc00c7",
   "lastOpenFiles": [
+    "docs/test.md",
     "Pages-icons.url",
     "icons.url",
     "新快捷方式.lnk",
@@ -180,7 +181,6 @@
     "docs/about/blog.w1ndys.top_.png",
     "docs/about/blog.w1ndys.top_.png.crdownload",
     "docs/about/www.w1ndys.top_.png",
-    "docs/test.md",
     "includes/abbreviations.md",
     "docs/about/about.md",
     "docs/about/agreement.md",
@@ -188,7 +188,6 @@
     "docs/about/reward.md",
     "docs/groups/6.png",
     "docs/groups/5.png",
-    "格式化新建md.py",
     "未命名.canvas",
     "README.md",
     "docs/嵌入测试.md",

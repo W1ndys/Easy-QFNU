@@ -491,17 +491,16 @@ watch:
 
 #
 nav:
-  - 选课指北:
-      - 首页: index.md
-      - 用户协议: about/agreement.md
+  - 选课指北: index.md
+  - 快速开始:
+      - 快速开始: start/index.md
       - 首页[预备]: index-backup.md
       - 测试页面: test.md
       - 作者名单: authors.md
+      - 数据提交: start/Data-submission.md
+      - 用户协议: about/agreement.md
       - 捐助: about/reward.md
       - 关于我们: about/about.md
-  - 快速开始:
-      - 快速开始: start/index.md
-      - 数据提交: start/Data-submission.md
   - 其他页面:
       - 网站收藏: others/favorite-website.md
       - 钉钉: others/dingtalk.md
