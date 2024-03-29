@@ -4,12 +4,8 @@ tags:
   - 首页
   - 首页集
 hide:
-  - tags
-  - navigation
-  - footer
-  - toc
-  - edit
-  - view
+  - source
+edit_url: ""
 ---
 
 # 曲阜师范大学选课指北
