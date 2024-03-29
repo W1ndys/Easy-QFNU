@@ -1,15 +1,16 @@
 ---
+title:
 comments: true
 tags:
   - 首页
   - 首页集
 hide:
   - tags
-  - edit
-  - footer
-  - view
   - navigation
+  - footer
   - toc
+  - edit
+  - view
 ---
 
 # 曲阜师范大学选课指北文档站首页
