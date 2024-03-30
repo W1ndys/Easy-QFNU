@@ -499,6 +499,10 @@ nav:
       - 用户协议: about/agreement.md
       - 捐助: about/reward.md
       - 关于我们: about/about.md
+  - 网安专区: cyber/index.md
+  - 数科专区: math/index.md
+  - 文院专区: chinese/index.md
+  - 化院专区: chemistry/index.md
   - 其他页面:
       - 网站收藏: others/favorite-website.md
       - 钉钉: others/dingtalk.md
