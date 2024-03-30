@@ -19,8 +19,8 @@ comments: true
 
 ---
 
-:material-clock-edit-outline:{{ title="修改日期" }} 更新于 {current_date}
-:material-clock-plus-outline:{{ title="创建日期" }} 创建于 {current_date}
+:material-clock-edit-outline:{{ title="修改日期" }} {current_date}
+:material-clock-plus-outline:{{ title="创建日期" }} {current_date}
 """
 
     # 写入Markdown文件
