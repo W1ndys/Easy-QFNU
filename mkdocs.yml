@@ -27,6 +27,43 @@ copyright: Copyright &copy; 2023 - 2024 W1ndys
 
 # =============================================================================================================================
 
+
+# 首页配置
+home_cover_image: assets/images/home/image1.png # This path starts at your root mkdocs directory.
+home_tagline: 曲阜师范大学选课指北
+home_description: |
+  曲阜师范大学选课指北description
+
+# 背景颜色
+home_gradient_hsla: hsl(0deg 0% 0% / 44%) # Default Green: hsla(160deg,47%,55%,1)
+
+# 按钮配置
+home_button1_name: 快速开始 # Comment this parameter out to remove the button.
+home_button1_url: start/ # This path starts at your root mkdocs directory.
+home_button1_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button1_icon: people # Options: "people", "gear", "image"
+home_button1_blurb: | # Short description of this button / section.
+  按钮描述1
+
+home_button2_name: 按钮2 # Comment this parameter out to remove the button.
+home_button2_url: Folder2/ # This path starts at your root mkdocs directory.
+home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button2_icon: gear # Options: "people", "gear", "image"
+home_button2_blurb: | # Short description of this button / section.
+  按钮描述2
+
+home_button3_name: 按钮3 # Comment this parameter out to remove the button.
+home_button3_url: Folder3/ # This path starts at your root mkdocs directory.
+home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
+home_button3_icon: image # Options: "people", "gear", "image"
+home_button3_blurb: | # Short description of this button / section.
+  按钮描述3
+
+# Homepage Code Execution
+home_execute_js: | # Javascript to execute when accessing the homepage
+  console.log("This is an example!");
+
+# =============================================================================================================================
 # 主题配置
 theme:
   language: zh
@@ -35,16 +72,18 @@ theme:
 
   # 调色板配置
   palette:
-    - scheme: default
-      primary: white
-      accent: blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 切换夜间模式
 
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: black
-      accent: blue
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: 切换亮色模式
@@ -460,7 +499,9 @@ plugins:
       background: white
       # 启用阴影效果
       shadow: true
-
+    
+  # 
+  - roamlinks 
   # 日期插件，由于这个日期插件耗费了我们太多精力，我们决定删除这个功能
   # - git-revision-date-localized:
   #     # enabled: !ENV [CI, false] # 本地关闭
@@ -471,9 +512,9 @@ plugins:
 
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
-  - git-committers:
-      repository: W1ndys/xkzb.qfnu.w1ndys.top
-      branch: main
+  # - git-committers:
+  #     repository: W1ndys/xkzb.qfnu.w1ndys.top
+  #     branch: main
 
   # # 作者插件，感觉不如上面那个好
   # - git-authors
