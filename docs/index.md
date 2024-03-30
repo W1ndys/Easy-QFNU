@@ -8,9 +8,7 @@ hide:
   - navigation
   - footer
   - toc
-  - edit
-  - view
-template: hide_code.html
+  - actions
 ---
 
 # 曲阜师范大学选课指北
