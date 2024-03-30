@@ -11,7 +11,7 @@ https://simpleicons.org/#/
 
 /*公告背景色*/
 .md-banner {
-    background-color: #6d2424;
+    background-color: #000000;
     color: var(--md-footer-fg-color);
     overflow: auto;
 }
@@ -25,9 +25,25 @@ https://simpleicons.org/#/
     margin: 1.5em 0;
 }
 
-[data-md-color-scheme="slate"] .md-typeset hr {
+.md-typeset a {
+    color: #1d9cf9;
+    word-break: break-word;
+}
+
+[data-md-color-scheme="brown"] .md-typeset hr {
     border-bottom: 0.05rem solid #ffffff;
     /* 暗色模式下的边框颜色 */
     display: flow-root;
     margin: 1.5em 0;
+}
+
+
+
+/*主题颜色*/
+[data-md-color-primary=brown] {
+    --md-primary-fg-color: #6D2424;
+    --md-primary-fg-color--light: #8d6e62;
+    --md-primary-fg-color--dark: #5d4037;
+    --md-primary-bg-color: #fff;
+    --md-primary-bg-color--light: #ffffffb3;
 }
