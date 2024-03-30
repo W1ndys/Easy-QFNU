@@ -190,7 +190,7 @@ extra:
 
   # 统计
   analytics:
-    provider: custom
+    provider: analytics
 
   # 状态页
   status:
