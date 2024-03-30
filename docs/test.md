@@ -4,7 +4,7 @@ comments: true
 description: 测试页面
 icon: material/test-tube
 status: test
-template: test.html
+template: noannounce.html
 ---
 
 # 测试页面
