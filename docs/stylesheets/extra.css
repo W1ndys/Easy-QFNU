@@ -47,3 +47,8 @@ https://simpleicons.org/#/
     --md-primary-bg-color: #fff;
     --md-primary-bg-color--light: #ffffffb3;
 }
+
+/* 外部 CSS 文件 */
+.home-link {
+    color: #fff !important; /* 设置为黑色并使用 !important 来覆盖外部样式 */
+}
