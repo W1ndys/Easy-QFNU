@@ -2,7 +2,7 @@
 # =============================================================================================================================
 
 # 站点名称
-site_name: 曲阜师范大学选课指北
+site_name: Easy-QFNU
 
 # 站点URL
 site_url: https://xkzb.qfnu.w1ndys.top/
@@ -29,9 +29,9 @@ copyright: Copyright &copy; 2023 - 2024 W1ndys
 
 # # 首页配置
 # home_cover_image: assets/images/home/image1.png # This path starts at your root mkdocs directory.
-# home_tagline: 曲阜师范大学选课指北
+# home_tagline: Easy-QFNU
 # home_description: |
-#   曲阜师范大学选课指北description
+#   Easy-QFNUdescription
 
 # # 背景颜色
 # home_gradient_hsla: hsl(0deg 0% 0% / 44%) # Default Green: hsla(160deg,47%,55%,1)
@@ -509,9 +509,9 @@ plugins:
 
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
-  # - git-committers:
-  #     repository: W1ndys/xkzb.qfnu.w1ndys.top
-  #     branch: main
+  - git-committers:
+      repository: W1ndys/xkzb.qfnu.w1ndys.top
+      branch: main
 
   # # 作者插件，感觉不如上面那个好
   # - git-authors
