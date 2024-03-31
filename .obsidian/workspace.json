@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/update/posts/2024年03月31日.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "31",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/update/posts/2024年03月31日.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/update/posts/2024年03月31日.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/update/posts/2024年03月31日.md"
               }
             }
           }
@@ -162,6 +163,7 @@
   },
   "active": "fcdf8f3941fc00c7",
   "lastOpenFiles": [
+    "docs/index.md",
     "docs/test.md",
     "Pages-icons.url",
     "icons.url",
@@ -191,7 +193,6 @@
     "未命名.canvas",
     "README.md",
     "docs/嵌入测试.md",
-    "docs/index.md",
     "docs/api-examples.md"
   ]
 }
