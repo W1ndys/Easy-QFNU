@@ -1,4 +1,4 @@
-# 曲师大选课指北
+# 曲阜师范大学Easy QFNU官方文档
 
 Powered by mkdocs-material
 
@@ -8,18 +8,23 @@ Powered by mkdocs-material
 
 本项目框架的采用灵感来自于 [@ProbiusOfficial](https://github.com/ProbiusOfficial/) 的 [Hello-CTF](https://github.com/ProbiusOfficial/Hello-CTF/)
 
-主站:[https://xkzb.qfnu.w1ndys.top/](https://xkzb.qfnu.w1ndys.top/)（全自动部署，数据最先更新）
+主站:[https://ezqfnu.w1ndys.top/](https://xkzb.qfnu.w1ndys.top/)（全自动部署，数据最先更新）
 
-镜像站:
+---
 
-1. [https://w1ndys.gitee.io/xkzb.qfnu.w1ndys.top/](https://w1ndys.gitee.io/xkzb.qfnu.w1ndys.top/) (速度快，但不自动同步，更新有延迟)
+以下暂不可用
 
-2. [https://n.xkzb.qfnu.w1ndys.top/](https://n.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）
 
-3. [https://r.xkzb.qfnu.w1ndys.top/](https://r.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）
+~镜像站:~
 
-4. [https://c.xkzb.qfnu.w1ndys.top/](https://c.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）
+~1. [https://w1ndys.gitee.io/xkzb.qfnu.w1ndys.top/](https://w1ndys.gitee.io/xkzb.qfnu.w1ndys.top/) (速度快，但不自动同步，更新有延迟)~
 
-5. [https://v.xkzb.qfnu.w1ndys.top/](https://v.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）
+~2. [https://n.xkzb.qfnu.w1ndys.top/](https://n.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）~
 
-6. [https://xkzb-qfnu-w1ndys-top.vercel.app/](https://xkzb-qfnu-w1ndys-top.vercel.app/)(境外高速站点)
+~3. [https://r.xkzb.qfnu.w1ndys.top/](https://r.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）~
+
+~4. [https://c.xkzb.qfnu.w1ndys.top/](https://c.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）~
+
+~5. [https://v.xkzb.qfnu.w1ndys.top/](https://v.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）~
+
+~6. [https://xkzb-qfnu-w1ndys-top.vercel.app/](https://xkzb-qfnu-w1ndys-top.vercel.app/)(境外高速站点)~
