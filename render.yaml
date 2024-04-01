@@ -1,1 +1,7 @@
+# render.yaml
 
+services:
+  - name: web
+    buildCommand: mkdocs build
+    startCommand: ''
+    publishDir: site
