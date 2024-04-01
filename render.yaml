@@ -1,4 +1,4 @@
-# Exported from Render on 2024-04-01T12:37:47Z
+# Exported from Render on 2024-04-01T12:39:08Z
 services:
 - type: web
   name: ezqfnu.w1ndys.top
@@ -7,7 +7,7 @@ services:
   branch: main
   envVars:
   - key: MKDOCS_GIT_COMMITTERS_APIKEY
-    sync: true
+    sync: false
   buildCommand: pip install -r requirements.txt && mkdocs build
   staticPublishPath: site
   domains:
