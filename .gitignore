@@ -4,3 +4,4 @@ dist
 site
 encryptcontent.cache
 .cache
+.obsidian
