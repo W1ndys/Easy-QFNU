@@ -1,7 +1,13 @@
-# render.yaml
-
+# Exported from Render on 2024-04-01T11:45:44Z
 services:
-  - name: web
-    buildCommand: mkdocs build
-    startCommand: ''
-    publishDir: site
+- type: web
+  name: ezqfnu.w1ndys.top
+  runtime: static
+  repo: https://github.com/W1ndys/ezqfnu.w1ndys.top
+  branch: main
+  envVars:
+  - key: MKDOCS_GIT_COMMITTERS_APIKEY
+    sync: false
+  buildCommand: pip install -r requirements.txt && mkdocs build
+  staticPublishPath: site
+version: "1"
