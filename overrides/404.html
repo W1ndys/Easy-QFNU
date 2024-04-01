@@ -4,68 +4,39 @@
 {% endblock %}
 
 {% block content %}
-<!DOCTYPE html>
-<html>
+<style>
+    .btn {
+        color: rgb(255, 255, 255);
+        /* 使用CSS变量定义按钮文字颜色 */
+        background-color: #6D2424;
+        /* 使用CSS变量定义按钮背景颜色 */
+        border-radius: 5px;
+        /* 添加圆角边框 */
+        padding: 10px 20px;
+        /* 添加内边距 */
+        display: inline-block;
+        /* 使按钮成为内联块级元素 */
+        margin-right: 10px;
+        /* 添加右边界距离 */
+    }
 
-<head>
-    <meta charset="utf-8">
-    <title>页面未找到</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mkdocs-material/dist/css/material.min.css">
-    <style>
-        body {
-            /* display: flex; */
-            /* align-items: center; */
-            /* justify-content: center; */
-            /* height: 100vh; */
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
+    [data-md-color-scheme="default"] p,
+    h1 {
+        color: black;
+    }
 
-        .content {
-            /* text-align: center; */
-            margin: 100px auto;
-            /* 调整内容居中 */
-            max-width: 600px;
-            /* 可选：限制内容最大宽度 */
-        }
+    [data-md-color-scheme="brown"] p,
+    h1 {
+        color: white;
+    }
+</style>
 
+<div class="content">
+    <h1>404 Not Found 页面未找到</h1>
+    <p>很抱歉，您访问的页面不存在。（不存在就是正在施工啊歪！）</p>
+    <a href="mailto:w1ndys@outlook.com">如有任何需要请联系网站所有者邮箱：w1ndys@outlook.com</a>
+    <p><a class="btn home-link" href="/">返回首页</a></p>
+</div>
 
-        h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #6D2424;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="content">
-        <h1>页面未找到</h1>
-        <p>很抱歉，您访问的页面不存在。（不存在就是正在施工啊歪！）</p>
-        <a href="mailto:w1ndys@outlook.com">如有任何需要请联系网站所有者邮箱：w1ndys@outlook.com</a>
-        <p><a class="btn home-link" href="/">返回首页</a></p>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/mkdocs-material/dist/js/material.min.js"></script>
-</body>
-
-</html>
+<script src="https://cdn.jsdelivr.net/npm/mkdocs-material/dist/js/material.min.js"></script>
 {% endblock %}
