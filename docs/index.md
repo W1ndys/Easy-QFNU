@@ -12,6 +12,53 @@ hide:
   - actions
 ---
 
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-newspaper: NEWS
+
+    ---
+
+    这里用来放一些最新消息，更新日志等之类的
+
+-   :octicons-alert-16: 公告
+
+    ---
+
+    这里用来放公告
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-battery-charging-wireless-outline: 使用须知
+
+    ---
+
+    这里用来放一些站点的使用须知和教程
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br>
+
+<font color="red">下面是以前的 index.md</font>
+
+---
+
 # Easy-QFNU
 
 ## **选课指北**
