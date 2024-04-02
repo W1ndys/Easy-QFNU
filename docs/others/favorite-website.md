@@ -63,9 +63,85 @@ comments: true
 
     [https://cyber.qfnu.edu.cn/](https://cyber.qfnu.edu.cn/){:target="_blank"}
 
-     曲阜师范大学网络空间学院官网
+    曲阜师范大学网络空间学院官网
+
+
+-   知新教管平台
+
+    ---
+
+    [https://stu.z-xin.net/](https://stu.z-xin.net/){:target="_blank"}
+
+-   曲阜师范大学图书馆预约系统
+
+    ---
+
+    [http://libyy.qfnu.edu.cn/](http://libyy.qfnu.edu.cn/){:target="_blank"}
+
+-   智慧树网/知到
+
+    ---
+
+    [https://www.zhihuishu.com/#/](https://www.zhihuishu.com/#/){:target="_blank"}
+
+-   学习通
+
+    ---
+
+    [https://passport2.chaoxing.com/login/#/](https://passport2.chaoxing.com/login/#/){:target="_blank"}
+
+-   长江雨课堂
+
+    ---
+
+    [https://changjiang.yuketang.cn/web#/](https://changjiang.yuketang.cn/web#/){:target="_blank"}
+
+-   U校园
+
+    ---
+
+    [https://u.unipus.cn/](https://u.unipus.cn/){:target="_blank"}
+
+-   Welearn
+
+    ---
+
+    [https://welearn.sflep.com/index.aspx](https://welearn.sflep.com/index.aspx){:target="_blank"}
+
+-   fif口语
+
+    ---
+
+    [https://www.fifedu.com/iplat/html/index.html#/](https://www.fifedu.com/iplat/html/index.html#/){:target="_blank"}
+
+-   iwrite英语写作 
+
+    ---
+
+    [https://iwrite.unipus.cn/login#/](https://iwrite.unipus.cn/login#/){:target="_blank"}
+
+-   中国教育干部网络学院
+
+    ---
+
+    [https://study.enaea.edu.cn/login.do#/](https://study.enaea.edu.cn/login.do#/){:target="_blank"}
 
 </div>
+
+
+## Study Websites
+
+-   Pubscholar公益学术平台
+
+    ---
+
+    [https://pubscholar.cn/#/](https://pubscholar.cn/#/){:target="_blank"}
+
+-   chatGPT3.5官网
+
+    ---
+
+    [https://chat.openai.com/](https://chat.openai.com/){:target="_blank"}]
 
 ## Code Websites
 
