@@ -78,49 +78,49 @@ comments: true
 
     [http://libyy.qfnu.edu.cn/](http://libyy.qfnu.edu.cn/){:target="_blank"}
 
--   智慧树网/知到
+-   :material-pine-tree: 智慧树网/知到
 
     ---
 
     [https://www.zhihuishu.com/#/](https://www.zhihuishu.com/#/){:target="_blank"}
 
--   学习通
+-   :simple-studyverse: 学习通
 
     ---
 
     [https://passport2.chaoxing.com/login/#/](https://passport2.chaoxing.com/login/#/){:target="_blank"}
 
--   长江雨课堂
+-   :material-controller-classic: 长江雨课堂
 
     ---
 
     [https://changjiang.yuketang.cn/web#/](https://changjiang.yuketang.cn/web#/){:target="_blank"}
 
--   U校园
+-   :material-alpha-u: U校园
 
     ---
 
     [https://u.unipus.cn/](https://u.unipus.cn/){:target="_blank"}
 
--   Welearn
+-   :material-alpha-w: Welearn
 
     ---
 
     [https://welearn.sflep.com/index.aspx](https://welearn.sflep.com/index.aspx){:target="_blank"}
 
--   fif口语
+-   :material-alpha-f: fif口语
 
     ---
 
     [https://www.fifedu.com/iplat/html/index.html#/](https://www.fifedu.com/iplat/html/index.html#/){:target="_blank"}
 
--   iwrite英语写作 
+-   :material-alpha-i: iwrite英语写作 
 
     ---
 
     [https://iwrite.unipus.cn/login#/](https://iwrite.unipus.cn/login#/){:target="_blank"}
 
--   中国教育干部网络学院
+-   :flag_cn: 中国教育干部网络学院
 
     ---
 
@@ -130,6 +130,8 @@ comments: true
 
 
 ## Study Websites
+
+<div class="grid cards" markdown>
 
 -   Pubscholar公益学术平台
 
@@ -141,7 +143,9 @@ comments: true
 
     ---
 
-    [https://chat.openai.com/](https://chat.openai.com/){:target="_blank"}]
+    [https://chat.openai.com/](https://chat.openai.com/){:target="_blank"}
+
+</div>
 
 ## Code Websites
 
