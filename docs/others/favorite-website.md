@@ -49,7 +49,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
--   QFNU
+-   :material-school: QFNU
 
     ---
 
@@ -57,7 +57,7 @@ comments: true
 
     曲阜师范大学官网
 
--   QFNU_cyber
+-   :material-ip-network: QFNU_cyber
 
     ---
 
@@ -66,13 +66,13 @@ comments: true
     曲阜师范大学网络空间学院官网
 
 
--   知新教管平台
+-   :material-account-file: 知新教管平台
 
     ---
 
     [https://stu.z-xin.net/](https://stu.z-xin.net/){:target="_blank"}
 
--   曲阜师范大学图书馆预约系统
+-   :material-library: 曲阜师范大学图书馆预约系统
 
     ---
 
@@ -194,6 +194,13 @@ comments: true
     [https://www.51.la/](https://www.51.la/){:target="_blank"}
 
     统计网站访问量
+
+-   :fontawesome-solid-code: 代码小抄
+
+    ---
+
+    [https://www.codecopy.cn/](https://www.codecopy.cn/){:target="_blank"}
+
 </div>
 
 ---
