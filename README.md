@@ -1,6 +1,6 @@
 # 曲阜师范大学Easy QFNU官方文档
 
-![](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top/?theme=light)
+![](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top/?theme=light){width=100px}
 
 Powered by mkdocs-material
 
