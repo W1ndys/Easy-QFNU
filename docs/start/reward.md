@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/handshake
 ---
 # 捐助页面
 
