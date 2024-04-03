@@ -19,7 +19,7 @@ https://simpleicons.org/#/
 /*这里是分割线的颜色*/
 
 [data-md-color-scheme="default"] .md-typeset hr {
-    border-bottom: 0.05rem solid #000000;
+    border-bottom: 0.05rem solid #cdcdcda3;
     /* 亮色模式下的边框颜色 */
     display: flow-root;
     margin: 1.5em 0;
@@ -48,13 +48,13 @@ https://simpleicons.org/#/
     --md-primary-bg-color--light: #ffffffb3;
 }
 
-/* 外部 CSS 文件 */
+/* 外部 CSS 文件 回到首页的按钮链接文字 */
 .home-link {
     color: #fff !important;
     /* 设置为黑色并使用 !important 来覆盖外部样式 */
 }
 
-/* Markdown内联块列表样式圆角和阴影 */
+/* Markdown内联块网格列表样式圆角和阴影 */
 .md-typeset .grid.cards>ol>li,
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
@@ -67,4 +67,21 @@ https://simpleicons.org/#/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* 修改阴影效果 */
     /* box-shadow: 水平偏移量 垂直偏移量 模糊半径 扩散半径 色值; */
+}
+
+* {
+    transition-property: color, background-color;
+    /* 设置过渡的属性 */
+    transition-duration: 0.5s;
+    /* 设置过渡的时间 */
+    transition-timing-function: ease;
+    /* 设置过渡的缓动函数 */
+}
+
+/* 屏蔽过渡效果 */
+p,
+h1,
+h2,
+hr {
+    transition: none !important;
 }
