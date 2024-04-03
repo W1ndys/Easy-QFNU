@@ -1,5 +1,4 @@
 ---
-icon: material/handshake
 comments: true
 ---
 # 用户协议
