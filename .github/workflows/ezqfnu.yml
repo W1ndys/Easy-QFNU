@@ -1,8 +1,7 @@
-name: ci 
+name: Mkdocs build
 on:
   push:
     branches:
-      - master 
       - main
 permissions:
   contents: write
