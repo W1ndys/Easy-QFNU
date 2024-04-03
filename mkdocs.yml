@@ -527,7 +527,7 @@ watch:
 
 #
 nav:
-  - 选课指北: index.md
+  - Easy QFNU: index.md
   - 快速开始:
       - 快速开始: start/index.md
       - 首页[预备]: index-backup.md
