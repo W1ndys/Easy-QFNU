@@ -18,13 +18,13 @@ hide:
 
     ---
 
-    这里用来放一些最新消息，更新日志等之类的
+    加急更新中………………
 
 -   :octicons-alert-16: __公告__
 
     ---
 
-    这里用来放公告
+    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/)点个 star :star:
 
 </div>
 
