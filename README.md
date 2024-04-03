@@ -1,6 +1,9 @@
 # 曲阜师范大学Easy QFNU官方文档
 
-![](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top/?theme=light)
+<div style="max-width: 100%; margin: 0 auto;">
+    <img src="https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
+
 
 Powered by mkdocs-material
 
