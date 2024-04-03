@@ -14,13 +14,13 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-newspaper: NEWS
+-   :fontawesome-solid-newspaper: __NEWS__
 
     ---
 
     这里用来放一些最新消息，更新日志等之类的
 
--   :octicons-alert-16: 公告
+-   :octicons-alert-16: __公告__
 
     ---
 
@@ -30,7 +30,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-battery-charging-wireless-outline: 使用须知
+-   :material-battery-charging-wireless-outline: __使用须知__
 
     ---
 
