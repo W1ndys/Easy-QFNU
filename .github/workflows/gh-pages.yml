@@ -18,22 +18,23 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.setup-pages.outputs.url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        id: setup-pages
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
-          path: '.'
+          name: site
+          path: site
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          buildCommand: "mkdocs build"
-          outputDirectory: "site"
-          installCommand: "pip install -r requirements.txt"
-          cleanUrls: true
+          token: ${{ secrets.GITHUB_TOKEN }}
+          timeout: 600
+          artifact_name: site
