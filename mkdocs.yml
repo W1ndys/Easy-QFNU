@@ -443,6 +443,8 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/plugins/search/#built-in-search-plugin
 plugins:
   - search:
+      enabled: true
+      lang: zh
       separator: '[\s\u200b\-]'
       pipeline:
         - stemmer # 词干提取器，将单词的前缀和后缀去除
