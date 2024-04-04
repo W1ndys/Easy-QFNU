@@ -3,8 +3,8 @@ function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
 }
 
-// 如果不是移动设备，则显示图像
-if (!isMobileDevice()) {
+// 如果不是移动设备，并且在首页，则显示图像
+if (!isMobileDevice() && window.location.pathname === '/') {
     // 创建图像元素
     var img = document.createElement("img");
     img.src = "https://tool.lu/netcard/"; // 设置图像的源
