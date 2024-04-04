@@ -65,19 +65,23 @@ comments: true
 
 <div class="grid cards" markdown>
 
-[我有推荐的老师](https://wj.qq.com/s2/12987247/cca3/)
+:simple-googlebard: [我有推荐的老师](https://wj.qq.com/s2/12987247/cca3/)
 {.card}
 
-[我有其他想提交的内容](https://wj.qq.com/s2/14427061/19b8/)
+:material-mother-heart: [我有其他想提交的内容](https://wj.qq.com/s2/14427061/19b8/)
 {.card}
 
 </div>
 
 ## 联系作者
 
-- 给我[发邮箱](mailto:w1ndys@outlook.com)
+<div class="grid cards" markdown>
 
-- [点击此处](https://qm.qq.com/q/jxkXeydtoA){target="\_blank" rel="noopener"}加我为 QQ 好友
+- :material-mail: 给我[发邮箱](mailto:w1ndys@outlook.com)
+
+- :material-qqchat: [点击此处](https://qm.qq.com/q/jxkXeydtoA){target="\_blank" rel="noopener"}加我为 QQ 好友
+
+</div>
 
 ---
 
