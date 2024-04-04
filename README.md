@@ -15,11 +15,7 @@ Powered by mkdocs-material
 
 主站:[https://ezqfnu.w1ndys.top/](https://xkzb.qfnu.w1ndys.top/)（全自动部署，数据最先更新）
 
-## 感谢本项目的源代码贡献者
 
-<a href="https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=W1ndys/ezqfnu.w1ndys.top" />
-</a>
 
 
 
@@ -41,3 +37,10 @@ Powered by mkdocs-material
 ~5. [https://v.xkzb.qfnu.w1ndys.top/](https://v.xkzb.qfnu.w1ndys.top/)（自动同步，但速度相对镜像 1 次之）~
 
 ~6. [https://xkzb-qfnu-w1ndys-top.vercel.app/](https://xkzb-qfnu-w1ndys-top.vercel.app/)(境外高速站点)~
+
+
+### 感谢本项目的源代码贡献者
+
+<a href="https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=W1ndys/ezqfnu.w1ndys.top" />
+</a>
