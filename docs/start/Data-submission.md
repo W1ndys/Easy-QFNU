@@ -23,7 +23,9 @@ comments: true
 <blockquote style="text-align:right">
 学习 Markdown 语法<strong>并不需要很长时间</strong>，一旦你知道如何使用它，你就可以在几乎所有地方使用  
 </blockquote>
+
 > <p align="right">———— Markdown 官方文档</p>
+
 
 > 什么是 HTML？答：[HTML 教程](https://www.w3school.com.cn/html/index.asp)
 
