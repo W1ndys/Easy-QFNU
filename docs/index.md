@@ -24,7 +24,7 @@ hide:
 
     ---
 
-    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/)点个 star :star:
+    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}，点个 star :star:
 
 </div>
 
