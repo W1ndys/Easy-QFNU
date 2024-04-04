@@ -1,5 +1,0 @@
-{
-    "build_command": "mkdocs build",
-    "start_command": "mkdocs serve -a 0.0.0.0:8000",
-    "output_dir": "site"
-}
