@@ -1,0 +1,4 @@
+{
+    "build_command": "pip install -r requirements.txt && mkdocs build",
+    "output_dir": "site"
+}
