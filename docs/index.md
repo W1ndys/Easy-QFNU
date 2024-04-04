@@ -14,44 +14,29 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-newspaper: __NEWS__
+- :fontawesome-solid-newspaper: **NEWS**
 
-    ---
+  ***
 
-    加急更新中………………
+  加急更新中………………
 
--   :octicons-alert-16: __公告__
+- :octicons-alert-16: **公告**
 
-    ---
+  ***
 
-    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}，点个 star :star:
+  欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}，点个 star :star:
 
 </div>
 
 <div class="grid cards" markdown>
 
--   :material-battery-charging-wireless-outline: __使用须知__
+- :material-battery-charging-wireless-outline: **使用须知**
 
-    ---
+  ***
 
-    这里用来放一些站点的使用须知和教程
+  这里用来放一些站点的使用须知和教程
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <br><br><br><br><br><br>
 
