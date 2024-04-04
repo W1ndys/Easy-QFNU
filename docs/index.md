@@ -1,9 +1,9 @@
 ---
 comments: true
 # template: home.html ## 留给后期
-tags:
-  - 首页
-  - 首页集
+# tags:
+#   - 首页
+#   - 首页集
 hide:
   - tags
   - navigation
@@ -11,6 +11,10 @@ hide:
   - toc
   - actions
 ---
+
+<div class="grid cards" markdown>
+
+</div>
 
 <div class="grid cards" markdown>
 
@@ -24,25 +28,26 @@ hide:
 
     ---
 
-    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}，点个 star :star:
-
-</div>
-
-<div class="grid cards" markdown>
+    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}点个star⭐
 
 -   :material-battery-charging-wireless-outline: __使用须知__
 
     ---
-
-    [如何使用发表评论]()
-
-    [如何参与编辑]()
-
-    [联系作者]()
     
-    [Github开源地址](https://github.com/W1ndys/ezqfnu.w1ndys.top/tree/gh-pages)
+    请善用搜索功能来寻找你想要的内容！！
+
+    [如何使用发表评论](){:target="\_blank"}
+
+    [如何参与编辑](){:target="\_blank"}
+
+    [联系作者](){:target="\_blank"}
+
+    [Github开源地址](https://github.com/W1ndys/ezqfnu.w1ndys.top/tree/gh-pages){:target="\_blank"}
+
 
 </div>
+
+
 
 <br><br><br><br><br><br>
 
