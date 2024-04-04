@@ -34,7 +34,13 @@ hide:
 
     ---
 
-    这里用来放一些站点的使用须知和教程
+    [如何使用发表评论]()
+
+    [如何参与编辑]()
+
+    [联系作者]()
+    
+    [Github开源地址](https://github.com/W1ndys/ezqfnu.w1ndys.top/tree/gh-pages)
 
 </div>
 
