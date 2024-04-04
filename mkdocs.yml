@@ -441,9 +441,9 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#/
   # 搜索插件
   # https://squidfunk.github.io/mkdocs-material/plugins/search/#built-in-search-plugin
+plugins:
   - search:
-      enabled: true
-      separator: '[\s\u200b\-]|[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;' # 正则表达式，汉语+特殊字符+案例变更+版本字符串+HTML
+      separator: '[\s\u200b\-]'
       pipeline:
         - stemmer # 词干提取器，将单词的前缀和后缀去除
         - stopWordFilter # 去除常用停用词
