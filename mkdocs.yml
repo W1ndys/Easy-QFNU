@@ -531,10 +531,10 @@ nav:
   - Easy QFNU: index.md
   - 快速开始:
       - 快速开始: start/index.md
+      - 数据提交: start/Data-submission.md
       - 首页[预备]: index-backup.md
       - 测试页面: test.md
-      - 作者名单: authors.md
-      - 数据提交: start/Data-submission.md
+      - 作者名单: start/authors.md
       - 用户协议: start/agreement.md
       - 捐助: about/reward.md
       - 关于我们: about/about.md
