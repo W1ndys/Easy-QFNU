@@ -443,6 +443,9 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/plugins/search/#built-in-search-plugin
   - search:
       enabled: true
+      lang: 
+         - zh
+         - en
       separator: '[\s\u200b\-]|[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;' # 正则表达式，汉语+特殊字符+案例变更+版本字符串+HTML
       pipeline:
         - stemmer # 词干提取器，将单词的前缀和后缀去除
