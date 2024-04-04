@@ -2,6 +2,6 @@
 
 *[HTML]: Hyper Text Markup Language
 
-*[W3C]: World Wide Web Consortium
-
 *[云上曲园]: 就是学校让下的那个办公APP，一个企业定制版钉钉
+
+*[Markdown]: Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。
