@@ -59,7 +59,7 @@ https://simpleicons.org/#/
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
     border: .05rem solid var(--md-default-fg-color--lightest);
-    border-radius: .9rem;
+    border-radius: .7rem;  /* 修改圆角大小 */
     display: block;
     margin: 0;
     padding: .80rem;
