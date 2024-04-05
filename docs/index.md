@@ -15,12 +15,11 @@ hide:
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
+-   :fontawesome-solid-newspaper: __NEWS__
 
-- :fontawesome-solid-newspaper: **NEWS**
+    ---
 
-      ---
-
-      加急更新中………………
+    加急更新中………………
 
   </div>
 
@@ -59,10 +58,9 @@ hide:
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
+-   :simple-github: __作者 Github__
 
-- :simple-github: **作者 Github**
-
-      [![作者Github主页](https://stats.deeptrain.net/user/W1ndys?theme=light)](https://github.com/W1ndys)
+    [![作者Github主页](https://stats.deeptrain.net/user/W1ndys?theme=light)](https://github.com/W1ndys)
 
   </div>
 
@@ -76,7 +74,7 @@ hide:
 <div class="grid cards" markdown>
 -   :material-hand-heart: __源代码贡献者__
 
-    [![贡献者](https://stats.deeptrain.net/contributor/W1ndys/ezqfnu.w1ndys.top/?column=8&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors)
+    [![贡献者](https://stats.deeptrain.net/contributor/W1ndys/ezqfnu.w1ndys.top/?column=6&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors)
 
 </div>
 
@@ -97,7 +95,7 @@ hide:
 
 # Easy-QFNU
 
-## **选课指北**
+## __选课指北__
 
 <span style="color:#FF0000;">该网站正在建设中，选课指北的运行地址为：</span>[https://blog.w1ndys.top/posts/216d9006.html](https://blog.w1ndys.top/posts/216d9006.html){:target="\_blank"}
 
@@ -126,9 +124,9 @@ hide:
 
 等方面陆续讲解上传
 
-## **速通指南**
+## __速通指南__
 
-大家比较耳熟能详的是选课指北，然而少有人知道，W1ndys 师傅的另一个公益项目“**曲阜师范大学速通指南**”。
+大家比较耳熟能详的是选课指北，然而少有人知道，W1ndys 师傅的另一个公益项目“__曲阜师范大学速通指南__”。
 
 速通指南的宗旨是：尽可能提到你在学校可能遇到的各种问题，并给出相关解释或解决办法。
 
