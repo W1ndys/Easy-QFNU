@@ -7,6 +7,11 @@ icon: material/coach-lamp
 
 ## 怎么发评论？
 
+### 再开始之前
+
+再开始之前，我有必要说一下如何稳定访问 Github 的问题，由于该网站在大陆属于半墙状态，所以有时候我们在国内对这个网站的访问是不稳定的，所以需要通过一些工具来加速，如果你有 VPN 的话，你可以跳过这句话，如果你没有，我推荐你使用[Watt Toolkit](https://steampp.net/#/)「Watt Toolkit」是一个开源跨
+平台的多功能 Steam 工具箱。虽然说是加速 Steam 的，但是他也可以加速 Github 的访问，以及网站的使用的一些公共 CDN，谷歌字体，也可以一并加速，所以说实际上，这个工具可以实现对本站的全站加速（但效果不如直接上 VPN 来的好）
+
 ### 评论系统介绍
 
 评论基于 [giscus](https://github.com/giscus/giscus) ，一个基于 GitHub Discussions 的评论系统。
