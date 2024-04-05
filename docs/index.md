@@ -32,7 +32,7 @@ hide:
 
     ---
 
-    欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}点个star⭐
+    欢迎给[本项目](https://github.com/W1ndys/Easy-QFNU/){:target="\_blank"}点个star⭐
 
 </div>
 
@@ -49,7 +49,7 @@ hide:
 
     [联系作者](){:target="\_blank"}
 
-    [Github开源地址](https://github.com/W1ndys/ezqfnu.w1ndys.top/tree/gh-pages){:target="\_blank"}
+    [Github开源地址](https://github.com/W1ndys/Easy-QFNU/tree/gh-pages){:target="\_blank"}
 
 </div>
 
@@ -57,31 +57,17 @@ hide:
 
 <div class="grid cards" markdown>
 
-<!-- <div class="grid cards" markdown>
--   :simple-github: __作者 Github__
-
-    [![作者Github主页](https://stats.deeptrain.net/user/W1ndys?theme=light)](https://github.com/W1ndys)
-
-  </div> -->
-
 <div class="grid cards" markdown>
--   :octicons-repo-16: __源代码主页__
+-   :octicons-repo-16: __源代码仓库概览__
 
-    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top)
+    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
 </div>
 
 <div class="grid cards" markdown>
 -   :material-hand-heart: __源代码贡献者__
 
-    [![贡献者](https://stats.deeptrain.net/contributor/W1ndys/ezqfnu.w1ndys.top/?column=6&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors)
-
-</div>
-
-<div class="grid cards" markdown>
--   :fontawesome-solid-tags: __最新版本__
-
-    [![最新版本](https://stats.deeptrain.net/release/W1ndys/ezqfnu.w1ndys.top/?tag=latest&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/releases/latest)
+    [![源代码贡献者](https://contrib.rocks/image?repo=W1ndys/ezqfnu.w1ndys.top)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
 
 </div>
 

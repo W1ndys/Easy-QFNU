@@ -8,10 +8,10 @@ site_name: Easy QFNU
 site_url: https://ezqfnu.w1ndys.top/
 
 # 仓库地址
-repo_url: https://github.com/W1ndys/ezqfnu.w1ndys.top/
+repo_url: https://github.com/W1ndys/Easy-QFNU/
 
 # 仓库名称
-repo_name: W1ndys/Easy QFNU
+repo_name: Easy QFNU
 
 # 仓库编辑地址
 edit_uri: edit/main/docs/
@@ -513,7 +513,7 @@ plugins:
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
   - git-committers:
-      repository: W1ndys/xkzb.qfnu.w1ndys.top
+      repository: W1ndys/Easy-QFNU
       branch: main
 
   # # 作者插件，感觉不如上面那个好
