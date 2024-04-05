@@ -77,7 +77,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/weather-sunny
-        name: 切换夜间模式
+        name: 开启夜间模式
 
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -85,7 +85,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/weather-night
-        name: 切换亮色模式
+        name: 关闭夜间模式
 
   # 字体配置
   font:
