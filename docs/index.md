@@ -14,26 +14,34 @@ hide:
 
 <div class="grid cards" markdown>
 
-</div>
+<div class="grid cards" markdown>
+
+- :fontawesome-solid-newspaper: **NEWS**
+
+      ---
+
+      加急更新中………………
+
+  </div>
+
+  </div>
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-newspaper: __NEWS__
-
-    ---
-
-    加急更新中………………
-
+<div class="grid cards" markdown>
 -   :octicons-alert-16: __公告__
 
     ---
 
     欢迎给[本项目](https://github.com/W1ndys/ezqfnu.w1ndys.top/){:target="\_blank"}点个star⭐
 
+</div>
+
+<div class="grid cards" markdown>
 -   :material-battery-charging-wireless-outline: __使用须知__
 
     ---
-    
+
     请善用搜索功能来寻找你想要的内容！！
 
     [如何使用发表评论](){:target="\_blank"}
@@ -44,10 +52,42 @@ hide:
 
     [Github开源地址](https://github.com/W1ndys/ezqfnu.w1ndys.top/tree/gh-pages){:target="\_blank"}
 
+</div>
 
 </div>
 
+<div class="grid cards" markdown>
 
+<div class="grid cards" markdown>
+
+- :simple-github: **作者 Github**
+
+      [![作者Github主页](https://stats.deeptrain.net/user/W1ndys?theme=light)](https://github.com/W1ndys)
+
+  </div>
+
+<div class="grid cards" markdown>
+-   :octicons-repo-16: __源代码主页__
+
+    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top)
+
+</div>
+
+<div class="grid cards" markdown>
+-   :material-hand-heart: __源代码贡献者__
+
+    [![贡献者](https://stats.deeptrain.net/contributor/W1ndys/ezqfnu.w1ndys.top/?column=8&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors)
+
+</div>
+
+<div class="grid cards" markdown>
+-   :fontawesome-solid-tags: __最新版本__
+
+    [![最新版本](https://stats.deeptrain.net/release/W1ndys/ezqfnu.w1ndys.top/?tag=latest&theme=light)](https://github.com/W1ndys/ezqfnu.w1ndys.top/releases/latest)
+
+</div>
+
+</div>
 
 <br><br><br><br><br><br>
 

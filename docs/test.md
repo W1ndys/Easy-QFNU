@@ -518,21 +518,56 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 不建议使用该写法，除非迫不得已
 
+2024 年 4 月 5 日更新，可以通过网格块语法嵌套来抵消格式化带来的麻烦，good! 感谢[Hello-CTF](https://hello-ctf.com/){target="_blank"}给我带来的灵感
+
 <div class="grid cards" markdown>
 
--   内容1
+<div class="grid cards" markdown>
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
--   内容2
+    ---
 
--   这里的内容可以自定义HTML以及Markdown格式
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
 
--   :material-check: **Check**
-
--   不要格式化，会排版错误
-
+    [:octicons-arrow-right-24: Getting started](#)
 
 </div>
 
+<div class="grid cards" markdown>
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+</div>
+
+<div class="grid cards" markdown>
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+</div>
+
+<div class="grid cards" markdown>
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+</div>
 
 ### 块语法
 
@@ -569,7 +604,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
     2. Donec vitae suscipit est
     3. Nulla tempor lobortis orci
 
-``` title="Content tabs"
+```title="Content tabs"
 === "Unordered list"
 
     * Sed sagittis eleifend rutrum
