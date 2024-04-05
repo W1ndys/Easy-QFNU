@@ -57,12 +57,12 @@ hide:
 
 <div class="grid cards" markdown>
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown>
 -   :simple-github: __作者 Github__
 
     [![作者Github主页](https://stats.deeptrain.net/user/W1ndys?theme=light)](https://github.com/W1ndys)
 
-  </div>
+  </div> -->
 
 <div class="grid cards" markdown>
 -   :octicons-repo-16: __源代码主页__
