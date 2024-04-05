@@ -4,6 +4,12 @@
     <img src="https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
 
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=W1ndys&repo=ezqfnu.w1ndys.top" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=W1ndys&repo=ezqfnu.w1ndys.top" />
+</a>
 
 Powered by mkdocs-material
 
