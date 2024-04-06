@@ -14,7 +14,7 @@ hide:
 
 
 <!-- 诗词一言接口，来自https://www.jinrishici.com/#/ -->
-
+<!-- 生产环境请注释掉，以免过高的访问次数导致封禁IP -->
 <div class="grid cards" markdown style="text-align: center;">
 -   
     <span id="jinrishici-sentence"  >正在加载今日诗词....</span>
