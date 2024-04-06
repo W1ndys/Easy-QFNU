@@ -12,6 +12,15 @@ hide:
   - actions
 ---
 
+
+<!-- 诗词一言接口，来自https://www.jinrishici.com/#/ -->
+<div class="grid cards" markdown style="text-align: center;">
+-   
+    <span id="jinrishici-sentence"  >正在加载今日诗词....</span>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
+</div>
+
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
@@ -63,8 +72,6 @@ hide:
 
 <div class="grid cards" markdown>
 -   :octicons-repo-16: **源代码仓库概览**
-    
-    ---
 
     [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
@@ -73,18 +80,9 @@ hide:
 <div class="grid cards" markdown>
 -   :material-hand-heart: **源代码贡献者**
 
-    ---
-
     [![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
 
-</div>
-
-<div class="grid cards" markdown>
--   :fontawesome-solid-tags: **最新版本**
-
-    ---
-
-    [![最新版本](https://stats.deeptrain.net/release/W1ndys/Easy-QFNU/?theme=light)](https://github.com/W1ndys/Easy-QFNU/releases/latest)
+    **向每一个为开源项目做出努力和贡献的人，致以崇高的敬意！！！**
 
 </div>
 
