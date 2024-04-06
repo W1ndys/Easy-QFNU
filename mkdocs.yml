@@ -5,7 +5,7 @@
 site_name: Easy QFNU
 
 # 站点URL
-site_url: !ENV [https://w1ndys.github.io/Easy-QFNU/,https://ezqfnu.vercel.app,https://ezqfnu.zeabur.app,https://ezqfnu.w1ndys.top/]
+site_url: https://w1ndys.github.io/Easy-QFNU/
 
 # 仓库地址
 repo_url: https://github.com/W1ndys/Easy-QFNU/
