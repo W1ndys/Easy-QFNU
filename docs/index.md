@@ -15,7 +15,7 @@ hide:
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
--   :fontawesome-solid-newspaper: __NEWS__
+-   :fontawesome-solid-newspaper: **NEWS**
 
     ---
 
@@ -32,7 +32,7 @@ hide:
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
--   :octicons-alert-16: __公告__
+-   :octicons-alert-16: **公告**
 
     ---
 
@@ -41,7 +41,7 @@ hide:
 </div>
 
 <div class="grid cards" markdown>
--   :material-battery-charging-wireless-outline: __使用须知__
+-   :material-battery-charging-wireless-outline: **使用须知**
 
     ---
 
@@ -62,16 +62,29 @@ hide:
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
--   :octicons-repo-16: __源代码仓库概览__
+-   :octicons-repo-16: **源代码仓库概览**
+    
+    ---
 
     [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
 </div>
 
 <div class="grid cards" markdown>
--   :material-hand-heart: __源代码贡献者__
+-   :material-hand-heart: **源代码贡献者**
 
-    [![源代码贡献者](https://contrib.rocks/image?repo=W1ndys/ezqfnu.w1ndys.top)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
+    ---
+
+    [![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
+
+</div>
+
+<div class="grid cards" markdown>
+-   :fontawesome-solid-tags: **最新版本**
+
+    ---
+
+    [![最新版本](https://stats.deeptrain.net/release/W1ndys/Easy-QFNU/?theme=light)](https://github.com/W1ndys/Easy-QFNU/releases/latest)
 
 </div>
 
