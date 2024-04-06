@@ -25,7 +25,7 @@ hide:
 
 .content-container {
     position: relative;
-    height: 22px; /* 根据内容高度调整 */
+    height: 23px; /* 根据内容高度调整 */
     overflow: hidden;
 }
 
