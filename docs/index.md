@@ -14,6 +14,7 @@ hide:
 
 
 <!-- 诗词一言接口，来自https://www.jinrishici.com/#/ -->
+
 <div class="grid cards" markdown style="text-align: center;">
 -   
     <span id="jinrishici-sentence"  >正在加载今日诗词....</span>
@@ -56,7 +57,7 @@ hide:
 
     请善用搜索功能来寻找你想要的内容！！
 
-    [如何发表评论](){:target="\_blank"}
+    [如何发表评论](/start/tutorial/#how-to-comment){:target="\_blank"}
 
     [如何参与编辑](/start/Data-submission/){:target="\_blank"}
 
