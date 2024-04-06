@@ -52,7 +52,7 @@ icon: material/coach-lamp
 
 ## 怎么发评论？ | How-to-comment?
 
-> 注意：强烈建议通过某种方法来提高访问 Github 的稳定性，详情可见-->[在开始之前](#begin-before-you-start)
+> <font color="red">注意</font>：强烈建议通过某种方法来提高访问 Github 的稳定性，详情可见-->[在开始之前](#before-you-start)
 
 ### 评论系统介绍 | Comment-system
 
