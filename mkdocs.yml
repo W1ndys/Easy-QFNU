@@ -70,18 +70,24 @@ theme:
   custom_dir: overrides
 
   # 调色板配置
+  # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: brown
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 关闭自动模式
+
+    - media: "(prefers-color-scheme: light)" # 用于检测媒体模式
+      scheme: default # 系统变量，这个不能改
+      primary: indigo # 可以自定义，建议使用系统主题然后覆盖想改的颜色
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: 开启夜间模式
 
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
+    - media: "(prefers-color-scheme: dark)" # 用于检测媒体模式
+      scheme: slate # 系统变量，这个不能改
+      primary: black # 可以自定义，建议使用系统主题然后覆盖想改的颜色
       accent: indigo
       toggle:
         icon: material/weather-night

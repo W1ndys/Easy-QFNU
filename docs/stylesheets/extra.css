@@ -25,22 +25,20 @@ https://simpleicons.org/#/
     margin: 1.5em 0;
 }
 
-.md-typeset a {
-    color: #1d9cf9;
-    word-break: break-word;
-}
-
-[data-md-color-scheme="brown"] .md-typeset hr {
+[data-md-color-scheme="slate"] .md-typeset hr {
     border-bottom: 0.05rem solid #ffffff;
     /* 暗色模式下的边框颜色 */
     display: flow-root;
     margin: 1.5em 0;
 }
 
+.md-typeset a {
+    color: #1d9cf9;
+    word-break: break-word;
+}
 
-
-/*主题颜色*/
-[data-md-color-primary=brown] {
+/*自定义主题颜色，未指定的的全部使用系统默认*/
+[data-md-color-primary=indigo] {
     --md-primary-fg-color: #6D2424;
     --md-primary-fg-color--light: #8d6e62;
     --md-primary-fg-color--dark: #5d4037;
@@ -59,7 +57,8 @@ https://simpleicons.org/#/
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
     border: .05rem solid var(--md-default-fg-color--lightest);
-    border-radius: .7rem;  /* 修改圆角大小 */
+    border-radius: .7rem;
+    /* 修改圆角大小 */
     display: block;
     margin: 0;
     padding: .80rem;
