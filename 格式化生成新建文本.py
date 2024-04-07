@@ -24,11 +24,11 @@ comments: true
 :material-clock-plus-outline:{{ title="创建日期" }} {current_date}
 """
 
-    # 写入Markdown文件
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(markdown_content)
+    # # 写入Markdown文件
+    # with open(filename, "w", encoding="utf-8") as f:
+    #     f.write(markdown_content)
 
-    print(f"Markdown文件 {filename} 创建成功！")
+    # print(f"Markdown文件 {filename} 创建成功！")
 
     # 复制内容到剪贴板
     pyperclip.copy(markdown_content)
