@@ -32,14 +32,15 @@ https://simpleicons.org/#/
     margin: 1.5em 0;
 }
 
+/* 自定义链接颜色 */
 .md-typeset a {
     color: #1d9cf9;
     word-break: break-word;
 }
 
 /*自定义主题颜色，未指定的的全部使用系统默认*/
-[data-md-color-primary=indigo] {
-    --md-primary-fg-color: #6D2424;
+[data-md-color-primary="indigo"] {
+    --md-primary-fg-color: #6d2424;
     --md-primary-fg-color--light: #8d6e62;
     --md-primary-fg-color--dark: #5d4037;
     --md-primary-bg-color: #fff;
@@ -56,18 +57,19 @@ https://simpleicons.org/#/
 .md-typeset .grid.cards>ol>li,
 .md-typeset .grid.cards>ul>li,
 .md-typeset .grid>.card {
-    border: .05rem solid var(--md-default-fg-color--lightest);
-    border-radius: .7rem;
+    border: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-radius: 0.7rem;
     /* 修改圆角大小 */
     display: block;
     margin: 0;
-    padding: .80rem;
-    transition: border .25s, box-shadow .25s;
+    padding: 0.8rem;
+    transition: border 0.25s, box-shadow 0.25s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* 修改阴影效果 */
     /* box-shadow: 水平偏移量 垂直偏移量 模糊半径 扩散半径 色值; */
 }
 
+/* 添加过渡效果 */
 * {
     transition-property: color, background-color;
     /* 设置过渡的属性 */
@@ -84,3 +86,5 @@ h2,
 hr {
     transition: none !important;
 }
+
+/*上面是过渡效果*/
