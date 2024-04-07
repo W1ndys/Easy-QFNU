@@ -96,7 +96,7 @@ setInterval(() => {
 
     在开始之前,请先了解本站[用户协议](/start/agreement/){:target="\_blank"},浏览本站即代表您同意此协议
 
-    梦开始的地方-->[快速开始](/start/){:target="\_blank"}
+    梦开始的地方，点击快速开始-->[快速开始](/start/)
 
     加急更新中………………
 
