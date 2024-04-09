@@ -17,7 +17,7 @@ Powered by mkdocs-material
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
-项目正在施工中，由于学业繁忙，暂停更搁置，截止 7 月 15 日。
+项目正在施工中，由于学业繁忙，暂时停更，截至 7 月 15 日。
 
 本项目框架的采用灵感来自于 [@ProbiusOfficial](https://github.com/ProbiusOfficial/) 的 [Hello-CTF](https://github.com/ProbiusOfficial/Hello-CTF/)
 
