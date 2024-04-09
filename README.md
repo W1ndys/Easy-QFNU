@@ -46,6 +46,8 @@ Powered by mkdocs-material
 
 ~6. [https://xkzb-qfnu-w1ndys-top.vercel.app/](https://xkzb-qfnu-w1ndys-top.vercel.app/)(境外高速站点)~
 
+## star
+[![Stargazers over time](https://starchart.cc/W1ndys/Easy-QFNU.svg?background=%23FFFFFF&axis=%23333333&line=%23c43030)](https://starchart.cc/W1ndys/Easy-QFNU)
 
 ### 感谢本项目的源代码贡献者
 
