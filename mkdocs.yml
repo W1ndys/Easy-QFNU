@@ -525,6 +525,11 @@ plugins:
   # # 作者插件，感觉不如上面那个好
   # - git-authors
 
+  # 外部引用插件，一个 MkDocs 插件，它将 mkdocs.yml 额外变量注入到 markdown 模板中
+  # https://github.com/rosscdh/mkdocs-markdownextradata-plugin
+  - markdownextradata:
+      data: ./docs/_data/ # 额外数据文件
+
 # 监听文件，可以实时刷新的目录
 watch:
   - includes # 目录
