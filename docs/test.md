@@ -518,7 +518,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 不建议使用该写法，除非迫不得已
 
-2024 年 4 月 5 日更新，可以通过网格块语法嵌套来抵消格式化带来的麻烦，good! 感谢[Hello-CTF](https://hello-ctf.com/){target="_blank"}给我带来的灵感
+2024 年 4 月 5 日更新，可以通过网格块语法嵌套来抵消格式化带来的麻烦，good! 感谢[Hello-CTF](https://hello-ctf.com/){target="\_blank"}给我带来的灵感
 
 <div class="grid cards" markdown>
 
@@ -764,7 +764,17 @@ _[W3CC]: 缩写测试 World Wide Web Consortium
 
 The HTML specification is maintained by the W3C.
 
+### yaml 元数据引用测试
+
+<p align="center" markdown>
+{% for social in site.social %}
+<a href="{{ social.link }}" name="{{ social.name }}" > :{{ social.icon }}:{ .lg .light } </a>&nbsp; &nbsp;
+{% endfor %}
+<br/>
+当你看到一大堆图标的时候，就证明测试成功了。
+</p>
+
 ---
 
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-05
+:material-clock-edit-outline:{ title="修改日期" } 2024-04-10
 :material-clock-plus-outline:{ title="创建日期" } 2024-02-29
