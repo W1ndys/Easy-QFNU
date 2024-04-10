@@ -546,7 +546,7 @@ nav:
       - 测试页面: test.md
       - 作者名单: start/authors.md
       - 用户协议: start/agreement.md
-      - 捐助: about/reward.md
+      - 捐助: start/reward.md
       - 关于我们: about/about.md
   - 网安专区: cyber/index.md
   - 数科专区: math/index.md
