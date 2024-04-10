@@ -1,0 +1,144 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: rgb(85, 75, 85);
+        background-color: rgb(255, 255, 255);
+    }
+
+    h1 {
+        padding: 50px 0;
+        font-size: 45px;
+        text-align: center;
+        color: rgb(54, 56, 55);
+    }
+
+    :active,
+    :hover,
+    :focus {
+        outline: 0 !important;
+        outline-offset: 0;
+    }
+
+    ::before,
+    ::after {
+        position: absolute;
+        content: "";
+    }
+
+    .btn-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1000px;
+        margin: 10px auto 35px;
+    }
+
+    .btn {
+        position: relative;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin: 0px 25px 15px;
+        min-width: 150px;
+    }
+
+    .btn span {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        transition: 0.3s;
+    }
+
+    /*--- btn-1 ---*/
+    .btn-1::before {
+        background-color: rgb(28, 31, 30);
+        transition: 0.3s ease-out;
+    }
+
+    .btn-1 span {
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(28, 31, 30);
+        transition: 0.2s 0.1s;
+    }
+
+    .btn-1 span:hover {
+        color: rgb(28, 31, 30);
+        transition: 0.2s 0.1s;
+    }
+
+    /*--- btn-2 ---*/
+    .btn-2::before {
+        background-color: rgb(28, 31, 30);
+        transition: 0.3s ease-out;
+    }
+
+    .btn-2 span {
+        color: rgb(28, 31, 30);
+        border: 1px solid rgb(28, 31, 30);
+        transition: 0.2s;
+    }
+
+    .btn-2 span:hover {
+        color: rgb(255, 255, 255);
+        transition: 0.2s 0.1s;
+    }
+
+    /* 4. hover-filled-slide-right */
+    .btn.hover-filled-slide-right::before {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .btn.hover-filled-slide-right:hover::before {
+        width: 0%;
+    }
+
+    /* 9. hover-slide-right */
+    .btn.hover-slide-right::before {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        height: 100%;
+        width: 0%;
+    }
+
+    .btn.hover-slide-right:hover::before {
+        width: 100%;
+    }
+</style>
+<h1>Welcome to Easy-QFNU</h1>
+<div class="btn-holder">
+    <button class="btn btn-1 hover-filled-slide-right">
+        <span>快速开始</span>
+    </button>
+    <button class="btn btn-2 hover-slide-right">
+        <span>加入我们</span>
+    </button>
+</div>
+{% endblock %}
+{% block footer %}
+{% endblock %}
