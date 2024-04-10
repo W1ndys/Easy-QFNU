@@ -62,7 +62,7 @@ icon: material/coach-lamp
 
 首先，上面我们提到了，评论是基于 Github 构建的，所以，你需要先有一个 Github 账号。
 
-Github 账号的注册方法：[【CSDN】注册 Github 账号详细教程【超详细篇 适合新手入门】](https://blog.csdn.net/m0_67906358/article/details/128808210/)
+Github 账号的注册方法：[如何注册GitHub账号](#github-how-to-sign-in-github)
 
 ### 评论开始 | Commenting
 
