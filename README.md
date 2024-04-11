@@ -48,7 +48,7 @@ Powered by mkdocs-material
 
 ## Star History
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwXzViZmhoZDdqOHI4QTNsbnV5NnJGMzhhSWRQNloyZDJNRmw4NQ==#W1ndys/Easy-QFNU&Date" frameBorder="0"></iframe>
+[![Star History Chart](https://api.star-history.com/svg?repos=W1ndys/Easy-QFNU&type=Date)](https://star-history.com/#W1ndys/Easy-QFNU&Date)
 
 ## 感谢本项目的源代码贡献者
 
