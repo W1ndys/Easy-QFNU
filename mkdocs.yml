@@ -2,7 +2,7 @@
 # =============================================================================================================================
 
 # 站点名称
-site_name: Easy QFNU
+site_name: Easy-QFNU
 
 # 站点URL
 site_url: https://ezqfnu.w1ndys.top/
@@ -11,7 +11,7 @@ site_url: https://ezqfnu.w1ndys.top/
 repo_url: https://github.com/W1ndys/Easy-QFNU/
 
 # 仓库名称
-repo_name: Easy QFNU
+repo_name: Easy-QFNU
 
 # 仓库编辑地址
 edit_uri: edit/main/docs/
