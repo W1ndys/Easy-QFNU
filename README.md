@@ -21,7 +21,7 @@ Powered by mkdocs-material
 
 本项目框架的采用灵感来自于 [@ProbiusOfficial](https://github.com/ProbiusOfficial/) 的 [Hello-CTF](https://github.com/ProbiusOfficial/Hello-CTF/)
 
-主站:[https://ezqfnu.w1ndys.top/](https://xkzb.qfnu.w1ndys.top/)（全自动部署，数据最先更新）
+主站:[https://Easy-QFNU.top/](https://xkzb.qfnu.w1ndys.top/)（全自动部署，数据最先更新）
 
 
 
@@ -51,6 +51,6 @@ Powered by mkdocs-material
 
 ### 感谢本项目的源代码贡献者
 
-<a href="https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=W1ndys/ezqfnu.w1ndys.top" />
+<a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
 </a>
