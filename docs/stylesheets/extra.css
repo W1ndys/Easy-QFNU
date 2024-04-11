@@ -88,3 +88,123 @@ hr {
 }
 
 /*上面是过渡效果*/
+
+/* 定义全局变量 */
+:root {
+    --base-border-radius: 0.5rem;
+    /* 基础边框半径 */
+}
+
+/* 高亮样式 */
+.highlight span.filename {
+    border-bottom: none;
+    /* 取消底部边框 */
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    display: inline;
+    font-family: var(--md-code-font-family);
+    /* 使用 Markdown 代码字体 */
+    border-bottom-left-radius: 0;
+    /* 底部左边框半径 */
+    border-bottom-right-radius: 0;
+    /* 底部右边框半径 */
+    margin-bottom: 5px;
+    text-align: center;
+    /* 文本居中 */
+}
+
+.highlight span.filename+pre>code {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-top-left-radius: 0;
+    /* 顶部左边框半径 */
+}
+
+/* Markdown 类型设置 */
+.md-typeset pre>code {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 网格卡片 */
+.md-typeset .grid.cards>ul>li {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+.md-typeset .grid.cards>ul>li:hover {
+    box-shadow: 0 0 0.2rem #ffffff40;
+    /* 鼠标悬停阴影 */
+}
+
+/* Markdown 按钮 */
+/* .md-typeset .md-button { */
+    /* border-radius: var(--base-border-radius); */
+    /* 使用全局变量定义边框半径 */
+/* } */
+
+/* Critic, Mark */
+ins.critic,
+del.critic {
+    text-decoration: none;
+    /* 删除线和插入线的文本修饰 */
+}
+
+.md-typeset .critic,
+.md-typeset mark {
+    border-radius: 0.2rem;
+    /* 边框半径 */
+    padding: 0 0.2rem;
+    /* 内边距 */
+}
+
+.md-typeset mark {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-mark-color);
+    /* 阴影 */
+}
+
+.md-typeset ins.critic {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-ins-color);
+    /* 插入线阴影 */
+}
+
+.md-typeset del.critic {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-del-color);
+    /* 删除线阴影 */
+}
+
+/* 表单 */
+.md-search__form {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+[data-md-toggle="search"]:checked~.md-header .md-search__form {
+    border-top-right-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-top-left-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+[dir="ltr"] .md-search__output {
+    border-bottom-right-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-bottom-left-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 博客 - index.md */
+.md-post--excerpt {
+    background-color: var(--md-accent-fg-color--transparent);
+    /* 背景颜色 */
+    box-shadow: 0 0 0 1rem var(--md-accent-fg-color--transparent);
+    /* 阴影 */
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 表格 */
+.md-typeset table:not([class]) {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
