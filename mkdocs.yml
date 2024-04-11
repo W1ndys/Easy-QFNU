@@ -128,7 +128,7 @@ theme:
     - content.tooltips #改进的工具提示
     - content.tabs.link # 全部锚链接，启用后，整个文档站点中的所有内容选项卡都将被链接
 
-  # 站点logo
+  # 站点的logo（标签页那个）
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
   favicon: https://p.qlogo.cn/gh/497554955/497554955/640/
 
