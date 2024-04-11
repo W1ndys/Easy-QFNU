@@ -126,11 +126,10 @@ hr {
     /* 使用全局变量定义边框半径 */
 }
 
-/* 网格卡片 */
-.md-typeset .grid.cards>ul>li {
-    border-radius: var(--base-border-radius);
-    /* 使用全局变量定义边框半径 */
-}
+/* 网格卡片 */ /* 这里的网格卡片样式用我自己写的*/
+/* .md-typeset .grid.cards>ul>li {
+    border-radius: var(--base-border-radius);   
+} */
 
 .md-typeset .grid.cards>ul>li:hover {
     box-shadow: 0 0 0.2rem #ffffff40;
@@ -138,10 +137,10 @@ hr {
 }
 
 /* Markdown 按钮 */
-/* .md-typeset .md-button { */
-/* border-radius: var(--base-border-radius); */
-/* 使用全局变量定义边框半径 */
-/* } */
+.md-typeset .md-button {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
 
 /* Critic, Mark */
 ins.critic,
