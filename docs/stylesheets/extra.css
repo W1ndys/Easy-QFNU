@@ -90,8 +90,11 @@ hr {
 
 .md-nav__title[for="__toc"],
 .md-nav__link[for="__nav_2"][id="__nav_2_label"] {
-    transition: none !important;
+    transition-property: color; /* 只保留颜色的过渡效果 */
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.01, 0.34, 0.9, 1.14);
 }
+
 
 /*上面是过渡效果*/
 
