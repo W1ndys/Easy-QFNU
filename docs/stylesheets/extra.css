@@ -71,7 +71,7 @@ https://simpleicons.org/#/
 
 /* 添加过渡效果 */
 * {
-    transition-property: color, background-color;
+    transition-property: color;
     /* 设置过渡的属性 */
     transition-duration: 0.5s;
     /* 设置过渡的时间 */
