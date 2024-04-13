@@ -33,17 +33,7 @@ svg {
 	/* 链接指针 */
 }
 
-/* 图片放大 */
-.fancybox-image {
-	cursor: url(/img/mouse/bigimg.png), auto;
-	/* 放大指针 */
-}
 
-/* 回到顶部按钮 */
-#scroll-top-button {
-	cursor: url(/img/mouse/link.png), auto;
-	/* 链接指针 */
-}
 
 /* 代码复制键 */
 .icon-copy:before {
