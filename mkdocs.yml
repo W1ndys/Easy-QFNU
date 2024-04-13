@@ -200,6 +200,7 @@ extra_css:
   - stylesheets/tasklist.css
   - stylesheets/admonition.css
   - stylesheets/status.css
+  - stylesheets/mouse.css
 
 # 附加的JS文件
 extra_javascript:
@@ -213,6 +214,7 @@ extra_javascript:
   - javascripts/ip.js
   - javascripts/tablesort.js # 数据表排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
+  - javascripts/mouse_moving.js # 鼠标移动星星特效
 
 # 额外配置
 extra:
