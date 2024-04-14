@@ -70,6 +70,7 @@ https://simpleicons.org/#/
 }
 
 /* 添加过渡效果 */
+
 * {
     transition-property: color, background-color;
     /* 设置过渡的属性 */
@@ -79,7 +80,8 @@ https://simpleicons.org/#/
     /* 设置过渡的缓动函数 */
 }
 
-/*取消导航栏的背景色*/
+/*取消导航栏的背景色和阴影*/
+/*因为左右侧导航栏(目录)的开头背景色是独立的,这里特殊处理一下*/
 @media screen and (min-width: 76.25em) {
 
     .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link,
@@ -88,7 +90,6 @@ https://simpleicons.org/#/
         box-shadow: none;
     }
 }
-
 
 /*上面是过渡效果*/
 
