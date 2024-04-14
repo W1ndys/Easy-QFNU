@@ -79,9 +79,11 @@ https://simpleicons.org/#/
     /* 设置过渡的缓动函数 */
 }
 
-
+/*取消导航栏的背景色*/
 @media screen and (min-width: 76.25em) {
-    .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link {
+
+    .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link,
+    .md-nav--secondary .md-nav__title {
         background: none;
         box-shadow: none;
     }
