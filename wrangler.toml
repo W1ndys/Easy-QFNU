@@ -1,8 +1,0 @@
-name = "Easy-QFNU" 
-
-[site]
-bucket = "./site"
-
-[build]
-command = "mkdocs build"
-publish = "./site"
