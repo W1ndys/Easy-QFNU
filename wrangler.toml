@@ -1,10 +1,8 @@
-name = "Easy-QFNU"  # 你的项目名称
+name = "Easy-QFNU" 
 
 [site]
-bucket = "./site"  # Mkdocs 生成的静态网站文件的路径
-entry-point = "index.html"  # 网站的入口文件，一般是 index.html
-error-404 = "404.html"  # 404 错误页面的文件名，如果有的话
+bucket = "./site"
 
 [build]
-command = "mkdocs build"  # 构建项目的命令，这里是使用 mkdocs 命令进行构建
-publish = "./site"  # 发布的文件夹路径
+command = "mkdocs build"
+publish = "./site"
