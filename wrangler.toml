@@ -1,0 +1,6 @@
+[site]
+bucket = "./site"  # Mkdocs 生成的静态网站文件的路径
+
+[build]
+command = "mkdocs build"  # 构建项目的命令，这里是使用 mkdocs 命令进行构建
+publish = "./site"  # 发布的文件夹路径
