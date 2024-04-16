@@ -74,7 +74,7 @@ https://simpleicons.org/#/
 * {
     transition-property: color, background-color;
     /* 设置过渡的属性 */
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     /* 设置过渡的时间 */
     transition-timing-function: cubic-bezier(0.07, 0.51, 0.7, 1);
     /* 设置过渡的缓动函数 */
