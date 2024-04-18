@@ -430,7 +430,7 @@ plugins:
   - blog:
       enabled: true
       blog_toc: true
-      blog_dir: Update
+      blog_dir: update
       post_date_format: medium
       post_url_date_format: yyyy/MM
       post_url_format: "/{slug}"
@@ -590,7 +590,7 @@ nav:
       - Markdown-examples: others/markdown-examples.md
       - api-examples: others/api-examples.md
   - 更新日志:
-      - Update/index.md
+      - update/index.md
 #
 # =============================================================================================================================
 # How to write?
