@@ -1,5 +1,2 @@
----
-comments: true
----
+# Blog
 
-# 更新日志
