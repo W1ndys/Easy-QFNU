@@ -14,7 +14,7 @@ comments: true
 ## Pull request
 
 > 推荐会 pr 的同学使用这种方法，方便快捷，有多端 bot 检查语法，自动化，工作效率高
-> 通过 pr 参与编辑的 GitHub 用户可以加入到[`官方文档的贡献者`](https://github.com/W1ndys/ezqfnu.w1ndys.top/graphs/contributors/){target="\_blank" rel="noopener"}中，成为源代码仓库编辑的一员
+> 通过 pr 参与编辑的 GitHub 用户可以加入到[`官方文档的贡献者`](https://github.com/W1ndys/Easy-QFNU/graphs/contributors/){target="\_blank" rel="noopener"}中，成为源代码仓库编辑的一员
 
 > 注意：<font color="red">直接参与源代码编辑你需要<abbr title="Markdown是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。">Markdown</abbr>语法、少量<abbr title="HTML是一种用于创建网页的标准标记语言。">HTML</abbr>语法的基础知识</font>
 
@@ -28,6 +28,13 @@ comments: true
 > 什么是 HTML？答：[HTML 教程](https://www.w3school.com.cn/html/index.asp)
 
 > 但如果你很想通过 Pull Request 来直接参与编辑，又不了解 Markdown、HTML 的语法，请[联系项目作者](#_3)，我很乐意与他人技术交流，<strong>即使是很简单的问题</strong>
+
+<font color="red">如果你只需要修改局部内容，比如一句话，几段字，几行代码，请往下看。</font>
+<br/>
+
+<font color="red">如果你想提交大量内容，比如两个及以上文件有改动，或是提交新文件新页面，请先[复刻本项目](https://github.com/W1ndys/Easy-QFNU/fork){target="\_blank" rel="noopener"}，克隆到你本地，修改完成后上传，然后再提交 Pull Request，既然你已经决定要提交多个文件改动，相信你也熟悉Pull Request操作，不需要此类教程，如果需要，请[联系我本人](https://blog.w1ndys.top/html/QQ.html){target="\_blank" rel="noopener"}，这里不在过多描述，相信你一定可以让项目更加完善</font>
+
+<font color="red">注意：请不要提交与本项目无关的 Pull Request，否则会被关闭</font>
 
 操作方法：在每一页可以编辑的页面右上角都有一个`铅笔头`:material-pencil:的编辑图标，点击图标即可跳转到编辑页面(由于是 GitHub 仓库页面，可能需要你进行<abbr title="魔法，更通俗来说就是加速访问Github的工具，这种工具叫做VPN">一些操作</abbr>保证页面的稳定访问)
 
