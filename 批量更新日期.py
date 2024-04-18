@@ -122,7 +122,7 @@ if __name__ == "__main__":
         os.path.join(docs_dir, "嵌入测试.md"),
         # 添加要排除的目录
         os.path.join(docs_dir, "example_directory"),
-        # os.path.join(docs_dir, "update"), # 排除更新日志的目录
+        os.path.join(docs_dir, "Update"),  # 排除更新日志的目录
     ]
     update_markdown_files(docs_dir, exclude_paths)
     input("按Ctrl+c退出程序...")
