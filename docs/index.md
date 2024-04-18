@@ -139,7 +139,7 @@ setInterval(() => {
 <div class="grid cards" markdown>
 -   :octicons-repo-16: **源代码仓库概览**
 
-    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/ezqfnu.w1ndys.top?theme=light)](https://github.com/W1ndys/Easy-QFNU)
+    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/Easy-qfnu?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
 </div>
 
