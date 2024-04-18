@@ -72,10 +72,10 @@ theme:
   # 调色板配置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
   palette:
-  #  - media: "(prefers-color-scheme)"
-  #    toggle:
-  #      icon: material/brightness-auto
-  #      name: 关闭自动模式
+    #  - media: "(prefers-color-scheme)"
+    #    toggle:
+    #      icon: material/brightness-auto
+    #      name: 关闭自动模式
 
     - media: "(prefers-color-scheme: light)" # 用于检测媒体模式
       scheme: default # 系统变量，这个不能改
@@ -556,7 +556,19 @@ nav:
       - 用户协议: start/agreement.md
       - 捐助: start/reward.md
       - 关于我们: about/about.md
-  - 网安专区: cyber/index.md
+  - 网安专区:
+      - 基本篇: cyber/index.md
+      - 学习篇:
+          - 绩点课: cyber/study/student_grade.md
+          - 专业技能: cyber/study/skills.md
+      - 组织篇:
+          - 学生会: cyber/student_union.md
+          - 社团: cyber/club.md
+          - 实验室: cyber/lab.md
+      - 竞赛篇:
+          - CTF: cyber/competition/ctf.md
+          - 蓝桥杯: cyber/competition/blue_bridge.md
+          - ACM: cyber/competition/acm.md 
   - 数科专区: math/index.md
   - 文院专区: chinese/index.md
   - 化院专区: chemistry/index.md
