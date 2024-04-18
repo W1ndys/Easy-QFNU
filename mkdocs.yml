@@ -568,7 +568,7 @@ nav:
       - 竞赛篇:
           - CTF: cyber/competition/ctf.md
           - 蓝桥杯: cyber/competition/blue_bridge.md
-          - ACM: cyber/competition/acm.md 
+          - ACM: cyber/competition/acm.md
   - 数科专区: math/index.md
   - 文院专区: chinese/index.md
   - 化院专区: chemistry/index.md
