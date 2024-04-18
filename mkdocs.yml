@@ -558,7 +558,8 @@ nav:
       - 捐助: start/reward/index.md
       - 关于我们: start/about/index.md
 
-  - 网安专区: cyber/index.md
+  - 网安专区: 
+      - cyber/index.md
       - 一些拙见:
           - cyber/some_thoughts.md
           - 基本篇:
