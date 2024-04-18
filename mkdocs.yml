@@ -17,7 +17,7 @@ repo_name: Easy-QFNU
 edit_uri: edit/main/docs/
 
 # 站点描述
-site_description: 开源、互助、友好、共享、共建的非盈利公益选课指北项目
+site_description: 开源、互助、友好、共享、共建的非盈利学生手册，致力于解决你在QFNU的各种问题
 
 # 作者ID
 site_author: W1ndys
@@ -545,8 +545,7 @@ watch:
 # 注意，目录路径的大小写是敏感的，请注意大小写
 #
 nav:
-  - Easy-QFNU:
-      - index.md
+  - Easy-QFNU: index.md
 
   - 快速开始:
       - 快速开始: start/index.md
@@ -560,7 +559,7 @@ nav:
       - 关于我们: start/about/index.md
 
   - 网安专区:
-      - cyber/index.md
+     # - cyber/index.md
       - 一些拙见:
           - cyber/some_thoughts.md
           - 基本篇:
