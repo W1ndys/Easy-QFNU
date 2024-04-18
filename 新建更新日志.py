@@ -25,7 +25,7 @@ else:
         file.write(f"date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         file.write(f"---\n\n")
         # 写入更新日志的标题
-        file.write(f"# {current_date} 更新日志\n\n")
+        file.write(f"# {current_date_iso}\n\n")
         # 添加分隔符，用于内容扩展
         file.write(f"\n\n<!-- more -->\n\n\n\n---\n\n")
         # 添加"修改日期"和"创建日期"的内容
