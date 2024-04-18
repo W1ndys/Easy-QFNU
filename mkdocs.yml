@@ -72,10 +72,10 @@ theme:
   # 调色板配置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: 关闭自动模式
+  #  - media: "(prefers-color-scheme)"
+  #    toggle:
+  #      icon: material/brightness-auto
+  #      name: 关闭自动模式
 
     - media: "(prefers-color-scheme: light)" # 用于检测媒体模式
       scheme: default # 系统变量，这个不能改
