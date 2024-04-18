@@ -556,19 +556,28 @@ nav:
       - 用户协议: start/agreement/index.md
       - 捐助: start/reward/index.md
       - 关于我们: start/about/index.md
+
   - 网安专区:
-      - 基本篇: cyber/index.md
-      - 学习篇:
-          - 绩点课: cyber/study/student_grade.md
-          - 专业技能: cyber/study/skills.md
-      - 组织篇:
-          - 学生会: cyber/student_union.md
-          - 社团: cyber/club.md
-          - 实验室: cyber/lab.md
-      - 竞赛篇:
-          - CTF: cyber/competition/ctf.md
-          - 蓝桥杯: cyber/competition/blue_bridge.md
-          - ACM: cyber/competition/acm.md
+      - cyber/index.md
+      - 一些拙见:
+          - cyber/some_thoughts.md
+          - 基本篇:
+              - cyber/index.md
+
+          - 学习篇:
+              - cyber/study/index.md
+              - 绩点课: cyber/study/student_grade.md
+              - 专业技能: cyber/study/skills.md
+
+          - 组织篇:
+              - 学生会: cyber/student_union.md
+              - 社团: cyber/club.md
+              - 实验室: cyber/lab.md
+
+          - 竞赛篇:
+              - CTF: cyber/competition/ctf.md
+              - 蓝桥杯: cyber/competition/blue_bridge.md
+              - ACM: cyber/competition/acm.md
   - 数科专区: math/index.md
   - 文院专区: chinese/index.md
   - 化院专区: chemistry/index.md
