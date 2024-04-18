@@ -545,7 +545,9 @@ watch:
 # 注意，目录路径的大小写是敏感的，请注意大小写
 #
 nav:
-  - Easy-QFNU: index.md
+  - Easy-QFNU:
+      - index.md
+
   - 快速开始:
       - 快速开始: start/index.md
       - 数据提交: start/data-submission/index.md
