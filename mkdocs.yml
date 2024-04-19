@@ -216,7 +216,7 @@ extra_javascript:
   - javascripts/tablesort.js # 数据表排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
   - javascripts/mouse_moving.js # 鼠标移动星星特效
-  - javascripts/sakana.js # 石蒜模拟器
+
 
 # 额外配置
 extra:

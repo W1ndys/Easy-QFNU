@@ -6,6 +6,8 @@
 <!-- Add announcement here, including arbitrary HTML -->
 {% endblock %}
 
+{% block styles %}
+{{ super() }}
 <style>
     @media (max-width: 768px) {
         #left_layer {
@@ -21,7 +23,10 @@
         }
     }
 </style>
+{% endblock %}
 
+{% block content %}
+{{ super() }}
 <div id="left_layer">
     <div id="sakana-widget"></div>
     <script>
@@ -32,3 +37,4 @@
     <script async onload="initSakanaWidget()"
         src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.2/lib/sakana.min.js"></script>
 </div>
+{% endblock %}
