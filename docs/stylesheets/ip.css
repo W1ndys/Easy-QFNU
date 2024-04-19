@@ -1,0 +1,33 @@
+/* 添加出场动画 */
+@keyframes slideOut {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(100%);
+    }
+}
+
+/* 设置图片样式 */
+.IP-image {
+    width: 280px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+/* 入场动画 */
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

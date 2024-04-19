@@ -1,0 +1,44 @@
+social:
+  - icon: material-home
+    link: https://w1ndys.top
+    name: 作者主页
+
+  - icon: fontawesome-brands-qq
+    link: https://blog.w1ndys.top/html/QQ.html
+    name: 作者QQ
+
+  - icon: material-email
+    link: mailto:w1ndys@outlook.com
+    name: 作者邮箱
+
+  - icon: fontawesome-brands-github
+    link: https://github.com/W1ndys
+    name: 作者Github主页
+
+  - icon: fontawesome-solid-blog
+    link: https://blog.w1ndys.top/
+    name: 作者博客
+
+  - icon: simple-materialformkdocs
+    name: Material for MkDocs提供搭建文档服务
+    link: https://squidfunk.github.io-mkdocs-material-
+
+  - icon: simple-vercel
+    link: https://vercel.com/W1ndys
+    name: Vercel提供部署服务
+
+  - icon: simple-netlify
+    name: Netlify提供部署服务
+    link: https://www.netlify.com/
+
+  - icon: W1ndys-Render
+    name: Render提供部署服务
+    link: https://render.com/
+
+  - icon: simple-cloudflare
+    name: Cloudflare提供部署服务
+    link: https://www.cloudflare.com/
+
+  - icon: W1ndys-51la
+    name: 51la提供统计服务
+    link: https://v6.51.la/report/overview?comId=416432

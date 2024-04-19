@@ -1,0 +1,49 @@
+/* 下面是自定义目录状态表情 */
+/* 
+定义方法：
+:root {
+    --md-status--xxx: url('data:image/svg+xml;charset=utf-8,svg代码')
+}
+
+.md-status--xxx::after {
+    mask-image: var(--md-status--xxx);
+    -webkit-mask-image: var(--md-status--xxx);
+} 
+*/
+
+/* 
+下面是一些图标库
+https://pictogrammers.com/library/mdi/
+https://fontawesome.com/search?o=r&m=free
+https://primer.style/foundations/icons#/
+https://simpleicons.org/#/ 
+*/
+
+
+:root {
+    --md-status--happy: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M7 9.5C7 8.7 7.7 8 8.5 8s1.5.7 1.5 1.5S9.3 11 8.5 11 7 10.3 7 9.5m5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81M15.5 11c-.8 0-1.5-.7-1.5-1.5S14.7 8 15.5 8s1.5.7 1.5 1.5-.7 1.5-1.5 1.5Z"/></svg>')
+}
+
+
+.md-status--happy::after {
+    mask-image: var(--md-status--happy);
+    -webkit-mask-image: var(--md-status--happy);
+}
+
+:root {
+    --md-status--test: url('data:image/svg+xml;charset=utf-8,<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TestCafe</title><path d="m20.315 4.319-8.69 8.719-3.31-3.322-2.069 2.076 5.379 5.398 10.76-10.796zM5.849 14.689 0 19.682h24l-5.864-4.991h-3.2l-1.024.896h3.584l3.072 2.815H3.417l3.072-2.815h2.688l-.896-.896z"/></svg>')
+}
+
+.md-status--test::after {
+    mask-image: var(--md-status--test);
+    -webkit-mask-image: var(--md-status--test);
+}
+
+/* :root {
+    --md-status--index: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>')
+}
+
+.md-status--index::after {
+    mask-image: var(--md-status--index);
+    -webkit-mask-image: var(--md-status--index);
+} */
