@@ -1,11 +1,11 @@
-import os
+# import os
 from datetime import datetime
 import pyperclip
 
 
 def create_markdown_file():
     # 接受用户输入文件名和标题
-    filename = input("请输入文件名（不含后缀）：") + ".md"
+    # filename = input("请输入文件名（不含后缀）：") + ".md"
     title = input("请输入标题：")
 
     # 获取当前日期
