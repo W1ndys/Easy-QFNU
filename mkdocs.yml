@@ -566,12 +566,12 @@ nav:
 
       - 学习篇:
           - Cyber/Study/index.md
-          - 绩点课: Cyber/Study/Student_Grade/index.md
-          - 专业技能: Cyber/Study/Professional_Skills/index.md
+          - 绩点课: Cyber/Study/Grade-Point/index.md
+          - 专业技能: Cyber/Study/Professional-Skills/index.md
 
       - 组织篇:
           - Cyber/Organization/index.md
-          - 学生会: Cyber/Organization/Student_Union/index.md
+          - 学生会: Cyber/Organization/Student-Union/index.md
           - 社团: Cyber/Organization/Club/index.md
           - 实验室: Cyber/Organization/Lab/index.md
 
@@ -579,7 +579,7 @@ nav:
           - Cyber/Competition/index.md
           - CTF: Cyber/Competition/CTF/index.md
           - ACM: Cyber/Competition/ACM/index.md
-          - 蓝桥杯: Cyber/Competition/Blue_Bridge/index.md
+          - 蓝桥杯: Cyber/Competition/Blue-Bridge/index.md
 
   - 数科专区: Math/index.md
   - 文院专区: Chinese/index.md
