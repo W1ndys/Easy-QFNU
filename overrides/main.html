@@ -6,11 +6,6 @@
 <!-- Add announcement here, including arbitrary HTML -->
 {% endblock %}
 
-
-{% block content %}
-{{ super() }}
-
-<!-- 增加一个石蒜模拟器,致谢https://github.com/dsrkafuu/sakana-widget#/ -->
 <style>
     @media (max-width: 768px) {
         #left_layer {
@@ -37,5 +32,3 @@
     <script async onload="initSakanaWidget()"
         src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.2/lib/sakana.min.js"></script>
 </div>
-
-{% endblock %}
