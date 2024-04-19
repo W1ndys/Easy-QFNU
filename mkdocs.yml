@@ -110,15 +110,16 @@ theme:
     - content.code.annotate # 代码注释
     - content.action.edit # 编辑此页面
     - content.action.view # 查看源代码
-    #- navigation.instant    # 即时加载
-    - navigation.instant.progressF # 进度指示器
+    - navigation.instant # 即时加载
+    - navigation.instant.progress # 进度指示器
+    - navigation.instant.preview # 预览模式
     - navigation.tracking # 锚点追踪
     - navigation.tabs # 导航选项卡
     #- navigation.tabs.sticky        # 固定导航标签
-    - navigation.sections # 导航分组呈现
+    # - navigation.sections # 导航分组呈现，注意，这决定左侧目录的布局变化 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-expansion
     #- navigation.expand     # 左侧默认全部展开，与 navigation.prune 冲突
     - navigation.prune # 导航压缩，与 navigation.expand 冲突
-    # - navigation.indexes    # 章节索引页，需要单独开一个index.md，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
+    - navigation.indexes # 章节索引页，需要单独开一个index.md，与分组呈现类似，影响目录的布局，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
     - toc.follow # 锚点跟随
     #- toc.integrate         # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
     - navigation.top # 返回顶部
@@ -560,25 +561,26 @@ nav:
 
   - 网安专区:
       - Cyber/index.md
-      - 一些拙见:
-          - Cyber/some_thoughts.md
-          - 基本篇:
-              - Cyber/index.md
+      - 快速开始:
+          - Cyber/Start/index.md
 
-          - 学习篇:
-              - Cyber/Study/index.md
-              - 绩点课: Cyber/Study/student_grade.md
-              - 专业技能: Cyber/Study/skills.md
+      - 学习篇:
+          - Cyber/Study/index.md
+          - 绩点课: Cyber/Study/Student_Grade/index.md
+          - 专业技能: Cyber/Study/Professional_Skills/index.md
 
-          - 组织篇:
-              - 学生会: Cyber/student_union.md
-              - 社团: Cyber/club.md
-              - 实验室: Cyber/lab.md
+      - 组织篇:
+          - Cyber/Organization/index.md
+          - 学生会: Cyber/Organization/Student_Union/index.md
+          - 社团: Cyber/Organization/Club/index.md
+          - 实验室: Cyber/Organization/Lab/index.md
 
-          - 竞赛篇:
-              - CTF: Cyber/competition/ctf.md
-              - 蓝桥杯: Cyber/competition/blue_bridge.md
-              - ACM: Cyber/competition/acm.md
+      - 竞赛篇:
+          - Cyber/Competition/index.md
+          - CTF: Cyber/Competition/CTF/index.md
+          - ACM: Cyber/Competition/ACM/index.md
+          - 蓝桥杯: Cyber/Competition/Blue_Bridge/index.md
+
   - 数科专区: Math/index.md
   - 文院专区: Chinese/index.md
   - 化院专区: Chemistry/index.md
