@@ -32,14 +32,9 @@ comments: true
 
     # 复制内容到剪贴板
     pyperclip.copy(markdown_content)
-    print("Markdown内容已复制到剪贴板。请按下CTRL+C退出。")
+    print("Markdown内容已复制到剪贴板。请按下Enter键退出。")
 
-    # 等待用户按下CTRL+C退出
-    try:
-        while True:
-            pass
-    except KeyboardInterrupt:
-        print("用户已退出。")
+    input()
 
 
 if __name__ == "__main__":
