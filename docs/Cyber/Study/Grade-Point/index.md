@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# 绩点课 | 
+# 绩点课 | Grade Point
 
 ---
 
