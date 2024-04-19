@@ -183,13 +183,13 @@ comments: true
 
     快速部署网站
 
--   :fontawesome-solid-r: Render
+-   :W1ndys-Render: Render
 
     ---
 
     [https://render.com/](https://render.com/){:target="_blank"}
 
-    快速部署网站,其实真正的图标是 :W1ndys-Render: ,但不幸的是这个图标是透明的，只有在黑色背景板才能看到，所以我找了个R字母的图标顶替了一下
+    快速部署网站
 
 -   :W1ndys-51la: 51la
 
