@@ -12,6 +12,10 @@
     <img src="https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div>
 
+[Easy-QFNU](https://Easy-QFNU.top/)是由 [W1ndys](https://w1ndys.top/) 开发的一个免费、开源、共建、共享的文档式 Web 网站，[W1ndys](https://w1ndys.top/) 联合各学院数位同学共同编辑该站的内容，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
+
+其前身是[曲师大选课指北](https://blog.w1ndys.top/posts/216d9006/)和[曲师大速通指南](https://blog.w1ndys.top/posts/8f8bbaa8/)
+
 项目正在施工中，由于学业繁忙，暂时停更，截至 7 月 15 日。
 
 主站:[https://Easy-QFNU.top/](https://Easy-QFNU.top/)（全自动部署，数据最先更新）
