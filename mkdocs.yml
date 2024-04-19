@@ -110,9 +110,9 @@ theme:
     - content.code.annotate # 代码注释
     - content.action.edit # 编辑此页面
     - content.action.view # 查看源代码
-    - navigation.instant # 即时加载
-    - navigation.instant.progress # 进度指示器
-    - navigation.instant.preview # 预览模式
+    # - navigation.instant # 即时加载
+    # - navigation.instant.progress # 进度指示器
+    # - navigation.instant.preview # 预览模式
     - navigation.tracking # 锚点追踪
     - navigation.tabs # 导航选项卡
     #- navigation.tabs.sticky        # 固定导航标签
@@ -216,6 +216,7 @@ extra_javascript:
   - javascripts/tablesort.js # 数据表排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
   - javascripts/mouse_moving.js # 鼠标移动星星特效
+  - javascripts/sakana.js # 石蒜模拟器
 
 # 额外配置
 extra:
@@ -235,7 +236,7 @@ extra:
   #     analytics: 51.la
   # custom: Custom cookie    # 自定义cookies接受项目
 
-  # 统计
+  # 统计服务
   analytics:
     provider: analytics
 
