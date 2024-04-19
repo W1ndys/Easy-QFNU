@@ -118,7 +118,7 @@ theme:
     #- navigation.tabs.sticky        # 固定导航标签
     # - navigation.sections # 导航分组呈现，注意，这决定左侧目录的布局变化 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=nav#navigation-expansion
     #- navigation.expand     # 左侧默认全部展开，与 navigation.prune 冲突
-    - navigation.prune # 导航压缩，与 navigation.expand 冲突
+    # - navigation.prune # 导航压缩，与 navigation.expand 冲突，开启后默认全不展开，需要手动展开
     - navigation.indexes # 章节索引页，需要单独开一个index.md，与分组呈现类似，影响目录的布局，一级标题下自带index，与 toc.integrate 冲突 https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages-with-section-index-pages
     - toc.follow # 锚点跟随
     #- toc.integrate         # 导航整合，会把右侧目录合并到左边，与 navigation.indexes 冲突
@@ -126,7 +126,7 @@ theme:
     - search.suggest # 搜索建议
     - search.highlight # 搜索突出显示
     - search.share # 搜索分享
-    - content.tooltips #改进的工具提示
+    - content.tooltips # 改进的工具提示
     - content.tabs.link # 全部锚链接，启用后，整个文档站点中的所有内容选项卡都将被链接
 
   # 站点的logo（标签页那个）
@@ -216,7 +216,6 @@ extra_javascript:
   - javascripts/tablesort.js # 数据表排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
   - javascripts/mouse_moving.js # 鼠标移动星星特效
-
 
 # 额外配置
 extra:
@@ -560,7 +559,7 @@ nav:
       - 捐助: Start/Reward/index.md
       - 关于我们: Start/About/index.md
 
-  - 网安专区:
+  - 网络空间安全学院:
       - Cyber/index.md
       - 快速开始:
           - Cyber/Start/index.md
@@ -582,9 +581,24 @@ nav:
           - ACM: Cyber/Competition/ACM/index.md
           - 蓝桥杯: Cyber/Competition/Blue-Bridge/index.md
 
-  - 数科专区: Math/index.md
-  - 文院专区: Chinese/index.md
-  - 化院专区: Chemistry/index.md
+  - 文院:
+      - Chinese/index.md
+
+  - 数科院:
+      - Math/index.md
+
+  - 化院:
+      - Chemistry/index.md
+
+  - 生科院:
+      - Life/index.md
+
+  - 统院:
+      - Statistics/index.md
+
+  - 历院:
+      - History/index.md
+
   - 其他页面:
       - 网站收藏: Others/favorite-website.md
       - 食堂光荣榜: Others/eat_error.md
