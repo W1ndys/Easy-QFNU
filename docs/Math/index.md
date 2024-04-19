@@ -1,6 +1,6 @@
 ---
 comments: true
-template: math.html
+# template: Math.html
 ---
 
 # 数学科学学院专区
