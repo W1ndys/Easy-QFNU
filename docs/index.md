@@ -113,6 +113,8 @@ setInterval(() => {
 
     欢迎给[本项目](https://github.com/W1ndys/Easy-QFNU/){:target="\_blank"}点个star⭐
 
+    梦想是让每一位曲园学子都看过我的Easy-QFNU，希望大家能喜欢！也希望有越来越多的人参与编辑，一起完善这个项目！
+
 </div>
 
 <div class="grid cards" markdown>
