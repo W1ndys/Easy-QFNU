@@ -1,9 +1,5 @@
 ---
 comments: true
-# template: home.html ## 留给后期
-# tags:
-#   - 首页
-#   - 首页集
 hide:
   - tags
   - navigation
