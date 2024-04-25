@@ -1,42 +1,52 @@
-<!-- Link to previous page上一页链接 -->
-{% if page.previous_page %}
-{% set direction = lang.t("footer.previous") %}
-<a href="{{ page.previous_page.url | url }}" class="md-footer__link md-footer__link--prev"
-  aria-label="{{ direction }}: {{ page.previous_page.title | e }}" rel="prev">
-  <div class="md-footer__button md-icon">
-    {% set icon = config.theme.icon.previous or "material/arrow-left" %}
-    {% include ".icons/" ~ icon ~ ".svg" %}
-  </div>
-  <div class="md-footer__title">
-    <span class="md-footer__direction">
-      {{ direction }}
-    </span>
-    <div class="md-ellipsis">
-      {{ page.previous_page.title }}
+<style>
+  .footer-links-container {
+    display: flex;
+    align-items: center;
+    /* 垂直居中对齐 */
+  }
+</style>
+<div class="footer-links-container">
+  <!-- Link to previous page上一页链接 -->
+  {% if page.previous_page %}
+  {% set direction = lang.t("footer.previous") %}
+  <a href="{{ page.previous_page.url | url }}" class="md-footer__link md-footer__link--prev"
+    aria-label="{{ direction }}: {{ page.previous_page.title | e }}" rel="prev">
+    <div class="md-footer__button md-icon">
+      {% set icon = config.theme.icon.previous or "material/arrow-left" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
     </div>
-  </div>
-</a>
-{% endif %}
+    <div class="md-footer__title">
+      <span class="md-footer__direction">
+        {{ direction }}
+      </span>
+      <div class="md-ellipsis">
+        {{ page.previous_page.title }}
+      </div>
+    </div>
+  </a>
+  {% endif %}
 
-<!-- Link to next pages下一页链接 -->
-{% if page.next_page %}
-{% set direction = lang.t("footer.next") %}
-<a href="{{ page.next_page.url | url }}" class="md-footer__link md-footer__link--next"
-  aria-label="{{ direction }}: {{ page.next_page.title | e }}" rel="next">
-  <div class="md-footer__title">
-    <span class="md-footer__direction">
-      {{ direction }}
-    </span>
-    <div class="md-ellipsis">
-      {{ page.next_page.title }}
+  <!-- Link to next pages下一页链接 -->
+  {% if page.next_page %}
+  {% set direction = lang.t("footer.next") %}
+  <a href="{{ page.next_page.url | url }}" class="md-footer__link md-footer__link--next"
+    aria-label="{{ direction }}: {{ page.next_page.title | e }}" rel="next">
+    <div class="md-footer__title">
+      <span class="md-footer__direction">
+        {{ direction }}
+      </span>
+      <div class="md-ellipsis">
+        {{ page.next_page.title }}
+      </div>
     </div>
-  </div>
-  <div class="md-footer__button md-icon">
-    {% set icon = config.theme.icon.next or "material/arrow-right" %}
-    {% include ".icons/" ~ icon ~ ".svg" %}
-  </div>
-</a>
-{% endif %}
+    <div class="md-footer__button md-icon">
+      {% set icon = config.theme.icon.next or "material/arrow-right" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </div>
+  </a>
+  {% endif %}
+</div>
+
 
 <!-- 评论功能的核心文件 -->
 {% if page.meta.comments %}
