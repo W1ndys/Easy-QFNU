@@ -586,16 +586,13 @@ nav:
           - ACM: Cyber/Competition/ACM/index.md
           - 蓝桥杯: Cyber/Competition/Blue-Bridge/index.md
 
-  - 文院:
-      - Chinese/index.md
-
-  - 数科院:
+  - 数科:
       - Math/index.md
 
   - 化院:
       - Chemistry/index.md
 
-  - 生科院:
+  - 生科:
       - Life/index.md
 
   - 统院:
@@ -603,6 +600,15 @@ nav:
 
   - 历院:
       - History/index.md
+
+  - 文院:
+      - Chinese/index.md
+
+  - 物院:
+      - Physical-Science/index.md
+
+  - 外院:
+      - Foreign-Language/index.md
 
   - 其他页面:
       - 网站收藏: Others/favorite-website.md
