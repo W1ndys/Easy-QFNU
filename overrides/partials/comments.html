@@ -1,3 +1,23 @@
+<!-- Link to next pages上下页链接 -->
+{% if page.next_page %}
+{% set direction = lang.t("footer.next") %}
+<a href="{{ page.next_page.url | url }}" class="md-footer__link md-footer__link--next"
+  aria-label="{{ direction }}: {{ page.next_page.title | e }}" rel="next">
+  <div class="md-footer__title">
+    <span class="md-footer__direction">
+      {{ direction }}
+    </span>
+    <div class="md-ellipsis">
+      {{ page.next_page.title }}
+    </div>
+  </div>
+  <div class="md-footer__button md-icon">
+    {% set icon = config.theme.icon.next or "material/arrow-right" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+</a>
+{% endif %}
+
 <!-- 评论功能的核心文件 -->
 {% if page.meta.comments %}
 <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
