@@ -212,3 +212,14 @@ del.critic {
     border-radius: var(--base-border-radius);
     /* 使用全局变量定义边框半径 */
 }
+
+/*调整底部社交图标的边距和防止溢出*/
+.md-social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.md-social__link {
+    margin: -4px;
+    /* 调整图标之间的间距 */
+}
