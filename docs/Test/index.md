@@ -747,7 +747,7 @@ that $f(a)=f(b)$.
 
 [Hover me][example]
 
-    [example]: https://example.com "I'm a tooltip!"
+[example]: https://example.com "I'm a tooltip!"
 
 ### 工具提示（带有提示的图标）
 
@@ -776,5 +776,5 @@ The HTML specification is maintained by the W3C.
 
 ---
 
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-10
+:material-clock-edit-outline:{ title="修改日期" } 2024-04-26
 :material-clock-plus-outline:{ title="创建日期" } 2024-02-29
