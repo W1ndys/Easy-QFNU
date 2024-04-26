@@ -150,13 +150,15 @@ setInterval(() => {
 
 </div>
 
+<div class="grid cards" markdown>
+-   :simple-simpleanalytics: **网站资讯**
+
+    <!-- 51.La数据挂件 -->
+    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#6D2424,#6D2424,#6D2424,#FFFFFF,#6D2424,15&col=true&f=14&badge=icon_0&icon=left"></script>
+
 </div>
 
-51.La 数据挂件
-
-<!-- 51.La数据挂件 -->
-<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8"
-    src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#333333,#999999,#333333,#FFFFFF,#1690FF,14&f=14"></script>
+</div>
 
 <br><br><br><br><br><br>
 
