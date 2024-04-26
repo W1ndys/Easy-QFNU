@@ -152,6 +152,12 @@ setInterval(() => {
 
 </div>
 
+51.La 数据挂件
+
+<!-- 51.La数据挂件 -->
+<script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8"
+    src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#333333,#999999,#333333,#FFFFFF,#1690FF,14&f=14"></script>
+
 <br><br><br><br><br><br>
 
 <font color="red">下面是以前的 index.md</font>
