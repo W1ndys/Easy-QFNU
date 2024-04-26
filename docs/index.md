@@ -154,7 +154,7 @@ setInterval(() => {
 -   :simple-simpleanalytics: **网站资讯**
 
     <!-- 51.La数据挂件 -->
-    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#6D2424,#6D2424,#6D2424,#FFFFFF,#6D2424,15&col=true&f=14&badge=icon_0&icon=left"></script>
+    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#6D2424,#6D2424,#6D2424,#FFFFFF,#6D2424,12&col=true&f=14"></script>
 
 </div>
 
