@@ -90,9 +90,9 @@ setInterval(() => {
 
     ---
 
-    在开始之前,请先了解本站[用户协议](/start/agreement/){:target="\_blank"},浏览本站即代表您同意此协议
+    在开始之前,请先了解本站[用户协议](Start/Agreement/){:target="\_blank"},浏览本站即代表您同意此协议
 
-    梦开始的地方，点击快速开始-->[快速开始](/start/)
+    梦开始的地方，点击快速开始-->[快速开始](Start/)
 
     加急更新中………………
 
@@ -118,11 +118,11 @@ setInterval(() => {
 
     ---
 
-    请善用搜索功能来寻找你想要的内容！！
+    请善用<u>**搜索**</u>功能来寻找你想要的内容！！
 
-    [如何发表评论](/start/tutorial/#how-to-comment){:target="\_blank"}
+    [如何发表评论](/Start/Tutorial/#how-to-comment){:target="\_blank"}
 
-    [如何参与编辑](/start/Data-submission/){:target="\_blank"}
+    [如何参与编辑](/Start/Data-Submission/){:target="\_blank"}
 
     [联系作者](){:target="\_blank"}
 
