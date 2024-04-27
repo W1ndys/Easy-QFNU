@@ -130,6 +130,14 @@ setInterval(() => {
 
 </div>
 
+<div class="grid cards" markdown>
+-   :material-advertisements: **广告位招租**
+
+    ---
+
+    联系方式：[w1ndys@outlook.com](mailto:w1ndys@outlook.com){:target="\_blank"}
+
+</div>
 </div>
 
 <div class="grid cards" markdown>
