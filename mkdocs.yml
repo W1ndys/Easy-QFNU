@@ -374,6 +374,10 @@ markdown_extensions:
         custom_icons:
           - overrides/.icons
 
+  # 内联高亮代码块，构建在代码高亮之上
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
+  - pymdownx.inlinehilite
+
   # 代码高亮
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
   - pymdownx.highlight:
@@ -384,10 +388,6 @@ markdown_extensions:
       auto_title: true # 显示正在使用的语言的名称
       linenums_style: pymdownx-inline # table  # pymdownx-inline # 添加行号的方法,此处留空为无行号
       line_spans: __span # 优化，让每一行代码都包含在<span>中
-
-  # 内联高亮代码块，构建在代码高亮之上
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
-  - pymdownx.inlinehilite
 
   # 按键/键盘
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#keys
@@ -527,11 +527,11 @@ plugins:
   # 作者插件
   # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
   - git-committers:
-      enabled: !ENV [CI, false] # 本地关闭
-      repository: W1ndys/Easy-QFNU
+      # enabled: !ENV [CI, false] # 本地关闭  # 该设置在Vercel部署会报错，故关闭
+      repository: W1ndys/Easy-QFNU 
       branch: main
 
-  # # 作者插件，感觉不如上面那个好
+  # 作者插件，感觉不如上面那个好
   # - git-authors
 
   # 外部引用插件，一个 MkDocs 插件，它将 mkdocs.yml 额外变量注入到 markdown 模板中
@@ -584,8 +584,8 @@ nav:
           - Cyber/Competition/index.md
           - CTF: Cyber/Competition/CTF/index.md
           - ACM: Cyber/Competition/ACM/index.md
-          - 蓝桥杯: Cyber/Competition/Blue-Bridge/index.md
-
+          - 蓝桥杯: Cyber/Competition/Lanqiao-Cup/index.md
+          
   - 数科:
       - Math/index.md
 
