@@ -30,21 +30,21 @@ comments: true
 
 省赛的获奖比例原则上为 **一、二、三等奖分别为 10%、20%、30%**
 
-省赛一等奖则有资格参加国赛，国赛的获奖比例原则上为 **一、二、三等奖分别为 5%、20%、35%，优秀奖不超过 40%** （优秀奖必须不是0分）
+省赛一等奖则有资格参加国赛，国赛的获奖比例原则上为 **一、二、三等奖分别为 5%、20%、35%，优秀奖不超过 40%** （优秀奖必须不是 0 分）
 
 ### 学习网站推荐
 
 #### 算法学习
 
-- Hello算法：https://hello-algo.com
+- Hello 算法：[https://hello-algo.com](https://hello-algo.com)
 
-- The Algorithms：https://the-algorithms.com/zh_Hans
+- The Algorithms：[https://the-algorithms.com/zh_Hans](https://the-algorithms.com/zh_Hans)
 
 #### 题库
 
-- 洛谷：https://www.luogu.com.cn
-- 力扣：https://leetcode.cn/problemset
-- Codeforces（CF）：https://codeforces.com
+- 洛谷：[https://www.luogu.com.cn](https://www.luogu.com.cn)
+- 力扣：[https://leetcode.cn/problemset](https://leetcode.cn/problemset)`
+- Codeforces（CF）：[https://codeforces.com](https://codeforces.com)
 
 ---
 
