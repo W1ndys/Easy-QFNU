@@ -215,9 +215,9 @@ extra_javascript:
   - javascripts/ip.js
   - javascripts/tablesort.js # 数据表排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
-  - javascripts/mouse-moving.js # 鼠标移动星星特效
+  # - javascripts/mouse-moving.js # 鼠标移动星星特效
   # 排除页脚文件
-  - javascripts/no-footer.js # 鼠标移动星星特效
+  - javascripts/no-footer.js # 去除底部页脚
 # 额外配置
 extra:
   # 是否显示官方仓库
