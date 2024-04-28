@@ -78,7 +78,7 @@ theme:
     #      name: 关闭自动模式
 
     - media: "(prefers-color-scheme: light)" # 用于检测媒体模式
-      scheme: default # 系统变量，这个不能改
+      scheme: 默认 # 系统变量，这个不能改
       primary: indigo # 可以自定义，建议使用系统主题然后覆盖想改的颜色
       accent: indigo
       toggle:
@@ -436,7 +436,7 @@ plugins:
   - blog:
       enabled: true
       blog_toc: true
-      blog_dir: Update
+      blog_dir: 更新
       post_date_format: medium
       post_url_date_format: yyyy/MM
       post_url_format: "/{slug}"
@@ -584,7 +584,7 @@ nav:
           - Cyber/Competition/index.md
           - CTF: Cyber/Competition/CTF/index.md
           - ACM: Cyber/Competition/ACM/index.md
-          - 蓝桥杯: Cyber/Competition/Blue-Bridge/index.md
+          - 蓝桥杯: Cyber/Competition/Lanqiao-Cup/index.md
 
   - 数科:
       - Math/index.md
