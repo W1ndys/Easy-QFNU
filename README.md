@@ -30,9 +30,7 @@
 
 ## 感谢本项目的源代码贡献者
 
-<a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
-</a>
+[![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
 
 ## 非源代码贡献者致谢
 
