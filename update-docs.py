@@ -114,7 +114,7 @@ if __name__ == "__main__":
         os.path.join(docs_dir, "example_directory"),
         os.path.join(docs_dir, "Update"),
     ]
-    repo_owner = "Easy-QFNU"
+    repo_owner = "W1ndys"
     repo_name = "Easy-QFNU"
 
     github_token = os.environ.get("GITHUB_TOKEN")
