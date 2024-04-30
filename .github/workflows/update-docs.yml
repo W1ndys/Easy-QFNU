@@ -1,6 +1,9 @@
 name: Update-docs
 
 on:
+  push:
+    branches:
+      - main  # push 时触发
   schedule:
     - cron: "0 17 * * *" # 每天早上 1 点更新文档 UTC的时间为 17:00 对应的北京时间为 1:00，中国使用东八区时间（UTC+8），因此中国地区的凌晨一点对应的 UTC 时间是前一天的下午17点（即UTC+8 - 8 = UTC）。
   workflow_dispatch:
