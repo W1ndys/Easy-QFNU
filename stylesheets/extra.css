@@ -1,0 +1,225 @@
+/* Color Settings */
+/* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors */
+
+/* 
+下面是一些图标库
+https://pictogrammers.com/library/mdi/
+https://fontawesome.com/search?o=r&m=free
+https://primer.style/foundations/icons#/
+https://simpleicons.org/#/ 
+*/
+
+/*公告背景色*/
+.md-banner {
+    background-color: #000000;
+    color: var(--md-footer-fg-color);
+    overflow: auto;
+}
+
+/*这里是分割线的颜色*/
+
+[data-md-color-scheme="default"] .md-typeset hr {
+    border-bottom: 0.05rem solid #cdcdcda3;
+    /* 亮色模式下的边框颜色 */
+    display: flow-root;
+    margin: 1.5em 0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset hr {
+    border-bottom: 0.05rem solid #ffffff;
+    /* 暗色模式下的边框颜色 */
+    display: flow-root;
+    margin: 1.5em 0;
+}
+
+/* 自定义链接颜色 */
+.md-typeset a {
+    color: #2f80ed;
+    word-break: break-word;
+}
+
+/*自定义主题颜色，未指定的的全部使用系统默认*/
+[data-md-color-primary="indigo"] {
+    --md-primary-fg-color: #6d2424;
+    --md-primary-fg-color--light: #8d6e62;
+    --md-primary-fg-color--dark: #6d2424;
+    --md-primary-bg-color: #fff;
+    --md-primary-bg-color--light: #ffffffb3;
+}
+
+/* 外部 CSS 文件 回到首页的按钮链接文字 */
+.home-link {
+    color: #fff !important;
+    /* 设置为黑色并使用 !important 来覆盖外部样式 */
+}
+
+/* Markdown内联块网格列表样式圆角和阴影 */
+.md-typeset .grid.cards>ol>li,
+.md-typeset .grid.cards>ul>li,
+.md-typeset .grid>.card {
+    border: 0.05rem solid var(--md-default-fg-color--lightest);
+    border-radius: 0.7rem;
+    /* 修改圆角大小 */
+    display: block;
+    margin: 0;
+    padding: 0.8rem;
+    transition: border 0.25s, box-shadow 0.25s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* 修改阴影效果 */
+    /* box-shadow: 水平偏移量 垂直偏移量 模糊半径 扩散半径 色值; */
+}
+
+/* 添加过渡效果 */
+
+* {
+    transition-property: color, background-color;
+    /* 设置过渡的属性 */
+    transition-duration: 0.5s;
+    /* 设置过渡的时间 */
+    transition-timing-function: cubic-bezier(0.07, 0.51, 0.7, 1);
+    /* 设置过渡的缓动函数 */
+}
+
+/*取消导航栏的背景色和阴影*/
+/*因为左右侧导航栏(目录)的开头背景色是独立的,这里特殊处理一下*/
+@media screen and (min-width: 76.25em) {
+
+    .md-nav--lifted>.md-nav__list>.md-nav__item--active>.md-nav__link,
+    .md-nav--secondary .md-nav__title {
+        background: none;
+        box-shadow: none;
+    }
+}
+
+/*上面是过渡效果*/
+
+/* 定义全局变量 */
+:root {
+    --base-border-radius: 0.5rem;
+    /* 基础边框半径 */
+}
+
+/* 高亮样式 */
+.highlight span.filename {
+    border-bottom: none;
+    /* 取消底部边框 */
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    display: inline;
+    font-family: var(--md-code-font-family);
+    /* 使用 Markdown 代码字体 */
+    border-bottom-left-radius: 0;
+    /* 底部左边框半径 */
+    border-bottom-right-radius: 0;
+    /* 底部右边框半径 */
+    margin-bottom: 5px;
+    text-align: center;
+    /* 文本居中 */
+}
+
+.highlight span.filename+pre>code {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-top-left-radius: 0;
+    /* 顶部左边框半径 */
+}
+
+/* Markdown 类型设置 */
+.md-typeset pre>code {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 网格卡片 */
+/* 这里的网格卡片样式用我自己写的*/
+/* .md-typeset .grid.cards>ul>li {
+    border-radius: var(--base-border-radius);   
+} */
+/* 鼠标悬停阴影 */
+/* .md-typeset .grid.cards>ul>li:hover {
+    box-shadow: 0 0 0.2rem #ffffff40;
+
+} */
+
+/* Markdown 按钮 */
+.md-typeset .md-button {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* Critic, Mark */
+ins.critic,
+del.critic {
+    text-decoration: none;
+    /* 删除线和插入线的文本修饰 */
+}
+
+.md-typeset .critic,
+.md-typeset mark {
+    border-radius: 0.2rem;
+    /* 边框半径 */
+    padding: 0 0.2rem;
+    /* 内边距 */
+}
+
+.md-typeset mark {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-mark-color);
+    /* 阴影 */
+}
+
+.md-typeset ins.critic {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-ins-color);
+    /* 插入线阴影 */
+}
+
+.md-typeset del.critic {
+    box-shadow: 0 0 0 0.1rem var(--md-typeset-del-color);
+    /* 删除线阴影 */
+}
+
+/* 表单 */
+.md-search__form {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+[data-md-toggle="search"]:checked~.md-header .md-search__form {
+    border-top-right-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-top-left-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+[dir="ltr"] .md-search__output {
+    border-bottom-right-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+    border-bottom-left-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 博客 - index.md */
+.md-post--excerpt {
+    background-color: var(--md-accent-fg-color--transparent);
+    /* 背景颜色 */
+    box-shadow: 0 0 0 1rem var(--md-accent-fg-color--transparent);
+    /* 阴影 */
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/* 表格 */
+.md-typeset table:not([class]) {
+    border-radius: var(--base-border-radius);
+    /* 使用全局变量定义边框半径 */
+}
+
+/*调整底部社交图标的边距和防止溢出*/
+.md-social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.md-social__link {
+    margin: -4px;
+    /* 调整图标之间的间距 */
+}

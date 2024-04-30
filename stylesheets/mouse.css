@@ -1,0 +1,29 @@
+/* 设置页面的鼠标样式 */
+
+/* 默认鼠标样式 */
+html,
+body {
+	cursor: url(/assets/img/mouse/default.png), auto;
+	/* 默认指针 */
+}
+
+/* 所有链接 */
+a[href],
+.copy-btn.copy-btn-light,
+button[class],
+svg,
+.icon-copy:before {
+	cursor: url(/assets/img/mouse/link.png), auto;
+	/* 链接指针 */
+}
+
+/* 链接文字 */
+a {
+	cursor: inherit;
+}
+
+/* 包含链接的按钮 */
+a[class^="button"],
+.md-ellipsis {
+	cursor: url(/assets/img/mouse/link.png), auto;
+}

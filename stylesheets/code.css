@@ -1,0 +1,10 @@
+/* 代码块自定义颜色 */
+/* https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#customization */
+/* 一般不用改，具体变量名可以通过前端F12查看 */
+
+
+
+
+/* :root>* {
+    --md-code-hl-name-color: #0FF1CE;
+} */
