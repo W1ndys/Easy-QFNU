@@ -674,8 +674,4 @@ Jeff Bigler 的观察总结和这个相关也值得一读 (**[tact filters](http
 
 Evelyn Mitchel 贡献了一些愚蠢问题例子并启发了编写`如何更好地回答问题`这一节， Mikhail Ramendik 贡献了一些特别有价值的建议和改进。
 
-
----
-
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-28
-:material-clock-plus-outline:{ title="创建日期" } 2024-04-26
+ 
