@@ -38,4 +38,4 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 每日定时自动更新文档日期
+          commit_message: 【bot】自动更新文档日期
