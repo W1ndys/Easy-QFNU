@@ -14,7 +14,7 @@ jobs:
           fetch-depth: '0'
       - name: Configure Git Credentials       
         run: |
-       p   git config user.name github-actions[bot]
+          git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
