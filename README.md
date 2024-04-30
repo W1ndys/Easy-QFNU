@@ -36,6 +36,6 @@
 
 本项目框架的采用灵感来自于 [@ProbiusOfficial](https://github.com/ProbiusOfficial/) 的 [Hello-CTF](https://github.com/ProbiusOfficial/Hello-CTF/), 在一些细节上, 我借鉴了 Hello-CTF 的设计灵感/思路，以及仓库管理方案
 
-本项目基于 Mkdocs-Material 项目开发，致谢 Mkdocs-Material 项目及其开发者们，Powered by mkdocs-material
+本项目基于 Mkdocs-Material 项目开发，致谢 Mkdocs-Material 项目及其开发者们，Powered by mkdocs-material。
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
