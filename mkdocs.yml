@@ -518,7 +518,7 @@ plugins:
 
   # 日期插件，由于这个日期插件耗费了我们太多精力，我们决定删除这个功能
   - git-revision-date-localized:
-      # enabled: !ENV [CI, false] # 本地关闭
+      enabled: !ENV [CI, false] # 本地关闭
       enable_creation_date: true # 启用创建日期
       type: iso_date # date datetime  iso_date  iso_datetime  timeago
       fallback_to_build_date: true
