@@ -240,7 +240,7 @@ extra:
   analytics:
     provider: analytics
 
-  # 状态页
+  # 状态页 https://squidfunk.github.io/mkdocs-material/reference/?h=status#/setting-the-page-status
   status:
     new: Recently added
 
