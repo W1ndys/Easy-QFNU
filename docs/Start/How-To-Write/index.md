@@ -5,7 +5,7 @@ icon: fontawesome/solid/up-long
 
 # 如何书写特殊语法 | How-to-write
 
-<font color="red">**本文的所有写法的样式都可以在[测试页面](/Test)找到对应的效果**</font>
+<font color="red">**本文的所有写法的样式都可以在[测试页面](/Start/Test)找到对应的效果**</font>
 
 ## 粗体斜体测试
 
