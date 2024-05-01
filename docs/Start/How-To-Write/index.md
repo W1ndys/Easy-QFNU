@@ -7,8 +7,6 @@ icon: fontawesome/solid/up-long
 
 <font color="red">**本文的所有写法的样式都可以在[测试页面](/Test)找到对应的效果**</font>
 
-# 测试页面
-
 ## 粗体斜体测试
 
 ```
