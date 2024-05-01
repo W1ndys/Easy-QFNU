@@ -1,8 +1,11 @@
 {
-  "deploy": {
-    "production": {
-      "branch": "gh-pages",
-      "message": "Deployed to gh-pages"
-    }
-  }
+        "buildCommand": "mkdocs build",
+        "outputDirectory": "site",
+        "installCommand": "pip install -r requirements.txt",
+        "cleanUrls": true,
+        "git": {
+                "deploymentEnabled": {
+                        "gh-pages": false
+                }
+        }
 }
