@@ -64,9 +64,3 @@ tags: [首页]
 
 前四个群哪去了？
 答：我们前四个群是 QQ 群，但由于扩容成本高，让本就不富裕的开发雪上加霜，于是转为云上曲园，享受高容量群聊，方便的功能
-
-
----
-
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-30
-:material-clock-plus-outline:{ title="创建日期" } 2024-03-22
