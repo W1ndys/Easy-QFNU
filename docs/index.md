@@ -45,7 +45,7 @@ hide:
                 <span id="jinrishici-sentence" class="content">随机诗句加载中</span>
                 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
                 <!-- 公告 -->
-                <span id="announcement" class="content" style="display: none;">呜呜呜废了很长时间才做出来个切换设计😭...</span>
+                <span id="announcement" class="content" style="display: none;">欢迎各位曲园学子！欢迎访问Easy-QFNU！</span>
             </div>
         </li>
     </ul>
