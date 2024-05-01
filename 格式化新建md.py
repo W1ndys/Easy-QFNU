@@ -17,12 +17,12 @@ comments: true
 
 # {title}
 
----
-
-:material-clock-edit-outline:{{ title="修改日期" }} {current_date}
-:material-clock-plus-outline:{{ title="创建日期" }} {current_date}
 """
 
+    # ---
+
+    # :material-clock-edit-outline:{{ title="修改日期" }} {current_date}
+    # :material-clock-plus-outline:{{ title="创建日期" }} {current_date}
     # 写入Markdown文件
     with open(filename, "w", encoding="utf-8") as f:
         f.write(markdown_content)
