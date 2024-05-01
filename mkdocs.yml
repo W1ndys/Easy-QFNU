@@ -201,7 +201,7 @@ extra_css:
   - stylesheets/tasklist.css
   - stylesheets/admonition.css
   - stylesheets/status.css
-  - stylesheets/mouse.css
+  # - stylesheets/mouse.css  # 鼠标样式
 
 # 附加的JS文件
 extra_javascript:
