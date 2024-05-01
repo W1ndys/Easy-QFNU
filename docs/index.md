@@ -84,35 +84,6 @@ setInterval(() => {
 <!-- ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
 
 <div class="grid cards" markdown>
-
-<div class="grid cards" markdown>
--   :fontawesome-solid-newspaper: **NEWS**
-
-    ---
-
-    在开始之前,请先了解本站[用户协议](Start/Agreement/){:target="\_blank"},浏览本站即代表您同意此协议
-
-    梦开始的地方，点击快速开始-->[快速开始](Start/)
-
-    加急更新中………………
-
-</div>
-
-</div>
-
-<div class="grid cards" markdown>
-
-<div class="grid cards" markdown>
--   :octicons-alert-16: **公告**
-
-    ---
-
-    欢迎给[本项目](https://github.com/W1ndys/Easy-QFNU/){:target="\_blank"}点个star⭐
-
-    梦想是让每一位曲园学子都看过我的Easy-QFNU，希望大家能喜欢！也希望有越来越多的人参与编辑，一起完善这个项目！
-
-</div>
-
 <div class="grid cards" markdown>
 -   :material-battery-charging-wireless-outline: **使用须知**
 
@@ -130,6 +101,32 @@ setInterval(() => {
 
 </div>
 
+</div>
+
+<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+-   :octicons-alert-16: **公告**
+
+    ---
+
+    欢迎给[本项目](https://github.com/W1ndys/Easy-QFNU/){:target="\_blank"}点个star⭐
+
+    梦想是让每一位曲园学子都看过我的Easy-QFNU，希望大家能喜欢！也希望有越来越多的人参与编辑，一起完善这个项目！
+
+</div>
+
+<div class="grid cards" markdown>
+-   :fontawesome-solid-newspaper: **NEWS**
+
+    ---
+
+    在开始之前,请先了解本站[用户协议](Start/Agreement/){:target="\_blank"},浏览本站即代表您同意此协议
+
+    梦开始的地方，点击快速开始-->[快速开始](Start/)
+
+    加急更新中………………
+
+</div>
 <div class="grid cards" markdown>
 -   :material-advertisements: **广告位招租**
 
@@ -228,4 +225,3 @@ setInterval(() => {
 - 数学科学学院速通指南
 
 我们欢迎你提供各种有效信息,期待你的加入
-
