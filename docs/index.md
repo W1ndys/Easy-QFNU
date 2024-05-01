@@ -85,7 +85,7 @@ setInterval(() => {
 
 <div class="grid cards" markdown>
 <div class="grid cards" markdown>
--   :material-battery-charging-wireless-outline: **使用须知**
+-   :material-battery-charging-wireless-outline: **新手引导**
 
     ---
 
