@@ -1,16 +1,13 @@
 # Exported from Render on 2024-04-01T12:39:08Z
 services:
 - type: web
-  name: ezqfnu.w1ndys.top
+  name: Easy-QFNU
   runtime: static
-  repo: https://github.com/W1ndys/ezqfnu.w1ndys.top
-  branch: main
-  envVars:
-  - key: MKDOCS_GIT_COMMITTERS_APIKEY
-    sync: false
-  buildCommand: pip install -r requirements.txt && mkdocs build
-  staticPublishPath: site
+  repo: https://github.com/W1ndys/Easy-QFNU
+  branch: gh-pages
+  buildCommand: 
+  staticPublishPath: 
   domains:
-  - r.ezqfnu.w1ndys.top
+  - r.easy-qfnu.top
   pullRequestPreviewsEnabled: true
 version: "1"
