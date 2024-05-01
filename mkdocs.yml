@@ -565,6 +565,12 @@ nav:
       - 捐助: Start/Reward/index.md
       - 关于我们: Start/About/index.md
 
+  - 选课指北:
+      - Course-Selection/index.md
+
+  - 速通指南:
+      - Speed-Up/index.md
+
   - 网络空间安全学院:
       - Cyber/index.md
       - 快速开始:
