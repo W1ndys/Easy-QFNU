@@ -804,5 +804,3 @@ The HTML specification is maintained by the W3C.
 <br/>
 当你看到一大堆图标的时候，就证明测试成功了。
 </p>
-
- 
