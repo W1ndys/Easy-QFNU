@@ -1,10 +1,8 @@
 ---
-title: 测试页面
 comments: true
-description: 测试页面
 icon: material/test-tube
-status: test
-template: noannounce.html
+# status: test
+# template: noannounce.html
 ---
 
 # 测试页面
