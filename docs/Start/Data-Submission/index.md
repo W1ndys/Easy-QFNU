@@ -11,6 +11,10 @@ comments: true
 
 - [联系作者](#_3)(适合问卷无法描述的内容)
 
+## 如何编辑高级写法
+
+看这里：[How to write](/Start/How-to-write/)
+
 ## Pull request
 
 > 推荐会 pr 的同学使用这种方法，方便快捷，有多端 bot 检查语法，自动化，工作效率高
