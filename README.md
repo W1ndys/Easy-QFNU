@@ -20,6 +20,12 @@
 
 主站: [https://Easy-QFNU.top/](https://Easy-QFNU.top/)（全自动部署，数据最先更新）
 
+备用站点:
+- https://v.Easy-QFNU.top
+- https://n.Easy-QFNU.top
+- https://z.Easy-QFNU.top
+- https://c.Easy-QFNU.top
+- https://r.Easy-QFNU.top
 ---
 
 ## Star History
