@@ -1,5 +1,7 @@
 # Easy-QFNU 官方文档
 
+![Easy-QFNU](assets/image/image.png)
+
 [![Stars](https://img.shields.io/github/stars/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
 [![Forks](https://img.shields.io/github/forks/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
 [![Contributors](https://img.shields.io/github/contributors/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors)
@@ -21,11 +23,13 @@
 主站: [https://Easy-QFNU.top/](https://Easy-QFNU.top/)（全自动部署，数据最先更新）
 
 备用站点:
+
 - https://v.Easy-QFNU.top
 - https://n.Easy-QFNU.top
 - https://z.Easy-QFNU.top
 - https://c.Easy-QFNU.top
 - https://r.Easy-QFNU.top
+
 ---
 
 ## Star History
