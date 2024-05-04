@@ -223,3 +223,9 @@ del.critic {
     margin: -4px;
     /* 调整图标之间的间距 */
 }
+
+.md-tabs__item {
+    height: 2.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.2rem;
+}
