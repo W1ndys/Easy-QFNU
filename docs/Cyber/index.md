@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/shield-check
 ---
 
 # 网络空间安全学院 | Cyber

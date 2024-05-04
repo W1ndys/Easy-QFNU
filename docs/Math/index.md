@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/math-integral
 # template: Math.html
 ---
 
