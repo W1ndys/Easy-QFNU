@@ -36,7 +36,7 @@ comments: true
 <font color="red">如果你只需要修改局部内容，比如一句话，几段字，几行代码，请往下看。</font>
 <br/>
 
-<font color="red">如果你想提交大量内容，比如两个及以上文件有改动，或是提交新文件新页面，请先[复刻本项目](https://github.com/W1ndys/Easy-QFNU/fork){target="\_blank" rel="noopener"}，克隆到你本地，修改完成后上传，然后再提交 Pull Request，既然你已经决定要提交多个文件改动，相信你也熟悉Pull Request操作，不需要此类教程，如果需要，请[联系我本人](https://blog.w1ndys.top/html/QQ.html){target="\_blank" rel="noopener"}，这里不在过多描述，相信你一定可以让项目更加完善</font>
+<font color="red">如果你想提交大量内容，比如两个及以上文件有改动，或是提交新文件新页面，请先[复刻本项目](https://github.com/W1ndys/Easy-QFNU/fork){target="\_blank" rel="noopener"}，克隆到你本地，修改完成后上传，然后再提交 Pull Request，既然你已经决定要提交多个文件改动，相信你也熟悉 Pull Request 操作，不需要此类教程，如果需要，请[联系我本人](https://blog.w1ndys.top/html/QQ.html){target="\_blank" rel="noopener"}，这里不在过多描述，相信你一定可以让项目更加完善</font>
 
 <font color="red">注意：请不要提交与本项目无关的 Pull Request，否则会被关闭</font>
 
@@ -96,4 +96,3 @@ comments: true
 - :material-qqchat: [点击此处](https://qm.qq.com/q/jxkXeydtoA){target="\_blank" rel="noopener"}加我为 QQ 好友
 
 </div>
- 

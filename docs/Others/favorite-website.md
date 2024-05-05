@@ -5,8 +5,7 @@ comments: true
 ## My Website
 
 <div class="grid cards" markdown>
-
--   :material-home: Home
+- :material-home: Home
 
     ---
 
@@ -14,7 +13,7 @@ comments: true
 
     我的个人主页
 
--   :fontawesome-solid-blog: Blog
+- :fontawesome-solid-blog: Blog
 
     ---
 
@@ -22,7 +21,7 @@ comments: true
 
     我的博客
 
--   :material-tools: 曲阜师范大学选课指北
+- :material-tools: 曲阜师范大学选课指北
 
     ---
 
@@ -30,7 +29,7 @@ comments: true
 
     曲阜师范大学选课指北
 
--   :material-book: 曲阜师范大学速通指南
+- :material-book: 曲阜师范大学速通指南
 
     ---
 
@@ -38,18 +37,14 @@ comments: true
 
     曲阜师范大学速通指南
 
-
 </div>
-
-
 
 ## School Websites
 
 图标库里没有，所以图标先欠着
 
 <div class="grid cards" markdown>
-
--   :material-school: QFNU
+- :material-school: QFNU
 
     ---
 
@@ -57,7 +52,7 @@ comments: true
 
     曲阜师范大学官网
 
--   :material-ip-network: QFNU_cyber
+- :material-ip-network: QFNU_cyber
 
     ---
 
@@ -65,62 +60,61 @@ comments: true
 
     曲阜师范大学网络空间学院官网
 
-
--   :material-account-file: 知新教管平台
+- :material-account-file: 知新教管平台
 
     ---
 
     [https://stu.z-xin.net/](https://stu.z-xin.net/){:target="_blank"}
 
--   :material-library: 曲阜师范大学图书馆预约系统
+- :material-library: 曲阜师范大学图书馆预约系统
 
     ---
 
     [http://libyy.qfnu.edu.cn/](http://libyy.qfnu.edu.cn/){:target="_blank"}
 
--   :material-pine-tree: 智慧树网/知到
+- :material-pine-tree: 智慧树网/知到
 
     ---
 
     [https://www.zhihuishu.com/#/](https://www.zhihuishu.com/#/){:target="_blank"}
 
--   :simple-studyverse: 学习通
+- :simple-studyverse: 学习通
 
     ---
 
     [https://passport2.chaoxing.com/login/#/](https://passport2.chaoxing.com/login/#/){:target="_blank"}
 
--   :material-controller-classic: 长江雨课堂
+- :material-controller-classic: 长江雨课堂
 
     ---
 
     [https://changjiang.yuketang.cn/web#/](https://changjiang.yuketang.cn/web#/){:target="_blank"}
 
--   :material-alpha-u: U校园
+- :material-alpha-u: U校园
 
     ---
 
     [https://u.unipus.cn/](https://u.unipus.cn/){:target="_blank"}
 
--   :material-alpha-w: Welearn
+- :material-alpha-w: Welearn
 
     ---
 
     [https://welearn.sflep.com/index.aspx](https://welearn.sflep.com/index.aspx){:target="_blank"}
 
--   :material-alpha-f: fif口语
+- :material-alpha-f: fif口语
 
     ---
 
     [https://www.fifedu.com/iplat/html/index.html#/](https://www.fifedu.com/iplat/html/index.html#/){:target="_blank"}
 
--   :material-alpha-i: iwrite英语写作 
+- :material-alpha-i: iwrite英语写作
 
     ---
 
     [https://iwrite.unipus.cn/login#/](https://iwrite.unipus.cn/login#/){:target="_blank"}
 
--   :flag_cn: 中国教育干部网络学院
+- :flag_cn: 中国教育干部网络学院
 
     ---
 
@@ -128,18 +122,16 @@ comments: true
 
 </div>
 
-
 ## Study Websites
 
 <div class="grid cards" markdown>
-
--   Pubscholar公益学术平台
+- Pubscholar公益学术平台
 
     ---
 
     [https://pubscholar.cn/#/](https://pubscholar.cn/#/){:target="_blank"}
 
--   chatGPT3.5官网
+- chatGPT3.5官网
 
     ---
 
@@ -150,8 +142,7 @@ comments: true
 ## Code Websites
 
 <div class="grid cards" markdown>
-
--   :material-github: Github
+- :material-github: Github
 
     ---
 
@@ -159,7 +150,7 @@ comments: true
 
     强大的代码托管平台
 
--   :simple-vercel: Vercel
+- :simple-vercel: Vercel
 
     ---
 
@@ -167,7 +158,7 @@ comments: true
 
     快速部署网站
 
--   :simple-netlify: Netlify
+- :simple-netlify: Netlify
 
     ---
 
@@ -175,7 +166,7 @@ comments: true
 
     快速部署网站
 
--   :simple-cloudflare: Cloudflare
+- :simple-cloudflare: Cloudflare
 
     ---
 
@@ -183,7 +174,7 @@ comments: true
 
     快速部署网站
 
--   :W1ndys-Render: Render
+- :W1ndys-Render: Render
 
     ---
 
@@ -191,7 +182,7 @@ comments: true
 
     快速部署网站
 
--   :W1ndys-51la: 51la
+- :W1ndys-51la: 51la
 
     ---
 
@@ -199,20 +190,10 @@ comments: true
 
     统计网站访问量
 
--   :fontawesome-solid-code: 代码小抄
+- :fontawesome-solid-code: 代码小抄
 
     ---
 
     [https://www.codecopy.cn/](https://www.codecopy.cn/){:target="_blank"}
-
-</div>
-
- 
-
----
-
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-30
-:material-clock-plus-outline:{ title="创建日期" } 2024-04-19
-codecopy.cn/](https://www.codecopy.cn/){:target="_blank"}
 
 </div>

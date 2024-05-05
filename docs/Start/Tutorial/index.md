@@ -62,7 +62,7 @@ icon: material/coach-lamp
 
 首先，上面我们提到了，评论是基于 Github 构建的，所以，你需要先有一个 Github 账号。
 
-Github 账号的注册方法：[如何注册GitHub账号](#github-how-to-sign-in-github)
+Github 账号的注册方法：[如何注册 GitHub 账号](#github-how-to-sign-in-github)
 
 ### 评论开始 | Commenting
 
@@ -95,10 +95,3 @@ Giscus 没有在评论区直接删除或修改的功能，但你可以进入 [Gi
 首先，点击你发出去的评论的`时间`，你就可以在评论区找到你的评论，然后点击`评论右上方的三个点`，就可以修改你的评论了。或者直接删除也可以
 
 最后一个办法（效率最低的办法）：联系站点作者
-
- 
-
----
-
-:material-clock-edit-outline:{ title="修改日期" } 2024-04-30
-:material-clock-plus-outline:{ title="创建日期" } 2024-04-19
