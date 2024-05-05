@@ -7,9 +7,9 @@ comments: true
 
 - [Pull request](#pull-request)(适合源代码工作者)
 
-- [问卷提交](#_2)(适合大多数人)
+- [问卷提交](#questionnaire-submission)(适合大多数人)
 
-- [联系作者](#_3)(适合问卷无法描述的内容)
+- [联系作者](#contact-the-author)(适合问卷无法描述的内容)
 
 ## 如何编辑高级写法
 
@@ -75,7 +75,7 @@ comments: true
     <figcaption>等待合并</figcaption>
 </figure>
 
-## 问卷提交
+## 问卷提交 | Questionnaire Submission
 
 <div class="grid cards" markdown>
 
@@ -87,7 +87,7 @@ comments: true
 
 </div>
 
-## 联系作者
+## 联系作者 | Contact the Author
 
 <div class="grid cards" markdown>
 
