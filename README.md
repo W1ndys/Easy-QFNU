@@ -1,7 +1,6 @@
-# Easy-QFNU 官方文档
-
 [![Easy-QFNU](assets/image/image.png)](https://easy-qfnu.top)
 
+# Easy-QFNU 官方文档
 
 [![Stars](https://img.shields.io/github/stars/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
 [![Forks](https://img.shields.io/github/forks/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)  
