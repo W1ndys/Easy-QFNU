@@ -571,48 +571,50 @@ nav:
   - 速通指南:
       - Speed-Up/index.md
 
-  - 网络空间安全学院:
-      - Cyber/index.md
-      - 快速开始:
-          - Cyber/Start/index.md
+  - Easy-College:
+      - Easy-College/index.md
+      - 网络空间安全学院:
+          - Easy-College/Cyber/index.md
+          - 快速开始:
+              - Easy-College/Cyber/Start/index.md
 
-      - 学习篇:
-          - Cyber/Study/index.md
-          - 绩点课: Cyber/Study/Grade-Point/index.md
-          - 专业技能: Cyber/Study/Professional-Skills/index.md
+          - 学习篇:
+              - Easy-College/Cyber/Study/index.md
+              - 绩点课: Easy-College/Cyber/Study/Grade-Point/index.md
+              - 专业技能: Easy-College/Cyber/Study/Professional-Skills/index.md
 
-      - 组织篇:
-          - Cyber/Organization/index.md
-          - 学生会: Cyber/Organization/Student-Union/index.md
-          - 社团: Cyber/Organization/Club/index.md
-          - 实验室: Cyber/Organization/Lab/index.md
+          - 组织篇:
+              - Easy-College/Cyber/Organization/index.md
+              - 学生会: Easy-College/Cyber/Organization/Student-Union/index.md
+              - 社团: Easy-College/Cyber/Organization/Club/index.md
+              - 实验室: Easy-College/Cyber/Organization/Lab/index.md
 
-      - 竞赛篇:
-          - Cyber/Competition/index.md
-          - CTF: Cyber/Competition/CTF/index.md
-          - ACM: Cyber/Competition/ACM/index.md
-          - 蓝桥杯: Cyber/Competition/Lanqiao-Cup/index.md
+          - 竞赛篇:
+              - Easy-College/Cyber/Competition/index.md
+              - CTF: Easy-College/Cyber/Competition/CTF/index.md
+              - ACM: Easy-College/Cyber/Competition/ACM/index.md
+              - 蓝桥杯: Easy-College/Cyber/Competition/Lanqiao-Cup/index.md
 
-  - 数科:
-      - Math/index.md
+      - 数科:
+          - Easy-College/Math/index.md
 
-  - 化院:
-      - Chemistry/index.md
+      - 化院:
+          - Easy-College/Chemistry/index.md
 
-  - 生科:
-      - Life/index.md
+      - 生科:
+          - Easy-College/Life/index.md
 
-  - 统院:
-      - Statistics/index.md
+      - 统院:
+          - Easy-College/Statistics/index.md
 
-  - 历院:
-      - History/index.md
+      - 历院:
+          - Easy-College/History/index.md
 
-  - 物院:
-      - Physical-Science/index.md
+      - 物院:
+          - Easy-College/Physical-Science/index.md
 
-  - 外院:
-      - Foreign-Language/index.md
+      - 外院:
+          - Easy-College/Foreign-Language/index.md
 
   - 其他页面:
       - 网站收藏: Others/favorite-website.md
