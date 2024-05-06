@@ -2,7 +2,7 @@ name: Mkdocs build
 on:
   workflow_dispatch:
   push:
-     branches:
+    branches:
        - main
     paths:
       - "docs/**"
