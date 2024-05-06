@@ -4,15 +4,14 @@
 
 [![Stars](https://img.shields.io/github/stars/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
 [![Forks](https://img.shields.io/github/forks/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)  
+[![Code Size](https://img.shields.io/github/languages/code-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)  
+[![Repo Size](https://img.shields.io/github/repo-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)
 [![Contributors](https://img.shields.io/github/contributors/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors)
 [![License](https://img.shields.io/github/license/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/blob/main/LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/commits/master)
 [![Issues](https://img.shields.io/github/issues/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/issues)
 [![Pull Requests](https://img.shields.io/github/issues-pr/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/pulls)
-[![Code Size](https://img.shields.io/github/languages/code-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)  
-[![Repo Size](https://img.shields.io/github/repo-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)
-[![Watchers](https://img.shields.io/github/watchers/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
-
+[![钉钉群](https://img.shields.io/badge/%E9%92%89%E9%92%89%E7%BE%A4-79680003880-blue)](https://qr.dingtalk.com/action/joingroup?code=v1,k1,27o5cmXSRSS9TEv5RvSMANwPAVL/gOQCaSxay8Uo5cw=&_dt_no_comment=1&origin=11?)
 
 <div style="max-width: 100%; margin: 0 auto;">
     <img src="https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
@@ -28,11 +27,11 @@
 
 备用站点:
 
-- https://v.Easy-QFNU.top
-- https://n.Easy-QFNU.top
-- https://z.Easy-QFNU.top
-- https://c.Easy-QFNU.top
-- https://r.Easy-QFNU.top
+- <https://v.Easy-QFNU.top>
+- <https://n.Easy-QFNU.top>
+- <https://z.Easy-QFNU.top>
+- <https://c.Easy-QFNU.top>
+- <https://r.Easy-QFNU.top>
 
 ---
 
