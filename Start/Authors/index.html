@@ -2651,6 +2651,45 @@
         Material for MkDocs
     </a>
 </div>
+
+<pre id="update-time">
+    <!-- 这里将会填充Github获取的最后更新时间 -->
+</pre>
+
+<style>
+    #update-time {
+        color: aliceblue;
+        margin: auto .6rem;
+        border-radius: 3px;
+        padding: .4rem 0;
+        font-size: 14px;
+        line-height: 1.6;
+        white-space: nowrap;
+        /* 文本不换行 */
+        overflow: hidden;
+        /* 隐藏溢出的文本 */
+        text-overflow: ellipsis;
+        /* 显示省略号 */
+    }
+</style>
+
+<script>
+    // 获取GitHub上的HTML文件内容
+    fetch('https://raw.githubusercontent.com/Easy-QFNU/get-latest-commit-info-Easy-QFNU/main/index.html')
+        .then(response => response.text())
+        .then(html => {
+            // 创建一个新的div元素，并将HTML内容设置为其innerHTML
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+
+            // 获取解析后的HTML代码
+            const parsedHTML = tempDiv.innerHTML;
+
+            // 将解析后的HTML代码填充到页面中指定的位置
+            document.getElementById('update-time').innerHTML = parsedHTML;
+        })
+        .catch(error => console.error('获取更新时间失败:', error));
+</script>
       
         <div class="md-social">
   
@@ -2826,5 +2865,7 @@ OjAwxo9IDwAAAABJRU5ErkJggg==" />
         <script src="../../javascripts/no-footer.js"></script>
       
     
-  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
 </html>
