@@ -2716,12 +2716,12 @@
 <pre id="update-time">
     <!-- 此处插入GitHub获取的时间 -->
     更新时间获取中...<br/>
-    若长时间不显示请科学上网后刷新
+    若长时间不显示请科学上网后刷新或<a href="https://update-time.easy-qfnu.top/#/" target="_blank" color="blue">点此查看</a>外部链接
 </pre>
 
 <style>
     #update-time {
-        color: aliceblue;
+        color: #BABABA;
         margin: auto .6rem;
         border-radius: 3px;
         padding: .4rem 0;
@@ -2734,11 +2734,15 @@
         text-overflow: ellipsis;
         /* 显示省略号 */
     }
+    #update-time a {
+        color: #819BFC;
+        text-decoration: none;
+    }
 </style>
 
 <script>
     // 获取GitHub上的HTML文件内容
-    fetch('https://raw.githubusercontent.com/Easy-QFNU/get-latest-commit-info-Easy-QFNU/main/index.html')
+    fetch('https://raw.githubusercontent.com/Easy-QFNU/Update-time-Easy-QFNU/main/update-time-Easy-QFNU.html#/')
         .then(response => response.text())
         .then(html => {
             // 创建一个新的div元素，并将HTML内容设置为其innerHTML
@@ -2753,7 +2757,6 @@
         })
         .catch(error => console.error('获取更新时间失败:', error));
 </script>
-
       
         <div class="md-social">
   
