@@ -140,10 +140,10 @@ content
 嵌套注释 (1)
 { .annotate }
 
-1.  我是一个嵌套注释 (1) :man_raising_hand:
+1. 我是一个嵌套注释 (1) :man_raising_hand:
     { .annotate }
 
-    1.  我是嵌套注释的子注释 :man_raising_hand:
+    1. 我是嵌套注释的子注释 :man_raising_hand:
 
 #### 提示框注释
 
@@ -521,7 +521,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
--   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+- :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
 
     ---
 
@@ -533,7 +533,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 </div>
 
 <div class="grid cards" markdown>
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+- :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
     ---
 
@@ -544,7 +544,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 </div>
 
 <div class="grid cards" markdown>
--   :material-format-font:{ .lg .middle } __Made to measure__
+- :material-format-font:{ .lg .middle } __Made to measure__
 
     ---
 
@@ -555,7 +555,7 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 </div>
 
 <div class="grid cards" markdown>
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+- :material-scale-balance:{ .lg .middle } __Open Source, MIT__
 
     ---
 
@@ -663,7 +663,7 @@ emoji 表情 :smile:
 
 > 暂不需要
 
-https://squidfunk.github.io/mkdocs-material/reference/images/#light-and-dark-mode
+<https://squidfunk.github.io/mkdocs-material/reference/images/#light-and-dark-mode>
 
 ## 列表
 
@@ -681,20 +681,20 @@ https://squidfunk.github.io/mkdocs-material/reference/images/#light-and-dark-mod
 
 > 有序列表必须以数字开头，后跟一个点。数字不需要是连续的，可以全部设置为 1.，因为它们在渲染时会重新编号
 
-1.  Vivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis
+1. Vivamus id mi enim. Integer id turpis sapien. Ut condimentum lobortis
     sagittis. Aliquam purus tellus, faucibus eget urna at, iaculis venenatis
     nulla. Vivamus a pharetra leo.
 
-    1.  Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet
+    1. Vivamus venenatis porttitor tortor sit amet rutrum. Pellentesque aliquet
         quam enim, eu volutpat urna rutrum a. Nam vehicula nunc mauris, a
         ultricies libero efficitur sed.
 
-    2.  Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet
+    2. Morbi eget dapibus felis. Vivamus venenatis porttitor tortor sit amet
         rutrum. Pellentesque aliquet quam enim, eu volutpat urna rutrum a.
 
-        1.  Mauris dictum mi lacus
-        2.  Ut sit amet placerat ante
-        3.  Suspendisse ac eros arcu
+        1. Mauris dictum mi lacus
+        2. Ut sit amet placerat ante
+        3. Suspendisse ac eros arcu
 
 ### 定义列表
 
@@ -739,13 +739,13 @@ that $f(a)=f(b)$.
 
 ### 工具提示
 
-[Hover me](https://example.com "I'm a tooltip!")
+[Hover me](https://example.com "我是工具提示!")
 
 ### 工具提示（链接引用）
 
 [Hover me][example]
 
-[example]: https://example.com "I'm a tooltip!"
+[example]: https://example.com "我是工具提示!"
 
 ### 工具提示（带有提示的图标）
 
@@ -755,8 +755,8 @@ that $f(a)=f(b)$.
 
 The HTMLL specification is maintained by the W3CC.
 
-_[HTMLL]: 缩写测试 Hyper Text Markup Language
-_[W3CC]: 缩写测试 World Wide Web Consortium
+*[HTMLL]: 缩写测试 Hyper Text Markup Language
+*[W3CC]: 缩写测试 World Wide Web Consortium
 
 ### 术语表
 
