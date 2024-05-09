@@ -29,12 +29,12 @@ else:
         # 添加分隔符，用于内容扩展
         file.write(f"\n\n<!-- more -->\n\n\n\n---\n\n")
         # 添加"修改日期"和"创建日期"的内容
-        file.write(
-            f':material-clock-edit-outline:{{ title="修改日期" }} {current_date_iso}\n'
-        )
-        file.write(
-            f':material-clock-plus-outline:{{ title="创建日期" }} {current_date_iso}'
-        )
+        # file.write(
+        #     f':material-clock-edit-outline:{{ title="修改日期" }} {current_date_iso}\n'
+        # )
+        # file.write(
+        #     f':material-clock-plus-outline:{{ title="创建日期" }} {current_date_iso}'
+        # )
 
     # 打开新创建的文件
     os.system(f"start {file_path}")  # 适用于Windows系统
