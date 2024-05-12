@@ -52,3 +52,4 @@
 本项目基于 Mkdocs-Material 项目开发，致谢 Mkdocs-Material 项目及其开发者们，Powered by mkdocs-material
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
