@@ -112,7 +112,7 @@ _           _                       _  _           _  _                         
 
 # 快速开始
 
-欢迎你找到这里，这里是 [Easy-QFNU](https://Easy-QFNU.top) 的在线阅读站点，免费、开源、共建、共享的文档式 Web 网站弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
+欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
 Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target="_blank"} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target="_blank"} ，
 
@@ -127,6 +127,8 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 - 作者：[W1ndys](https://github.com/W1ndys)
 
 - 邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com) （作者个人邮箱，可以直接联系）
+
+- QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者QQ号，可以直接联系，联系请注明来意）
 
 ## 致谢
 
