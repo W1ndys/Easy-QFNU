@@ -110,7 +110,7 @@ _           _                       _  _           _  _                         
 
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
 
-# 快速开始
+# 快速开始 | Quick Start
 
 欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，主要包括 QFNU 选课指北速通指南等信息，致力于弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
@@ -130,7 +130,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者 QQ 号，可以直接联系，联系请注明来意）
 
-## 声明
+## 声明 | Disclaimer
 
 本站所有内容来自作者自己和大家投稿，不代表曲阜师范大学官方立场，如有不实之处，请联系作者进行更正。本站内容仅供参考，不具有绝对的正确性，请以曲阜师范大学官方公布的最新信息为准，一切内容请自行斟酌阅读。
 
@@ -138,9 +138,9 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 本站仅代表网站立场，并不代表曲阜师范大学官方立场，本站内容立场与作者本人无关，与学校无关，网站内容请勿上升到学院、系、院、校、研究所、研究院、研究所、学会、社团、机构、团体、组织等官方认可的高度。
 
-## 致谢
+## 致谢 | Acknowledgement
 
-本项目基于 [Mkdocs-Material](https://squidfunk.github.io/mkdocs-material/) 构建，源代码托管于 [GitHub](https://github.com/W1ndys/Easy-QFNU) ，静态页面部署于 [Vercel](https://vercel.com/) 、 [Netlify](https://www.netlify.com/) 等平台，感谢以上单位。
+本项目基于 [Mkdocs-Material](https://squidfunk.github.io/mkdocs-material/) 构建，源代码托管于 [GitHub](https://github.com/W1ndys/Easy-QFNU) ，静态页面部署于 [Vercel](https://vercel.com/) 、 [Netlify](https://www.netlify.com/) 、[cloudflare](https://www.cloudflare.com/) 、[Zeabur](https://zeabur.com/)、[Render](https://render.com/) 等平台，感谢以上单位。
 
 起初，我们只是一个简单的博客站点，后来受到 [Hello-CTF](https://hello-ctf.com/) 的启发，后来不断完善，才有了现在的这个样子，如果你对 CTF 感兴趣，推荐阅读这个 CTF 入门指南
 
