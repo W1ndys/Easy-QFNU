@@ -6,6 +6,7 @@ hide:
   - footer
   - toc
   - actions
+icon: material/home
 ---
 
 <!-- 下面是随机诗句和公告的切换全部配置 -->
