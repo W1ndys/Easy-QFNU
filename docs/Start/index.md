@@ -1,7 +1,7 @@
 ---
 comments: true
 icon: material/airplane
-tags: [首页, 首页集]
+# tags: [首页, 首页集]
 ---
 
 <!--
@@ -112,11 +112,11 @@ _           _                       _  _           _  _                         
 
 # 快速开始
 
-欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
+欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，主要包括 QFNU 选课指北速通指南等信息，致力于弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
-Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target="_blank"} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target="_blank"} ，
+Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "}
 
-关于我的信息:
+关于本站:
 
 - 官网：[https://easy-qfnu.top](https://easy-qfnu.top) 你可以在下方代码块后方直接复制以便于分享
 
@@ -128,13 +128,21 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - 邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com) （作者个人邮箱，可以直接联系）
 
-- QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者QQ号，可以直接联系，联系请注明来意）
+- QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者 QQ 号，可以直接联系，联系请注明来意）
+
+## 声明
+
+本站所有内容来自作者自己和大家投稿，不代表曲阜师范大学官方立场，如有不实之处，请联系作者进行更正。本站内容仅供参考，不具有绝对的正确性，请以曲阜师范大学官方公布的最新信息为准，一切内容请自行斟酌阅读。
+
+本站系作者个人**兴趣爱好和热情**而开发，不对内容的准确性负责，如有错误，欢迎指正。如果有一天我们<font color="red">停运</font>了，也请大家海涵嘴下留情。
+
+本站仅代表网站立场，并不代表曲阜师范大学官方立场，本站内容立场与作者本人无关，与学校无关，网站内容请勿上升到学院、系、院、校、研究所、研究院、研究所、学会、社团、机构、团体、组织等官方认可的高度。
 
 ## 致谢
 
 本项目基于 [Mkdocs-Material](https://squidfunk.github.io/mkdocs-material/) 构建，源代码托管于 [GitHub](https://github.com/W1ndys/Easy-QFNU) ，静态页面部署于 [Vercel](https://vercel.com/) 、 [Netlify](https://www.netlify.com/) 等平台，感谢以上单位。
 
-起初，我们只是一个简单的博客站点，后来受到 [Hello-CTF](https://hello-ctf.com/) 的启发，后来不断完善，才有了现在的这个样子，如果你对CTF感兴趣，推荐阅读这个CTF入门指南
+起初，我们只是一个简单的博客站点，后来受到 [Hello-CTF](https://hello-ctf.com/) 的启发，后来不断完善，才有了现在的这个样子，如果你对 CTF 感兴趣，推荐阅读这个 CTF 入门指南
 
 感谢所有贡献者，本项目的完成离不开以下小伙伴的贡献，感谢他们的付出。包括但不仅限于：
 
