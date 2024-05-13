@@ -3,6 +3,8 @@ comments: true
 icon: material/shield-check
 ---
 
+<link rel="stylesheet" type="text/css" href="/stylesheets/Cyber.css">
+
 # 网络空间安全学院 | Cyber
 
 <div align="center" style="font-size: 24px;">

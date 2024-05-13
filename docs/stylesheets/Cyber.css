@@ -1,0 +1,8 @@
+/* 网安主题色*/
+[data-md-color-primary="indigo"] {
+    --md-primary-fg-color: #0F324E;
+    --md-primary-fg-color--light: #8d6e62;
+    --md-primary-fg-color--dark: #0F324E;
+    --md-primary-bg-color: #fff;
+    --md-primary-bg-color--light: #ffffffb3;
+}
