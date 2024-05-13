@@ -83,7 +83,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/weather-sunny
-        name: 开启夜间模式
+        name: 开启暗色模式
 
     - media: "(prefers-color-scheme: dark)" # 用于检测媒体模式
       scheme: slate # 系统变量，这个不能改
@@ -91,7 +91,7 @@ theme:
       accent: indigo
       toggle:
         icon: material/weather-night
-        name: 关闭夜间模式
+        name: 开启亮色模式
 
   # 字体配置
   font:
