@@ -112,6 +112,8 @@ _           _                       _  _           _  _                         
 
 # 快速开始 | Quick Start
 
+## 介绍 | Introduction
+
 欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，主要包括 QFNU 选课指北速通指南等信息，致力于弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
 Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "}
