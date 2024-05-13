@@ -33,6 +33,13 @@ icon: material/home
     width: 100%;
     transition: transform 0.5s ease; /* 调整过渡时间和缓动函数 */
 }
+
+/* 取消统计跳转链接文字的默认链接蓝色*/
+.md-typeset .custom-link {
+    color: inherit; /* 继承父元素的颜色，即默认文本的颜色 */
+    text-decoration: none; /* 取消下划线 */
+}
+
 </style>
 
 <!-- 诗词一言接口，来自https://www.jinrishici.com/#/ -->
@@ -86,7 +93,7 @@ setInterval(() => {
 
 <div class="grid cards" markdown>
 <div class="grid cards" markdown>
--   :material-battery-charging-wireless-outline: **新手引导**
+- :material-battery-charging-wireless-outline: **新手引导**
 
     ---
 
@@ -106,7 +113,7 @@ setInterval(() => {
 
 <div class="grid cards" markdown>
 <div class="grid cards" markdown>
--   :octicons-alert-16: **公告**
+- :octicons-alert-16: **公告**
 
     ---
 
@@ -117,7 +124,7 @@ setInterval(() => {
 </div>
 
 <div class="grid cards" markdown>
--   :fontawesome-solid-newspaper: **NEWS**
+- :fontawesome-solid-newspaper: **NEWS**
 
     ---
 
@@ -129,7 +136,7 @@ setInterval(() => {
 
 </div>
 <div class="grid cards" markdown>
--   :material-advertisements: **广告位招租**
+- :material-advertisements: **广告位招租**
 
     ---
 
@@ -141,14 +148,14 @@ setInterval(() => {
 <div class="grid cards" markdown>
 
 <div class="grid cards" markdown>
--   :octicons-repo-16: **源代码仓库概览**
+- :octicons-repo-16: **源代码仓库概览**
 
     [![本仓库](https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
 </div>
 
 <div class="grid cards" markdown>
--   :material-hand-heart: **源代码贡献者**
+- :material-hand-heart: **源代码贡献者**
 
     [![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
 
@@ -157,7 +164,7 @@ setInterval(() => {
 </div>
 
 <div class="grid cards" markdown>
--   :simple-simpleanalytics: [**<font color="black">网站资讯</font>**](https://v6.51.la/report/overview?comId=416432){:target="\_blank"}
+- :simple-simpleanalytics: <a class="custom-link" href="https://v6.51.la/report/overview?comId=416432" target="_blank"><strong>网站资讯</strong></a>
 
     <!-- 51.La数据挂件 -->
     <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#6D2424,#6D2424,#6D2424,#FFFFFF,#6D2424,12&col=true&f=14"></script>
