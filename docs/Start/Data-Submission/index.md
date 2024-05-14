@@ -3,7 +3,7 @@ icon: material/archive
 comments: true
 ---
 
-# 数据提交
+# 贡献指南 | Contributing Guide
 
 - [Pull request](#pull-request)(适合源代码工作者)
 
