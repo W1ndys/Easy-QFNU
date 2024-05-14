@@ -1,9 +1,10 @@
 ---
 comments: true
 icon: material/shield-check
+template: Cyber-css.html
 ---
 
-<link rel="stylesheet" type="text/css" href="/stylesheets/Cyber.css">
+
 
 # 网络空间安全学院 | Cyber
 
