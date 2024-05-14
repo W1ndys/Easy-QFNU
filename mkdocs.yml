@@ -556,7 +556,7 @@ nav:
 
   - 快速开始:
       - 快速开始: Start/index.md
-      - 数据提交: Start/Data-Submission/index.md
+      - 贡献指南: Start/Data-Submission/index.md
       - 留言板: Start/Message-Board/index.md
       - 意见箱: Start/Feedback-Box/index.md
       - 首页[预备]: index-backup.md
@@ -588,6 +588,14 @@ nav:
           - Easy-College/Cyber/index.md
           - 快速开始:
               - Easy-College/Cyber/Start/index.md
+
+          - 学院专业:
+              - Easy-College/Cyber/Major/index.md
+              - 软件工程: Easy-College/Cyber/Major/Software-Engineering/index.md
+              - 网络空间安全: Easy-College/Cyber/Major/Cyber-Security/index.md
+              - 电子信息工程: Easy-College/Cyber/Major/Electronic-Information-Engineering/index.md
+              - 通信工程: Easy-College/Cyber/Major/Communication-Engineering/index.md
+              - 物联网工程: Easy-College/Cyber/Major/Internet-of-Things-Engineering/index.md
 
           - 学习篇:
               - Easy-College/Cyber/Study/index.md
