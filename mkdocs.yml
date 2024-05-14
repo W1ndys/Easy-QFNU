@@ -557,6 +557,8 @@ nav:
   - 快速开始:
       - 快速开始: Start/index.md
       - 数据提交: Start/Data-Submission/index.md
+      - 留言板: Start/Message-Board/index.md
+      - 意见箱: Start/Feedback-Box/index.md
       - 首页[预备]: index-backup.md
       - 食用教程: Start/Tutorial/index.md
       - 高级语法: Start/How-To-Write/index.md
