@@ -93,6 +93,6 @@ comments: true
 
 - :material-mail: 给我[发邮箱](mailto:w1ndys@outlook.com)
 
-- :material-qqchat: [点击此处](https://qm.qq.com/q/jxkXeydtoA){target="\_blank" rel="noopener"}加我为 QQ 好友
+- :material-qqchat: [点击此处](https://blog.w1ndys.top/html/QQ){target="\_blank" rel="noopener"}加我为 QQ 好友
 
 </div>
