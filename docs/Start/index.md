@@ -201,32 +201,32 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 === "官网"
 
-    ![官网](website.png){ align=right }
+    ![官网](website.png)
 
     我们官方网站的二维码，扫一下即可跳转到官方网站页面，可以截图分享
 
 === "微信公众号"
 
-    ![微信公众号](VXGZH.png){ align=left }
+    ![微信公众号](VXGZH.png)
 
     我们的微信公众号，关注后可以获取最新资讯，有重要通知都会在这里发
 
 === "作者 QQ"
 
-    ![作者 QQ](QQ.png){ align=right }
+    ![作者 QQ](QQ.png)
 
     需要联系作者请扫描二维码联系，请一定备注来源
 
 === "QQ闲聊群"
 
-    ![QQ闲聊群](qqchat.png){ align=left }
+    ![QQ闲聊群](qqchat.png)
 
     来水群！来水群！来水群！来水群！
 
 === "钉钉通知群"
 
-    ![钉钉通知群](dingtalk.png){ align=right }
-
+    ![钉钉通知群](dingtalk.png)
+    
     这里使用学校的指定办公APP：云上曲园，也可以加群，云上曲园实际上就是一个定制版的钉钉，但还是推荐使用钉钉原版，更新比较快
 
 ---
