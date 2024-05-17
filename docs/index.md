@@ -99,6 +99,8 @@ setInterval(() => {
 
     请善用<u>**搜索**</u>功能来寻找你想要的内容！！
 
+    在浏览本站前请先阅读 [用户协议](Start/Agreement/){:target="\_blank"}
+
     [如何发表评论](/Start/Tutorial/#how-to-comment){:target="\_blank"}
 
     [如何参与编辑](/Start/Data-Submission/){:target="\_blank"}
