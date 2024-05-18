@@ -154,7 +154,7 @@ _           _                       _  _           _  _                         
 
 欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，主要包括 QFNU 选课指北速通指南等信息，致力于弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
-Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target ="_blank "}
+Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "}
 
 ## 声明 | Disclaimer
 
@@ -185,9 +185,9 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - 官网：[https://easy-qfnu.top](https://easy-qfnu.top) 你可以在下方代码块后方直接复制以便于分享
 
-    ``` title="官网"
-    https://easy-qfnu.top
-    ```
+  ```title="官网"
+  https://easy-qfnu.top
+  ```
 
 - 项目地址：[https://github.com/W1ndys/Easy-QFNU](https://github.com/W1ndys/Easy-QFNU)
 
@@ -197,7 +197,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者 QQ 号，可以直接联系，联系请注明来意）
 
-- 微信公众号：W1ndys  （关注公众号，获取最新资讯，有重要通知都会在这里发）
+- 微信公众号：W1ndys （关注公众号，获取最新资讯，有重要通知都会在这里发）
 
 === "官网"
 
@@ -217,7 +217,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
     需要联系作者请扫描二维码联系，请一定备注来源
 
-=== "QQ闲聊群"
+=== "QQ 闲聊群"
 
     ![QQ闲聊群](qqchat.png)
 
@@ -226,7 +226,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 === "钉钉通知群"
 
     ![钉钉通知群](dingtalk.png)
-    
+
     这里使用学校的指定办公APP：云上曲园，也可以加群，云上曲园实际上就是一个定制版的钉钉，但还是推荐使用钉钉原版，更新比较快
 
 ---
