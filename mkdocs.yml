@@ -572,13 +572,13 @@ nav:
   - 速通指南:
       - Easy-PassSchool/index.md
 
-      - 新生你好: Speed-South/New-Students/index.md
+      - 新生你好: Easy-PassSchool/New-Students/index.md
 
-      - 衣食住行: Speed-South/Lifestyle/index.md
+      - 衣食住行: Easy-PassSchool/Lifestyle/index.md
 
-      - 课上课下: Speed-South/Classes/index.md
+      - 课上课下: Easy-PassSchool/Classes/index.md
 
-      - 校园地图: Speed-South/Map/index.md
+      - 校园地图: Easy-PassSchool/Map/index.md
 
   - Easy-College:
       - Easy-College/index.md
@@ -637,7 +637,7 @@ nav:
       - W1ndys-balabala/index.md
       - 反诈指南: W1ndys-balabala/Anti-Fraud/index.md
       - 自我修养: W1ndys-balabala/Self-Improvement/index.md
-      
+
   - 其他页面:
       - 网站收藏: Others/favorite-website.md
       - 食堂光荣榜: Others/eat_error.md
