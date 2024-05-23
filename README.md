@@ -43,7 +43,11 @@
 
 ## 感谢本项目的源代码贡献者
 
-[![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors)
+<p align="left">
+    <a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
+        <img width="550" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
+    </a>
+</p>
 
 ## 非源代码贡献者致谢
 
@@ -52,5 +56,3 @@
 本项目基于 Mkdocs-Material 项目开发，致谢 Mkdocs-Material 项目及其开发者们，Powered by mkdocs-material
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
-
-

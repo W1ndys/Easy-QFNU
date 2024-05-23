@@ -149,17 +149,21 @@ setInterval(() => {
 
 <div class="grid cards" markdown>
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown>
 - :octicons-repo-16: **源代码仓库概览**
 
     [![本仓库](https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU?theme=light)](https://github.com/W1ndys/Easy-QFNU)
 
-</div>
+</div> -->
 
 <div class="grid cards" markdown>
 - :material-hand-heart: **源代码贡献者**
 
-    [![源代码贡献者](https://stats.deeptrain.net/contributor/W1ndys/Easy-QFNU/?column=7&theme=light)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors){:target="\_blank"}
+    <p align="left">
+        <a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
+            <img width="100" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
+        </a>
+    </p>
 
     **向每一个为开源项目做出努力和贡献的人，致以崇高的敬意！！！**
 
