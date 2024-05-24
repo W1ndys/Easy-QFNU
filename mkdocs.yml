@@ -526,7 +526,7 @@ plugins:
       timezone: Asia/Shanghai
 
   # 作者插件
-  # 注意，本插件与远程存储库链接，启用新文件时必须先上传，或者注释掉本设置，否则本地调试会报错
+  # 注意，本插件与远程存储库链接，启用新文件时必须先上传，本地关闭，或者注释掉本设置，否则本地调试会报错
   - git-committers:
       enabled: !ENV [CI, false] # 本地关闭  # 该设置在Vercel部署会报错，故关闭
       repository: W1ndys/Easy-QFNU
@@ -543,7 +543,7 @@ plugins:
 # 监听文件，可以实时刷新的目录
 watch:
   - includes # 目录
-  - docs
+  - docs——
   - mkdocs.yml # 配置文件
   - overrides # 部分
 
