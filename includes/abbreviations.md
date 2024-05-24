@@ -8,7 +8,7 @@
 
 *[GitHub]: GitHub是一个面向开源及私有软件项目的托管平台，因为只支持Git 作为唯一的版本库格式进行托管，故名GitHub。
 
-*[Pull Request]: 拉取请求，一种在GitHub上向其他用户请求拉取其代码的机制。
+*[Pull Request]: 拉取请求，一种在GitHub上向其他用户请求拉取其代码的机制。在Easy-QFNU中，我们泛指所有进行数据贡献的操作，包括但不仅限于：直接改动源代码，问卷提交，联系作者等
 
 *[Typora]: 这是一个Markdown编辑器
 
