@@ -543,7 +543,7 @@ plugins:
 # 监听文件，可以实时刷新的目录
 watch:
   - includes # 目录
-  - docs——
+  - docs   # Markdown文件
   - mkdocs.yml # 配置文件
   - overrides # 部分
 
