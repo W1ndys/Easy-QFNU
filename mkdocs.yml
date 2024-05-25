@@ -131,18 +131,18 @@ theme:
 
   # 站点的logo（标签页那个）
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#site-icons
-  favicon: https://p.qlogo.cn/gh/497554955/497554955/640/
+  favicon: assets/logo/favico.png
 
   # 页面logo图标
   # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
-  # logo: https://p.qlogo.cn/gh/497554955/497554955/640/
+  logo: assets/logo/favico.png
 
   # 图标设置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#customization
   icon:
     # logo
     # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
-    logo: material/tools
+    # logo: material/tools
 
     # 页面编辑和查看图标
     edit: material/pencil
@@ -201,7 +201,7 @@ extra_css:
   - stylesheets/tasklist.css
   - stylesheets/admonition.css
   - stylesheets/status.css
-  - stylesheets/details.css # details的动态css,暂时搁置，以后有时间再看看
+  # - stylesheets/details.css # details的动态css,暂时搁置，以后有时间再看看
   # - stylesheets/mouse.css  # 鼠标样式
 
 # 附加的JS文件
@@ -220,7 +220,7 @@ extra_javascript:
   # 排除页脚文件
   - javascripts/no-footer.js # 去除底部页脚
   # 额外配置
-  - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
+  # - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
 extra:
   # 是否显示官方仓库
   generator: true
