@@ -1,0 +1,20 @@
+details {
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    max-height: 1.5em;
+    /* 初始状态，只显示 summary */
+}
+
+details[open] {
+    max-height: 500px;
+    /* 假设内容最大高度，可以根据需要调整 */
+}
+
+summary {
+    cursor: pointer;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
