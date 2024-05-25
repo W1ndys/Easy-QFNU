@@ -543,7 +543,7 @@ plugins:
 # 监听文件，可以实时刷新的目录
 watch:
   - includes # 目录
-  - docs   # Markdown文件
+  - docs # Markdown文件
   - mkdocs.yml # 配置文件
   - overrides # 部分
 
@@ -556,18 +556,28 @@ nav:
 
   - 快速开始:
       - 快速开始: Start/index.md
+
       - 贡献指南: Start/Data-Submission/index.md
+
       - 留言板: Start/Message-Board/index.md
+
       - 意见箱: Start/Feedback-Box/index.md
+
       - 食用教程: Start/Tutorial/index.md
+
       - 高级语法: Start/How-To-Write/index.md
+
       - 作者名单: Start/Authors/index.md
+
       - 用户协议: Start/Agreement/index.md
+
       - 捐助: Start/Reward/index.md
+
       - 关于我们: Start/About/index.md
 
   - 选课指北:
       - Easy-SelectCourse/index.md
+
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
 
   - 速通指南:
@@ -583,34 +593,49 @@ nav:
 
   - Easy-College:
       - Easy-College/index.md
+
       - 网络空间安全学院:
           - Easy-College/Cyber/index.md
+
           - 快速开始:
               - Easy-College/Cyber/Start/index.md
 
           - 学院专业:
               - Easy-College/Cyber/Major/index.md
+
               - 软件工程: Easy-College/Cyber/Major/Software-Engineering/index.md
+
               - 网络空间安全: Easy-College/Cyber/Major/Cyber-Security/index.md
+
               - 电子信息工程: Easy-College/Cyber/Major/Electronic-Information-Engineering/index.md
+
               - 通信工程: Easy-College/Cyber/Major/Communication-Engineering/index.md
+
               - 物联网工程: Easy-College/Cyber/Major/Internet-of-Things-Engineering/index.md
 
           - 学习篇:
               - Easy-College/Cyber/Study/index.md
+
               - 绩点课: Easy-College/Cyber/Study/Grade-Point/index.md
+
               - 专业技能: Easy-College/Cyber/Study/Professional-Skills/index.md
 
           - 组织篇:
               - Easy-College/Cyber/Organization/index.md
+
               - 学生会: Easy-College/Cyber/Organization/Student-Union/index.md
+
               - 社团: Easy-College/Cyber/Organization/Club/index.md
+
               - 实验室: Easy-College/Cyber/Organization/Lab/index.md
 
           - 竞赛篇:
               - Easy-College/Cyber/Competition/index.md
+
               - CTF: Easy-College/Cyber/Competition/CTF/index.md
+
               - ACM: Easy-College/Cyber/Competition/ACM/index.md
+
               - 蓝桥杯: Easy-College/Cyber/Competition/Lanqiao-Cup/index.md
 
       - 数科:
@@ -636,15 +661,22 @@ nav:
 
   - W言W语:
       - W1ndys-balabala/index.md
+
       - 反诈指南: W1ndys-balabala/Anti-Fraud/index.md
+
       - 自我修养: W1ndys-balabala/Self-Improvement/index.md
 
   - 其他页面:
       - 网站收藏: Others/favorite-website.md
+
       - 食堂光荣榜: Others/eat_error.md
+
       - 钉钉: Others/dingtalk.md
+
       - Markdown-examples: Others/markdown-examples.md
+
       - api-examples: Others/api-examples.md
+
   - 更新日志:
       - Update/index.md
 #
