@@ -201,6 +201,7 @@ extra_css:
   - stylesheets/tasklist.css
   - stylesheets/admonition.css
   - stylesheets/status.css
+  - stylesheets/details.css # details的动态css,暂时搁置，以后有时间再看看
   # - stylesheets/mouse.css  # 鼠标样式
 
 # 附加的JS文件
@@ -218,8 +219,8 @@ extra_javascript:
   # - javascripts/mouse-moving.js # 鼠标移动星星特效
   # 排除页脚文件
   - javascripts/no-footer.js # 去除底部页脚
-
-# 额外配置
+  # 额外配置
+  - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
 extra:
   # 是否显示官方仓库
   generator: true
