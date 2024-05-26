@@ -15,12 +15,14 @@ template: Cyber-css.html
 
 在这里，我将介绍一些网络空间安全学院的基本知识，以及如何快速入门。
 
-本模块内容:material-information-outline:{ title="网络空间安全学院模块" }由我([W1ndys](https://github.com/W1ndys "也是本网站的作者"))编写，欢迎大家参与 [Pull Request](https://github.com/W1ndys/Easy-QFNU/tree/main/docs/Cyber)。
+本模块内容:material-information-outline:{ title="网络空间安全学院模块" }由我([W1ndys](https://github.com/W1ndys "也是本网站的作者"))编写，欢迎大家参与 [Pull Request](https://github.com/W1ndys/Easy-QFNU/edit/main/docs/Easy-College/Cyber)。
 
 ## 目录
 
 本模块的主要内容有：
 
-- [学习篇](/Cyber/Study/)
-- [组织篇](/Cyber/Organization)
-- [竞赛篇](/Cyber/Competition)
+- [学习篇](/Easy-College/Cyber/Study/)
+
+- [组织篇](/Easy-College/Cyber/Organization)
+
+- [竞赛篇](/Easy-College/Cyber/Competition)
