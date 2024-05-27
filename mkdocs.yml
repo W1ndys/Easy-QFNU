@@ -593,7 +593,7 @@ nav:
   - Easy-College:
       - Easy-College/index.md
 
-      - 网络空间安全学院:
+      - Easy-网安:
           - Easy-College/Cyber/index.md
 
           - 快速开始:
@@ -637,28 +637,28 @@ nav:
 
               - 蓝桥杯: Easy-College/Cyber/Competition/Lanqiao-Cup/index.md
 
-      - 数科:
+      - Easy-数科:
           - Easy-College/Math/index.md
 
-      - 化院:
+      - Easy-化院:
           - Easy-College/Chemistry/index.md
 
-      - 生科:
+      - Easy-生科:
           - Easy-College/Life/index.md
 
-      - 统院:
+      - Easy-统院:
           - Easy-College/Statistics/index.md
 
-      - 历院:
+      - Easy-历院:
           - Easy-College/History/index.md
 
-      - 物院:
+      - Easy-物院:
           - Easy-College/Physical-Science/index.md
 
-      - 外院:
+      - Easy-外院:
           - Easy-College/Foreign-Language/index.md
 
-  - W言W语:
+  - 作者的碎碎念:
       - W1ndys-balabala/index.md
 
       - 反诈指南: W1ndys-balabala/Anti-Fraud/index.md
