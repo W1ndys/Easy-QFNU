@@ -7,7 +7,8 @@ Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a
 
 {% block styles %}
 {{ super() }}
-<style>
+<!-- Sakana Widget CSS -->
+<!-- <style>
     @media (max-width: 768px) {
         #left_layer {
             display: none;
@@ -21,12 +22,13 @@ Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a
             left: 0;
         }
     }
-</style>
+</style> -->
 {% endblock %}
 
 {% block content %}
 {{ super() }}
-<div id="left_layer">
+<!-- Sakana Widget -->
+<!-- <div id="left_layer">
     <div id="sakana-widget"></div>
     <script>
         function initSakanaWidget() {
@@ -35,5 +37,5 @@ Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a
     </script>
     <script async onload="initSakanaWidget()"
         src="https://cdn.jsdelivr.net/npm/sakana-widget@2.2.2/lib/sakana.min.js"></script>
-</div>
+</div> -->
 {% endblock %}
