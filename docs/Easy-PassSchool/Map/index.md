@@ -14,27 +14,29 @@ comments: true
 
 ### 老校区地图
 
-![老校区地图](School-Map/Old1.jpg)
-
-![老校区地图](School-Map/Old2.jpg)
+<p>
+    <img src="School-Map/Old1.jpg" alt="老校区地图" style="width:40%;"/>
+    <img src="School-Map/Old2.jpg" alt="老校区地图" style="width:40%;"/>
+</p>
 
 #### 综合楼卫生间地图
 
 > 致谢：本图由 飞天富贵鼠鼠 提供
 
-![综合楼卫生间地图](综合楼卫生间地图.jpg)
+<img src="综合楼卫生间地图.jpg" alt="综合楼卫生间地图" style="width:30%;" />
 
 ### 新校区地图
 
-![新校区地图](School-Map/New1.jpg)
-
-![新校区地图](School-Map/New2.jpg)
+<p>
+    <img src="School-Map/New1.jpg" alt="新校区地图" style="width:40%;" />
+    <img src="School-Map/New2.jpg" alt="新校区地图" style="width:40%;" />
+</p>
 
 #### 格物楼局部地图
 
 > 致谢：本图由 计算机爱好者协会 提供
 
-![格物楼局部地图](格物楼局部.png)
+<img src="格物楼局部.png" alt="格物楼局部地图" style="width:30%;" />
 
 #### 文渊楼地图
 
