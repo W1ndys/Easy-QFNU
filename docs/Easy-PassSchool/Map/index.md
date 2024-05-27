@@ -14,9 +14,9 @@ comments: true
 
 ### 老校区地图
 
-![老校区地图](pPgsjdU.jpg)
+![老校区地图](School-Map/Old1.jpg)
 
-![老校区地图](pPgsvoF.jpg)
+![老校区地图](School-Map/Old2.jpg)
 
 #### 综合楼卫生间地图
 
@@ -26,9 +26,9 @@ comments: true
 
 ### 新校区地图
 
-![新校区地图](pPgssXZT.jpg)
+![新校区地图](School-Map/New1.jpg)
 
-![新校区地图](pPgszi4.jpg)
+![新校区地图](School-Map/New2.jpg)
 
 #### 格物楼局部地图
 
@@ -50,15 +50,15 @@ comments: true
 
 > 致谢：本图由 希望数分别再折磨我了 提供
 
-![老校区地图,希望数分别再折磨我了供图](mapmap.jpg)
+![老校区地图,希望数分别再折磨我了供图](School-Map/All2.jpg)
 
-![综合地图](817a45ac0a2acfcbc1b821f89f38e3b9.jpg)
+![综合地图](School-Map/All1.jpg)
 
 ## 日照校区地图
 
 > 致谢：本图由 颜珞 提供
 
-![日照校区地图](rz.jpg)
+![日照校区地图](School-Map/RZ.jpg)
 
 ## 曲阜校区小众教室地点位置
 
