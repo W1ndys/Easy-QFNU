@@ -42,11 +42,11 @@ comments: true
 
 > 致谢：本图由 晓镜 提供
 
-![新校区图书馆 3 楼](library/new/新校区图书馆3楼.png)
-
-![新校区图书馆 4 楼](library/new/新校区图书馆4楼.png)
-
-![新校区图书馆 5 楼](library/new/新校区图书馆5楼.png)
+<p>
+    <img src="Library/New/3L.png" style="width:30%;">
+    <img src="Library/New/4L.png" style="width:30%;">
+    <img src="Library/New/5L.png" style="width:30%;">
+</p>
 
 ### 综合地图
 
