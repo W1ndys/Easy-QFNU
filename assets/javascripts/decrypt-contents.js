@@ -294,7 +294,17 @@ function init_decryptor() {
         decryptor_reaction(content_decrypted, password_input, decrypted_content, true);
     }
     
-    
+    /* If password_button is set, try decrypt content when button is press */
+    let decrypt_button = document.getElementById("mkdocs-decrypt-button");
+    if (decrypt_button) {
+        decrypt_button.onclick = function(event) {
+            event.preventDefault();
+            content_decrypted = decrypt_action(
+                username_input, password_input, encrypted_content, decrypted_content
+            );
+            decryptor_reaction(content_decrypted, password_input, decrypted_content);
+        };
+    }
     /* Default, try decrypt content when key enter is press */
     password_input.addEventListener('keypress', function(event) {
         if (event.key === "Enter") {
