@@ -604,18 +604,18 @@ nav:
               - Easy-College/Cyber/Start/index.md
 
           - 学院专业:
+          
+              - Easy-College/Cyber/Major/index.md
 
-              - Easy-College/Cyber/index.md
+              - 软件工程: Easy-College/Cyber/Major/Software-Engineering/index.md
 
-              - 软件工程: Easy-College/Cyber/Software-Engineering/index.md
+              - 网络空间安全: Easy-College/Cyber/Major/Cyber-Security/index.md
 
-              - 网络空间安全: Easy-College/Cyber/Cyber-Security/index.md
+              - 电子信息工程: Easy-College/Cyber/Major/Electronic-Information-Engineering/index.md
 
-              - 电子信息工程: Easy-College/Cyber/Electronic-Information-Engineering/index.md
+              - 通信工程: Easy-College/Cyber/Major/Communication-Engineering/index.md
 
-              - 通信工程: Easy-College/Cyber/Communication-Engineering/index.md
-
-              - 物联网工程: Easy-College/Cyber/Internet-of-Things-Engineering/index.md
+              - 物联网工程: Easy-College/Cyber/Major/Internet-of-Things-Engineering/index.md
 
           - 学习篇:
               - Easy-College/Cyber/Study/index.md
