@@ -72,6 +72,12 @@ comments: true
 
     [http://libyy.qfnu.edu.cn/](http://libyy.qfnu.edu.cn/){:target="_blank"}
 
+- :material-book-education: 曲阜师范大学教务系统
+
+    ---
+
+    [教务系统](http://ids.qfnu.edu.cn/authserver/login?service=https%3A%2F%2Fzhjw.qfnu.edu.cn%2Fsso.jsp)
+
 - :material-pine-tree: 智慧树网/知到
 
     ---
