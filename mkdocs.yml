@@ -620,14 +620,14 @@ nav:
 
               - 物联网工程: Easy-College/Cyber/Major/Internet-of-Things-Engineering/index.md
 
-          - 学习篇:
+          - 关于学习:
               - Easy-College/Cyber/Study/index.md
 
               - 绩点课: Easy-College/Cyber/Study/Grade-Point/index.md
 
               - 专业技能: Easy-College/Cyber/Study/Professional-Skills/index.md
 
-          - 组织篇:
+          - 关于组织:
               - Easy-College/Cyber/Organization/index.md
 
               - 学生会: Easy-College/Cyber/Organization/Student-Union/index.md
@@ -636,7 +636,7 @@ nav:
 
               - 实验室: Easy-College/Cyber/Organization/Lab/index.md
 
-          - 竞赛篇:
+          - 关于竞赛:
               - Easy-College/Cyber/Competition/index.md
 
               - CTF: Easy-College/Cyber/Competition/CTF/index.md
