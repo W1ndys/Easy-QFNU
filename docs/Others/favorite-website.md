@@ -76,7 +76,7 @@ comments: true
 
     ---
 
-    [教务系统](http://ids.qfnu.edu.cn/authserver/login?service=https%3A%2F%2Fzhjw.qfnu.edu.cn%2Fsso.jsp)
+    [教务系统](http://ids.qfnu.edu.cn/authserver/login?service=https%3A%2F%2Fzhjw.qfnu.edu.cn%2Fsso.jsp#/){:target="_blank"}
 
 - :material-pine-tree: 智慧树网/知到
 
