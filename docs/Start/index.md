@@ -196,6 +196,8 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - 项目地址：[https://github.com/W1ndys/Easy-QFNU](https://github.com/W1ndys/Easy-QFNU)
 
+### 联系作者 ｜ Contact
+
 - 作者：[W1ndys](https://github.com/W1ndys)
 
 - 邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com) （作者个人邮箱，可以直接联系）
