@@ -79,7 +79,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
-:simple-googlebard: [我有推荐的老师](https://wj.qq.com/s2/12987247/cca3/)
+:material-clover: [我有推荐的老师](https://wj.qq.com/s2/12987247/cca3/)
 {.card}
 
 :material-mother-heart: [我有其他想提交的内容](https://wj.qq.com/s2/14427061/19b8/)
