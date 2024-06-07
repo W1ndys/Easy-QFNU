@@ -3,7 +3,7 @@ comments: true
 icon: fontawesome/solid/terminal
 ---
 
-# 如何书写特殊语法 | How-to-write
+# 贡献指南之高级语法 | Advanced Syntax
 
 <font color="red">**本文的所有写法的样式都适配 Markdown 的基本语法，请务必阅读相关语法文档。**</font>
 
@@ -1851,8 +1851,8 @@ The HTML specification is maintained by the W3C.
 <div class="result" markdown>
 The HTML specification is maintained by the W3C.
 
-*[HTML]: Hyper Text Markup Language
-*[W3C]: World Wide Web Consortium
+_[HTML]: Hyper Text Markup Language
+_[W3C]: World Wide Web Consortium
 
 </div>
 
