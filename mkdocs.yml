@@ -191,114 +191,6 @@ theme:
     # https://squidfunk.github.io/mkdocs-material/reference/annotations/#annotation-icons
     annotation: material/plus-circle-outline
 
-# 附加的CSS文件
-extra_css:
-  - stylesheets/extra.css
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
-  - stylesheets/ip.css
-  - stylesheets/code.css
-  - stylesheets/icons-emojis.css
-  - stylesheets/tasklist.css
-  - stylesheets/admonition.css
-  - stylesheets/status.css
-  # - stylesheets/details.css # details的动态css,暂时搁置，以后有时间再看看
-  # - stylesheets/mouse.css  # 鼠标样式
-
-# 附加的JS文件
-extra_javascript:
-  - javascripts/extra.js
-  - javascripts/mathjax.js # Mathjax
-  - https://polyfill.io/v3/polyfill.min.js?features=es6 # Mathjax
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # Mathjax
-  - javascripts/katex.js # katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js # katex
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js # katex
-  - javascripts/ip.js
-  - javascripts/tablesort.js # 数据表排序
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
-  # - javascripts/mouse-moving.js # 鼠标移动星星特效
-  # 排除页脚文件
-  - javascripts/no-footer.js # 去除底部页脚
-  # 额外配置
-  # - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
-extra:
-  # 是否显示官方仓库
-  generator: true
-
-  # 左上角跳转主页
-  homepage: /
-
-  # Cookie
-  # consent:
-  #   title: Cookie同意
-  #   description: >
-  #     我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
-  #     <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
-  #   cookies:
-  #     analytics: 51.la
-  # custom: Custom cookie    # 自定义cookies接受项目
-
-  # 统计服务
-  analytics:
-    provider: analytics
-
-  # 状态页 https://squidfunk.github.io/mkdocs-material/reference/?h=status#/setting-the-page-status
-  status:
-    new: Recently added
-
-  # 社交账号
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
-  social:
-    - icon: material/home
-      link: https://w1ndys.top
-      name: 作者主页
-
-    - icon: fontawesome/brands/qq
-      link: https://blog.w1ndys.top/html/QQ.html
-      name: 作者QQ
-
-    - icon: material/email
-      link: mailto:w1ndys@outlook.com
-      name: 作者邮箱
-
-    - icon: fontawesome/brands/github
-      link: https://github.com/W1ndys
-      name: 作者Github主页
-
-    - icon: fontawesome/solid/blog
-      link: https://blog.w1ndys.top/
-      name: 作者博客
-
-    - icon: simple/materialformkdocs
-      name: Material for MkDocs提供搭建文档服务
-      link: https://squidfunk.github.io/mkdocs-material/
-
-    - icon: simple/vercel
-      link: https://vercel.com/w1ndys
-      name: Vercel提供部署服务
-
-    - icon: W1ndys/Zeabur
-      name: Zeabur提供部署服务
-      link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
-
-    - icon: simple/netlify
-      name: Netlify提供部署服务
-      link: https://app.netlify.com/sites/easy-qfnu/overview
-
-    - icon: W1ndys/Render
-      name: Render提供部署服务
-      link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
-
-    - icon: simple/cloudflare
-      name: Cloudflare提供部署服务
-      link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
-
-    - icon: W1ndys/51la
-      name: 51la提供统计服务
-      link: https://v6.51.la/report/overview?comId=416432
-
-# =============================================================================================================================
-
 # Markdown扩展配置
 # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/#/
 markdown_extensions:
@@ -544,6 +436,117 @@ plugins:
   # https://github.com/rosscdh/mkdocs-markdownextradata-plugin
   - markdownextradata:
       data: ./docs/_data/ # 额外数据文件
+
+# =============================================================================================================================
+
+# 附加的CSS文件
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - stylesheets/ip.css
+  - stylesheets/code.css
+  - stylesheets/icons-emojis.css
+  - stylesheets/tasklist.css
+  - stylesheets/admonition.css
+  - stylesheets/status.css
+
+  # - stylesheets/details.css # details的动态css,暂时搁置，以后有时间再看看
+  # - stylesheets/mouse.css  # 鼠标样式
+
+# 附加的JS文件
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/mathjax.js # Mathjax
+  - https://polyfill.io/v3/polyfill.min.js?features=es6 # Mathjax
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js # Mathjax
+  - javascripts/katex.js # katex
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js # katex
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js # katex
+  - javascripts/ip.js
+  - javascripts/tablesort.js # 数据表排序
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
+  # - javascripts/mouse-moving.js # 鼠标移动星星特效
+  # 排除页脚文件
+  - javascripts/no-footer.js # 去除底部页脚
+  # 额外配置
+  # - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
+extra:
+  # 是否显示官方仓库
+  generator: true
+
+  # 左上角跳转主页
+  homepage: /
+
+  # Cookie
+  # consent:
+  #   title: Cookie同意
+  #   description: >
+  #     我们使用cookie来识别您的重复访问和偏好，以及衡量我们文档的效果和用户是否找到他们正在搜索的内容。通过您的同意，您帮助我们改进我们的文档。<br>
+  #     <strong>请注意：</strong> 您可以随时更改您的Cookie设置，通过浏览器的设置或者在访问我们网站时，接受或拒绝Cookie。但是，如果您拒绝使用Cookie，可能会影响您在我们网站上的体验。
+  #   cookies:
+  #     analytics: 51.la
+  # custom: Custom cookie    # 自定义cookies接受项目
+
+  # 统计服务
+  analytics:
+    provider: analytics
+
+  # 状态页 https://squidfunk.github.io/mkdocs-material/reference/?h=status#/setting-the-page-status
+  status:
+    new: Recently added
+
+  # 社交账号
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links
+  social:
+    - icon: material/home
+      link: https://w1ndys.top
+      name: 作者主页
+
+    - icon: fontawesome/brands/qq
+      link: https://blog.w1ndys.top/html/QQ.html
+      name: 作者QQ
+
+    - icon: material/email
+      link: mailto:w1ndys@outlook.com
+      name: 作者邮箱
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/W1ndys
+      name: 作者Github主页
+
+    - icon: fontawesome/solid/blog
+      link: https://blog.w1ndys.top/
+      name: 作者博客
+
+    - icon: simple/materialformkdocs
+      name: Material for MkDocs提供搭建文档服务
+      link: https://squidfunk.github.io/mkdocs-material/
+
+    - icon: simple/vercel
+      link: https://vercel.com/w1ndys
+      name: Vercel提供部署服务
+
+    - icon: W1ndys/Zeabur
+      name: Zeabur提供部署服务
+      link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
+
+    - icon: simple/netlify
+      name: Netlify提供部署服务
+      link: https://app.netlify.com/sites/easy-qfnu/overview
+
+    - icon: W1ndys/Render
+      name: Render提供部署服务
+      link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
+
+    - icon: simple/cloudflare
+      name: Cloudflare提供部署服务
+      link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
+
+    - icon: W1ndys/51la
+      name: 51la提供统计服务
+      link: https://v6.51.la/report/overview?comId=416432
+
+# =============================================================================================================================
 
 # 监听文件，可以实时刷新的目录
 watch:
