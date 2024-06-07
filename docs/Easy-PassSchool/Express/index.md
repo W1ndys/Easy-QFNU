@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: fontawesome/solid/box
 ---
 
 # 快递问题

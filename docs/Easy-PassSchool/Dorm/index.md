@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/bed
 ---
 
 # 宿舍问题

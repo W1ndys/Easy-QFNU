@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/map
 ---
 
 # 校区地图
