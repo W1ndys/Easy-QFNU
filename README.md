@@ -45,7 +45,7 @@
 
 <p align="left">
     <a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
-        <img width="550" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
+        <img width="100" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
     </a>
 </p>
 
