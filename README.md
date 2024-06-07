@@ -30,8 +30,8 @@
 - <https://v.Easy-QFNU.top>
 - <https://n.Easy-QFNU.top>
 - <https://z.Easy-QFNU.top>
-- <https://c.Easy-QFNU.top>
-- <https://r.Easy-QFNU.top>
+<!-- - <https://c.Easy-QFNU.top>
+- <https://r.Easy-QFNU.top> -->
 
 ---
 
