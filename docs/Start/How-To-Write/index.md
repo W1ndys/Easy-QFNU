@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: fontawesome/solid/up-long
+icon: fontawesome/solid/terminal
 ---
 
 # 如何书写特殊语法 | How-to-write
