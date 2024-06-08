@@ -224,6 +224,10 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
     需要【联系作者】请扫描二维码联系，请一定备注来源
 
+=== "官方抖音号"
+
+	![官方抖音号](douyin.png)
+
 === "QQ 闲聊群"
 
     ![QQ闲聊群](qqchat.png)
