@@ -469,7 +469,7 @@ extra_javascript:
   # 排除页脚文件
   - javascripts/no-footer.js # 去除底部页脚
   # 额外配置
-  - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
+  # - javascripts/details.js # details的动态js,暂时搁置，以后有时间再看看
 extra:
   # 是否显示官方仓库
   generator: true
