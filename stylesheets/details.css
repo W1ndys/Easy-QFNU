@@ -1,50 +1,24 @@
-body {
-    font-family: "Open Sans", sans-serif;
-}
-
 details {
     max-width: 500px;
     overflow: hidden;
-    /* Keep this line to prevent an odd blue outline around the element in Safari. */
 }
 
 summary {
     display: block;
+    /* This hides the summary's ::marker pseudo-element */
 }
 
 summary::-webkit-details-marker {
     display: none;
-}
-
-span {
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
-    background: #444;
-    color: #fff;
-    height: 4rem;
-}
-
-span:hover {
-    cursor: pointer;
-}
-
-span::before {
-    content: "►";
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    margin-right: 0.5rem;
-    transition: rotate 200ms 400ms ease-out;
+    /* This also hides the ::marker pseudo-element, but in Safari */
 }
 
 div.content {
-    box-sizing: border-box;
     max-width: 500px;
+    box-sizing: border-box;
+    padding: 0 10px;
     max-height: 0;
     overflow: hidden;
-    padding: 0 10px;
     border: 2px solid transparent;
     transition: max-height 400ms ease-out, border 0ms 400ms linear;
 }
