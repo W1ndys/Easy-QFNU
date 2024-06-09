@@ -5,11 +5,11 @@ template: Cyber-css.html
 
 # 学生会 | Student-Union
 
-## 办公室
+## 秘书处
 
 等待相关负责人发起 Pull Request
 
-## 秘书处
+## 办公室
 
 等待相关负责人发起 Pull Request
 
@@ -72,3 +72,5 @@ template: Cyber-css.html
 ## 就业实践部
 
 等待相关负责人发起 Pull Request
+
+> 备注：以上内容顺序以第十届学生会部长竞选表公示顺序为准
