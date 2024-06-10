@@ -232,7 +232,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 === "官方抖音号"
 
-    ![官方抖音号](douyin.png)
+    <img src="douyin.png" alt="官方抖音号" width="50%" />
 
 === "QQ 闲聊群"
 
