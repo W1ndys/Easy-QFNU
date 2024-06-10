@@ -97,6 +97,8 @@ setInterval(() => {
 
     ---
 
+    <u>欢迎来到Easy-QFNU！**[点击这里](/Start/)快速开始**</u>
+
     请善用<u>**搜索**</u>功能来寻找你想要的内容！！
 
     在浏览本站前请先阅读 [用户协议](Start/Agreement/){:target="\_blank"}
@@ -131,8 +133,6 @@ setInterval(() => {
     ---
 
     在开始之前,请先了解本站[用户协议](Start/Agreement/){:target="\_blank"},浏览本站即代表您同意此协议
-
-    梦开始的地方，点击快速开始-->[快速开始](Start/)
 
     加急更新中………………
 
