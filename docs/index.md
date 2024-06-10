@@ -107,7 +107,7 @@ setInterval(() => {
 
     [如何参与编辑](/Start/Data-Submission/){:target="\_blank"}
 
-    [【联系作者】](){:target="\_blank"}
+    [【联系作者】](/Start/#contact){:target="\_blank"}
 
     [Github开源地址](https://github.com/W1ndys/Easy-QFNU/tree/gh-pages){:target="\_blank"}
 
