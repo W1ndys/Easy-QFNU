@@ -21,8 +21,6 @@
 
 其前身是 [曲师大选课指北](https://blog.w1ndys.top/posts/216d9006/) 和 [曲师大速通指南](https://blog.w1ndys.top/posts/8f8bbaa8/)
 
-项目正在施工中，由于学业繁忙，暂时停更，截至 7 月 15 日。
-
 主站: [https://Easy-QFNU.top/](https://Easy-QFNU.top/)（全自动部署，数据最先更新）
 
 备用站点:
