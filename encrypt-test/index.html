@@ -100,6 +100,10 @@
     }
 </style> -->
 
+
+<!-- Waline CSS -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+
     
       
     
@@ -2809,7 +2813,7 @@ Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a
 
 
 
-<div id="mkdocs-encrypted-content" style="display:none">UYSxAXLaHus+dlfC3NQnJw==;GrZl9HqKiK29LvDmlUI9WoTCU5q6SLRvn86QIIGfOigsgoFSAjx9Lf8cwbyj0CWiBCknlJM3Rptqdh2fCAGBnxJU7fKI5zPInRfFcyGbr9VAXG4U0MS1Lmxh/C4NVoU7PvAE3Tuj37M6/iEB96i0Og==</div>
+<div id="mkdocs-encrypted-content" style="display:none">7t04MwbA5yvTe7vGPTWZXw==;m6b7rJcDxiyCH7B0WVE6AdjOitfmWMmP+74avwsgCxoegWlcPSNhldwbr3MNgf5gfYsMGgtJtmZG+kxZx1kAM5GbBXlub3VyARMqdoamaS9VzuaUn/MV5gCnytiK4yERsMjhcXcOULzGe9e4jpl4Vw==</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form" class="md-content__inner md-typeset">
         <h1>加密测试</h1>
@@ -2824,7 +2828,7 @@ Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a
 var encryptcontent_id = "encryptcontent_1";
 var encryptcontent_path = "encrypt-test/";
 var decryption_failure_message = "\u5bc6\u7801\u9519\u8bef";
-var encryptcontent_keystore = ["YrXw3DHykrfT41GYrgNyBw==;bJ5OVpBWo3MaFVlHu7uKFMzuWUPoj90/jgoHYqIyQwLiafcnz2kchLU64B89LY5tqjvTrOVvrQ6NYmACZv6A0xVCWIlXJRWDZN7Y+febml4FnEuLYZdBOKhpHj1ayKHP;aAQWigfPblSj+O5AxjHf2g=="];
+var encryptcontent_keystore = ["82rVNSvqOhwVaU3BEXJZLA==;DIogY92XbBAVsd7YFe3O+um3GIPRdpqjrFDPWAeIqLEnmhtem6/3rWsYzygzFBKztW9LeQaADYxM973EzsQIG3yrb2LLf4jAYlPJYJxsv329MgWR9nfIQ46d/vkZmKFG;IJHKR3d13gYPG0b7dOpHMA=="];
 var encryptcontent_obfuscate = 0;
 
 </script>
@@ -2956,19 +2960,22 @@ var encryptcontent_obfuscate = 0;
 
 <!-- 评论功能的核心文件 -->
 
-<h2 id="__comments">评论</h2>
+<!-- <h2 id="__comments">评论</h2> -->
 <!-- Insert generated snippet here -->
 
 <p style="text-align: center;">PS: 如果评论排版显示错误，请使用科学上网加速，或强制刷新页面</p>
 
-<script src="https://giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q"
+
+<!-- giscus评论插件 -->
+<!-- <script src="https://giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q"
   data-category="Show and tell" data-category-id="DIC_kwDOLOtv9c4Cd0Rh" data-mapping="URL" data-strict="1"
   data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
   data-lang="zh-CN" crossorigin="anonymous" async>
-  </script>
+  </script> -->
 
-<!-- Synchronize Giscus theme with palette -->
-<script>
+
+<!-- Giscus评论  -->
+<!-- <script>
   var giscus = document.querySelector("script[src*=giscus]")
 
   // Set palette on initial load
@@ -3001,6 +3008,15 @@ var encryptcontent_obfuscate = 0;
       }
     })
   })
+</script> -->
+<div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://your-domain.vercel.app',
+  });
 </script>
 
                 
