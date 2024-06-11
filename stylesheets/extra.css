@@ -229,3 +229,7 @@ del.critic {
     padding-left: 0.6rem;
     padding-right: 0.2rem;
 }
+
+* {
+    word-break: break-word;
+}
