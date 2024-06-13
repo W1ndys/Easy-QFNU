@@ -581,12 +581,12 @@ nav:
 
       - 意见箱: Start/Feedback-Box/index.md
 
-  - 选课指北:
+  - Easy-选课:
       - Easy-SelectCourse/index.md
 
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
 
-  - 速通指南:
+  - Easy-校园:
       - Easy-PassSchool/index.md
 
       - 新生你好: Easy-PassSchool/New-Students/index.md
@@ -599,7 +599,7 @@ nav:
 
       - 校园地图: Easy-PassSchool/Map/index.md
 
-  - Easy-College:
+  - Easy-学院:
       - Easy-College/index.md
 
       - Easy-网安:
