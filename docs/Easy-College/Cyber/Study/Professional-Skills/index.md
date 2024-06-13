@@ -22,17 +22,17 @@ template: Cyber-css.html
 > <img src="image-20240613213800352.png" alt="image-20240613213800352" style="zoom: 25%;" />
 > <img src="image-20240613213830707.png" alt="image-20240613213830707" style="zoom: 25%;" />
 
-### 如何提问 | Ask
+### 提问的智慧 | Ask
 
 “提问”，一个很简单的事情，如果没有提问的技巧，那么多半没人会愿意回答你。
 
 详细的提问方法，推荐阅读下面这篇文章：
 
-- [如何提问](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+- [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
 
 如果你进不去，你可以看下面这个我复制的版本：
 
-- [如何提问](How-To-Ask-Questions-The-Smart-Way.md)
+- [提问的智慧](How-To-Ask-Questions-The-Smart-Way.md)
 
 > 什么？字太多了，没耐心看，可以，我帮你总结一下
 >
