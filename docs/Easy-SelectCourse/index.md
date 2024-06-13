@@ -3,7 +3,7 @@ comments: true
 icon: material/arrow-up
 ---
 
-# 选课指北
+# Easy-选课 | 选课指北
 
 原地址：[https://blog.w1ndys.top/posts/216d9006](https://blog.w1ndys.top/posts/216d9006)
 
