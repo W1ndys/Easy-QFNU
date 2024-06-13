@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: material/arrow-up
+icon: material/book-education
 ---
 
 # Easy-选课 | 选课指北
