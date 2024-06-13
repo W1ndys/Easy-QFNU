@@ -19,9 +19,8 @@ template: Cyber-css.html
 >
 > 不然的话，可以看下面一位“热心匿名”师姐的案例
 >
-> ![image-20240613213800352](image-20240613213800352.png)
->
-> ![image-20240613213830707](image-20240613213830707.png)
+> <img src="image-20240613213800352.png" alt="image-20240613213800352" style="zoom: 25%;" />
+> <img src="image-20240613213830707.png" alt="image-20240613213830707" style="zoom: 25%;" />
 
 ### 如何提问 | How to ask a good question
 
