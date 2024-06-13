@@ -4,14 +4,14 @@ import re
 
 def replace_contact_author(content):
     """
-    将内容中的所有'联系作者'替换为'【联系作者】'。
+    将内容中的所有'【联系作者】'替换为'**联系作者**'。
     """
-    return re.sub(r"联系作者", "【联系作者】", content)
+    return re.sub(r"【联系作者】", "**联系作者**", content)
 
 
 def process_file(file_path):
     """
-    处理单个Markdown文件，将'联系作者'替换为'【联系作者】'。
+    处理单个Markdown文件，将'【联系作者】'替换为'**联系作者**'。
     """
     print(f"正在处理文件: {file_path}")
     with open(file_path, "r", encoding="utf-8") as file:
