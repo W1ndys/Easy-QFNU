@@ -381,8 +381,8 @@ plugins:
 
   # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
   # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
-  # - privacy:
-  #     assets: false # 是否下载资源
+  - privacy:
+      assets: false # 是否下载资源
 
   # Glightbox插件 | 灯箱 | 图片可点击放大
   - glightbox:
