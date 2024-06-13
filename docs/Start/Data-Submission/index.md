@@ -9,7 +9,7 @@ comments: true
 
 - [问卷提交](#questionnaire-submission)(适合大多数人)
 
-- [【联系作者】](#contact-the-author)(适合问卷无法描述的内容，更灵活，适用于作者不忙的情况)
+- [**联系作者**](#contact-the-author)(适合问卷无法描述的内容，更灵活，适用于作者不忙的情况)
 
 ## 如何编辑高级写法
 
@@ -87,7 +87,7 @@ comments: true
 
 </div>
 
-## 【联系作者】 | Contact the Author
+## **联系作者** | Contact the Author
 
 <div class="grid cards" markdown>
 
