@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: material/arrow-down
+icon: fontawesome/solid/school
 ---
 
 # Easy-校园 | 速通指南
