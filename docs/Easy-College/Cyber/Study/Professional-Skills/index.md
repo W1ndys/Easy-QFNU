@@ -22,9 +22,9 @@ template: Cyber-css.html
 > <img src="image-20240613213800352.png" alt="image-20240613213800352" style="zoom: 25%;" />
 > <img src="image-20240613213830707.png" alt="image-20240613213830707" style="zoom: 25%;" />
 
-### 如何提问 | How to ask a good question
+### 如何提问 | Ask
 
-### 善用搜索引擎 | Search Engines
+### 善用搜索引擎 | Search
 
 ### Github
 
