@@ -2,7 +2,7 @@
 
 ![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
-<center><h1>Easy-QFNU 官方文档</h1></center>
+<!-- <center><h1>Easy-QFNU 官方文档</h1></center> -->
 
 <!-- <div style="max-width: 100%; margin: 0 auto;">
     <img src="https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
