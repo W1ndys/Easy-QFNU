@@ -14,7 +14,7 @@
 
 [Easy-QFNU](https://Easy-QFNU.top/) 是由 [W1ndys](https://w1ndys.top/) 开发的一个免费、开源、共建、共享的文档式 Web 网站，[W1ndys](https://w1ndys.top/) 联合各学院数位同学共同编辑该站的内容，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
-其前身是 [曲师大选课指北](https://blog.w1ndys.top/posts/216d9006/) 和 [曲师大速通指南](https://blog.w1ndys.top/posts/8f8bbaa8/)
+前身是 [曲师大选课指北](https://blog.w1ndys.top/posts/216d9006/) 和 [曲师大速通指南](https://blog.w1ndys.top/posts/8f8bbaa8/)
 
 主站: [https://Easy-QFNU.top/](https://Easy-QFNU.top/)（全自动部署，数据最先更新）
 
@@ -47,5 +47,7 @@
 本项目框架的采用灵感来自于 [@ProbiusOfficial](https://github.com/ProbiusOfficial/) 的 [Hello-CTF](https://github.com/ProbiusOfficial/Hello-CTF/), 在一些细节上, 我借鉴了 Hello-CTF 的设计灵感/思路，以及仓库管理方案
 
 本项目基于 Mkdocs-Material 项目开发，致谢 Mkdocs-Material 项目及其开发者们，Powered by mkdocs-material
+
+致谢 [Mister-Hope](https://github.com/Mister-Hope) 在我开发和界面布局的指导建议。
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
