@@ -1,5 +1,7 @@
 [![Easy-QFNU](assets/image/image.png)](https://easy-qfnu.top)
 
+![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
+
 <center><h1>Easy-QFNU 官方文档</h1></center>
 
 [![Stars](https://img.shields.io/github/stars/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
