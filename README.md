@@ -1,19 +1,8 @@
 [![Easy-QFNU](assets/image/image.png)](https://easy-qfnu.top)
 
-![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
-
 <center><h1>Easy-QFNU 官方文档</h1></center>
 
-[![Stars](https://img.shields.io/github/stars/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)
-[![Forks](https://img.shields.io/github/forks/W1ndys/Easy-QFNU?style=social)](https://github.com/W1ndys/Easy-QFNU)  
-[![Code Size](https://img.shields.io/github/languages/code-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)  
-[![Repo Size](https://img.shields.io/github/repo-size/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU)
-[![Contributors](https://img.shields.io/github/contributors/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/graphs/contributors)
-[![License](https://img.shields.io/github/license/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/commits/master)
-[![Issues](https://img.shields.io/github/issues/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/issues)
-[![Pull Requests](https://img.shields.io/github/issues-pr/W1ndys/Easy-QFNU)](https://github.com/W1ndys/Easy-QFNU/pulls)
-[![钉钉群](https://img.shields.io/badge/%E9%92%89%E9%92%89%E7%BE%A4-79680003880-blue)](https://qr.dingtalk.com/action/joingroup?code=v1,k1,27o5cmXSRSS9TEv5RvSMANwPAVL/gOQCaSxay8Uo5cw=&_dt_no_comment=1&origin=11?)
+![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
 <div style="max-width: 100%; margin: 0 auto;">
     <img src="https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
