@@ -7,9 +7,9 @@ icon: material/map
 
 仅迁移了数据，后续会进行页面排版优化。
 
-> 曲阜校区飞天富贵鼠鼠,W1ndys,希望数分别在折磨我了供图,日照校区颜珞供图,新校区图书馆地图晓镜供图,格物楼地图带标记计算机爱好者协会供图
+> 曲阜校区飞天富贵鼠鼠, W1ndys, 希望数分别在折磨我了供图, 日照校区颜珞供图, 新校区图书馆地图晓镜供图, 格物楼地图带标记计算机爱好者协会供图
 
-> 图片加载较慢,若超过 10 秒未加载请刷新页面
+> 图片加载较慢, 若超过 10 秒未加载请刷新页面
 
 ## 曲阜校区地图
 
@@ -28,8 +28,22 @@ icon: material/map
 
 ### 新校区地图
 
+??? note "新校区地图超清"
+
+    链接：[新校区地图超清——百度网盘](https://pan.baidu.com/s/1tn7qNd4PzjdZmqY6HpWdNw?pwd=1rz8)
+
+    提取码：1rz8
+
+    HASH 校验
+
+    SHA256:**11f128423a5490ae1db3f501f186b320f7affec2d808bec8223526ff0b184440**
+
+    MD5:**9aac1ce4978344497fa763d3d895069c**
+
+    SHA1:830146c6b32632cab9f5206755856f63700ae4ab
+
 <p>
-    <img src="School-Map/New1.jpg" alt="新校区地图" style="width:40%;" />
+    <img src="School-Map/New1.jpg" alt="新校区地图" style="width:33%;" />
     <img src="School-Map/New2.jpg" alt="新校区地图" style="width:40%;" />
 </p>
 
@@ -53,15 +67,16 @@ icon: material/map
 
 > 致谢：本图由 希望数分别再折磨我了 提供
 
-![老校区地图,希望数分别再折磨我了供图](School-Map/All2.jpg)
-
-![综合地图](School-Map/All1.jpg)
+<p>
+    <img src="School-Map/All2.jpg" alt="老校区地图, 希望数分别再折磨我了供图" style="width:40%;" />
+    <img src="School-Map/All1.jpg" alt="综合地图" style="width:40%;" />
+</p>
 
 ## 日照校区地图
 
 > 致谢：本图由 颜珞 提供
 
-![日照校区地图](School-Map/RZ.jpg)
+<img src="School-Map/RZ.jpg" alt="日照校区地图" style="width:40%;" />
 
 ## 曲阜校区小众教室地点位置
 
