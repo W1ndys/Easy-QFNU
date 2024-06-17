@@ -591,13 +591,17 @@ nav:
 
       - 欢迎新生: Easy-PassSchool/New-Students/index.md
 
-      - 军训问题: Easy-PassSchool/Military/index.md
+      - 关于军训: Easy-PassSchool/Military/index.md
 
-      - 快递问题: Easy-PassSchool/Express/index.md
+      - 快递包裹: Easy-PassSchool/Express/index.md
 
-      - 宿舍问题: Easy-PassSchool/Dorm/index.md
+      - 宿舍小窝: Easy-PassSchool/Dorm/index.md
 
       - 校园地图: Easy-PassSchool/Map/index.md
+
+      - 咱的社团: Easy-PassSchool/Club/index.md
+
+
 
   - Easy-学院:
       - Easy-College/index.md
