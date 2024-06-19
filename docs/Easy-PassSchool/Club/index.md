@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/group
 ---
 
 # 咱的社团
