@@ -13,15 +13,6 @@ icon: material/school
 
 一开始我们只是个单独的博客页面，后来有了新的灵感，逐渐迁移到了这里，并逐渐完善，如果你有任何建议或者疑问，欢迎 **联系作者** 、在评论区留言或者发起 Pull Request。
 
-欢迎新生
-关于军训
-快递包裹
-宿舍小窝
-校园地图
-咱的社团
-北门药店
-校历作息
-
 [:fontawesome-solid-person-military-rifle: 关于军训](Military){: .md-button }
 [:fontawesome-solid-truck: 快递包裹](Express){:.md-button }
 [:material-bed: 宿舍小窝](Dorm){:.md-button }
