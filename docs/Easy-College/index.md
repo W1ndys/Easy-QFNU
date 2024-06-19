@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: material/school
+icon: material/book-education
 ---
 
 # Easy-College
