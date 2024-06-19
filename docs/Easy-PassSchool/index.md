@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: fontawesome/solid/school
+icon: material/emoticon-happy
 ---
 
 # Easy-校园 | 速通指南
