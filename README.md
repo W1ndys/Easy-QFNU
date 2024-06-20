@@ -20,11 +20,13 @@
 
 备用站点:
 
-- <https://v.Easy-QFNU.top>
-- <https://n.Easy-QFNU.top>
-- <https://z.Easy-QFNU.top>
-<!-- - <https://c.Easy-QFNU.top>
-- <https://r.Easy-QFNU.top> -->
+| 站点       | 地址                      | 状态      |
+| ---------- | ------------------------- | --------- |
+| Vercel     | <https://v.Easy-QFNU.top> | ✅ 运行中 |
+| Netlify    | <https://n.Easy-QFNU.top> | ✅ 运行中 |
+| Zeabur     | <https://z.Easy-QFNU.top> | ✅ 运行中 |
+| CloudFlare | <https://c.Easy-QFNU.top> | ✅ 运行中 |
+| Render     | <https://r.Easy-QFNU.top> | ❌ 停运中 |
 
 ## Star History
 
