@@ -26,8 +26,6 @@
 <!-- - <https://c.Easy-QFNU.top>
 - <https://r.Easy-QFNU.top> -->
 
----
-
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=W1ndys/Easy-QFNU&type=Date)](https://star-history.com/#W1ndys/Easy-QFNU&Date)
