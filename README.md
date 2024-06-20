@@ -25,8 +25,8 @@
 | Vercel     | <https://v.Easy-QFNU.top> | ✅ 运行中 |
 | Netlify    | <https://n.Easy-QFNU.top> | ✅ 运行中 |
 | Zeabur     | <https://z.Easy-QFNU.top> | ✅ 运行中 |
-| CloudFlare | <https://c.Easy-QFNU.top> | ✅ 运行中 |
-| Render     | <https://r.Easy-QFNU.top> | ❌ 停运中 |
+| CloudFlare | <https://c.Easy-QFNU.top> | ❌ 停更   |
+| Render     | <https://r.Easy-QFNU.top> | ❌ 停运   |
 
 ## Star History
 
