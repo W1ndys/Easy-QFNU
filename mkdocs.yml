@@ -309,8 +309,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
   - pymdownx.tabbed: # 选项卡   # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/#anchor-links
-      alternate_style: true # 替代样式
-      # combine_header_slug: true # 风格样式
+      # alternate_style: true # 替代样式
+      combine_header_slug: true # 风格样式
       # 为tab增加一个大标题，生成一个指定的锚点链接，上面的进阶用法
       # slugify: !!python/object/apply:pymdownx.slugs.slugify # 允许自定义 slug 函数。对于某些语言，默认值可能不会产生良好且可读的标识符 - 考虑使用另一个 slug 函数
       #   kwds:
