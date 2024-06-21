@@ -40,7 +40,7 @@ icon: material/map
     
     MD5:**9aac1ce4978344497fa763d3d895069c**
     
-    SHA1:830146c6b32632cab9f5206755856f63700ae4ab
+    SHA1:**830146c6b32632cab9f5206755856f63700ae4ab**
 
 <p>
     <img src="School-Map/New1.jpg" alt="新校区地图" style="width:33%;" />
