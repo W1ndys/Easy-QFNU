@@ -605,8 +605,6 @@ nav:
 
       - 校历作息: Easy-PassSchool/Calendar/index.md
 
-
-
   - Easy-学院:
       - Easy-College/index.md
 
@@ -688,10 +686,6 @@ nav:
       - 食堂光荣榜: Others/eat_error.md
 
       - 钉钉: Others/dingtalk.md
-
-      - Markdown-examples: Others/markdown-examples.md
-
-      - api-examples: Others/api-examples.md
 
   - 更新日志:
       - Update/index.md
