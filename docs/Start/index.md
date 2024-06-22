@@ -210,11 +210,11 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 - 作者：[W1ndys](https://github.com/W1ndys)
 
-- 邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com) （作者个人邮箱，可以直接联系）
+- 邮箱：[w1ndys@outlook.com](mailto:w1ndys@outlook.com) (作者个人邮箱，可以直接联系)
 
-- QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) （作者 QQ 号，可以直接联系，联系请注明来意）
+- QQ：[2769731875](https://qm.qq.com/q/UK4JFydS8y) (作者 QQ 号，可以直接联系，联系请注明来意)
 
-- 微信公众号：[W1ndys](#contact-微信公众号) （关注公众号，获取最新资讯，有重要通知都会在这里发）
+- 微信公众号：[W1ndys](#contact-微信公众号) (关注公众号，获取最新资讯，有重要通知都会在这里发)
 
 === "官网"
 
