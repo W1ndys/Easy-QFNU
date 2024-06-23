@@ -19,7 +19,7 @@ template: Cyber-css.html
 
 ## 女篮 | Women's Basketball Team
 
-❎ 正在积极与相关负责人取得联系，欢迎更多的合作！
+> <u> 有意向加入网安女篮，<span style="color:#FF0000;">可联系负责人 QQ</span> </u>：`2274959064`
 
 ## 男足 | Men's Soccer Team
 
