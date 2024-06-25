@@ -374,10 +374,10 @@ plugins:
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
-  - tags:
-      enabled: true
-      tags: true
-      tags_file: tags.md
+  # - tags:
+      # enabled: true
+      # tags: true
+      # tags_file: tags.md
 
   # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
   # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
