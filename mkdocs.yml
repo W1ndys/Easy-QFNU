@@ -526,21 +526,21 @@ extra:
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
 
-    - icon: W1ndys/Zeabur
-      name: Zeabur提供部署服务
-      link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
+    # - icon: W1ndys/Zeabur
+    #   name: Zeabur提供部署服务
+    #   link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
 
-    - icon: simple/netlify
-      name: Netlify提供部署服务
-      link: https://app.netlify.com/sites/easy-qfnu/overview
+    # - icon: simple/netlify
+    #   name: Netlify提供部署服务
+    #   link: https://app.netlify.com/sites/easy-qfnu/overview
 
-    - icon: W1ndys/Render
-      name: Render提供部署服务
-      link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
+    # - icon: W1ndys/Render
+    #   name: Render提供部署服务
+    #   link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
 
-    - icon: simple/cloudflare
-      name: Cloudflare提供部署服务
-      link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
+    # - icon: simple/cloudflare
+    #   name: Cloudflare提供部署服务
+    #   link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
 
     - icon: W1ndys/51la
       name: 51la提供统计服务
