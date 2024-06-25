@@ -1,6 +1,6 @@
 ---
 comments: true
-icon: fontawesome/solid/truck
+icon: octicons/package-16
 ---
 
 # 快递问题
