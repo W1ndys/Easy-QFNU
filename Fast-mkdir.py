@@ -4,10 +4,10 @@
 import os
 
 # 从外部文件读取路径
-with open("paths.md", "r", encoding="utf-8") as file:
+with open("paths.md", "r") as file:
     lines = file.read().splitlines()
 
-# 提取有效的文件路径
+# 提取有效的文件路径，并在路径前添加docs/
 files_to_create = []
 for line in lines:
     # 忽略Markdown注释和空行
@@ -15,7 +15,7 @@ for line in lines:
         continue
     # 处理Markdown列表项
     if line.strip().startswith("-"):
-        file_path = line.strip()[1:].strip()
+        file_path = "docs/" + line.strip()[1:].strip()
         files_to_create.append(file_path)
 
 # 遍历文件路径列表，创建文件和目录
