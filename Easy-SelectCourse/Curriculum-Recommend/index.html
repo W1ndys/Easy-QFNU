@@ -26,7 +26,7 @@
     
     
       
-        <title>Index - Easy-QFNU</title>
+        <title>选课推荐 - Easy-QFNU</title>
       
     
     
@@ -186,6 +186,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#_1" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -232,7 +237,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              选课推荐
             
           </span>
         </div>
@@ -990,6 +995,8 @@
             <a href="./" class="md-nav__link md-nav__link--active">
               
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 3H3a2 2 0 0 0-2 2v3h2V5h18v14h-7v2h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M1 18v3h3a3 3 0 0 0-3-3m0-4v2a5 5 0 0 1 5 5h2a7 7 0 0 0-7-7m0-4v2a9 9 0 0 1 9 9h2c0-6.08-4.93-11-11-11m10 1.09v2L14.5 15l3.5-1.91v-2L14.5 13 11 11.09M14.5 6 9 9l5.5 3L20 9l-5.5-3Z"/></svg>
+  
   <span class="md-ellipsis">
     选课推荐
   </span>
@@ -1023,6 +1030,8 @@
       <a href="Foreign-Language/" class="md-nav__link">
         
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"/></svg>
+  
   <span class="md-ellipsis">
     外语
   </span>
@@ -1043,6 +1052,8 @@
     <li class="md-nav__item">
       <a href="Sports/" class="md-nav__link">
         
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c2.5 0 4.75.9 6.5 2.4A9.982 9.982 0 0 0 15 12c0 3.04 1.36 5.77 3.5 7.6-1.75 1.5-4 2.4-6.5 2.4s-4.75-.9-6.5-2.4A9.982 9.982 0 0 0 9 12c0-3.04-1.36-5.77-3.5-7.6C7.25 2.9 9.5 2 12 2m10 10c0 2.32-.79 4.45-2.12 6.15A7.994 7.994 0 0 1 17 12c0-2.47 1.12-4.68 2.88-6.15A9.936 9.936 0 0 1 22 12M2 12c0-2.32.79-4.45 2.12-6.15A7.994 7.994 0 0 1 7 12c0 2.47-1.12 4.68-2.88 6.15A9.936 9.936 0 0 1 2 12Z"/></svg>
   
   <span class="md-ellipsis">
     体育
@@ -2976,6 +2987,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -3016,9 +3029,7 @@
 
 
 
-  <h1>Index</h1>
-
-
+<h1 id="_1">选课推荐<a class="headerlink" href="#_1" title="锚链接到本标题">⚓︎</a></h1>
 
 
 
@@ -3172,6 +3183,62 @@
 </div>
 
 <!-- 评论功能的核心文件 -->
+
+<h2 id="__comments">评论</h2>
+<!-- 插入评论插件 -->
+
+<p style="text-align: center;">PS: 如果评论排版显示错误，请使用科学上网加速，或强制刷新页面</p>
+
+
+<!-- giscus评论插件 -->
+<script src="https://giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q" data-category="Show and tell" data-category-id="DIC_kwDOLOtv9c4Cd0Rh" data-mapping="URL" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async=>
+  </script>
+
+
+<!-- Giscus评论  -->
+<script>
+  var giscus = document.querySelector("script[src*=giscus]")
+
+  // Set palette on initial load
+  var palette = __md_get("__palette")
+  if (palette && typeof palette.color === "object") {
+    var theme = palette.color.scheme === "slate"
+      ? "transparent_dark"
+      : "light"
+
+    // Instruct Giscus to set theme
+    giscus.setAttribute("data-theme", theme)
+  }
+
+  // Register event handlers after documented loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    var ref = document.querySelector("[data-md-component=palette]")
+    ref.addEventListener("change", function () {
+      var palette = __md_get("__palette")
+      if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate"
+          ? "transparent_dark"
+          : "light"
+
+        // Instruct Giscus to change theme
+        var frame = document.querySelector(".giscus-frame")
+        frame.contentWindow.postMessage(
+          { giscus: { setConfig: { theme } } },
+          "https://giscus.app"
+        )
+      }
+    })
+  })
+</script>
+<!-- <div id="waline"></div>
+<script type="module">
+  import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+  init({
+    el: '#waline',
+    serverURL: 'https://comments.easy-qfnu.top',
+  });
+</script> -->
 
                 
 <!-- Sakana Widget -->
