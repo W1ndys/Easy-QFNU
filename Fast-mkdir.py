@@ -4,7 +4,7 @@
 import os
 
 # 从外部文件读取路径
-with open("paths.md", "r") as file:
+with open("paths.md", "r", encoding="utf-8") as file:
     lines = file.read().splitlines()
 
 # 提取有效的文件路径，并在路径前添加docs/
