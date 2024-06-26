@@ -374,10 +374,10 @@ plugins:
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
-  # - tags:
-      # enabled: true
-      # tags: true
-      # tags_file: tags.md
+  - tags:
+      enabled: true
+      tags: true
+      tags_file: tags.md
 
   # 资源下载插件,扫描生成的 HTML 中的外部资源，即脚本、样式表、图像和 Web 字体，下载它们，将它们存储在目录中
   # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
@@ -526,21 +526,21 @@ extra:
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
 
-    # - icon: W1ndys/Zeabur
-    #   name: Zeabur提供部署服务
-    #   link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
+    - icon: W1ndys/Zeabur
+      name: Zeabur提供部署服务
+      link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
 
-    # - icon: simple/netlify
-    #   name: Netlify提供部署服务
-    #   link: https://app.netlify.com/sites/easy-qfnu/overview
+    - icon: simple/netlify
+      name: Netlify提供部署服务
+      link: https://app.netlify.com/sites/easy-qfnu/overview
 
-    # - icon: W1ndys/Render
-    #   name: Render提供部署服务
-    #   link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
+    - icon: W1ndys/Render
+      name: Render提供部署服务
+      link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
 
-    # - icon: simple/cloudflare
-    #   name: Cloudflare提供部署服务
-    #   link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
+    - icon: simple/cloudflare
+      name: Cloudflare提供部署服务
+      link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
 
     - icon: W1ndys/51la
       name: 51la提供统计服务
@@ -585,6 +585,15 @@ nav:
       - Easy-SelectCourse/index.md
 
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
+
+      - 选课推荐:
+          - Easy-SelectCourse/Recommend/index.md
+
+          - 外语: Easy-SelectCourse/Recommend/Foreign-Language/index.md
+
+          - 体育: Easy-SelectCourse/Recommend/Sports/index.md
+
+          - 公选课: Easy-SelectCourse/Recommend/Public-Courses/index.md
 
   - Easy-校园:
       - Easy-PassSchool/index.md
