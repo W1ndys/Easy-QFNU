@@ -587,13 +587,13 @@ nav:
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
 
       - 选课推荐:
-          - Easy-SelectCourse/Recommend/index.md
+          - Easy-SelectCourse/Curriculum-Recommend/index.md
 
-          - 外语: Easy-SelectCourse/Recommend/Foreign-Language/index.md
+          - 外语: Easy-SelectCourse/Curriculum-Recommend/Foreign-Language/index.md
 
-          - 体育: Easy-SelectCourse/Recommend/Sports/index.md
+          - 体育: Easy-SelectCourse/Curriculum-Recommend/Sports/index.md
 
-          - 公选课: Easy-SelectCourse/Recommend/Public-Courses/index.md
+          - 公选课: Easy-SelectCourse/Curriculum-Recommend/Public-Courses/index.md
 
   - Easy-校园:
       - Easy-PassSchool/index.md
