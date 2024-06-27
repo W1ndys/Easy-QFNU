@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/label
 ---
 
 # 未分类课程
