@@ -8,3 +8,4 @@
 - Easy-SelectCourse/Curriculum-Recommend/Public-Courses/index.md
 - Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
 - Easy-SelectCourse/Curriculum-Recommend/Criticism/index.md
+- Easy-SelectCourse/Curriculum-Recommend/Politics/index.md
