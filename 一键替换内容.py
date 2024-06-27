@@ -6,7 +6,7 @@ def replace_contact_author(content):
     """
     将内容中的所有'【联系作者】'替换为'**联系作者**'。
     """
-    return re.sub(r"【联系作者】", "**联系作者**", content)
+    return re.sub(r"-------------曲阜-------------", "### 曲阜", content)
 
 
 def process_file(file_path):
