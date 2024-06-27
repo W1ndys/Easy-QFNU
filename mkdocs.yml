@@ -589,13 +589,13 @@ nav:
       - 选课推荐:
           - Easy-SelectCourse/Curriculum-Recommend/index.md
 
-          - 外语: Easy-SelectCourse/Curriculum-Recommend/Foreign-Language/index.md
+          - 外语类: Easy-SelectCourse/Curriculum-Recommend/Foreign-Language/index.md
 
-          - 体育: Easy-SelectCourse/Curriculum-Recommend/Sports/index.md
-
-          - 公选课: Easy-SelectCourse/Curriculum-Recommend/Public-Courses/index.md
+          - 体育类: Easy-SelectCourse/Curriculum-Recommend/Sports/index.md
 
           - 鉴赏类: Easy-SelectCourse/Curriculum-Recommend/Criticism/index.md
+
+          - 公选课: Easy-SelectCourse/Curriculum-Recommend/Public-Courses/index.md
 
           - 贡献者们: Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
 
