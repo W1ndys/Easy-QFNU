@@ -7,7 +7,7 @@ icon: material/cast-education
 
 数据正在迁移中...........
 
-哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 
+哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~
 
 ## 选课推荐 ToDo
 
@@ -16,10 +16,8 @@ icon: material/cast-education
 - [x] 艺术鉴赏类
 - [x] 形策
 - [x] 思修
-- [ ] 分类不明
+- [x] 分类不明
 - [x] 贡献者们
-
-
 
 [:material-translate: 外语](Foreign-Language/){: .md-button }
 [:material-tennis-ball: 体育](Sports/){: .md-button }
