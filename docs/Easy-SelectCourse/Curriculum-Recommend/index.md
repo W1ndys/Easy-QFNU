@@ -21,4 +21,8 @@ icon: material/cast-education
 
 [:material-translate: 外语](Foreign-Language/){: .md-button }
 [:material-tennis-ball: 体育](Sports/){: .md-button }
+[:material-lightbulb: 思修](Thinking/){: .md-button }
+[:material-gavel: 形策](Politics/){: .md-button }
+[:material-palette: 鉴赏](Criticism/){: .md-button }
+[:material-label: 未分类](Others/){: .md-button }
 [:material-account-supervisor: 贡献者们](Contributors/){: .md-button }
