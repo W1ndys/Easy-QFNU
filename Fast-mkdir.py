@@ -10,8 +10,12 @@ with open("paths.md", "r", encoding="utf-8") as file:
 # 提取有效的文件路径，并在路径前添加docs/
 files_to_create = []
 for line in lines:
-    # 忽略Markdown注释和空行
-    if line.strip().startswith("#") or not line.strip():
+    # 忽略Markdown注释、HTML注释和空行
+    if (
+        line.strip().startswith("#")
+        or line.strip().startswith("<!--")
+        or not line.strip()
+    ):
         continue
     # 处理Markdown列表项
     if line.strip().startswith("-"):
