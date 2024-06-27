@@ -9,3 +9,4 @@
 - Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
 - Easy-SelectCourse/Curriculum-Recommend/Criticism/index.md
 - Easy-SelectCourse/Curriculum-Recommend/Politics/index.md
+- Easy-SelectCourse/Curriculum-Recommend/Thinking/index.md

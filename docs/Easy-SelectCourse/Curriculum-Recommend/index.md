@@ -16,6 +16,7 @@ icon: material/cast-education
 - [ ] 公选课
 - [x] 艺术鉴赏类
 - [x] 形策
+- [x] 思修
 - [ ] 其他
 - [ ] 在线课
 - [ ] 分类不明
