@@ -463,7 +463,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js # katex
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js # katex
   - javascripts/ip.js
-  - javascripts/tablesort.js # 数据表排序
+  # - javascripts/tablesort.js # 表格排序
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js # 数据表排序
   # - javascripts/mouse-moving.js # 鼠标移动星星特效
   # 排除页脚文件
