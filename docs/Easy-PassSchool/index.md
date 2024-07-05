@@ -5,6 +5,8 @@ icon: material/school
 
 # Easy-校园 | 速通指南
 
+【腾讯文档】2024 新生问题回答汇总 Q&A https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0
+
 原地址：[https://blog.w1ndys.top/posts/8f8bbaa8#/](https://blog.w1ndys.top/posts/8f8bbaa8#/)
 
 数据正在迁移中
