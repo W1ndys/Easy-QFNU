@@ -110,7 +110,7 @@ theme:
     - content.code.annotate # 代码注释
     - content.action.edit # 编辑此页面
     - content.action.view # 查看源代码
-    # - navigation.instant # 即时加载
+    - navigation.instant # 即时加载
     # - navigation.instant.progress # 进度指示器
     # - navigation.instant.preview # 预览模式
     - navigation.tracking # 锚点追踪
