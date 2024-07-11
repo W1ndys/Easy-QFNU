@@ -693,12 +693,14 @@ nav:
           - Easy-College/Foreign-Language/index.md
 
   - 其他页面:
+      - Others/index.md
+
       - 网站收藏: Others/favorite-website.md
 
       - 食堂光荣榜: Others/eat_error.md
 
       - 钉钉: Others/dingtalk.md
-      
+
       - 数字逻辑电路重点: Others/digital-logic-circuit/index.md
 
   - 更新日志:
