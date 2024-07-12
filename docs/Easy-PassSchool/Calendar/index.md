@@ -11,6 +11,10 @@ icon: material/calendar
 
 [2024-2025 学年校历——曲阜师范大学教务处](https://jwc.qfnu.edu.cn/info/1091/7020.htm#/){:target="\_blank"}
 
+!!! tips "PDF百度网盘分享"
+
+    链接:https://pan.baidu.com/s/1khXE7K2GEWh2ioEDj5GnMQ?pwd=1i7w 
+
 ## 作息时间表
 
 [曲阜师范大学作息时间表——曲阜师范大学教务处](https://jwc.qfnu.edu.cn/info/1104/4345.htm#/){:target="\_blank"}
