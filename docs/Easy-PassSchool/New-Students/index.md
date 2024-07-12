@@ -14,6 +14,7 @@ icon: fontawesome/regular/face-smile
 ## 环境实拍
 
 - 新校区宿舍环境实拍：[https://v.douyin.com/ijDo1HTg/](https://v.douyin.com/ijDo1HTg/)
+
 - 新校区图书馆实拍：[https://v.douyin.com/ijDEoaxb/](https://v.douyin.com/ijDEoaxb/)
 
 ## 关于称呼
