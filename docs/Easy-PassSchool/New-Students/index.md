@@ -5,6 +5,12 @@ icon: fontawesome/regular/face-smile
 
 # 新生你好
 
+为更方便的帮助新生解决问题, 我们整理了一些常见问题和解决方案。
+
+!!! info "新生常见问题"
+
+    【腾讯文档】2024 新生问题回答汇总 Q&A [https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0](https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0){target=_blank}
+
 ## 环境实拍
 
 - 新校区宿舍环境实拍：[https://v.douyin.com/ijDo1HTg/](https://v.douyin.com/ijDo1HTg/)
@@ -19,4 +25,3 @@ icon: fontawesome/regular/face-smile
 糟的东西；剩下三成即使称呼正确(暗号对上了),他也有可能是校园卡代理,想让你办卡他拿提成。
 
 第二,这些称呼也只是为了礼貌起见。
-
