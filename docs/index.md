@@ -178,3 +178,5 @@ setInterval(() => {
 </div>
 
 </div>
+
+<script>console.log(`欢迎来到Easy-QFNU!\nhttps://github.com/W1ndys/Easy-QFNU`);</script>
