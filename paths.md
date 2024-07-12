@@ -12,3 +12,4 @@
 - Easy-SelectCourse/Curriculum-Recommend/Thinking/index.md
 - Easy-SelectCourse/Curriculum-Recommend/Others/index.md
 - Easy-PassSchool/Anti-Fraud/index.md
+- Start/Thanks/index.md
