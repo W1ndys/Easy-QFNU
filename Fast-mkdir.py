@@ -21,8 +21,8 @@ for line in lines:
     if line.strip().startswith("-"):
         parts = line.strip().split(":")
         if len(parts) == 2:
-            title = parts[0].strip()[1:].strip()  # 去掉列表项标记并去除多余空格
-            file_path = "docs/" + parts[1].strip()
+            title = parts[0].strip()[1:].strip()  # 获取标题
+            file_path = "docs/" + parts[1].strip()  # 获取路径
             files_to_create.append((file_path, title))
 
 # 遍历文件路径列表，创建文件和目录
