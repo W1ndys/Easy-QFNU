@@ -13,3 +13,4 @@
 - Easy-SelectCourse/Curriculum-Recommend/Others/index.md
 - Easy-PassSchool/Anti-Fraud/index.md
 - Start/Thanks/index.md
+- Easy-SelectCourse/Selection-Guide/index.md
