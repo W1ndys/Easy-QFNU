@@ -17,10 +17,12 @@ for line in lines:
         or not line.strip()
     ):
         continue
-    # 处理Markdown列表项
+    # 处理Markdown列表项并提取路径
     if line.strip().startswith("-"):
-        file_path = "docs/" + line.strip()[1:].strip()
-        files_to_create.append(file_path)
+        parts = line.strip().split(":")
+        if len(parts) == 2:
+            file_path = "docs/" + parts[1].strip()
+            files_to_create.append(file_path)
 
 # 遍历文件路径列表，创建文件和目录
 for file_path in files_to_create:
@@ -32,10 +34,10 @@ for file_path in files_to_create:
         os.makedirs(dir_path)
         print(f"目录已创建: {dir_path}")
 
-    # 如果文件不存在，创建文件
+    # 如果文件不存在，创建文件并写入内容
     if not os.path.exists(file_path):
-        with open(file_path, "w") as file:
-            file.write("")
+        with open(file_path, "w", encoding="utf-8") as file:
+            file.write("---\ncomments: true\n---\n")
         print(f"文件已创建: {file_path}")
     else:
         print(f"文件已存在，跳过创建: {file_path}")
