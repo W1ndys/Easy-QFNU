@@ -8,11 +8,13 @@ comments: true
 
 A：可以按你的思路写，介绍你们学院的一些组织，或者是专业知识之类的，比如班委干什么，学生会负责干什么，球队之类，当然也不仅限于这些，只要是你认为在你们学院可能遇到的问题都可以写
 
+网络空间安全学院大部分是我写的，相关的目录结构可以作为参考，[网络空间安全学院 | Cyber - Easy-QFNU](https://easy-qfnu.top/Easy-College/Cyber/)
+
 ## Q：用啥写
 
 A：可以 Word 文档写，但是如果需要加粗，加色等着重格式的一定要规范添加，否则转换的时候会乱版。
 
-​ 如果你会 Markdown 语法的话直接用 Markdown 语法写，当然我也建议你用 Markdown，如果你愿意的话，可以花几十分钟时间学习一下 Markdown 语法，[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/#/)，这是一种丰富的富文本编辑语法，支持设置大标题小标题，**加粗**，<u>下划线</u> ，表格等功能，并使用编码保存，数据处理非常方便，同时可以转化为 Word 等文件。比如我这个文件就是用 Markdown 语法写的。网站就是 Markdown 编译的。
+如果你会 Markdown 语法的话直接用 Markdown 语法写，当然我也建议你用 Markdown，如果你愿意的话，可以花几十分钟时间学习一下 Markdown 语法，[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/#/)，这是一种丰富的富文本编辑语法，支持设置大标题小标题，**加粗**，<u>下划线</u> ，表格等功能，并使用编码保存，数据处理非常方便，同时可以转化为 Word 等文件。比如我这个文件就是用 Markdown 语法写的。网站就是 Markdown 编译的。
 
 ## Typora 编辑器安装以及 pojie 方法
 
