@@ -18,6 +18,10 @@ icon: material/heart
 - Giant_GKL: 蓝桥杯内容的编辑者。
 - Ianwusb: 数字逻辑电路重点的贡献者
 
+## 零碎数据贡献者
+
+- SUPER4NRNS: 参与
+
 ## 选课指北数据贡献者
 
 详情可见：[选课指北数据贡献者](/Easy-SelectCourse/Curriculum-Recommend/Contributors/)
