@@ -7,7 +7,7 @@ import os
 with open("paths.md", "r", encoding="utf-8") as file:
     lines = file.read().splitlines()
 
-# 提取有效的文件路径，并在路径前添加docs/
+# 提取有效的文件路径和标题，并在路径前添加docs/
 files_to_create = []
 for line in lines:
     # 忽略Markdown注释、HTML注释和空行
@@ -17,15 +17,16 @@ for line in lines:
         or not line.strip()
     ):
         continue
-    # 处理Markdown列表项并提取路径
+    # 处理Markdown列表项并提取路径和标题
     if line.strip().startswith("-"):
         parts = line.strip().split(":")
         if len(parts) == 2:
+            title = parts[0].strip()[1:].strip()  # 去掉列表项标记并去除多余空格
             file_path = "docs/" + parts[1].strip()
-            files_to_create.append(file_path)
+            files_to_create.append((file_path, title))
 
 # 遍历文件路径列表，创建文件和目录
-for file_path in files_to_create:
+for file_path, title in files_to_create:
     # 获取目录路径
     dir_path = os.path.dirname(file_path)
 
@@ -37,7 +38,7 @@ for file_path in files_to_create:
     # 如果文件不存在，创建文件并写入内容
     if not os.path.exists(file_path):
         with open(file_path, "w", encoding="utf-8") as file:
-            file.write("---\ncomments: true\n---\n")
+            file.write(f"---\ncomments: true\n---\n\n# {title}\n")
         print(f"文件已创建: {file_path}")
     else:
         print(f"文件已存在，跳过创建: {file_path}")
