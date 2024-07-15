@@ -14,6 +14,17 @@ A：可以 Word 文档写，但是如果需要加粗，加色等着重格式的�
 
 ​ 如果你会 Markdown 语法的话直接用 Markdown 语法写，当然我也建议你用 Markdown，如果你愿意的话，可以花几十分钟时间学习一下 Markdown 语法，[Markdown 基本语法 | Markdown 官方教程](https://markdown.com.cn/basic-syntax/#/)，这是一种丰富的富文本编辑语法，支持设置大标题小标题，**加粗**，<u>下划线</u> ，表格等功能，并使用编码保存，数据处理非常方便，同时可以转化为 Word 等文件。比如我这个文件就是用 Markdown 语法写的。网站就是 Markdown 编译的。
 
+## Typora 编辑器安装以及 pojie 方法
+
+Typora 是一款开源的 Markdown 编辑器
+
+1. 安装 Typora（Typora-setup-x64.exe）
+2. 打开 Typora 位置（右键图标，打开所在位置）
+3. 把破解文件夹内两个 dll 复制到 Typora 所在目录
+4. 替换文件（替换的时候不要打开 Typora）
+5. 重启 Typora
+6. 有问题直接问即可
+
 ## 其他事宜
 
 1. **如果你会 Github，可以通过 Pull Request 直接改动源代码**，官方 Github 仓库里也会出现你的编辑记录和专属的贡献者标记，关于 Github 的学习我也不要求了，非专业来搞 Github 直接是难为人（因为本专业的也没多少会 Github 的）原因是第一次用会遇到一大堆报错要解决，如果没有报错那还算很好学的，只是一个代码托管平台而已
