@@ -31,15 +31,15 @@ icon: material/map
 ??? note "新校区地图超清"
 
     链接：[新校区地图超清——百度网盘](https://pan.baidu.com/s/1tn7qNd4PzjdZmqY6HpWdNw?pwd=1rz8)
-    
+
     提取码：1rz8
-    
+
     HASH 校验
-    
+
     SHA256:**11f128423a5490ae1db3f501f186b320f7affec2d808bec8223526ff0b184440**
-    
+
     MD5:**9aac1ce4978344497fa763d3d895069c**
-    
+
     SHA1:**830146c6b32632cab9f5206755856f63700ae4ab**
 
 <p>
@@ -102,7 +102,7 @@ icon: material/map
 
 办公楼/行政楼
 
-行政 1 号楼：保卫处/马克思主义学院
+行政 1 号楼：保卫处/原马克思主义学院（现在的马克思主义学院已搬迁至致知楼一楼）
 
 行政 2 号楼：原教博
 
