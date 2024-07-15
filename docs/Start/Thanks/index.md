@@ -15,9 +15,9 @@ icon: material/heart
 
 ## 其他贡献者
 
-- Giant_GKL: `蓝桥杯内容` 的编辑者。
-- Ianwusb: `数字逻辑电路重点` 的贡献者
-- SUPER4NRNS: 参与 `Easy-校园` 内容的修正
+- **Giant_GKL**: `蓝桥杯内容` 的编辑者。
+- **Ianwusb**: `数字逻辑电路重点` 的贡献者
+- **SUPER4NRNS**: 参与 `Easy-校园` 内容的修正
 
 ## 选课指北数据贡献者
 
