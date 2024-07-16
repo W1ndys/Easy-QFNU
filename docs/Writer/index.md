@@ -18,6 +18,8 @@ A：可以 Word 文档写，但是如果需要加粗，加色等着重格式的�
 
 ## Typora 编辑器安装以及 pojie 方法
 
+### 安装 Typora
+
 Typora 是一款开源的 Markdown 编辑器
 
 1. 安装 Typora（Typora-setup-x64.exe）
@@ -26,6 +28,12 @@ Typora 是一款开源的 Markdown 编辑器
 4. 替换文件（替换的时候不要打开 Typora）
 5. 重启 Typora
 6. 有问题直接问即可
+
+### 常见问题
+
+1. 缺少文件.dll 等其他类似文件？
+
+   - 安装完成后，右键 Typora.exe，创建桌面快捷方式，不要直接把 exe 拉出去
 
 ## 其他事宜
 
