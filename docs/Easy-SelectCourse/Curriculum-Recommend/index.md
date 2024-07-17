@@ -5,9 +5,11 @@ icon: material/cast-education
 
 # 选课推荐
 
-数据正在迁移中...........
+欢迎提交你的推荐，请在在[腾讯文档](https://docs.qq.com/form/page/DWnlHREJBb2NDd05a){target=\_blank}中提交推荐。
 
-哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~ 哔嘟~
+腾讯问卷需要 QQ/微信登录，建议复制下面链接在微信打开
+
+[https://docs.qq.com/form/page/DWnlHREJBb2NDd05a](https://docs.qq.com/form/page/DWnlHREJBb2NDd05a)
 
 ## 选课推荐 ToDo
 
