@@ -26,43 +26,6 @@ site_author: W1ndys
 copyright: Copyright &copy; 2023 - 2024 W1ndys
 
 # =============================================================================================================================
-
-# # 首页配置
-# home_cover_image: assets/images/home/image1.png # This path starts at your root mkdocs directory.
-# home_tagline: Easy QFNU
-# home_description: |
-#   Easy-QFNUdescription
-
-# # 背景颜色
-# home_gradient_hsla: hsl(0deg 0% 0% / 44%) # Default Green: hsla(160deg,47%,55%,1)
-
-# # 按钮配置
-# home_button1_name: 快速开始 # Comment this parameter out to remove the button.
-# home_button1_url: start/ # This path starts at your root mkdocs directory.
-# home_button1_theme: md-button # Options: "md-button", "md-button md-button--primary"
-# home_button1_icon: people # Options: "people", "gear", "image"
-# home_button1_blurb: | # Short description of this button / section.
-#   按钮描述1
-
-# home_button2_name: 按钮2 # Comment this parameter out to remove the button.
-# home_button2_url: start/ # This path starts at your root mkdocs directory.
-# home_button2_theme: md-button # Options: "md-button", "md-button md-button--primary"
-# home_button2_icon: gear # Options: "people", "gear", "image"
-# home_button2_blurb: | # Short description of this button / section.
-#   按钮描述2
-
-# home_button3_name: 按钮3 # Comment this parameter out to remove the button.
-# home_button3_url: start/ # This path starts at your root mkdocs directory.
-# home_button3_theme: md-button # Options: "md-button", "md-button md-button--primary"
-# home_button3_icon: image # Options: "people", "gear", "image"
-# home_button3_blurb: | # Short description of this button / section.
-#   按钮描述3
-
-# # Homepage Code Execution
-# home_execute_js: | # Javascript to execute when accessing the homepage
-#   console.log("This is an example!");
-
-# =============================================================================================================================
 # 主题配置
 theme:
   language: zh
@@ -525,21 +488,25 @@ extra:
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
 
-    - icon: W1ndys/Zeabur
-      name: Zeabur提供部署服务
-      link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
+    - icon: W1ndys/dogecloud
+      link: https://www.dogecloud.com/
+      name: 多吉云提供加速服务
 
-    - icon: simple/netlify
-      name: Netlify提供部署服务
-      link: https://app.netlify.com/sites/easy-qfnu/overview
+    # - icon: W1ndys/Zeabur
+    #   name: Zeabur提供部署服务
+    #   link: https://dash.zeabur.com/projects/660fb441a4799da57871453c/services/66103abea4799da578715540?envID=660fb4414e5f07f892d24a42
 
-    - icon: W1ndys/Render
-      name: Render提供部署服务
-      link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
+    # - icon: simple/netlify
+    #   name: Netlify提供部署服务
+    #   link: https://app.netlify.com/sites/easy-qfnu/overview
 
-    - icon: simple/cloudflare
-      name: Cloudflare提供部署服务
-      link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
+    # - icon: W1ndys/Render
+    #   name: Render提供部署服务
+    #   link: https://dashboard.render.com/static/srv-co7tclcf7o1s738mattg
+
+    # - icon: simple/cloudflare
+    #   name: Cloudflare提供部署服务
+    #   link: https://dash.cloudflare.com/ffd1502e63a2eb2d1c6fbc47fab0a5ba/pages/view/easy-qfnu
 
     - icon: W1ndys/51la
       name: 51la提供统计服务
