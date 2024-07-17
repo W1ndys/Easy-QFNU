@@ -26,13 +26,7 @@ template: Cyber-css.html
 
 “提问”，一个很简单的事情，如果没有提问的技巧，那么多半没人会愿意回答你。
 
-详细的提问方法，推荐阅读下面这篇文章：
-
-- [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
-
-如果你进不去，你可以看下面这个我复制的版本：
-
-- [提问的智慧](How-To-Ask-Questions-The-Smart-Way.md)
+详细的提问方法，推荐阅读下面这篇文章：[提问的智慧 - LUG @ USTC](https://lug.ustc.edu.cn/wiki/doc/smart-questions/#/)
 
 !!! tips "总结"
 
