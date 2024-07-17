@@ -3571,7 +3571,8 @@
 
 <hr>
 
-<p class="Data-Submission">发现错误? 想参与编辑? 请阅读: <a href="/Start/Data-Submission/">贡献指南</a>，想联系作者？请点击: <a href="/Start/#contact">联系作者</a></p>
+<p class="Data-Submission">发现错误? 想参与编辑? 请阅读: <a href="/Start/Data-Submission/">贡献指南</a>，想联系作者？请点击: <a
+    href="/Start/#contact">联系作者</a></p>
 
 
 
@@ -3622,16 +3623,30 @@
 <h2 id="__comments">评论</h2>
 <!-- 插入评论插件 -->
 
-<p style="text-align: center;">PS: 如果评论排版显示错误，请使用科学上网加速，或强制刷新页面</p>
+<!-- <p style="text-align: center;">PS: 如果评论排版显示错误，请使用科学上网加速，或强制刷新页面</p> -->
 
+<!-- Twikoo评论插件 -->
+
+<script src="../../assets/external/cdn.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js" integrity="sha384-iwCuZOQXH9C9J67oqn6gT5NKj9GRVo/CY8N3mOGk1Vr4aIiAgme2gXTh7QGagg3B" crossorigin="anonymous"></script>
+<div id="tcomment"></div>
+<script src="../../assets/external/cdn.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js"></script>
+<script>
+  twikoo.init({
+    envId: 'https://twikoo-psi-pearl.vercel.app', // 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
+    el: '#tcomment', // 容器元素
+    // region: 'ap-shanghai', // 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+    path: location.pathname, // 用于区分不同文章的自定义 js 路径，如果您的文章路径不是 location.pathname，需传此参数
+    lang: 'zh-CN', // 用于手动设定评论区语言，支持的语言列表 https://github.com/twikoojs/twikoo/blob/main/src/client/utils/i18n/index.js
+  })
+</script>
 
 <!-- giscus评论插件 -->
-<script src="../../assets/external/giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q" data-category="Show and tell" data-category-id="DIC_kwDOLOtv9c4Cd0Rh" data-mapping="URL" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async=>
-  </script>
+<!-- <script src="../../assets/external/giscus.app/client.js" data-repo="W1ndys/Easy-QFNU" data-repo-id="R_kgDOLOtv9Q" data-category="Show and tell" data-category-id="DIC_kwDOLOtv9c4Cd0Rh" data-mapping="URL" data-strict="1" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async=>
+  </script> -->
 
 
 <!-- Giscus评论  -->
-<script>
+<!-- <script>
   var giscus = document.querySelector("script[src*=giscus]")
 
   // Set palette on initial load
@@ -3664,7 +3679,7 @@
       }
     })
   })
-</script>
+</script> -->
 <!-- <div id="waline"></div>
 <script type="module">
   import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
