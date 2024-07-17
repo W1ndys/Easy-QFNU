@@ -346,7 +346,7 @@ plugins:
   # https://squidfunk.github.io/mkdocs-material/plugins/privacy/#built-in-privacy-plugin
   - privacy:
       enabled: !ENV [CI, false]
-      assets: true # 是否下载资源
+      assets: false # 是否下载资源
 
   # Glightbox插件 | 灯箱 | 图片可点击放大
   - glightbox:
