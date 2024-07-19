@@ -551,8 +551,6 @@ nav:
   - Easy-选课:
       - Easy-SelectCourse/index.md
 
-      - 培养方案: Easy-SelectCourse/Curriculum/index.md
-
       - 选课指北:
           - Easy-SelectCourse/Selection-Guide/index.md
 
@@ -590,6 +588,8 @@ nav:
           - 未分类: Easy-SelectCourse/Curriculum-Recommend/Others/index.md
 
           - 贡献者们: Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
+
+      - 培养方案: Easy-SelectCourse/Curriculum/index.md
 
   - Easy-校园:
       - Easy-PassSchool/index.md
