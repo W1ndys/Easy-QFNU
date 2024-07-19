@@ -203,7 +203,7 @@
               </button>
             
             
-本站部署在阿里云服务器，多吉云提供CDN加速。Easy-QFNU站点正在重做中，如有浏览需要，请移步至原页面：<a href="https://blog.w1ndys.top/posts/216d9006" target="_blank">https://blog.w1ndys.top/posts/216d9006</a>
+站点施工中，欢迎关注微信公众号“<a href="/Start/#contact-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7">W1ndys</a>”防迷路，欢迎加入QQ群“<a href="https://qm.qq.com/q/VFWJvHW3yW">497554955</a>”参与讨论。
 
           </div>
           
@@ -3356,6 +3356,48 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#easy-qfnu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy-QFNU
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Easy-QFNU">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy-选课
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easy-_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy-校园
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#easy-_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Easy-学院
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#about" class="md-nav__link">
     <span class="md-ellipsis">
       关于本站 | About
@@ -3465,6 +3507,88 @@
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
 
 <h1 id="quick-start">快速开始 | Quick Start<a class="headerlink" href="#quick-start" title="锚链接到本标题">⚓︎</a></h1>
+<!-- 下面是随机诗句和公告的切换全部配置 -->
+<!-- ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+
+<style>
+/* CSS样式 */
+.shijuannounce {
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+}
+
+.content-container {
+    position: relative;
+    height: 23px; /* 根据内容高度调整 */
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: transform 0.5s ease; /* 调整过渡时间和缓动函数 */
+}
+
+/* 取消统计跳转链接文字的默认链接蓝色*/
+.md-typeset .custom-link {
+    color: inherit; /* 继承父元素的颜色，即默认文本的颜色 */
+    text-decoration: none; /* 取消下划线 */
+}
+
+</style>
+
+<!-- 诗词一言接口，来自https://www.jinrishici.com/#/ -->
+<!-- 生产环境请注释掉，以免过高的访问次数导致封禁IP -->
+<!-- 又加了公告切换功能 -->
+<div class="grid cards shijuannounce" style="text-align: center">
+    <ul>
+        <li>
+            <div id="content" class="content-container">
+                <!-- 随机诗句 -->
+                <span id="jinrishici-sentence" class="content">随机诗句加载中</span>
+                <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                <!-- 公告 -->
+                <span id="announcement" class="content" style="display: none;">欢迎访问Easy-QFNU！</span>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script>
+// 切换显示内容
+function toggleContent() {
+    const jinrishiciSentence = document.getElementById('jinrishici-sentence');
+    const announcement = document.getElementById('announcement');
+
+    if (jinrishiciSentence.style.display === 'block') {
+        jinrishiciSentence.style.transform = 'translateY(-100%)';
+        announcement.style.display = 'block';
+        setTimeout(() => {
+            announcement.style.transform = 'translateY(0)';
+            jinrishiciSentence.style.display = 'none';
+        }, 500); // 根据你的过渡时间调整
+    } else {
+        announcement.style.transform = 'translateY(-100%)';
+        jinrishiciSentence.style.display = 'block';
+        setTimeout(() => {
+            jinrishiciSentence.style.transform = 'translateY(0)';
+            announcement.style.display = 'none';
+        }, 500); // 根据你的过渡时间调整
+    }
+}
+
+// 定时切换内容
+setInterval(() => {
+    toggleContent();
+}, 3200); // 调整切换间隔时间
+</script>
+
+<!-- 上面是随机诗句和公告的切换全部配置 -->
+<!-- ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+
 <div class="language-text highlight"><span class="filename">Easy-QFNU</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><a href="#__codelineno-0-1"><span class="linenos" data-linenos=" 1 "></span></a> .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .-----------------.  .----------------.
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><a href="#__codelineno-0-2"><span class="linenos" data-linenos=" 2 "></span></a>| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><a href="#__codelineno-0-3"><span class="linenos" data-linenos=" 3 "></span></a>| |  _________   | || |      __      | || |    _______   | || |  ____  ____  | || |              | || |    ___       | || |  _________   | || | ____  _____  | || | _____  _____ | |
@@ -3477,6 +3601,23 @@
 </span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><a href="#__codelineno-0-10"><span class="linenos" data-linenos="10 "></span></a>| &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; || &#39;--------------&#39; |
 </span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><a href="#__codelineno-0-11"><span class="linenos" data-linenos="11 "></span></a> &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;  &#39;----------------&#39;
 </span></code></pre></div>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Easy-QFNU" src="https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&amp;font=Inter&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&amp;owner=1&amp;pattern=Signal&amp;pulls=1&amp;stargazers=1&amp;theme=Auto"></a></p>
+<p>欢迎你找到这里，<a href="https://Easy-QFNU.top">Easy-QFNU</a> 是免费、开源、共建、共享的公益项目，隶属于 <a href="https://github.com/W1ndys">W1ndys</a> 个人公益项目，致力于让你的 QFNU 更简单~</p>
+<p>Easy-QFNU 的前身是 <a href="https://blog.w1ndys.top/posts/216d9006#/" target="target">曲阜师范大学选课指北</a> 和 <a href="https://blog.w1ndys.top/posts/8f8bbaa8" target="target">曲阜师范大学速通指南</a></p>
+<h2 id="easy-qfnu">Easy-QFNU<a class="headerlink" href="#easy-qfnu" title="锚链接到本标题">⚓︎</a></h2>
+<p>让你的 QFNU 更简单</p>
+<h3 id="easy-">Easy-选课<a class="headerlink" href="#easy-" title="锚链接到本标题">⚓︎</a></h3>
+<p><a class="md-button" href="/Easy-SelectCourse/">Easy-选课</a>
+<a class="md-button" href="/Easy-SelectCourse/Curriculum/">培养方案</a>
+<a class="md-button" href="/Easy-SelectCourse/Selection-Guide/">选课指北</a>
+<a class="md-button" href="/Easy-SelectCourse/Curriculum-Recommend/">选课推荐</a></p>
+<p>Easy-选课的前身是 <a href="https://blog.w1ndys.top/posts/216d9006#/" target="target">曲阜师范大学选课指北</a>，是一个收集汇总选课推荐的 wiki ，帮助你快速找到适合自己的课程。现已合并到 Easy-QFNU 项目中，并增加更多内容。</p>
+<h3 id="easy-_1">Easy-校园<a class="headerlink" href="#easy-_1" title="锚链接到本标题">⚓︎</a></h3>
+<p><a class="md-button" href="/Easy-PassSchool/">Easy-校园</a></p>
+<p>Easy-校园的前身是 <a href="https://blog.w1ndys.top/posts/8f8bbaa8" target="target">曲阜师范大学速通指南</a>，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。</p>
+<h3 id="easy-_2">Easy-学院<a class="headerlink" href="#easy-_2" title="锚链接到本标题">⚓︎</a></h3>
+<p><a class="md-button" href="/Easy-College/">Easy-学院</a></p>
+<p>Easy-学院 是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。欢迎各位学院有识之士投稿，共建知识库。</p>
 <h2 id="about">关于本站 | About<a class="headerlink" href="#about" title="锚链接到本标题">⚓︎</a></h2>
 <ul>
 <li>官网：<a href="https://easy-qfnu.top">https://easy-qfnu.top</a> 你可以在下方代码块后方直接复制以便于分享</li>
