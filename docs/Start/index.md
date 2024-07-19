@@ -24,7 +24,7 @@ icon: material/airplane
 
 <!--
 
-%E4%BB%B0%E6%9C%9B%E9%AB%98%E5%B1%B1%E7%9A%84%E4%BA%BA%0A%0A%E4%BB%A5%E4%B8%BA%E5%B1%B1%E5%B7%85%E6%98%AF%E5%B7%8D%E5%B3%A8%E5%B7%85%E5%B3%B0%0A%0A%E5%B3%BB%E5%B3%AD%E3%80%81%E6%8C%BA%E6%8B%94%EF%BC%8C%E6%97%A0%E5%8F%AF%E6%8C%91%E5%89%94%0A%0A%E6%94%80%E7%99%BB%E9%AB%98%E5%B3%B0%E7%9A%84%E4%BA%BA%E6%96%B9%E7%9F%A5%0A%0A%E9%82%A3%E9%87%8C%E6%9C%89%E8%8D%86%E6%A3%98%E3%80%81%E9%99%A9%E6%BB%A9%0A%0A%E8%BF%9C%E4%B8%8D%E6%AD%A2%E7%9C%BC%E5%89%8D%E9%A3%8E%E5%85%89%E4%BF%8F%E4%B8%BD
+%E4%BB%B0%E6%9C%9B%E9%AB%98%E5%B1%B1%E7%9A%84%E4%BA%BA%0A%0A%E4%BB%A5%E4%B8%BA%E5%B1%B1%E5%B7%85%E6%98%AF%E5%B7%8D%E5%B3%A8%E5%B7%85%E5%B3%B0%0A%0A%E5%B3%BB%E5%B3%AD%E3%100%81%E6%8C%BA%E6%8B%94%EF%BC%8C%E6%97%A0%E5%8F%AF%E6%8C%91%E5%89%94%0A%0A%E6%94%100%E7%99%BB%E9%AB%98%E5%B3%B0%E7%9A%84%E4%BA%BA%E6%96%B9%E7%9F%A5%0A%0A%E9%82%A3%E9%87%8C%E6%9C%89%E8%8D%86%E6%A3%98%E3%100%81%E9%99%A9%E6%BB%A9%0A%0A%E8%BF%9C%E4%B8%8D%E6%AD%A2%E7%9C%BC%E5%89%8D%E9%A3%8E%E5%85%89%E4%BF%8F%E4%B8%BD
 
 仰望高山的人
 
@@ -74,8 +74,6 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 ## 致谢 | Acknowledgement
 
-
-
 感谢所有贡献者，本项目的完成离不开以下小伙伴的贡献，感谢他们的付出。包括但不仅限于：
 
 1. 网站作者
@@ -112,37 +110,35 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 === "官网"
 
-    ![官网](website.png)
+    <img src="website.png" alt="官网" width="100%" />
 
     官方网站的二维码，扫一下即可跳转到官方网站页面，可以截图分享
 
 === "微信公众号"
 
-    ![微信公众号](VXGZH.png)
+    <img src="VXGZH.png" alt="微信公众号" width="100%" />
 
     我们的微信公众号，关注后可以获取最新资讯，有重要通知都会在这里发
 
 === "作者 QQ"
 
-    ![作者 QQ](QQ.png)
+    <img src="Author_QQ.png" alt="作者 QQ" width="100%" />
 
     需要**联系作者**请扫描二维码联系，请一定备注来源
 
 === "官方抖音号"
 
-    <img src="douyin.png" alt="官方抖音号" width="50%" />
+    <img src="douyin.png" alt="官方抖音号" width="100%" />
+
+=== "QQ 通知群"
+
+    <img src="QQ_group.png" alt="QQ通知群" width="100%" />
 
 === "QQ 闲聊群"
 
-    ![QQ闲聊群](qqchat.png)
+    <img src="QQ_chat_Group.png" alt="QQ闲聊群" width="100%" />
 
     来水群！来水群！来水群！来水群！
-
-=== "钉钉通知群"
-
-    ![钉钉通知群](dingtalk.png)
-
-    这里使用学校的指定办公APP：云上曲园，也可以加群，云上曲园实际上就是一个定制版的钉钉，但还是推荐使用钉钉原版，更新比较快
 
 ---
 
