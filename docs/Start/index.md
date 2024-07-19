@@ -72,22 +72,6 @@ icon: material/airplane
 
 Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}
 
-## 致谢 | Acknowledgement
-
-感谢所有贡献者，本项目的完成离不开以下小伙伴的贡献，感谢他们的付出。包括但不仅限于：
-
-1. 网站作者
-
-2. 源代码贡献者
-
-3. 数据贡献者
-
-4. 网站维护者
-
-5. 捐助者
-
-6. 技术支持平台
-
 ## 关于本站 | About
 
 - 官网：[https://easy-qfnu.top](https://easy-qfnu.top) 你可以在下方代码块后方直接复制以便于分享
@@ -111,20 +95,20 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 === "官网"
 
     <img src="website.png" alt="官网" width="100%" />
-
+    
     官方网站的二维码，扫一下即可跳转到官方网站页面，可以截图分享
 
 === "微信公众号"
 
     <img src="VXGZH.png" alt="微信公众号" width="100%" />
-
+    
     我们的微信公众号，关注后可以获取最新资讯，有重要通知都会在这里发
 
 === "作者 QQ"
 
     <img src="Author_QQ.png" alt="作者 QQ" width="100%" />
-
-    需要**联系作者**请扫描二维码联系，请一定备注来源
+    
+    需要 **联系作者** 请扫描二维码联系，请一定备注来源
 
 === "官方抖音号"
 
@@ -137,9 +121,6 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 === "QQ 闲聊群"
 
     <img src="QQ_chat_Group.png" alt="QQ闲聊群" width="100%" />
-
+    
     来水群！来水群！来水群！来水群！
 
----
-
-本页有彩蛋，试试按 `Crtl+U` 往下翻看看吧！
