@@ -27,3 +27,4 @@ icon: material/heart
 
 起初，我们只是一个简单的博客站点，后来受到 [Hello-CTF](https://hello-ctf.com/) 的启发，后来不断完善，才有了现在的这个样子，如果你对 CTF 感兴趣，推荐阅读这个 CTF 入门指南
 
+致谢 [Mister-Hope](https://github.com/Mister-Hope) 在我开发和界面布局的指导建议。
