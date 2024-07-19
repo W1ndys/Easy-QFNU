@@ -1,6 +1,9 @@
 ---
 comments: true
 icon: material/lightbulb
+level: SelectCourse
+encryption_summary: 关注微信公众号「W1ndys」发送「选课指北」获取密码
+encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北」获取密码
 ---
 
 # 思修类课程

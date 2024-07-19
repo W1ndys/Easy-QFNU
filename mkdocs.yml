@@ -327,13 +327,13 @@ plugins:
   - encryptcontent:
       title_prefix: "" # 加密后的标签页标题前缀
       summary: "这个项目已被加密" # 加密后的标题显示
-      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。解锁后请务必刷新一下否则显示不全" # 加密后的文章显示
+      encryption_info_message: "微信搜索公众号：W1ndys，关注后回复“选课指北”可获取密码。" # 加密后的文章显示
       placeholder: "请输入密码" # 输入密码的提示
       decryption_failure_message: "密码错误" # 密码错误的提示
       password_button: True # 解锁按钮文字
       password_button_text: "点击解密"
       password_inventory:
-        SelectCourse: "password"
+        SelectCourse: "Welcom_to_Easy-QFNU_and_QFNU"
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
