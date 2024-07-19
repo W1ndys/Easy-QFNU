@@ -130,4 +130,4 @@ Easy-学院 是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院
 
 本站开启了赞助计划，赞助的金额将用于服务器维护、网站建设、内容更新、以及其他相关事宜。
 
-赞助计划：https://easy-qfnu.top/Start/Sponsor/
+赞助计划：[https://easy-qfnu.top/Start/Sponsor/](https://easy-qfnu.top/Start/Sponsor/)
