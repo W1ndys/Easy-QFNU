@@ -99,6 +99,8 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 ## Easy-QFNU
 
+[了解本站](/Start/){.md-button}
+
 让你的 QFNU 更简单
 
 ### Easy-选课
