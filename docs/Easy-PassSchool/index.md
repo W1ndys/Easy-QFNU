@@ -5,6 +5,8 @@ icon: material/school
 
 # Easy-校园 | 速通指南
 
+> 内容填坑中...
+
 Easy-校园，源自曲师大速通指南，是一个关于校园生活的速查手册
 
 新生如果有想问的问题，可以填在下述表格，我会不定期回复。
@@ -20,3 +22,4 @@ Easy-校园，源自曲师大速通指南，是一个关于校园生活的速查
 [:fontawesome-brands-discord: 咱的社团](Clubs/){:.md-button }
 [:fontawesome-solid-store: 北门药店](Drugstore/){:.md-button }
 [:fontawesome-solid-calendar-week: 校历作息](Calendar/){:.md-button }
+[:fontawesome-solid-book: 反诈指南](Anti-Fraud/){:.md-button }
