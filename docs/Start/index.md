@@ -74,9 +74,7 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 ## 致谢 | Acknowledgement
 
-本项目基于 [Mkdocs-Material](https://squidfunk.github.io/mkdocs-material/) 构建，源代码托管于 [GitHub](https://github.com/W1ndys/Easy-QFNU) ，静态页面部署于 [阿里云](https://www.aliyun.com/)、 [Vercel](https://vercel.com/) 、 [Netlify](https://www.netlify.com/) 、[cloudflare](https://www.cloudflare.com/) ，感谢以上单位。
 
-起初，我们只是一个简单的博客站点，后来受到 [Hello-CTF](https://hello-ctf.com/) 的启发，后来不断完善，才有了现在的这个样子，如果你对 CTF 感兴趣，推荐阅读这个 CTF 入门指南
 
 感谢所有贡献者，本项目的完成离不开以下小伙伴的贡献，感谢他们的付出。包括但不仅限于：
 
