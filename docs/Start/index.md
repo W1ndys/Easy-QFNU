@@ -64,14 +64,6 @@ icon: material/airplane
  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
 ```
 
-## 介绍 | Introduction
-
-![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
-
-欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，主要包括 QFNU 选课指北速通指南等信息，致力于弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
-
-Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}
-
 ## 关于本站 | About
 
 - 官网：[https://easy-qfnu.top](https://easy-qfnu.top) 你可以在下方代码块后方直接复制以便于分享
@@ -95,19 +87,19 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 === "官网"
 
     <img src="website.png" alt="官网" width="100%" />
-    
+
     官方网站的二维码，扫一下即可跳转到官方网站页面，可以截图分享
 
 === "微信公众号"
 
     <img src="VXGZH.png" alt="微信公众号" width="100%" />
-    
+
     我们的微信公众号，关注后可以获取最新资讯，有重要通知都会在这里发
 
 === "作者 QQ"
 
     <img src="Author_QQ.png" alt="作者 QQ" width="100%" />
-    
+
     需要 **联系作者** 请扫描二维码联系，请一定备注来源
 
 === "官方抖音号"
@@ -121,6 +113,5 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 === "QQ 闲聊群"
 
     <img src="QQ_chat_Group.png" alt="QQ闲聊群" width="100%" />
-    
-    来水群！来水群！来水群！来水群！
 
+    来水群！来水群！来水群！来水群！

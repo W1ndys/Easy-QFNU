@@ -10,7 +10,7 @@ icon: material/home
 ---
 
 <!-- 下面是随机诗句和公告的切换全部配置 -->
-<!-- ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
+<!-- ——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
 
 <style>
 /* CSS样式 */
@@ -53,7 +53,7 @@ icon: material/home
                 <span id="jinrishici-sentence" class="content">随机诗句加载中</span>
                 <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
                 <!-- 公告 -->
-                <span id="announcement" class="content" style="display: none;">欢迎各位曲园学子！欢迎访问Easy-QFNU！</span>
+                <span id="announcement" class="content" style="display: none;">欢迎访问Easy-QFNU！</span>
             </div>
         </li>
     </ul>
@@ -91,92 +91,33 @@ setInterval(() => {
 <!-- 上面是随机诗句和公告的切换全部配置 -->
 <!-- ———————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————— -->
 
-<div class="grid cards" markdown>
-<div class="grid cards" markdown>
-- :material-battery-charging-wireless-outline: **新手引导**
+![Easy-QFNU](https://socialify.git.ci/W1ndys/Easy-QFNU/image?description=1&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Feasy-qfnu.top%2Fassets%2Flogo%2Ffavico.png&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Auto)
 
-    ---
+欢迎你找到这里，[Easy-QFNU](https://Easy-QFNU.top) 是免费、开源、共建、共享的公益项目，隶属于 [W1ndys](https://github.com/W1ndys) 个人公益项目，致力于让你的 QFNU 更简单~
 
-    <u>欢迎来到Easy-QFNU！**[点击这里](/Start/)快速开始**</u>
+Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "} 和 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}
 
-    请善用<u>**搜索**</u>功能来寻找你想要的内容！！
+## Easy-QFNU
 
-    在浏览本站前请先阅读 [用户协议](Start/Agreement/){:target="\_blank"}
+让你的 QFNU 更简单
 
-    [如何发表评论](/Start/Tutorial/#how-to-comment){:target="\_blank"}
+### Easy-选课
 
-    [如何参与编辑](/Start/Data-Submission/){:target="\_blank"}
+[Easy-选课](/Easy-SelectCourse/){.md-button}
+[培养方案](/Easy-SelectCourse/Curriculum/){.md-button}
+[选课指北](/Easy-SelectCourse/Selection-Guide/){.md-button}
+[选课推荐](/Easy-SelectCourse/Curriculum-Recommend/){.md-button}
 
-    [**联系作者**](/Start/#contact){:target="\_blank"}
+Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "}，是一个收集汇总选课推荐的 wiki ，帮助你快速找到适合自己的课程。现已合并到 Easy-QFNU 项目中，并增加更多内容。
 
-    [Github开源地址](https://github.com/W1ndys/Easy-QFNU/tree/gh-pages){:target="\_blank"}
+### Easy-校园
 
-</div>
+[Easy-校园](/Easy-PassSchool/){.md-button}
 
-</div>
+Easy-校园的前身是 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。
 
-<div class="grid cards" markdown>
-<div class="grid cards" markdown>
-- :octicons-alert-16: **公告**
+### Easy-学院
 
-    ---
-
-    欢迎给[本项目](https://github.com/W1ndys/Easy-QFNU/){:target="\_blank"}点个star⭐
-
-    梦想是让每一位曲园学子都看过我的Easy-QFNU，希望大家能喜欢！也希望有越来越多的人参与编辑，一起完善这个项目！
-
-</div>
-
-<div class="grid cards" markdown>
-- :fontawesome-solid-newspaper: **NEWS**
-
-    ---
-
-    在开始之前,请先了解本站[用户协议](Start/Agreement/){:target="\_blank"},浏览本站即代表您同意此协议
-
-    加急更新中………………
-
-</div>
-<div class="grid cards" markdown>
-- :material-advertisements: **广告位招租**
-
-    ---
-
-    联系方式：[w1ndys@outlook.com](mailto:w1ndys@outlook.com){:target="\_blank"}
-
-</div>
-</div>
-
-<div class="grid cards" markdown>
-
-<!-- <div class="grid cards" markdown>
-- :octicons-repo-16: **源代码仓库概览**
-
-    [![本仓库](https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU?theme=light)](https://github.com/W1ndys/Easy-QFNU)
-
-</div> -->
-
-<div class="grid cards" markdown>
-- :material-hand-heart: **源代码贡献者**
-
-    <p align="left">
-        <a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
-            <img width="100" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
-        </a>
-    </p>
-
-    **向每一个为开源项目做出努力和贡献的人，致以崇高的敬意！！！**
-
-</div>
-
-<div class="grid cards" markdown>
-- :simple-simpleanalytics: <a class="custom-link" href="https://v6.51.la/report/overview?comId=416432" target="_blank"><strong>网站资讯</strong></a>
-
-    <!-- 51.La数据挂件 -->
-    <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/3HxQRMoHKBJizCgs/quote.js?theme=#6D2424,#6D2424,#6D2424,#6D2424,#FFFFFF,#6D2424,12&col=true&f=14"></script>
-
-</div>
-
-</div>
-
-<script>console.log(`欢迎来到Easy-QFNU!\nhttps://github.com/W1ndys/Easy-QFNU`);</script>
+[Easy-学院](/Easy-College/){.md-button}
+Easy-学院 是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。
+欢迎各位学院有识之士投稿，共建知识库。
