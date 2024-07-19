@@ -13,7 +13,7 @@ Easy-校园，源自曲师大速通指南，是一个关于校园生活的速查
 
 [【腾讯文档】Easy-QFNU 新生问题回答汇总 Q&A](https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0?tab=BB08J2)
 
-一开始我们只是个单独的博客页面，后来有了新的灵感，逐渐迁移到了这里，并逐渐完善，如果你有任何建议或者疑问，欢迎 **联系作者** 、在评论区留言或者发起 Pull Request。
+移动设备左上角菜单可以换页
 
 [:fontawesome-solid-person-military-rifle: 关于军训](Military/){: .md-button }
 [:octicons-package-16: 快递包裹](Express/){:.md-button }
