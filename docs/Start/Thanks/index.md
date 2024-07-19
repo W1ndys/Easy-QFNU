@@ -17,6 +17,14 @@ icon: material/heart
 - **SUPER4NRNS**: 参与 `Easy-校园` 内容的修正
 - **21 数学匿名师哥**: 贡献了 `选课指北` 内容的参考资料
 
+## 源代码贡献者
+
+<p align="left">
+    <a href="https://github.com/W1ndys/Easy-QFNU/graphs/contributors">
+        <img width="150" src="https://contrib.rocks/image?repo=W1ndys/Easy-QFNU" />
+    </a>
+</p>
+
 ## 选课指北数据贡献者
 
 详情可见：[选课指北数据贡献者](/Easy-SelectCourse/Curriculum-Recommend/Contributors/)
