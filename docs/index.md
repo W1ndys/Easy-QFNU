@@ -133,6 +133,6 @@ Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top
 
 如果您觉得 Easy-QFNU 帮助到了你，想通过赞助支持我，欢迎赞助。
 
-本站开启了赞助计划，赞助的金额将用于服务器维护、网站建设、内容更新、以及其他相关事宜。
-
-赞助计划：[https://easy-qfnu.top/Start/Sponsor/](https://easy-qfnu.top/Start/Sponsor/)
+<div class="grid cards" markdown>
+- **[赞助计划](https://easy-qfnu.top/Start/Sponsor/)**-本站开启了赞助计划，赞助的金额将用于服务器维护、网站建设、内容更新、以及其他相关事宜。
+</div>
