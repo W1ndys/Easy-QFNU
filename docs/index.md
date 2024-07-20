@@ -99,30 +99,35 @@ Easy-QFNU 的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/
 
 ## Easy-QFNU
 
-[了解本站](/Start/){.md-button}
-
-让你的 QFNU 更简单
+<div class="grid cards" markdown>
+- **[快速了解本站](/Start/)**-Easy-QFNU，让你的 QFNU 更简单
+</div>
 
 ### Easy-校园
 
-[Easy-校园](/Easy-PassSchool/){.md-button}
-
 Easy-校园的前身是 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。
+
+<div class="grid cards" markdown>
+- **[Easy-校园](/Easy-PassSchool/)**-校园生活常用信息汇总
+</div>
 
 ### Easy-选课
 
-[Easy-选课](/Easy-SelectCourse/){.md-button}
-[培养方案](/Easy-SelectCourse/Curriculum/){.md-button}
-[选课指北](/Easy-SelectCourse/Selection-Guide/){.md-button}
-[选课推荐](/Easy-SelectCourse/Curriculum-Recommend/){.md-button}
-
 Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "}，是一个收集汇总选课推荐的 wiki ，帮助你快速找到适合自己的课程。现已合并到 Easy-QFNU 项目中，并增加更多内容。
+
+<div class="grid cards" markdown>
+
+- **[Easy-选课](/Easy-SelectCourse/)**-选课指北
+- **[培养方案](/Easy-SelectCourse/Curriculum/)**-内含各年级培养方案文件
+- **[选课指北](/Easy-SelectCourse/Selection-Guide/)**-手把手教你选课
+- **[选课推荐](/Easy-SelectCourse/Curriculum-Recommend/)**-推荐优质课程
+</div>
 
 ### Easy-学院
 
-[Easy-学院](/Easy-College/){.md-button}
-
-Easy-学院 是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。欢迎各位学院有识之士投稿，共建知识库。
+<div class="grid cards" markdown>
+- **[Easy-学院](/Easy-College/)**-是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。欢迎各位学院有识之士投稿，共建知识库。
+</div>
 
 ### 赞助我们
 
