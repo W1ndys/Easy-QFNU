@@ -548,6 +548,27 @@ nav:
 
       - 致谢: Start/Thanks/index.md
 
+  - Easy-校园:
+      - Easy-PassSchool/index.md
+
+      - 欢迎新生: Easy-PassSchool/New-Students/index.md
+
+      - 关于军训: Easy-PassSchool/Military/index.md
+
+      - 快递包裹: Easy-PassSchool/Express/index.md
+
+      - 宿舍小窝: Easy-PassSchool/Dorm/index.md
+
+      - 校园地图: Easy-PassSchool/Map/index.md
+
+      - 咱的社团: Easy-PassSchool/Clubs/index.md
+
+      - 北门药店: Easy-PassSchool/Drugstore/index.md
+
+      - 校历作息: Easy-PassSchool/Calendar/index.md
+
+      - 反诈指南: Easy-PassSchool/Anti-Fraud/index.md
+
   - Easy-选课:
       - Easy-SelectCourse/index.md
 
@@ -590,27 +611,6 @@ nav:
           - 贡献者们: Easy-SelectCourse/Curriculum-Recommend/Contributors/index.md
 
       - 培养方案: Easy-SelectCourse/Curriculum/index.md
-
-  - Easy-校园:
-      - Easy-PassSchool/index.md
-
-      - 欢迎新生: Easy-PassSchool/New-Students/index.md
-
-      - 关于军训: Easy-PassSchool/Military/index.md
-
-      - 快递包裹: Easy-PassSchool/Express/index.md
-
-      - 宿舍小窝: Easy-PassSchool/Dorm/index.md
-
-      - 校园地图: Easy-PassSchool/Map/index.md
-
-      - 咱的社团: Easy-PassSchool/Clubs/index.md
-
-      - 北门药店: Easy-PassSchool/Drugstore/index.md
-
-      - 校历作息: Easy-PassSchool/Calendar/index.md
-
-      - 反诈指南: Easy-PassSchool/Anti-Fraud/index.md
 
   - Easy-学院:
       - Easy-College/index.md
