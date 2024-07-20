@@ -126,7 +126,7 @@ Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top
 ### Easy-学院
 
 <div class="grid cards" markdown>
-- **[Easy-学院](/Easy-College/)**-是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。欢迎各位学院有识之士投稿，共建知识库。
+- **[Easy-学院](/Easy-College/)**-是 Easy-QFNU 项目产生后新建的一部分，旨在为各学院提供更细致的知识库，帮助同学们更好地了解各学院。欢迎各位学院同学投稿，共建知识库。
 </div>
 
 ### 赞助我们
