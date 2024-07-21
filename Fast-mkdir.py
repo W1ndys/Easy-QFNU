@@ -38,7 +38,7 @@ for file_path, title in files_to_create:
     # 如果文件不存在，创建文件并写入内容
     if not os.path.exists(file_path):
         with open(file_path, "w", encoding="utf-8") as file:
-            file.write(f"---\ncomments: true\n---\n\n# {title}\n")
+            file.write(f"---\ncomments: true\n---\n\n# {title}\n\n> 内容施工中...")
         print(f"文件已创建: {file_path}")
     else:
         print(f"文件已存在，跳过创建: {file_path}")

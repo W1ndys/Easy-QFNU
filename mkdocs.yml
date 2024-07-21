@@ -561,6 +561,12 @@ nav:
 
       - 校园地图: Easy-School/Map/index.md
 
+      - 关于食堂: Easy-School/Canteen/index.md
+
+      - 关于交通: Easy-School/Traffic/index.md
+
+      - 周边玩的: Easy-School/Around_Fun/index.md
+
       - 咱的社团: Easy-School/Clubs/index.md
 
       - 北门药店: Easy-School/Drugstore/index.md
@@ -568,6 +574,8 @@ nav:
       - 校历作息: Easy-School/Calendar/index.md
 
       - 反诈指南: Easy-School/Anti-Fraud/index.md
+
+      - 本章致谢: Easy-School/Thanks/index.md
 
   - Easy-选课:
       - Easy-SelectCourse/index.md
