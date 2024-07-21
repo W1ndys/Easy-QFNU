@@ -108,7 +108,7 @@ setInterval(() => {
 Easy-校园的前身是 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。
 
 <div class="grid cards" markdown>
-- **[Easy-校园](/Easy-PassSchool/)**-校园生活常用信息汇总
+- **[Easy-校园](/Easy-School/)**-校园生活常用信息汇总
 </div>
 
 ### Easy-选课
