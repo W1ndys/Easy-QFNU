@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/food
 ---
 
 # 关于食堂
