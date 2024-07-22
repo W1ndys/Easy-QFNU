@@ -9,20 +9,46 @@ icon: fontawesome/regular/face-smile
 
 !!! info "新生常见问题"
 
-    【腾讯文档】2024 新生问题回答汇总 Q&A [https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0](https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0){target=_blank}
-
-## 环境实拍
-
-- 新校区宿舍环境实拍：[https://v.douyin.com/ijDo1HTg/](https://v.douyin.com/ijDo1HTg/)
-
-- 新校区图书馆实拍：[https://v.douyin.com/ijDEoaxb/](https://v.douyin.com/ijDEoaxb/)
+    【腾讯文档】2024 新生问题回答汇总 Q&A
+    
+    [https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0](https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0){target =_blank}
+    
+    如果你有想问的问题或想找的问题可以填在表格中
+    
+    <font color=red> 善用搜索 </font>
 
 ## 关于称呼
 
-一般在曲师大是以 **“师哥师姐师弟师妹”** 相称而不是 **“学长学姐学弟学妹”**,可能因为毕竟是师范大学嘛,即使现在不习惯,入学之后也会慢慢这么改口的。
+一般在曲师大是以 **“师哥师姐师弟师妹”** 相称而不是 **“学长学姐学弟学妹”**
 
-第一,这也就意味着如果有人自称学长/学姐主动加好友 or 向你搭讪,那么请警惕一些,他有七成可能不是曲师大本校的,并且是想向你推销笔/清洁剂等乱七八
+第一, 这也就意味着如果有人自称学长/学姐主动加好友 or 向你搭讪, 那么请警惕一些, 他有七成可能不是曲师大本校的, 并且是想向你推销笔/清洁剂等乱七八糟的东西
 
-糟的东西；剩下三成即使称呼正确(暗号对上了),他也有可能是校园卡代理,想让你办卡他拿提成。
+第二, 这些称呼也只是为了礼貌起见。
 
-第二,这些称呼也只是为了礼貌起见。
+## 关于军训
+
+关于军训请看 [下一章内容](/Easy-School/Military/)，有更详尽的介绍。
+
+## 关于宿舍
+
+有关宿舍长什么样？宿舍安排在哪？宿舍要求请看：[宿舍小窝](/Easy-School/Dorm/)
+
+## 校园地图
+
+初来学校，找不到东西南北，请看 [本站校园地图整理](/Easy-School/Map/)
+
+## 关于快递
+
+快递地址填什么？快递站名字是什么？有哪些快递？请看本站 [快递包裹章节](/Easy-School/Express/)
+
+## 周边交通
+
+火车站、高铁站在哪？汽车站在哪？请看 [关于交通](/Easy-School/Traffic)
+
+## 周边药店
+
+学校北门有很多药店以备不时之需，本站罗列了北门所有药店的营业时间等信息，详细请看：[北门药店](/Easy-School/Drugstore/)
+
+## 反诈指南
+
+新生开学在即，有大量的广告、诈骗分子混入新生群，本站带你如何辨别常见的诈骗手段，区分诈骗分子，保护好自己的小钱包，请看：[反诈指南](/Easy-School/Anti-Fraud/)
