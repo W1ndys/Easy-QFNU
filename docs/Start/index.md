@@ -68,6 +68,12 @@ icon: material/airplane
 
 让你的 QFNU 更简单
 
+### Easy-校园
+
+[Easy-校园](/Easy-School/){.md-button}
+
+Easy-校园的前身是 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。
+
 ### Easy-选课
 
 [Easy-选课](/Easy-SelectCourse/){.md-button}
@@ -76,12 +82,6 @@ icon: material/airplane
 [选课推荐](/Easy-SelectCourse/Curriculum-Recommend/){.md-button}
 
 Easy-选课的前身是 [曲阜师范大学选课指北](https://blog.w1ndys.top/posts/216d9006#/){target ="\_blank "}，是一个收集汇总选课推荐的 wiki ，帮助你快速找到适合自己的课程。现已合并到 Easy-QFNU 项目中，并增加更多内容。
-
-### Easy-校园
-
-[Easy-校园](/Easy-School/){.md-button}
-
-Easy-校园的前身是 [曲阜师范大学速通指南](https://blog.w1ndys.top/posts/8f8bbaa8){target ="\_blank "}，是一个收集汇总校园生活常用信息的 wiki ，帮助你快速找到适合自己的信息。现已合并到 Easy-QFNU 项目中，并增加更多内容。
 
 ### Easy-学院
 
