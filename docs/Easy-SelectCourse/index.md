@@ -25,6 +25,12 @@ icon: material/book-education
 
 ### 选课推荐
 
+欢迎提交你的推荐，请在在[腾讯文档](https://docs.qq.com/form/page/DWnlHREJBb2NDd05a){target=\_blank}中提交推荐。
+
+腾讯问卷需要 QQ/微信登录，建议复制下面链接在微信打开
+
+[https://docs.qq.com/form/page/DWnlHREJBb2NDd05a](https://docs.qq.com/form/page/DWnlHREJBb2NDd05a)
+
 - [外语类](/Easy-SelectCourse/Curriculum-Recommend/Foreign-Language/)
 - [体育类](/Easy-SelectCourse/Curriculum-Recommend/Sports/)
 - [思修类](/Easy-SelectCourse/Curriculum-Recommend/Thinking/)
