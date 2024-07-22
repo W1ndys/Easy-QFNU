@@ -15,6 +15,7 @@ Easy-校园，源自曲师大速通指南，是一个关于校园生活的速查
 
 移动设备左上角菜单可以换页
 
+[:fontawesome-regular-face-smile: 欢迎新生](/Easy-School/New-Students/){:.md-button }
 [:fontawesome-solid-person-military-rifle: 关于军训](Military/){: .md-button }
 [:octicons-package-16: 快递包裹](Express/){:.md-button }
 [:material-bed: 宿舍小窝](Dorm/){:.md-button }
