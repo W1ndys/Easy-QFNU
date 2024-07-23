@@ -2,6 +2,7 @@
 # Author: https://github.com/W1ndys
 
 import os
+import time
 
 # 从外部文件读取路径
 with open("paths.md", "r", encoding="utf-8") as file:
@@ -42,3 +43,8 @@ for file_path, title in files_to_create:
         print(f"文件已创建: {file_path}")
     else:
         print(f"文件已存在，跳过创建: {file_path}")
+
+
+print("所有文件和目录创建完成！程序将在5秒后退出。")
+
+time.sleep(5)
