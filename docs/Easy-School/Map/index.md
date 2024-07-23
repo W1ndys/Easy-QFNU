@@ -69,7 +69,7 @@ icon: material/map
 
 <p>
     <img src="School-Map/All2.jpg" alt="老校区地图, 希望数分别再折磨我了供图" style="width:40%;" />
-    <img src="School-Map/All1.jpg" alt="综合地图" style="width:40%;" />
+    <img src="School-Map/All1.png" alt="综合地图" style="width:40%;" />
 </p>
 
 ## 日照校区地图
