@@ -10,11 +10,11 @@ icon: fontawesome/regular/face-smile
 !!! info "新生常见问题"
 
     【腾讯文档】2024 新生问题回答汇总 Q&A
-    
+
     [https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0](https://docs.qq.com/sheet/DWm5aTGpOb3VyY1B0){target =_blank}
-    
+
     如果你有想问的问题或想找的问题可以填在表格中
-    
+
     <font color=red> 善用搜索 </font>
 
 ## 学院官方群
@@ -35,7 +35,7 @@ icon: fontawesome/regular/face-smile
 
 关于军训请看 [下一章内容](/Easy-School/Military/)，有更详尽的介绍。
 
-## 关于宿舍
+## 关于宿舍&被褥
 
 宿舍在哪里，谁也不知道，宿舍分配是等到新生快开学的时候才会在 **智慧曲园 APP** 查到，所以也不用到处问，等着就行
 
