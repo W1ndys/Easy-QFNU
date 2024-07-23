@@ -31,16 +31,16 @@ icon: material/map
 ??? note "新校区地图超清"
 
     链接：[新校区地图超清——百度网盘](https://pan.baidu.com/s/1tn7qNd4PzjdZmqY6HpWdNw?pwd=1rz8)
-
+    
     提取码：1rz8
-
+    
     HASH 校验
-
-    SHA256:**11f128423a5490ae1db3f501f186b320f7affec2d808bec8223526ff0b184440**
-
-    MD5:**9aac1ce4978344497fa763d3d895069c**
-
-    SHA1:**830146c6b32632cab9f5206755856f63700ae4ab**
+    
+    SHA256: **11f128423a5490ae1db3f501f186b320f7affec2d808bec8223526ff0b184440**
+    
+    MD5: **9aac1ce4978344497fa763d3d895069c**
+    
+    SHA1: **830146c6b32632cab9f5206755856f63700ae4ab**
 
 <p>
     <img src="School-Map/New1.jpg" alt="新校区地图" style="width:33%;" />
@@ -65,7 +65,7 @@ icon: material/map
 
 ### 综合地图
 
-> 致谢：本图由 希望数分别再折磨我了 提供
+> 本图由 `希望数分别再折磨我了` 、`曲师大移动营业厅` 提供
 
 <p>
     <img src="School-Map/All2.jpg" alt="老校区地图, 希望数分别再折磨我了供图" style="width:40%;" />
