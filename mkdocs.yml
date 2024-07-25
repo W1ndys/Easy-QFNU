@@ -98,7 +98,7 @@ theme:
 
   # 页面logo图标
   # 关于logo配置，如果logo是使用官方图标库，就必须在icon下面，如果是自定义图标，就必须在theme下面
-  logo: assets/logo/favico.png
+  logo: assets/logo/favicon.ico
 
   # 图标设置
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#customization
