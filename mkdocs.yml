@@ -349,34 +349,23 @@ plugins:
       assets: false # 是否下载资源
 
   # Glightbox插件 | 灯箱 | 图片可点击放大
+
   - glightbox:
-      # 启用触摸导航
-      touchNavigation: true
-      # 禁用循环播放
-      loop: false
-      # 图片效果为缩放
-      effect: zoom
-      # 幻灯片效果为滑动
-      slide_effect: slide
-      # 图片宽度为100%
-      width: 100%
-      # 图片高度自适应
-      height: auto
-      # 可缩放图片
-      zoomable: true
-      # 可拖拽图片
-      draggable: true
-      # 跳过指定类名的元素
-      skip_classes:
-        - custom-skip-class-name
-      # 禁用自动生成的图片标题
-      auto_caption: false
-      # 图片标题位置在底部
-      caption_position: bottom
-      # 背景颜色为白色
-      background: white
-      # 启用阴影效果
-      shadow: true
+      touchNavigation: false # 启用触摸导航（滑动）。可选值：true, false
+      loop: false # 禁用幻灯片循环播放。可选值：true, false
+      effect: fade # 灯箱打开时的效果。可选值：zoom, fade, none
+      slide_effect: slide # 幻灯片切换时的效果。可选值：slide, zoom, fade, none
+      width: 100% # 内联元素和 iframe 的宽度。可使用任何单位，例如 90%, 100vw
+      height: auto # 内联元素和 iframe 的高度。可使用任何单位，例如 90%, 100vh, auto
+      zoomable: true # 启用可缩放图像。可选值：true, false
+      draggable: true # 启用鼠标拖动切换幻灯片。可选值：true, false
+      skip_classes: # 禁用特定类名的图像灯箱功能。可在列表中添加类名
+        - custom-skip-class-name # 示例类名，可根据需要添加更多类名
+      auto_caption: false # 禁用自动使用图像的 alt 属性作为标题。可选值：true, false
+      caption_position: bottom # 标题的位置。可选值：bottom, top, left, right
+      background: none # 灯箱图像的背景 CSS。可使用任何 CSS 值，例如 #74b9ff, Gainsboro, none
+      shadow: false # 启用灯箱图像的阴影。可选值：true, false
+      manual: false # 禁用手动启用灯箱。可选值：true, false
 
   # 日期插件，由于这个日期插件耗费了我们太多精力，我们决定删除这个功能
   - git-revision-date-localized:
