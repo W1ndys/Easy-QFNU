@@ -1,3 +1,5 @@
+$schema: ./vscode/setting.json
+
 # 项目信息
 # =============================================================================================================================
 
@@ -351,7 +353,7 @@ plugins:
   # Glightbox插件 | 灯箱 | 图片可点击放大
 
   - glightbox:
-      touchNavigation: false # 启用触摸导航（滑动）。可选值：true, false
+      touchNavigation: true # 启用触摸导航（滑动）。可选值：true, false
       loop: false # 禁用幻灯片循环播放。可选值：true, false
       effect: fade # 灯箱打开时的效果。可选值：zoom, fade, none
       slide_effect: slide # 幻灯片切换时的效果。可选值：slide, zoom, fade, none
