@@ -8,9 +8,9 @@
     <img src="https://stats.deeptrain.net/repo/W1ndys/Easy-QFNU/?theme=light" alt="GitHub API Image" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
 </div> -->
 
-能用自己所学的知识改变生活，就是成功——Sunr1se 
+能用自己所学的知识改变生活，就是成功——Sunr1se 19保研成电天晴大哥
 
-技术的最终归宿是服务和贡献社会。——Andy
+技术的最终归宿是服务和贡献社会。——Andy 曲师大研安工大哥
 
 [Easy-QFNU](https://Easy-QFNU.top/) 是由 [W1ndys](https://w1ndys.top/) 开发的一个免费、开源、共建、共享的文档式 Web 网站，[W1ndys](https://w1ndys.top/) 联合各学院数位同学共同编辑该站的内容，弥补你的信息差，帮助你更快地找到所需信息，致力于解决你在 QFNU 可能遇到的各种问题。
 
