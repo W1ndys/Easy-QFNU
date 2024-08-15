@@ -3,7 +3,7 @@ comments: true
 icon: material/palette
 level: SelectCourse
 encryption_summary: 关注微信公众号「W1ndys」发送「选课指北」获取密码
-encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北」获取密码
+encryption_info_message: 关注微信公众号「W1ndys」发送「选课指北」获取密码，没反应就刷新重试
 ---
 
 # 鉴赏类课程
