@@ -1,0 +1,42 @@
+---
+comments: true
+icon: material/home-city
+---
+
+# 智慧曲园
+
+> 内容施工中...
+
+## 下载地址
+
+本站的安装包来自应用商店，文件的哈希值如下，需要校验文件安全性的请自行校验
+
+- MD5: ee13b14f2e28514b2c13e19e9eb2f26b
+- SHA1: dd7fcfb38af789b9bb86447e2859fcd5074a8aab
+- SHA256: 20c53490acaff41b2ac9fdb85025a703ea67e769f11d06d3d514c1ea9085678f
+- SHA512: eca4a09ea6a94bfdd8e48f1300c89d9dfa41251b3c5cf6dcd2aa8fedbb1356d6d25003e0fb14902c778dc5ef5562fbccceb7035011ba605cacea4aafb6c2df23
+
+!!! 什么是文件哈希
+
+    哈希计算（或称散列函数）是一种将任意大小的数据映射为固定大小的字符串（通常是十六进制的形式）的过程。哈希函数具有以下几个特点：
+
+    1. **不可逆性**: 原始数据无法从其哈希值中还原。
+    2. **唯一性**: 理论上，不同的输入数据应产生不同的哈希值（碰撞极为罕见）。
+    3. **高效性**: 计算哈希值的速度非常快。
+    4. **敏感性**: 任何微小的变化（如单个字符的变化）都会显著改变输出哈希值。
+
+    常见的哈希算法包括 MD5、SHA1、SHA256 和 SHA512，它们主要用于数据完整性验证、数字签名等场景。尽管 MD5 和 SHA1 已不再被认为是安全的哈希算法，但它们仍在某些非安全领域使用。SHA256 和 SHA512 则被广泛应用于密码学安全相关的场景。
+
+### 百度网盘
+
+- 链接: [https://pan.baidu.com/s/156hzyWr8dAmk1Eroi998Qw?pwd=ezqf](https://pan.baidu.com/s/156hzyWr8dAmk1Eroi998Qw?pwd=ezqf)
+- 提取码: `ezqf`
+
+> 复制这段内容后打开百度网盘手机 App，操作更方便哦
+>
+> --来自百度网盘超级会员 v3 的分享
+
+### 123 网盘（不限速）
+
+- 链接: [https://www.123pan.com/s/mJtkjv-V8H0v.html](https://www.123pan.com/s/mJtkjv-V8H0v.html)
+- 提取码: `ezqf`

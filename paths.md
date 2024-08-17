@@ -1,3 +1,3 @@
 # 文件路径列表
 
-- 院社团: Easy-College/Physical-Science/Club/index.md
+- 智慧曲园: Easy-School/Smart-Quyuan/index.md
