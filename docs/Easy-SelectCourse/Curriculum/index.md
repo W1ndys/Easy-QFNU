@@ -13,7 +13,7 @@ icon: material/cursor-default-click
 
     2024级及以后年级培养方案文件请前往[教务处官网](https://jwc.qfnu.edu.cn/info/1068/1771.htm#/)查看
 
-四个压缩包均**来自曲阜师范大学教务处**官方网站
+<!-- 四个压缩包均**来自曲阜师范大学教务处**官方网站
 
 各文件的**文件指纹**均已给出
 
@@ -27,7 +27,7 @@ icon: material/cursor-default-click
 
     哈希，即散列，是一种将任意长度的输入转换为固定长度的输出的函数。哈希校验是一种验证数据完整性和真实性的方法。它涉及生成一个称为哈希值的短字符串，该字符串表示文件或数据的内容。哈希校验是数据安全的重要组成部分，因为它们可以检测到任何更改或篡改。
 
-    Hashing 算法用于生成哈希值。哈希值是从文件或数据输入的内容计算出来的。即使对原始数据进行了微小的更改，哈希值也会不同。通过比较哈希值，可以检查数据是否已被篡改。哈希校验对于软件安全、数据传输、文件存储和密码验证至关重要。
+    Hashing 算法用于生成哈希值。哈希值是从文件或数据输入的内容计算出来的。即使对原始数据进行了微小的更改，哈希值也会不同。通过比较哈希值，可以检查数据是否已被篡改。哈希校验对于软件安全、数据传输、文件存储和密码验证至关重要。 -->
 
 !!! warning "注意"
 
@@ -35,77 +35,21 @@ icon: material/cursor-default-click
 
     目前<font color="red">仅有百度网盘链接</font>，其他网盘链接暂无，如果转存到其他网盘的可以在评论区或者 Pull Request 进行补充
 
-## 2020 级培养方案-网站版
+## 曲阜师范大学培养方案（2020-2023 级）
 
-链接：[https://pan.baidu.com/s/1dhFd9yRLVfWieDZfX2qwpg?pwd=65kk](https://pan.baidu.com/s/1dhFd9yRLVfWieDZfX2qwpg?pwd=65kk)
+### 123 网盘（不限速）
 
-提取码：65kk
+链接：[https://www.123pan.com/s/mJtkjv-mKH0v.html](https://www.123pan.com/s/mJtkjv-mKH0v.html)
+提取码：ezqf
 
-> 2020 级培养方案-网站版.zip
->
-> HASH
->
-> SHA256:
-> **1bbbe965cf085ebe7c4e378e16544840b9901788f46f040b837fb06fc35985f4**
->
-> MD5:
-> **0061d24239ca4c0251fe59ed66c83afc**
->
-> SHA1:
-> **f39197dde413f81d3925b2681519a2fbc50041ec**
+### 百度网盘
 
-## 2021 级培养方案-网站版
+链接：[https://pan.baidu.com/s/1C6qFH73uQ56cUqJEJF02hQ?pwd=ezqf](https://pan.baidu.com/s/1C6qFH73uQ56cUqJEJF02hQ?pwd=ezqf)
+提取码：ezqf
 
-链接：[https://pan.baidu.com/s/1BQY2IxUYCgbbs8HWD3zOxg?pwd=r3sd](https://pan.baidu.com/s/1BQY2IxUYCgbbs8HWD3zOxg?pwd=r3sd)
+> 来自百度网盘超级会员 V3 的分享
 
-提取码：r3sd
+文件分为解压后的独立文件和压缩包版两个部分：
 
-> 2021 级培养方案-网站版.zip
->
-> HASH
->
-> SHA256:
-> **5cb6bb2afb6c8d47548acf21f8a2ffe84a799e2881e8b886a17ace161422ad95**
->
-> MD5:
-> **67b23ae8665e9e45f8c097cff0200595**
->
-> SHA1:
-> **3eda5262980ebf1cbbd721eccea88db4f3b413ad**
-
-## 2022 级培养方案-网站版
-
-链接：[https://pan.baidu.com/s/1dPuFhu9RBlu8CjQiyooUng?pwd=hzq7](https://pan.baidu.com/s/1dPuFhu9RBlu8CjQiyooUng?pwd=hzq7)
-
-提取码：hzq7
-
-> 2022 级培养方案-网站版.zip
->
-> HASH
->
-> SHA256:
-> **23848e744b9229bdc372f79271e6fe7127dd68066a334a81f44ffcc97b8b07eb**
->
-> MD5:
-> **f9edc462ed31a9d87bd8d229b22adf24**
->
-> SHA1:
-> **f1fc3bc95df342852b5c91355b175337082494e9**
-
-## 2023 级培养方案-网站版
-
-链接：[https://pan.baidu.com/s/1LhYx5hFfUt67RIqI7kvUjQ?pwd=ylqq](https://pan.baidu.com/s/1LhYx5hFfUt67RIqI7kvUjQ?pwd=ylqq)
-提取码：ylqq
-
-> 2023 级培养方案-网站版.zip
->
-> HASH
->
-> SHA256:
-> **81ea5a2156b5e30c0b7cf94de7b7ecd78a2a69561efb0f12df94782098639fe3**
->
-> MD5:
-> **2c1f01c6cbdaf527b70faba24d6c99d0**
->
-> SHA1:
-> **55ef25c1cc10cdc66a748ac2c2954791fcfca863**
+- 如果只想查看某年级某专业的内容，建议下载解压后的独立文件。
+- 如果想查看全部年级的内容，建议下载压缩包版。
