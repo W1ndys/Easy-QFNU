@@ -335,7 +335,7 @@ plugins:
       password_button: True # 解锁按钮文字
       password_button_text: "点击解密"
       password_inventory:
-        SelectCourse: "Welcome_to_Easy-QFNU_and_QFNU"
+        SelectCourse: "W31(C)0m3_+0_3@$y-QFNU_@Nd_QFNU"
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
@@ -480,9 +480,9 @@ extra:
       link: https://vercel.com/w1ndys
       name: Vercel提供部署服务
 
-    - icon: W1ndys/dogecloud
-      link: https://www.dogecloud.com/
-      name: 多吉云提供加速服务
+    # - icon: W1ndys/dogecloud
+    #   link: https://www.dogecloud.com/
+    #   name: 多吉云提供加速服务
 
     # - icon: W1ndys/Zeabur
     #   name: Zeabur提供部署服务
