@@ -30,4 +30,4 @@ icon: material/school
 1. 清理浏览器最近的 cookies 
 2. 清理教务系统该网站的 cookies 切换浏览器 
 3. 电脑按 Ctrl+shift+R 强制刷新
-4.  切换网络
+4. 切换网络
