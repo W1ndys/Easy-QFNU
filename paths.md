@@ -1,3 +1,3 @@
 # 文件路径列表
 
-- 智慧曲园: Easy-School/Smart-Quyuan/index.md
+- 教务杂症: Easy-SelectCourse/Jiaowu-Symptoms/index.md
