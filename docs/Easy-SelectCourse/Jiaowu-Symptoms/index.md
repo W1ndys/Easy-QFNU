@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/school
 ---
 
 # 教务杂症
