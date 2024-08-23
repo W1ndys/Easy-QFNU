@@ -50,3 +50,4 @@ icon: material/handshake
 | 匿名             | 5 CNY     | 2024 年 8 月 20 日 |
 | kiki1e           | 1 CNY     | 2024 年 8 月 21 日 |
 | 王富贵（fulgur） | 20 CNY    | 2024 年 8 月 21 日 |
+| 匿名 | 30CNY | 2024 年 8 月 23 日 |
