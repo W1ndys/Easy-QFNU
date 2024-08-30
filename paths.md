@@ -1,3 +1,3 @@
 # 文件路径列表
 
-- 教务杂症: Easy-SelectCourse/Jiaowu-Symptoms/index.md
+- 其他注意: Easy-School/Other-Notice/index.md
