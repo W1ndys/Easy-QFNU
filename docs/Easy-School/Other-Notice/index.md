@@ -1,5 +1,6 @@
 ---
 comments: true
+icon: material/alert-circle
 ---
 
 # 其他注意
