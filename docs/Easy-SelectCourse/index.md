@@ -17,6 +17,14 @@ icon: material/book-education
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112983476932013&bvid=BV1DHpreJE5h&cid=500001653920323&p=1&autoplay=0" style="width: 100%; height: auto;" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+### 教务处官方公告
+
+[关于组织开展2024级新生选课的通知-曲阜师范大学教务处 (qfnu.edu.cn)](https://jwc.qfnu.edu.cn/info/1103/7061.htm#/)
+
+附件【[附件2：学校统一身份认证账号激活说明.docx](https://jwc.qfnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1485250630&wbfileid=14974327)】
+
+附件【[附件1：新生选课指南.pptx](https://jwc.qfnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1485250630&wbfileid=14974326)】
+
 ### 选课指北
 
 - [怎么选](/Easy-SelectCourse/Selection-Guide/How-to-Select/)
