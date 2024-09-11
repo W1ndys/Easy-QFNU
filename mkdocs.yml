@@ -335,7 +335,7 @@ plugins:
       password_button: True # 解锁按钮文字
       password_button_text: "点击解密"
       password_inventory:
-        SelectCourse: "Enjoy_your_military_training!"
+        SelectCourse: "We_are_all_good_kids"
 
   # 标签插件
   # https://squidfunk.github.io/mkdocs-material/plugins/tags/#built-in-tags-plugin
