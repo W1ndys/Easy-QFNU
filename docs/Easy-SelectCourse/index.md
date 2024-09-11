@@ -53,6 +53,10 @@ icon: material/book-education
 - [未分类](/Easy-SelectCourse/Curriculum-Recommend/Others/)
 - [贡献者们](/Easy-SelectCourse/Curriculum-Recommend/Contributors/)
 
+### 选课攻略
+
+这是一位22级的师姐总结的选课攻略，可以参考！——————by 白施婕
+
 ### 培养方案
 
 - [培养方案](/Easy-SelectCourse/Curriculum/)
