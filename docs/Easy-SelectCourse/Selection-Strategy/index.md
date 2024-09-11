@@ -1,8 +1,15 @@
 ---
 comments: true
+icon: material/book
 ---
 
 # 选课攻略
+
+!!! quote "作者声明"
+
+    本页内容由`白施婕`提供，非常感谢，由 Easy-QFNU 作者加以整理，Easy-QFNU 已得到原作者的授权
+
+    <font color="red"> 本站内容仅供参考，不作为任何建议或意见，如有疑问请联系相关教务老师。</font>
 
 ## 选前调查
 

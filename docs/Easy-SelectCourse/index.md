@@ -55,7 +55,7 @@ icon: material/book-education
 
 ### 选课攻略
 
-这是一位22级的师姐总结的选课攻略，可以参考！——————by 白施婕
+[这是一位22级的师姐总结的选课攻略，可以参考！——————by 白施婕](/Easy-SelectCourse/Selection-Strategy/)
 
 ### 培养方案
 
