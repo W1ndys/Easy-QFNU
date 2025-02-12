@@ -10,6 +10,9 @@ PROXY_URL="https://ghfast.top/https://github.com/W1ndys/Easy-QFNU.git"
 rm -rf "$WORK_DIR"
 mkdir -p "$WORK_DIR"
 
+# 开启clash
+clashon
+
 # 尝试克隆仓库，优先 SSH，其次代理
 echo "正在使用 SSH 克隆..."
 if ! git clone --depth 1 --branch gh-pages "$SSH_REPO_URL" "$WORK_DIR" --quiet; then
@@ -49,5 +52,8 @@ rm -rf "$WORK_DIR"
 
 # 发送成功通知
 python3 notify.py "更新成功" true
+
+# 关闭clash
+clashoff
 
 echo "更新完成！" 
