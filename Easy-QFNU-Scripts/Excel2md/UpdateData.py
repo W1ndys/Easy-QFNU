@@ -73,14 +73,14 @@ def process_data(excel_file, markdown_dir):
 
     # 新增：用于记录更新日志和提交者（移到循环外）
     update_log = []
-    submitters = set()
+    submitters = []  # 改为列表，不再使用集合
 
     # 首先记录所有数据到日志（移到文件处理循环外）
     for index, row in df.iterrows():
         update_log.append(
             f"【{row['course']}】-【{row['district']}】-【{row['teacher']}】-【{row['year']}】"
         )
-        submitters.add(str(row["submitter"]))
+        submitters.append(str(row["submitter"]))  # 直接追加，不去重
 
     # 遍历markdown文件
     for filename in os.listdir(markdown_dir):
@@ -197,13 +197,15 @@ def process_data(excel_file, markdown_dir):
 
         # 提交者文件使用覆盖模式
         with open("submitters.txt", "w", encoding="utf-8") as f:
-            f.write(", ".join(sorted(submitters)) + "\n")
+            f.write(", ".join(submitters) + "\n")  # 直接使用列表，保留重复项
 
         print("\n📝 更新日志已生成")
         print(f"- 总条目：{len(update_log)} 条")
         print(f"- 成功条目：{len(rows_to_delete)} 条")
         print(f"- 未匹配条目：{len(unmatched_rows)} 条")
-        print(f"- 提交人数：{len(submitters)} 人")
+        print(
+            f"- 提交总次数：{len(submitters)} 次"
+        )  # 修改提示文本，表明是提交次数而不是人数
 
 
 # 使用示例
