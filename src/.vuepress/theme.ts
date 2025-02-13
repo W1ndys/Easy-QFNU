@@ -32,7 +32,7 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/EasySelectCourse/CourseSelectionRecommendation/": {
-        password: "YuanXiao2025@Happy",
+        password: "GoodGoodStudyDayDayUp",
         hint: "关注微信公众号【W1ndys】发送【密码】获取",
       },
     },
