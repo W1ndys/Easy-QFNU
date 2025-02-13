@@ -12,12 +12,18 @@ def parse_markdown_file(content):
 
     lines = content.split("\n")
     for line in lines:
+        # 去除空行和空格
+        line = line.strip()
+        if not line:
+            continue
+
         if line.startswith("## "):
             current_course = line[3:].strip()
             structure[current_course] = {}
             current_district = None
             current_teacher = None
         elif line.startswith("### "):
+            # 即使中间有其他内容，只要遇到 ### 就更新当前校区
             current_district = line[4:].strip()
             if current_course:
                 structure[current_course][current_district] = {}
@@ -38,27 +44,38 @@ def find_insertion_point(content, course, district, teacher):
     teacher_pattern = f"#### {teacher}"
 
     # 找到课程、校区、老师的位置
-    course_found = False
-    district_found = False
-    teacher_found = False
+    course_index = -1
+    district_index = -1
+    teacher_index = -1
 
+    # 首先找到课程
     for i, line in enumerate(lines):
         if line.startswith(course_pattern):
-            course_found = True
-        elif course_found and line.startswith(district_pattern):
-            district_found = True
-        elif district_found and line.startswith(teacher_pattern):
-            teacher_found = True
-            # 找到教师后，继续往下找到最后一条评论
-            for j in range(i + 1, len(lines)):
-                if (
-                    lines[j].startswith("##")
-                    or lines[j].startswith("###")
-                    or lines[j].startswith("####")
-                ):
-                    return j
-                if j == len(lines) - 1:
-                    return j + 1
+            course_index = i
+            break
+
+    # 从课程位置开始找校区
+    if course_index != -1:
+        for i in range(course_index + 1, len(lines)):
+            if line.startswith("## "):  # 如果遇到新的课程，停止搜索
+                break
+            if lines[i].startswith(district_pattern):
+                district_index = i
+                break
+
+    # 从校区位置开始找教师
+    if district_index != -1:
+        for i in range(district_index + 1, len(lines)):
+            if lines[i].startswith("##"):  # 如果遇到新的课程或校区，停止搜索
+                break
+            if lines[i].startswith(teacher_pattern):
+                teacher_index = i
+                # 找到教师后，继续往下找到最后一条评论
+                for j in range(i + 1, len(lines)):
+                    if lines[j].startswith("##"):  # 遇到任何级别的标题就停止
+                        return j
+                    if j == len(lines) - 1:
+                        return j + 1
 
     return -1
 
