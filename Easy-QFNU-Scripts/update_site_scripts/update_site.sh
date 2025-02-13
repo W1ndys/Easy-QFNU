@@ -11,7 +11,7 @@ rm -rf "$WORK_DIR"
 mkdir -p "$WORK_DIR"
 
 # 开启clash
-clashon
+systemctl start clash  # 或 sudo systemctl start clash，取决于权限设置
 
 # 尝试克隆仓库，优先 SSH，其次代理
 echo "正在使用 SSH 克隆..."
@@ -54,6 +54,6 @@ rm -rf "$WORK_DIR"
 python3 notify.py "更新成功" true
 
 # 关闭clash
-clashoff
+systemctl stop clash  # 或 sudo systemctl stop clash，取决于权限设置
 
 echo "更新完成！" 
