@@ -21,9 +21,5 @@ export default navbar([
   {
     text: "其他",
     link: "/Other/",
-  },
-  {
-    text: "demo",
-    link: "/demo/",
-  },
+  }
 ]);

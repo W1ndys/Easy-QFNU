@@ -11,9 +11,9 @@ heroText: Easy-QFNU
 tagline: Easy-QFNU，让你的QFNU更简单~
 
 actions:
-  - text: Github
-    icon: code
-    link: https://github.com/W1ndys/Easy-QFNU
+  - text: 快速开始
+    icon: rocket
+    link: /QuickStart/
     type: primary
 
   - text: 联系作者
