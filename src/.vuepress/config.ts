@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
+import { backToTopPlugin } from "@vuepress/plugin-back-to-top";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -25,6 +25,17 @@ export default defineUserConfig({
       "LA.init({id:'3HxQRMoHKBJizCgs',ck:'3HxQRMoHKBJizCgs',autoTrack:true,hashMode:true,screenRecord:true})",
     ],
   ],
+  
+  // 添加返回顶部插件
+  plugins: [
+    backToTopPlugin({
+      // 显示返回顶部按钮的滚动阈值距离（以像素为单位）
+      threshold: 500,
+      // 是否显示滚动进度
+      progress: true,
+    }),
+  ],
+  
   // 和 PWA 一起启用
   // shouldPrefetch: false,
 });
