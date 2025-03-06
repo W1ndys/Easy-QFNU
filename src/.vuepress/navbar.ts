@@ -19,6 +19,10 @@ export default navbar([
     link: "/EasyCollege/",
   },
   {
+    text: "AD",
+    link: "/AD/",
+  },
+  {
     text: "其他",
     link: "/Other/",
   }
