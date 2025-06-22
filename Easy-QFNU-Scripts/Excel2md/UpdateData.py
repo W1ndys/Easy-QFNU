@@ -66,7 +66,14 @@ def find_insertion_point(content, course, district, teacher):
 def process_data(excel_file, markdown_dir):
     # 读取Excel文件
     df = pd.read_excel(excel_file, header=None)
-    df.columns = ["course", "teacher", "district", "year", "description", "submitter"]
+    df.columns = [
+        "course",
+        "teacher",
+        "district",
+        "semester",
+        "description",
+        "submitter",
+    ]
 
     rows_to_delete = []
     unmatched_rows = set()
@@ -78,7 +85,7 @@ def process_data(excel_file, markdown_dir):
     # 首先记录所有数据到日志（移到文件处理循环外）
     for index, row in df.iterrows():
         update_log.append(
-            f"【{row['course']}】-【{row['district']}】-【{row['teacher']}】-【{row['year']}】"
+            f"【{row['course']}】-【{row['district']}】-【{row['teacher']}】-【{row['semester']}】"
         )
         submitters.append(str(row["submitter"]))  # 直接追加，不去重
 
@@ -113,7 +120,7 @@ def process_data(excel_file, markdown_dir):
                     )
                     if insert_point != -1:
                         # 构建新内容
-                        new_content = f"\n{row['description']}\n\n> {row['submitter']}({row['year']}年)\n"
+                        new_content = f"\n{row['description']}\n\n> {row['submitter']}({row['semester']}学期)\n"
 
                         # 插入新内容
                         content_lines = content.split("\n")
@@ -172,7 +179,7 @@ def process_data(excel_file, markdown_dir):
             # 添加教师和评价内容
             unmatched_content.append(f"\n#### {row['teacher']}")
             unmatched_content.append(f"\n{row['description']}")
-            unmatched_content.append(f"\n> {row['submitter']}({row['year']}年)\n")
+            unmatched_content.append(f"\n> {row['submitter']}({row['semester']}学期)\n")
 
         # 生成未匹配数据文件（使用覆盖模式）
         unmatched_file = "unmatched_reviews.md"
