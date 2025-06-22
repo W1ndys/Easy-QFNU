@@ -31,7 +31,7 @@ def generate_markdown(data_file):
     df = pd.read_excel(data_file, header=None)
 
     # 为列指定名称
-    df.columns = ["课程名称", "任课老师", "校区", "学期", "老师描述", "提交者昵称"]
+    df.columns = ["课程名称", "任课老师", "校区", "年份", "老师描述", "提交者昵称"]
 
     # 标准化教师名称
     df["任课老师"] = df["任课老师"].apply(normalize_teacher_name)
@@ -56,14 +56,14 @@ def generate_markdown(data_file):
     # 遍历每一行数据
     for _, row in df.iterrows():
         # 添加到更新日志
-        update_log += f"[{row['课程名称']}]-[{row['校区']}]-[{row['任课老师']}]-[{row['提交者昵称']}]-[{row['学期']}年]\n"
+        update_log += f"[{row['课程名称']}]-[{row['校区']}]-[{row['任课老师']}]-[{row['提交者昵称']}]-[{row['年份']}年]\n"
 
         # 生成主要内容
         markdown += f"## {row['课程名称']}\n\n"
         markdown += f"### {row['校区']}\n\n"
         markdown += f"#### {row['任课老师']}\n\n"
         markdown += f"{row['老师描述']}\n\n"
-        markdown += f"> {row['提交者昵称']}({row['学期']})\n\n"
+        markdown += f"> {row['提交者昵称']}({row['年份']})\n\n"
 
     update_log += "\n---\n"
 
