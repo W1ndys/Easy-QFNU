@@ -53,6 +53,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
-            cd /home/W1ndys/Easy-QFNU_scripts/update_site_scripts
+            cd /home/Easy-QFNU_scripts/update_site_scripts
             chmod +x update_site.sh
             ./update_site.sh
