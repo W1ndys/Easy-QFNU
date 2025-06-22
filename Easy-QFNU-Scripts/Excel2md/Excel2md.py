@@ -63,7 +63,7 @@ def generate_markdown(data_file):
         markdown += f"### {row['校区']}\n\n"
         markdown += f"#### {row['任课老师']}\n\n"
         markdown += f"{row['老师描述']}\n\n"
-        markdown += f"> {row['提交者昵称']}({row['学期']})\n\n"
+        markdown += f"> {row['提交者昵称']}({row['学期']}学期)\n\n"
 
     update_log += "\n---\n"
 
